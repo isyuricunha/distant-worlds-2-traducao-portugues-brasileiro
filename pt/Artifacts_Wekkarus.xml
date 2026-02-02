@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>65</ArtifactId> <!-- Cenotaph of the First Generation -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<Name>Cenotáfio da Primeira Geração</Name>
+		<Description>Um retângulo de pedra com aproximadamente a altura de um Wekkarus adulto. Decorações régias dos antigos Wekkarus mantêm o monumento erguido e destacam os entalhes na pedra. Embora bastante pesado, um antigo dispositivo de redução de gravidade está afixado à base do Cenotáfio, promovendo sua portabilidade. Muitos que estão próximos deste artefato relatam sensações de competência e segurança.
+
+Além disso, este artefato dobrará a chance de eventos de personagens fantasmas Ancestrais Entre Nós (quando possuído por uma facção Wekkarus).</Description>
+		<ImageFilename>Artifacts/cenotaph of the first generation</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>66</ArtifactId> <!-- Airship of the Ancestors -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<Name>Dirigível dos Ancestrais</Name>
+		<Description>Uma miniatura de mesa de um veículo antigo dos Wekkarus, usado por aventureiros para explorar o mundo natal dos Wekkarus além dos oceanos. É feito de um metal desconhecido, de cor azul-escuro, embora certos tipos de luz revelem que é marmorizado com tons de inscrições azuis-claras, criando a impressão de uma superfície oceânica.
+
+Além disso, este artefato dobrará a chance de aparição de naves fantasmas Ancestrais Entre Nós (quando possuído por uma facção Wekkarus).</Description>
+		<ImageFilename>Artifacts/airship of the ancestors</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>67</ArtifactId> <!-- Orb of Ancestral Strength -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<Name>Orbe da Força Ancestral</Name>
+		<Description>Esta é uma esfera de metal, pequena o suficiente para ser segurada. Batidas nela sugerem que é oca, mas a esfera é, no entanto, curiosamente pesada. Todos que a seguram relatam ver imagens mentais de combate terrestre. São impressões fortes, em vez de alucinações completas.
+
+Além disso, este artefato dobrará a chance de aparição de tropas fantasmas Ancestrais Entre Nós (quando possuído por uma facção Wekkarus).</Description>
+		<ImageFilename>Artifacts/orb of ancestral strength</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>68</ArtifactId> <!-- The Devastator Compendium -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>245</short> <!-- Super Area Blast -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>O Compêndio Devastador</Name>
+		<Description>Um artefato dos antigos Wekkarus. Embora chamuscado e lascado, este cristal de dados permanece quase intacto e totalmente funcional. Por ter sido criado pelos antigos Wekkarus, suas dimensões não se conformam precisamente com a tecnologia moderna. No entanto, por meios que nossos cientistas consideram intrigantes, ele é capaz de se conectar aos nossos sistemas de computador. Um cristal de dados dos antigos Wekkarus que, de alguma forma, está conectado a um computador. O cristal apresenta sinais de danos.</Description>
+		<ImageFilename>Artifacts/Devastator Compendium</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>
