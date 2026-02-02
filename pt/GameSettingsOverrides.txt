@@ -1,0 +1,21 @@
+'Distant Worlds 2 - Substituições de Configurações do Jogo
+
+'Estas configurações substituem os valores em GameSettings
+'Insira os valores após o ponto e vírgula (;) em cada linha
+'Defina apenas os valores que deseja substituir
+
+'GraphicsAdapterIndex: defina como um valor numérico entre 0 e um a menos que o número de adaptadores gráficos no seu sistema. Defina como -1 para desativar
+'GraphicsResolutionWidth: defina como um valor numérico inteiro positivo correspondente a uma resolução válida para o adaptador. Defina como 0 para desativar
+'GraphicsResolutionHeight: defina como um valor numérico inteiro positivo correspondente a uma resolução válida para o adaptador. Defina como 0 para desativar
+'GraphicsResolutionFullScreen: defina como true ou false. Deixe em branco para desativar
+'GraphicsForceDedicatedFullScreen: defina como true ou false
+'GraphicsStreamingMemoryBudget: defina como um valor numérico inteiro positivo especificando a quantidade de memória de vídeo em Mb a ser reservada para streaming de assets. Defina como 0 para desativar
+'DisableFixedTimeStep: defina como true para desativar o passo de tempo fixo (o passo de tempo fixo está ativado por padrão)
+
+GraphicsAdapterIndex      ;-1
+GraphicsResolutionWidth      ;0
+GraphicsResolutionHeight      ;0
+GraphicsResolutionFullScreen      ;
+GraphicsForceDedicatedFullScreen      ;false
+GraphicsStreamingMemoryBudget        ;0
+DisableFixedTimeStep        ;false
