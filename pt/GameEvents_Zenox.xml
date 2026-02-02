@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<GameEvent>
+		<Name>Maravilhas do Passado (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<GeneratedItemName>Escolha das Maravilhas do Passado (Zenox)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Escolha das Maravilhas do Passado (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Maravilhas do Passado</MessageTitle>
+				<Description>Nossa recente exploração de ruínas despertou um fascínio renovado pela história galáctica entre nosso povo.
+
+Podemos escolher aproveitar esse interesse de uma das duas seguintes maneiras:
+[ULI]+10 de Felicidade do Império por um ano[/ULI][ULI]+10% em Toda a Pesquisa por um ano[/ULI]
+Como devemos explorar esse entusiasmo?</Description>
+				<ImageFilepath>Environment/Events/Zenox Wonders of the Past</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<ChoiceButtonText>+10 Empire Happiness</ChoiceButtonText>
+				<GeneratedItemName>Implementar Maravilhas do Passado - Felicidade (Zenox)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<ChoiceButtonText>+10% All Research</ChoiceButtonText>
+				<GeneratedItemName>Implementar Maravilhas do Passado - Cientistas (Zenox)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implementar Maravilhas do Passado - Felicidade (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>Maravilhas do Passado</MessageTitle>
+				<ImageFilepath>Environment/Events/Wonders of the Past</ImageFilepath>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>127</Id1>
+				<Id2>0</Id2>
+				<Value1>1</Value1>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implementar Maravilhas do Passado - Cientistas (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>Maravilhas do Passado</MessageTitle>
+				<ImageFilepath>Environment/Events/Wonders of the Past</ImageFilepath>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>128</Id1>
+				<Id2>0</Id2>
+				<Value1>1</Value1>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+
+	<GameEvent>
+		<Name>História Preditiva (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<GeneratedItemName>Escolha da História Preditiva (Zenox)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Escolha da História Preditiva (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>História Preditiva</MessageTitle>
+				<Description>Nossa recente exploração de ruínas nos oferece uma oportunidade de aplicar nossas descobertas aqui para aprimorar as missões de diplomacia e inteligência de nosso império, mas ao custo de retardar nossa pesquisa.\n\nSe aproveitarmos esta oportunidade, experimentaremos os seguintes benefícios e penalidades pelos próximos dois anos:[ULI][BAD]-5% em Toda Pesquisa[/BAD][/ULI][ULI][GOOD]+10% em Diplomacia[/GOOD][/ULI][ULI][GOOD]+10% em Contraespionagem[/GOOD][/ULI][ULI][GOOD]+10% em Espionagem[/GOOD][/ULI][ULI][GOOD]+10% em Operações Psicológicas[/GOOD][/ULI]\nDevemos aplicar essas descobertas dessa forma ou não?</Description>
+				<ImageFilepath>Environment/Events/Predictive History</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<ChoiceButtonText>Apply our Discoveries</ChoiceButtonText>
+				<GeneratedItemName>Implementar História Preditiva (Zenox)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<ChoiceButtonText>Do NOT Apply our Discoveries</ChoiceButtonText>
+				<GeneratedItemName></GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implementar História Preditiva (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>História Preditiva</MessageTitle>
+				<ImageFilename>Environment/Events/Predictive History</ImageFilename>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>16</Id1>
+				<Id2>0</Id2>
+				<Value1>1</Value1>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+
+	<GameEvent>
+		<Name>Preservar as Ruínas (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<GeneratedItemName>Escolha de Preservar as Ruínas (Zenox)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Escolha de Preservar as Ruínas (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Preservar as Ruínas</MessageTitle>
+				<Description>Nossa recente colonização de um mundo com ruínas antigas apresenta uma oportunidade única.\n\nPodemos fazer uma das seguintes opções com as ruínas:[ULI]Converter as ruínas em uma instalação de Governança gratuitamente (perdendo quaisquer bônus das ruínas)[/ULI][ULI]Manter as ruínas, mas com níveis de bônus aumentados (1,5x)[/ULI]\nO que devemos fazer com as ruínas?</Description>
+				<ImageFilepath>Environment/Events/Zenox Preserve the Ruins</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<ChoiceButtonText>Convert Ruins to Governance Facility</ChoiceButtonText>
+				<GeneratedItemName>Implementar Preservar as Ruínas - Instalação de Governança (Zenox)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<ChoiceButtonText>Keep Ruins with Increased Bonuses</ChoiceButtonText>
+				<GeneratedItemName>Implementar Preservar as Ruínas - Melhores Bônus das Ruínas (Zenox)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implementar Preservar as Ruínas - Instalação de Governança (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<MessageTitle>Preservar as Ruínas</MessageTitle>
+				<ImageFilepath>Environment/Events/Preserve the Ruins</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle>Preservar as Ruínas</MessageTitle>
+				<ImageFilepath>Environment/Events/Preserve the Ruins</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>38</Id1>
+				<Value1>1</Value1>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implementar Preservar as Ruínas - Melhores Bônus das Ruínas (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>MultiplyRuinBonuses</Type>
+				<MessageTitle>Preservar as Ruínas</MessageTitle>
+				<ImageFilepath>Environment/Events/Preserve the Ruins</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1>
+				<Value1>1.5</Value1>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+
+	<GameEvent>
+		<Name>Pesquisar os Arquivos (Zenox)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>SetGlobalVariableRandomRange</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1>
+				<Value2>100</Value2>
+				<GeneratedItemName>SearchTheArchives_RandomValue</GeneratedItemName>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<GeneratedItemName>Maravilhas do Passado (Escolha Zenox)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<MessageTitle>Pesquisar os Arquivos</MessageTitle>
+				<Description>Nossa pesquisa nos arquivos revelou conhecimentos científicos perdidos que aceleram nossos esforços de pesquisa!
+
+Nos próximos dois anos, nosso império se beneficiará de um bônus de [BONUS]+5% em Toda a Pesquisa[/BONUS].</Description>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
+				<Id1>130</Id1>
+				<Id2>0</Id2>
+				<Value1>1</Value1>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>0</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>25</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<MessageTitle>Pesquisar os Arquivos</MessageTitle>
+				<Description>Nossa pesquisa nos arquivos revelou mais detalhes sobre os antigos Zenox, fascinando o povo de nosso império!
+
+Nos próximos dois anos, nossa colônia se beneficiará de um aumento de [HL]+10 Felicidade[/HL].</Description>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
+				<Id1>131</Id1>
+				<Id2>0</Id2>
+				<Value1>1</Value1>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>25</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>50</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+
+			<GameEventAction>
+				<Type>NavigationalCoordinatesRandomSelection</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<MessageTitle>Pesquisar os Arquivos</MessageTitle>
+				<Description>Nossa pesquisa nos arquivos revelou um local especial na galáxia.
+
+Os detalhes sobre esse local são muito escassos. Conseguimos inferir sua localização apenas por menções passageiras nos arquivos. Portanto, não sabemos muito sobre ele, exceto que tem alguma importância. Deveríamos investigar esse local.
+
+Um [HL]ping de marcador de navegação[/HL] foi adicionado ao nosso mapa galáctico. Esse local também pode ser encontrado em nossa lista de Locais Especiais na seção de Exploração.</Description>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
+				<Id2>1</Id2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>50</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>101</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+
+		</TriggerActions>
+	</GameEvent>
+
+</ArrayOfGameEvent>
