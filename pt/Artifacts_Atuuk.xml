@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>63</ArtifactId> <!-- The Soldiers' Anthem -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>O Hino dos Soldados</Name>
+		<Description>Este dispositivo de reprodução de áudio contém uma única gravação com fidelidade sonora notável. Muitas espécies serão incapazes de decifrar as letras, mas todos que ouvirem serão tomados por coragem e inspirados a novos patamares de proeza marcial.</Description>
+		<ImageFilename>Artifacts/the soldiers anthem</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>64</ArtifactId> <!-- Tactical Bombardment Computer -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BombardmentDamage</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Computador de Bombardeio Tático</Name>
+		<Description>Um pequeno computador portátil, com uma carcaça externa condizente com a estética Boskara. Este dispositivo foi projetado para se conectar facilmente a outros sistemas computacionais, maximizando a eficácia de bombardeios.</Description>
+		<ImageFilename>Artifacts/tactical bombardment computer</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>69</ArtifactId> <!-- The Figurine of Inspiring Heroes -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>A Estatueta dos Heróis Inspiradores</Name>
+		<Description>Esta estatueta leve retrata uma figura Atuuk de aparência importante, olhando serenamente para fora. Há costuras visíveis onde partes da estatueta foram unidas. Esta relíquia da galáxia antiga seria uma excelente peça de museu e provavelmente promoverá felicidade e admiração em todos que a contemplarem.</Description>
+		<ImageFilename>Artifacts/figurine of inspiring heroes</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>
