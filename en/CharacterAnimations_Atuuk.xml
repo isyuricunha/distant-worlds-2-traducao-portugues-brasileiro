@@ -1,0 +1,254 @@
+<ArrayOfCharacterAnimation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<CharacterAnimation>
+		<CharacterAnimationId>84</CharacterAnimationId>
+		<Role>Leader</Role>
+		<RaceId>9</RaceId>
+		<DataPath>data\CharacterAnimations\Atuuk\Atuuk</DataPath>
+		<SkinName>Leader</SkinName>
+		<ImagePath>Characters/Atuuk_Leader</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Idle_Neutral_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Idle_Neutral_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Idle_Neutral_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Idle_Happy_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Idle_Happy_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Idle_Happy_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleHappy>
+		<AnimationNamesIdleAngry>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Idle_Angry_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Idle_Angry_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Idle_Angry_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleAngry>
+		<AnimationNamesIncidentHappy>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Incident_Happy1</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Incident_Happy2</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+		</AnimationNamesIncidentHappy>
+		<AnimationNamesIncidentAngry>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Incident_Angry1</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Leader_Incident_Angry2</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+		</AnimationNamesIncidentAngry>
+		<Scale>1.1</Scale>
+		<BottomCropRatio>0.05</BottomCropRatio>
+		<CharacterRoomId>15</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>85</CharacterAnimationId>
+		<Role>Pirate</Role>
+		<RaceId>9</RaceId>
+		<DataPath>data\CharacterAnimations\Atuuk\Atuuk</DataPath>
+		<SkinName>Pirate</SkinName>
+		<ImagePath>Characters/Atuuk_Pirate</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Idle_Neutral_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Idle_Neutral_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Idle_Neutral_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Idle_Happy_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Idle_Happy_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Idle_Happy_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleHappy>
+		<AnimationNamesIdleAngry>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Idle_Angry_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Idle_Angry_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Idle_Angry_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleAngry>
+		<AnimationNamesIncidentHappy>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Incident_Happy1</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Incident_Happy2</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+		</AnimationNamesIncidentHappy>
+		<AnimationNamesIncidentAngry>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Incident_Angry1</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Atuuk_Pirate_Incident_Angry2</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+		</AnimationNamesIncidentAngry>
+		<Scale>0.9</Scale>
+		<BottomCropRatio>0.16</BottomCropRatio>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>86</CharacterAnimationId>
+		<Role>Ambassador</Role>
+		<RaceId>9</RaceId>
+		<DataPath>data\CharacterAnimations\Atuuk\Atuuk</DataPath>
+		<SkinName>Ambassador</SkinName>
+		<ImagePath>Characters/Atuuk_Ambassador</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Atuuk_Ambassador_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>0.9</Scale>
+		<BottomCropRatio>0.15</BottomCropRatio>
+		<CharacterRoomId>15</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>87</CharacterAnimationId>
+		<Role>FleetAdmiral</Role>
+		<RaceId>9</RaceId>
+		<DataPath>data\CharacterAnimations\Atuuk\Atuuk</DataPath>
+		<SkinName>Admiral</SkinName>
+		<ImagePath>Characters/Atuuk_Admiral</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Atuuk_Admiral_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>0.9</Scale>
+		<BottomCropRatio>0.15</BottomCropRatio>
+		<CharacterRoomId>15</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>88</CharacterAnimationId>
+		<Role>TroopGeneral</Role>
+		<RaceId>9</RaceId>
+		<DataPath>data\CharacterAnimations\Atuuk\Atuuk</DataPath>
+		<SkinName>General</SkinName>
+		<ImagePath>Characters/Atuuk_General</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Atuuk_General_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>0.9</Scale>
+		<BottomCropRatio>0.15</BottomCropRatio>
+		<CharacterRoomId>15</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>89</CharacterAnimationId>
+		<Role>Scientist</Role>
+		<RaceId>9</RaceId>
+		<DataPath>data\CharacterAnimations\Atuuk\Atuuk</DataPath>
+		<SkinName>Scientist</SkinName>
+		<ImagePath>Characters/Atuuk_Scientist</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Atuuk_Scientist_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>1</Scale>
+		<BottomCropRatio>0.12</BottomCropRatio>
+		<CharacterRoomId>15</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>90</CharacterAnimationId>
+		<Role>Spy</Role>
+		<RaceId>9</RaceId>
+		<DataPath>data\CharacterAnimations\Atuuk\Atuuk</DataPath>
+		<SkinName>Spy</SkinName>
+		<ImagePath>Characters/Atuuk_Spy</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Atuuk_Spy_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>0.95</Scale>
+		<BottomCropRatio>0.12</BottomCropRatio>
+		<CharacterRoomId>15</CharacterRoomId>
+	</CharacterAnimation>
+
+</ArrayOfCharacterAnimation>

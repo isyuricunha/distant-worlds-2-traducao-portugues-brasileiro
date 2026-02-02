@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ArrayOfCharacterRoom xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<CharacterRoom>
+		<RoomId>15</RoomId>
+		<Name>Atuuk_Default</Name>
+		<RoomImageFilename>Characters/Rooms/Atuuk_Default</RoomImageFilename>
+		<WindowRatioRegion>
+			<X>0.5</X>
+			<Y>0.11</Y>
+			<Width>0.42</Width>
+			<Height>0.77</Height>
+			<Left>0.5</Left>
+			<Top>0.11</Top>
+			<Location>
+				<X>0.5</X>
+				<Y>0.11</Y>
+			</Location>
+			<Size>
+				<Width>0.42</Width>
+				<Height>0.77</Height>
+			</Size>
+		</WindowRatioRegion>
+		<Offset>
+			<X>0</X>
+			<Y>0.05</Y>
+		</Offset>
+		<ScaleXY>
+			<X>1</X>
+			<Y>1</Y>
+		</ScaleXY>
+		<RoomFeatureToFront>false</RoomFeatureToFront>
+		<DataPath>data\CharacterRooms\Atuuk\Atuuk_background</DataPath>
+		<AnimationNames>
+			<SortableTextValue>
+				<Text>animation</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNames>
+	</CharacterRoom>
+
+</ArrayOfCharacterRoom>
