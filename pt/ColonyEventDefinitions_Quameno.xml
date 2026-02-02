@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>58</ColonyEventDefinitionId> <!-- Alien Distractions -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>1</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Distrações Alienígenas</Name>
+		<Description>Nosso tratado recentemente assinado distraiu nossos cidadãos de suas tarefas, pois eles ficaram temporariamente preocupados com os novos povos alienígenas. Como resultado, a felicidade em todo o império aumentou, mas a produção de pesquisa diminuiu.</Description>
+		<ImageFilename>Environment/Events/alien distractions</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>59</ColonyEventDefinitionId> <!-- Integration Studies -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-50</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Estudos de Integração</Name>
+		<Description>Populações alienígenas não assimiladas em nossas colônias reduziram a felicidade em todo o império e diminuíram nossa produção de pesquisa.</Description>
+		<ImageFilename>Environment/Events/Integration studies</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>60</ColonyEventDefinitionId> <!-- The Answer -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>A Resposta</Name>
+		<Description>A recente construção do Centro da Transcendência proporcionou um aumento na felicidade do nosso império.</Description>
+		<ImageFilename>Environment/Events/the answer</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>61</ColonyEventDefinitionId> <!-- A Puzzle Solved -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Um Enigma Resolvido</Name>
+		<Description>A recente conclusão de um projeto de pesquisa avançado proporcionou um aumento de 2 anos na felicidade e na produção de pesquisa do nosso império.
+
+[BONUS]+10% Toda a Pesquisa[/BONUS]
+[BONUS]+10% Felicidade[/BONUS]
+
+Também proporcionou [CHARACTER]traços bônus para nosso Líder e um de nossos Cientistas[/CHARACTER].</Description>
+		<ImageFilename>Environment/Events/A puzzle solved</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>62</ColonyEventDefinitionId> <!-- Building the Future -->
+		<Type>Undefined</Type>
+		<DurationMinimum>0.5</DurationMinimum>
+		<DurationMaximum>0.5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Construindo o Futuro</Name>
+		<Description>A recente construção de uma nova estação de pesquisa proporcionou um aumento de curto prazo na felicidade do nosso império.</Description>
+		<ImageFilename>Environment/Events/building the future</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>63</ColonyEventDefinitionId> <!-- Razing the Pirate Prison -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Destruindo a Prisão Pirata</Name>
+		<Description>Nossa decisão de destruir o antigo parque usado pelos piratas proporcionou um aumento de curto prazo na felicidade do nosso império.</Description>
+		<ImageFilename>Environment/Events/pirates-maze</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>64</ColonyEventDefinitionId> <!-- Using the Pirate Prison -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Usando a Prisão Pirata</Name>
+		<Description>Nossa decisão de usar o antigo parque utilizado pelos piratas causou um impacto negativo de curto prazo na felicidade do nosso império.</Description>
+		<ImageFilename>Environment/Events/pirates-maze</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>65</ColonyEventDefinitionId> <!-- Destroyed the Cybernetic Brain -->
+		<Type>Undefined</Type>
+		<DurationMinimum>3</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Cérebro Cibernético Destruído</Name>
+		<Description>Nossa decisão de destruir o cérebro cibernético proporcionou um aumento de 3 anos na felicidade do nosso império</Description>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>
