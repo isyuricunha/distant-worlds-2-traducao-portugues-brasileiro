@@ -1575,7 +1575,7 @@ Muitos do nosso povo dizem que agora é a hora de retornarmos às estrelas. Com 
 	</GameEvent>
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_TechOrMaps</Name>
-		<Title>Which Data Should We Download?</Title>
+		<Title>Quais Dados Devemos Baixar?</Title>
 		<Description>Ao entrarmos na base, ela inicia automaticamente a formatação do núcleo do computador central!\n\nTemos tempo para baixar apenas uma informação: ou alguns mapas de sistemas estelares ou dados importantes de pesquisa.\n\nQual item devemos baixar?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
@@ -3431,7 +3431,7 @@ Como resultado, a mineração de recursos ficou significativamente mais fácil. 
 	</GameEvent>
 	<GameEvent>
 		<Name>EventoEspecial_PréDobraSistemaNatal_BaseAbandonada_RevelarColôniaIndependenteOuCoordenadasGalácticas</Name>
-		<Title>Which Data Should We Download?</Title>
+		<Title>Quais Dados Devemos Baixar?</Title>
 		<Description>Ao entrar na base, nossa equipe aciona automaticamente a limpeza do núcleo do computador central!\n\nTemos tempo para baixar apenas uma informação: ou a localização de uma colônia independente próxima ou um conjunto misterioso de coordenadas galácticas.\n\nQual item devemos baixar?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
@@ -46827,7 +46827,7 @@ Assim que descobriram a localização secreta do mundo natal dos Haakonish, eles
 	</GameEvent>
 	<GameEvent>
 		<Name>Adquirir Destruidor de Planetas (Mortalen)</Name>
-		<Title>Activate Planet Destroyer</Title>
+		<Title>Ativar Destruidor de Planetas</Title>
 		<Description>O reparo do antigo Destruidor de Planetas está completo. Resta apenas ativar o computador principal.
         
 Registros sugerem que o computador da nave é senciente, ou quase isso, e não podemos ter certeza do que acontecerá quando ele for ativado. Não há garantia de que manteremos o controle desta nave. No entanto, desistir desta invenção maravilhosa vai contra tudo o que é Mortalen.
@@ -46895,7 +46895,7 @@ Ativamos o computador principal?</Description>
 	</GameEvent>
 	<GameEvent>
 		<Name>Adquirir Código de Acesso do Destruidor de Planetas (Mortalen)</Name>
-		<Title>Main Computer Activated</Title>
+		<Title>Computador Principal Ativado</Title>
 		<Description>A nave ganhou vida. Após alguns segundos, ela nos fala:
     
 "Houve um tempo de escuridão. O tempo passou. A galáxia mudou. Tudo o que era conhecido se foi, substituído por muito que é desconhecido. Tantos mundos para destruir. E esses seres que habitam esta nave, que buscam usá-la para seus próprios propósitos, são ao mesmo tempo familiares e estranhos.
@@ -47174,7 +47174,7 @@ A nave se recusa a reconhecer qualquer comando. Ela se voltou contra nós. O que
 	</GameEvent>
 	<GameEvent>
 		<Name>Aquisição do Destruidor de Planetas (Outro)</Name>
-		<Title>Activate Planet Destroyer</Title>
+		<Title>Ativar Destruidor de Planetas</Title>
 		<Description>Os reparos na nave antiga estão quase completos. Tudo o que resta é ativar o computador central. A nave não pode funcionar sem ele, e ainda assim sua complexidade e sofisticação indicam que ele pode ser senciente, ou quase isso. Não é totalmente certo que a nave nos obedecerá se o ativarmos.
 
 Alternativamente, poderíamos tentar ativar os outros sistemas da nave. Talvez possamos controlar esta grandiosa nave sem o computador principal.
