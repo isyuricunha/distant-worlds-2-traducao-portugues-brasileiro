@@ -18,6 +18,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>9</RaceId>
 		<Name>The Soldiers' Anthem</Name>
 		<Description>This audio playback device contains a single recording of remarkable audio fidelity. Many species will be unable to decipher the lyrics, but all who listen will be filled with courage and inspired to new heights of martial prowess.</Description>
 		<ImageFilename>Artifacts/the soldiers anthem</ImageFilename>
@@ -35,6 +36,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>6</RaceId>
 		<Name>Tactical Bombardment Computer</Name>
 		<Description>A small, portable computer, featuring an exterior casing consistent with Boskara aesthetics. This device is designed to interface easily with other computer systems, maximizing bombardment effectiveness.</Description>
 		<ImageFilename>Artifacts/tactical bombardment computer</ImageFilename>
@@ -62,6 +64,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>9</RaceId>
 		<Name>The Figurine of Inspiring Heroes</Name>
 		<Description>This lightweight statuette depicts an important-looking Atuuk figure gazing contentedly outward. There are visible seams where parts of the statuette were joined together. This relic of the ancient galaxy would make an excellent museum piece and is likely to promote happiness and wonder in all who gaze upon it.</Description>
 		<ImageFilename>Artifacts/figurine of inspiring heroes</ImageFilename>

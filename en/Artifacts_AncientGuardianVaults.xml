@@ -18,6 +18,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>2</RaceId>
 		<Name>Priorities of Governance</Name>
 		<Description>By the 9th century, as reckoned by the old Teekan calendar, the vast Teekan Conglomerate began to experience an unprecedented economic decline. Their trade networks remained robust, but high inflation, unemployment, and shrinking incomes created a tenuous political situation for the ruling Board of Directors.
 	
@@ -44,6 +45,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
 		<Name>Zenox Fertility Treatment</Name>
 		<Description>The Eradication, as the virus later came to be called, spread for years before detection. The disease adapted to the genetic code of all life it encountered, regardless of species. Only as demographers began to notice a galaxy wide population decline – not only in sentient species, but also in animals and some plants -  did the search for a trans-species virus begin.
 
@@ -72,6 +74,7 @@ The Ancient Guardians were able to secure a sample of this remarkable serum in e
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
 		<Name>Kiraditu's Principles of Colonial Defense</Name>
 		<Description>The story has the quality of myth, but the ancient Guardians have verified its truth (though myths are often worthy of preservation). Two brothers, who grew up poor and friendless in the slums of Port Greataxe, somehow ingratiated themselves with the local militia and ended up as students in the prestigious Grand Mortalen Academy for Military Advancement.
 
@@ -105,6 +108,7 @@ When Kiraditu did fall in the end, Hudnar immediately set out to destroy his bro
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
 		<Name>Laughter and Leadership</Name>
 		<Description>Many species employ various types of humor, some of which can even translate between cultures. Of all known species, humans are among the few who have turned the production of humor into full employment (though there has been some debate as to whether certain types of Dhayut public executioners serve a similar role).
 
@@ -138,6 +142,7 @@ Despite extensive analysis, the Ancient Guardians have been unable to quantify t
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
 		<Name>Thoughtful Retreat Archives</Name>
 		<Description>The Zenox world of Thoughtful Retreat was originally established as a research base, meant to house no more than a few thousand scientists along with their families and whatever secondary workers were required to maintain the outpost. Over the course of a century, it developed into the primary center of Zenox experimental scientific research, including many lines of inquiry the Ancient Guardians found both interesting and alarming.
 
@@ -164,6 +169,7 @@ There was some debate among the Ancient Guardians as to whether the Thoughtful R
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>2</RaceId>
 		<Name>The Maditor Method</Name>
 		<Description>The Teekans were celebrated throughout the galaxy for their mining prowess, an ability other cultures wished to emulate. Their cultural reputation as mining engineers was warranted, but it was also highly exaggerated to the point that some assumed all Teekans were gifted mining engineers.
 
@@ -197,6 +203,7 @@ When he failed to meet all future quotas, he was executed. Years later. The Bosk
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
 		<Name>Diplomacy and Other Means</Name>
 		<Description>In the old galaxy, humans were often regarded as the most gifted diplomats. The Human Diplomatic Corps sent its representatives to major galactic conflicts where they believed peaceful resolutions were possible. It was widely suspected (and Ancient Guardian research bears out these suspicions) that the Human Diplomatic Corps was also motivated to deploy its services in ways that best furthered Human interests.
 
@@ -230,6 +237,7 @@ The Boskarans and Haakonish felt they had no choice but to attend the negotiatio
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
 		<Name>Hattir's Training Manual</Name>
 		<Description>Within the span of a half century, three different Mortalen worlds came under siege by vastly superior invading armies. Outnumbered and overwhelmed, in each case the Mortalen worlds survived against nearly impossible odds. Consequently, the Mortalen gained a reputation not only as fierce warriors, but as unmatched defenders.
 
@@ -258,6 +266,7 @@ Rather than admit weakness, Hattir began to forge a strategy based on the teachi
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>1</RaceId>
 		<Name>The Itimai Method</Name>
 		<Description>"They're with Hadi Itimai." It's an old Ackdarian expression meaning that someone is lost and will never be found. But who was Hadi Itimai?
 
@@ -284,6 +293,7 @@ This disappearance became something of a cultural phenomenon. Rumors, conspiracy
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
 		<Name>The Jhahtu Reforms</Name>
 		<Description>Once the Shakturi War had begun, and the full power of the invaders began to make itself known, a massive push began to increase the size of the Freedom Alliance fleets. Even those governments that had believed their defensives to be ample to the point of excessive now realized they were woefully unprepared for the threat of extinction they now faced.
 

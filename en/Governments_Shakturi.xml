@@ -5,7 +5,7 @@
 		<LeaderTitle>President</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -21,7 +21,7 @@
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>0</float> <!-- ShipMaintenance -->
@@ -102,7 +102,7 @@ Once we establish our new homeworld we will select a new government and transiti
 		<LeaderTitle>Dark Lord</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -118,7 +118,7 @@ Once we establish our new homeworld we will select a new government and transiti
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>0</float> <!-- ShipMaintenance -->

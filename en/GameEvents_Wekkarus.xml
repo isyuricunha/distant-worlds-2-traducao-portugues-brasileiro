@@ -392,7 +392,7 @@ In the docking bay, we found [DISCOVERY]two functional exploration ships[/DISCOV
 
 In the warehouse, we found some useful resources, which should help us as we reclaim the stars. We also found the fragmented logs, which identify an archive. It could hold vital information about the Lost Artifacts. We should investigate at once.
 
-We have recieved:
+We have received:
 
 1000 Polymer
 1000 Nekros Stone
@@ -564,7 +564,7 @@ We have recieved:
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact The Map of Prior Generations (Wekkarus)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -3415,7 +3415,7 @@ Perhaps this is why they hate us. We live in communion with those who have gone 
 				<MessageTitle>What was Theirs is now Ours</MessageTitle>
 				<Description>We have recovered all valuable resources in the remains of the Shakturi ship. In doing so, we discovered a star map, which appears to show the [LOCATION]location of two deep ocean worlds[/LOCATION]. We do not know if they are currently inhabited by Wekkarus, but they are worth investigating.
 
-We have recieved:
+We have received:
 
 1,500 Hexodorium
 1,500 Aculon
@@ -3929,7 +3929,7 @@ It appears that as the Shakturi advance fleet entered this galaxy, their first p
 				<MessageTitle>Recovering the Resources</MessageTitle>
 				<Description>We have recovered all valuable resources in the remains of the Shakturi ship. In doing so, we discovered a star map, which appears to show the location of two deep ocean worlds. We do not know if they are currently inhabited by Wekkarus, but they are worth investigating.
 
-We have recieved:
+We have received:
 
 1,500 Hexodorium
 1,500 Aculon

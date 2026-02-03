@@ -1868,7 +1868,7 @@ Aliens arrived at this research facility and the Attuk likely mistook them for t
 	</GameEvent>
 	<GameEvent>
 		<Name>The Lost Colony First Contact (Atuuk)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -2419,7 +2419,7 @@ Now they dislike us, which is too bad. Their world is backwards and would do muc
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<Description>We like money!</Description>
+				<Description>We dislike insults!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
@@ -3877,7 +3877,7 @@ Most of the files are garbled or unintelligible, but we have obtained some schem
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>A Terrible Place</MessageTitle>
-				<Description>A cursory examination has revealed that aliens of one species, the Atuuk, were held here by the Shakturi. Translating the records that remain is a challenge, but documentation we found in a non-Shakturi language mention something called a "Psychic nullification field."
+				<Description>A thorough examination has revealed that aliens of one species, the Atuuk, were held here by the Shakturi. Translating the records that remain is a challenge, but documentation we found in a non-Shakturi language mention something called a "Psychic nullification field."
 
 We also found some data crystals with technical specifications for our people to review. There was also a star map with a location marked.</Description>
 				<ImageFilepath>Environment/Events/the atuuk prison</ImageFilepath>
@@ -4787,7 +4787,7 @@ We have dedicated so much of our brain-power to studying the Long-Ago Friends' t
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Atack</ChoiceButtonText>
+				<ChoiceButtonText>Attack</ChoiceButtonText>
 				<GeneratedItemName>The Friend Map (Atuuk)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>

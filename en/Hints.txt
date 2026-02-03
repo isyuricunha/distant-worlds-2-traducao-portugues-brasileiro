@@ -14,3 +14,4 @@ With a ship or fleet selected, hold down the right mouse button for a full list 
 To quickly zoom to the selected item, double-click on the header area of the Selection Panel, or press the Backspace key
 You can cycle the automation settings for the selected ship using the = key
 Navigate backward and forward in the Selection Panel history using the left and right arrow keys
+If you want Fuel Tankers to automatically refuel your fleet, you should automate the Fuel Tankers, even if the fleet is manually controlled

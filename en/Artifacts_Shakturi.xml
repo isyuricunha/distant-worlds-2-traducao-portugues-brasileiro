@@ -13,6 +13,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0.2</QualityBoost>
+		<RaceId>20</RaceId>
 		<Name>Memory of Shaktur</Name>
 		<Description>An ancient Shakturi relic that projects a strange power across the entire planet where it is located. The relic evokes nostalgic memories of the Shakturi homeworld, somehow improving the development and quality of the planet itself. Or at least that is the perception of those on the planet.</Description>
 		<ImageFilename>Artifacts/Memory of Shaktur</ImageFilename>
@@ -35,6 +36,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>20</RaceId>
 		<Name>Concealment Crystal</Name>
 		<ImageFilename>Artifacts/Concealment Crystal</ImageFilename>
 	</Artifact>
@@ -67,6 +69,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>20</RaceId>
 		<Name>Sphere of Aggression</Name>
 		<ImageFilename>Artifacts/Sphere of Aggression</ImageFilename>
 	</Artifact>
@@ -98,6 +101,7 @@
 			<short>958</short> <!-- Optimized Xaraktor Virus -->
 		</ResearchProjectUnlockIds>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>20</RaceId>
 		<Name>Helmet of Shakturi Understanding</Name>
 		<ImageFilename>Artifacts/Helmet of Shakturi Understanding</ImageFilename>
 	</Artifact>

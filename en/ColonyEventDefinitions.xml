@@ -252,15 +252,20 @@ As a result there has been extensive loss of life and the eruption has even dama
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>11</ColonyEventDefinitionId> <!-- Haakonish Xenophobia -->
 		<Type>Undefined</Type>
-		<Bonuses>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>-0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</Bonuses>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<PreventStartWhenEventActiveColonyEventDefinitionId>142</PreventStartWhenEventActiveColonyEventDefinitionId>
+		<RaceFilterIds>
+			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
+		</RaceFilterIds>
+		<MinimumPopulationAmount>10000000</MinimumPopulationAmount>
+		<MinimumPopulationRaceId>3</MinimumPopulationRaceId>
+		<MustHaveRacesOtherThanRaceIds>
+			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
+		</MustHaveRacesOtherThanRaceIds>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Haakonish Xenophobia</Name>
+		<GameEventName>Start Xenophobic Riots (Haakonish)</GameEventName>
+		<Name>Xenophobic Riots</Name>
+		<Description>Xenophobic Riots against non-Haakonish population, with the following effects:[ULI]Immediately reduces non-Haakonish populations at the colony by 25%[/ULI][ULI][GOOD]+10 Colony Happiness[/GOOD] for 5 years[/ULI][ULI]Significantly [BAD]harms our reputation[/BAD][/ULI][ULI]Negatively affects [BAD]migration[/BAD] to the colony for 10 years[/ULI]</Description>
 		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -403,32 +408,30 @@ War weariness has been dramatically reduced throughout our empire for the next 2
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>17</ColonyEventDefinitionId> <!-- Economic Boost -->
 		<Type>Undefined</Type>
-		<DurationMinimum>1</DurationMinimum>
-		<DurationMaximum>1</DurationMaximum>
-		<RandomInitiationChance>0.0025</RandomInitiationChance>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<!--RandomInitiationChance>0.0025</RandomInitiationChance-->
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<MinimumIntervalPerEmpireYears>8</MinimumIntervalPerEmpireYears>
 		<RaceFilterIds>
 			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
 		</RaceFilterIds>
-		<Bonuses>
-			<Bonus>
-				<Type>ColonyIncome</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Start Economic Boost (Haakonish)</GameEventName>
 		<Name>Economic Boost</Name>
-		<Description>The clever finance wizards at our colony {0} have figured out a way to temporarily boost economic output through some creative accounting!
+		<Description>Our clever finance wizards have figured out a way to temporarily boost economic output through some creative accounting!
 
-For the next year our colony {0} will enjoy a +10% boost to income.</Description>
+Initiating this Economic Boost will [GOOD]increase empire income by +10% for 5 years[/GOOD]. Apparently there might also be some [BAD]minor increase to corruption later[/BAD], but that sounds like an unimportant detail.</Description>
 		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>18</ColonyEventDefinitionId> <!-- Great Hunt -->
 		<Type>Undefined</Type>
-		<DurationMinimum>0.5</DurationMinimum>
-		<DurationMaximum>0.5</DurationMaximum>
-		<RandomInitiationChance>0.004</RandomInitiationChance>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>25000</ManualInitiationCost>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
 		<RaceFilterIds>
 			<unsignedByte>2</unsignedByte> <!-- Teekan -->
 		</RaceFilterIds>
@@ -446,25 +449,10 @@ For the next year our colony {0} will enjoy a +10% boost to income.</Description
 				<Factor>0.3</Factor>
 			</OrbTypeFactor>
 		</OrbTypeFilters>
-		<Bonuses>
-			<Bonus>
-				<Type>RecruitedTroopStrengthAll</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</Bonuses>
+		<GameEventName>Great Bakdur Hunt (Teekan)</GameEventName>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Great Hunt</Name>
-		<Description>A Great Hunt of the mighty Bakdur sand worms is underway at our colony {0}!
-
-For the next six months all troops recruited at our colony {0} will be 10% stronger.
-
-In addition, the associated festivities at the colony will provide a +10% boost to happiness.</Description>
+		<Name>Great Bakdur Hunt</Name>
+		<Description>Initiate a Great Bakdur Hunt at a Desert colony. The outcome of the hunt will vary, but will always provide some benefits: typically an empire-wide Happiness bonus and a Development bonus at the colony. Can only be started once every 5 years.</Description>
 		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -549,6 +537,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<EmpireHappiness>-15</EmpireHappiness>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>We're not alone in the universe...</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>23</ColonyEventDefinitionId> <!-- Our PR Campaign -->
@@ -558,6 +547,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<EmpireHappiness>5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Our PR Campaign</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>24</ColonyEventDefinitionId> <!-- We Paid Pirates -->
@@ -567,6 +557,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<EmpireHappiness>-5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>We Paid Pirates</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>25</ColonyEventDefinitionId> <!-- We've Eliminated a Threat -->
@@ -576,6 +567,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<EmpireHappiness>5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>We've Eliminated a Threat</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>26</ColonyEventDefinitionId> <!-- We Helped Aliens -->
@@ -585,6 +577,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<EmpireHappiness>-5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>We Helped Aliens</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>27</ColonyEventDefinitionId> <!-- Our People Have Been Inspired -->
@@ -601,6 +594,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Our People Have Been Inspired</Name>
+		<ImageFilename>Environment/Events/Our People Have Been Inspired</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>28</ColonyEventDefinitionId> <!-- Morale Improvement Initiative -->
@@ -616,6 +610,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		</Bonuses>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>Morale Improvement Initiative</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>29</ColonyEventDefinitionId> <!-- Competition Initiative -->
@@ -636,6 +631,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		</Bonuses>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>Competition Initiative</Name>
+		<ImageFilename>Environment/Events/Competition Initiative</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>30</ColonyEventDefinitionId> <!-- The Clones Attacked -->
@@ -645,6 +641,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<ColonyHappiness>-10</ColonyHappiness>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>The Clones Attacked</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>31</ColonyEventDefinitionId> <!-- Planetary Damage Repaired -->
@@ -654,6 +651,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<ColonyHappiness>5</ColonyHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Planetary Damage Repaired</Name>
+		<ImageFilename>Environment/Events/Repair Planetary Damage</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>32</ColonyEventDefinitionId> <!-- We Recovered Ancient Knowledge -->
@@ -663,6 +661,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<ColonyHappiness>5</ColonyHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>We Recovered Ancient Knowledge</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>33</ColonyEventDefinitionId> <!-- Zenox Cognition Virus -->
@@ -679,6 +678,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		</Bonuses>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>Zenox Cognition Virus</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>34</ColonyEventDefinitionId> <!-- Alien Encounter -->
@@ -688,6 +688,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<EmpireHappiness>-5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Alien Encounter</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>51</ColonyEventDefinitionId> <!-- Focusing on what matters -->
@@ -697,6 +698,7 @@ As a result our empire will enjoy a +10% boost to trade and tourism income for t
 		<ColonyHappiness>5</ColonyHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Focusing on what matters</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>99</ColonyEventDefinitionId> <!-- Happiness from Completed War Mission -->

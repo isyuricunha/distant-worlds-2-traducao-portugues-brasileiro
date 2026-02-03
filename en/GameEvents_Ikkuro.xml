@@ -452,7 +452,7 @@ We must discover the truth. Our study of ancient relics and ruins has helped us 
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Independent Dhayut World (Ikkuro)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -3608,7 +3608,7 @@ Your primitive insistence upon world-dwelling does not disturb us, however. We r
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>The Ancient Vault</MessageTitle>
-				<Description>Our scientists have entered the ancient Ikkuro facility. It appears to be some sort of data vault, though the databanks are largely damaged and decayed. It seems as though the facility was destroyed by the seismic damage at afflicted the rest of this world. 
+				<Description>Our scientists have entered the ancient Ikkuro facility. It appears to be some sort of data vault, though the databanks are largely damaged and decayed. It seems as though the facility was destroyed by the seismic damage that afflicted the rest of this world. 
 
 There are a few surviving mentions of an ancient invaders waging war upon the galaxy. There is also mention of their allies, the Dhayut Web, toward whom our ancestors bore particular animus. We cannot determine why. The answer may be related to a star chart which reveals a location that seems to be of great significance. We should investigate. 
 
@@ -4205,7 +4205,7 @@ We have also discovered an ancient tome, The Book of Harmonious Necessity. This 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>The Ancient Vault</MessageTitle>
-				<Description>Our scientists have gained entrance to the ancient Ikkuro facility. It appears to be some sort of data vault, though the databanks are largely damaged and decayed. It seems as though the facility was destroyed by the seismic damage at afflicted the rest of this world. No doubt the Ikkuro deserved to suffer.
+				<Description>Our scientists have gained entrance to the ancient Ikkuro facility. It appears to be some sort of data vault, though the databanks are largely damaged and decayed. It seems as though the facility was destroyed by the seismic damage that afflicted the rest of this world. No doubt the Ikkuro deserved to suffer.
 
 There are a few surviving mentions of an ancient invaders waging war upon the galaxy. There is also mention of their allies, the Dhayut Web, toward whom the Ikkuro bore particular animus. We have found a star chart which reveals a location that seems to be of great significance. It may be worth our effort to investigate. 
 
@@ -4804,7 +4804,7 @@ We have also discovered an ancient tome, The Book of Harmonious Necessity. This 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>The Ancient Vault</MessageTitle>
-				<Description>Our scientists have gained entrance to the ancient Ikkuro facility. It appears to be some sort of data vault, though the databanks are largely damaged and decayed. It seems as though the facility was destroyed by the seismic damage at afflicted the rest of this world. 
+				<Description>Our scientists have gained entrance to the ancient Ikkuro facility. It appears to be some sort of data vault, though the databanks are largely damaged and decayed. It seems as though the facility was destroyed by the seismic damage that afflicted the rest of this world. 
 
 There are a few surviving mentions of an ancient invaders waging war upon the galaxy. There is also mention of their allies, the Dhayut Web, toward whom the Ikkuro bore particular animus. We cannot determine why. The answer may be related to a star chart which reveals a location that seems to be of great significance. 
 

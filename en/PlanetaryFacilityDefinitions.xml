@@ -338,7 +338,7 @@
 		<Size>100</Size>
 		<BombardmentResistance>0.9</BombardmentResistance>
 		<GroundCombatResistance>0.7</GroundCombatResistance>
-		<HyperDenyRange>100000</HyperDenyRange>
+		<HyperDenyRange>25000</HyperDenyRange>
 		<HyperDenyStrength>50</HyperDenyStrength>
 		<FacilityFamilyId>9</FacilityFamilyId>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
@@ -354,7 +354,7 @@
 		<Size>100</Size>
 		<BombardmentResistance>0.9</BombardmentResistance>
 		<GroundCombatResistance>0.7</GroundCombatResistance>
-		<HyperDenyRange>150000</HyperDenyRange>
+		<HyperDenyRange>40000</HyperDenyRange>
 		<HyperDenyStrength>50</HyperDenyStrength>
 		<FacilityFamilyId>9</FacilityFamilyId>
 		<FacilityFamilyLevel>1</FacilityFamilyLevel>
@@ -2711,5 +2711,26 @@
 		<GroundCombatResistance>1</GroundCombatResistance>
 		<Name>Ancient Crashed Ship</Name>
 		<ImageFilename>Environment/Events/CrashedShip</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>138</PlanetaryFacilityDefinitionId> <!-- Glaciomatter Study Centre -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Glaciomatter Study Centre</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Hexodorium Mine</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

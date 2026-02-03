@@ -77,9 +77,11 @@ ShipMission Description LoadTroops Unavailable		;Load troops
 ShipMission Description LoadPopulation		;Load colonists at {0}
 ShipMission Description LoadPopulation RACE		;Load colonists at {0} ({1})
 ShipMission Description LoadCargo		;Load fuel at {0}
+ShipMission Description LoadCargo Resources		;Buy {1} at {0}
 ShipMission Description TransferFuel		;Transfer fuel to {0}
 ShipMission Description Mine		;Mine {0}, offload at {1}
 ShipMission Description MineLoad		;Mine fuel at {0}
+ShipMission Description MineLoad NonFuel		;Mine resources at {0}
 ShipMission Description Move		;Move to {0}
 ShipMission Description Move Coordinates		;Move to {0}, {1}
 ShipMission Description Patrol		;Patrol {0}
@@ -103,7 +105,10 @@ ShipMission Description Transport Tourists		;Transport tourists from {0} to {1}
 ShipMission Description UnloadTroops		;Unload troops at {0}
 ShipMission Description UnloadPassengers		;Unload passengers at {0}
 ShipMission Description UnloadCargo		;Unload cargo at {0}
+ShipMission Description UnloadCargo Resources		;Sell {1} at {0}
 ShipMission Description ExitYard		;Leave construction yard
+ShipMission Description Dock		;Dock at {0}
+ShipMission Description Undock		;Undock from {0}
 
 ShipMission Description With Distance RamDestroyPlanet		;Ram and Destroy {0} ({1} away)
 ShipMission Description RamDestroyPlanet		;Ram and Destroy {0}
@@ -146,9 +151,11 @@ ShipMission Description With Distance LoadTroops		;Load troops at {0} ({1} away)
 ShipMission Description With Distance LoadPopulation		;Load colonists at {0} ({1} away)
 ShipMission Description With Distance LoadPopulation RACE		;Load colonists at {0} ({1}, {2} away)
 ShipMission Description With Distance LoadCargo		;Load fuel at {0} ({1} away)
+ShipMission Description With Distance LoadCargo Resources		;Buy {1} at {0} ({2} away)
 ShipMission Description With Distance TransferFuel		;Transfer fuel to {0} ({1} away)
 ShipMission Description With Distance Mine		;Mine {0} ({2} away), offload at {1} ({3} away)
 ShipMission Description With Distance MineLoad		;Mine fuel at {0} ({1} away)
+ShipMission Description With Distance MineLoad NonFuel		;Mine resources at {0} ({1} away)
 ShipMission Description With Distance Move		;Move to {0} ({1} away)
 ShipMission Description With Distance Move Coordinates		;Move to {0}, {1} ({2} away)
 ShipMission Description With Distance Patrol		;Patrol {0} ({1} away)
@@ -171,6 +178,9 @@ ShipMission Description With Distance Transport Tourists		;Transport tourists fr
 ShipMission Description With Distance UnloadTroops		;Unload troops at {0} ({1} away)
 ShipMission Description With Distance UnloadPassengers		;Unload passengers at {0} ({1} away)
 ShipMission Description With Distance UnloadCargo		;Unload cargo at {0} ({1} away)
+ShipMission Description With Distance UnloadCargo Resources		;Sell {1} at {0} ({2} away)
+ShipMission Description With Distance Dock		;Dock at {0} ({1} away)
+ShipMission Description With Distance Undock		;Undock from {0} ({1} away)
 
 SYSTEMNAME system		;{0} system
 Quality		;Quality
@@ -324,10 +334,12 @@ GameTaskType QueueBase Constructor		;Send {4} to build {0} ({1}) at {2} for {3} 
 GameTaskType QueueRepairInvestigate		;Repair and Investigate {0} ({1})
 GameTaskType QueueColonize		;Build Colony ship and Colonize {0}
 GameTaskType QueueEstablishOutpost		;Build Colony ship and Establish Outpost at {0}
+GameTaskType QueuePirateInfluence		;Queue Pirate Influence at {0}
 GameTaskType CancelQueueBase		;Cancel building {0} at {1}
 GameTaskType CancelQueueRepairInvestigate		;Cancel repairing and investigating {0} ({1})
 GameTaskType CancelQueueColonize		;Cancel colonizing {0}
 GameTaskType CancelQueueEstablishOutpost		;Cancel establishing outpost at {0}
+GameTaskType CancelQueuePirateInfluence		;Cancel pirate influence at {0}
 GameTaskType QueueAttackTarget		;Queue Attack against {0}
 
 GameTaskType QueueAttackTarget Attack		;Queue Attack against {0}
@@ -349,11 +361,14 @@ GameTaskType CancelQueueAttackTarget Blockade		;Cancel Blockade of {0}
 GameTaskType CancelQueueAttackTarget		;Cancel Attack against {0}
 
 GameTaskType AssignQuest		;Accept War Mission: {0}
+GameTaskType AssignQuest Contract		;Accept Contract: {0}
+GameTaskType AcceptQuest		;Accept Contract: {0}
 
 GameTaskType QueueClearDangerousLocation		;Queue threat investigation and clearance at {0}
 GameTaskType CancelQueueClearDangerousLocation		;Cancel threat investigation and clearance at {0}
 GameTaskType BuildPlanetaryFacility		;Build {0} at {1} for {2} credits
 GameTaskType StartColonyEvent		;Start {0} at {1} for {2} credits
+GameTaskType StartColonyEvent No Cost		;Start {0} at {1}
 GameTaskType BuildShips		;Build ships at {0} for {1} credits
 GameTaskType BuildShips List		;Build ships at {0} for {1} credits:\n{2}
 GameTaskType BuildShips Single		;Build {0} ({1}) at {2} for {3} credits
@@ -408,6 +423,7 @@ GameTaskType LeaveFleet		;Leave fleet ({0})
 GameTaskType OrderResource		;
 GameTaskType PerformExpense		;
 GameTaskType PerformIncome		;
+GameTaskType EliminatePirateInfluence		;Eliminate Pirate Influence at {0}
 GameTaskType RecruitTroops Maintenance		;Recruit {0} ({1}) at {2} for {3} (Maintenance: {4} credits)
 GameTaskType RecruitTroops Maintenance Cloned		;Clone {0} ({1}) at {2} for {3} (Maintenance: {4} credits)
 GameTaskType RecruitTroops		;Recruit {0} ({1}) at {2} for {3}
@@ -427,6 +443,7 @@ GameTaskType RetrofitFleet		;Retrofit fleet to latest designs
 GameTaskType RetrofitFleet Location		;Retrofit fleet to latest designs at {0}
 GameTaskType RetireMultipleShips		;Retire ships
 GameTaskType TopupFleet		;Top up fleet with ships
+GameTaskType TopupFleet NAME		;Top up {0}
 GameTaskType HonorDefenseTreaty		;Honor Defense Treaty
 GameTaskType DishonorDefenseTreaty		;Dishonor Defense Treaty
 GameTaskType ScrapPlanetaryFacility		;Scrap {0} at {1}
@@ -444,6 +461,7 @@ GameTaskType SetFleetAllowShipRoleUpgrade			;Ship Role Up/Downgrade: {0}
 GameTaskType SetFleetAllowTrimmingExcessShips			;Trim Excess Ships: {0}
 GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Auto-Upgrade Obsolete Specific Designs: {0}
 GameTaskType SetCapital		;Set {0} as new empire capital
+GameTaskType TransitionToRefugeeFleet		;Abandon {0} and become a Refugee Fleet. You will lose all of your existing ships, bases and troops. Instead you will command a small Refugee Fleet in search of a new home. Your new lone Colony Ship will have all of the population from {0} onboard, ready to settle a new colony
 GameTaskType AbandonColony		;Abandon {0}, allowing it to become independent
 GameTaskType AbandonColony Outpost		;Abandon {0}. Abandoning an Outpost will completely remove it. It will not become an independent colony
 GameTaskType UpgradeOutpostToColony		;Upgrade {0} from an Outpost to a full Colony for {1} credits
@@ -483,6 +501,7 @@ GameTaskType UI_NextTasks		;Next
 GameTaskType UI_PreviousTasks		;Previous
 GameTaskType UI_ShowCharacterMissionOptions		;Character Missions
 GameTaskType UI_ShowTacticsOptions		;Set Tactics
+GameTaskType UI_QuestContractScreen		;Create new Contract for this location
 GameTaskType UI_ShowColonyAutomationOptions		;Set Colony Automation
 GameTaskType UI_ColonyDetailScreen		;Show Colony Detail Screen
 GameTaskType UI_ShowTroopOptions		;Manage Troops
@@ -504,6 +523,9 @@ GameTaskType Short CancelQueueBase		;Cancel Building Base
 GameTaskType Short CancelQueueRepairInvestigate		;Cancel Repair and Investigate
 GameTaskType Short CancelQueueColonize		;Cancel Colonizing
 GameTaskType Short CancelQueueEstablishOutpost		;Cancel Establishing Outpost
+GameTaskType Short QueuePirateInfluence		;Queue Pirate Influence at {0}
+GameTaskType Short CancelQueuePirateInfluence		;Cancel Pirate Influence
+
 GameTaskType Short QueueAttackTarget		;Queue Attack
 GameTaskType Short QueueAttackTarget Attack		;Queue Attack
 GameTaskType Short QueueAttackTarget Invade		;Queue Invasion
@@ -514,6 +536,11 @@ GameTaskType Short QueueAttackTarget Blockade		;Queue Blockade
 GameTaskType Short QueueAttackTarget GatherPoint		;Set Attack Gather Point
 GameTaskType Short CancelQueueAttackTarget		;Cancel Attack
 GameTaskType Short AssignQuest		;Accept War Mission: {0}
+GameTaskType Short AssignQuest Contract		;Accept Contract: {0}
+GameTaskType Short CancelContract		;Cancel Contract
+GameTaskType Short BidOnContract		;Offer Bid of {0} credits
+GameTaskType Short BidOnContract Opening		;Offer opening Bid of {0} credits
+GameTaskType Short AcceptQuest		;Accept Contract
 GameTaskType Short QueueClearDangerousLocation		;Queue Clear Dangerous Location
 GameTaskType Short CancelQueueClearDangerousLocation		;Cancel Clear Dangerous Location
 GameTaskType Short BuildPlanetaryFacility		;Build {0}
@@ -563,6 +590,7 @@ GameTaskType Short OrderResource		;Order Resource
 GameTaskType Short PerformExpense		;Expense
 GameTaskType Short PerformIncome		;Income
 GameTaskType Short RecruitTroops		;Recruit Troops
+GameTaskType Short EliminatePirateInfluence		;Eliminate Pirate Influence
 GameTaskType Short RefuelAndRepair		;Refuel and Repair
 GameTaskType Short RefuelAndRepair Location		;Refuel and Repair
 GameTaskType Short RemoveCharacter		;Remove Character
@@ -588,6 +616,7 @@ GameTaskType Short SetFleetTemplate		;Set Fleet Template
 GameTaskType Short SetArmyTemplate		;Set Army Template
 GameTaskType Short SetFleetFormationCoherence		;Set Fleet Formation
 GameTaskType Short SetCapital		;Set Capital
+GameTaskType Short TransitionToRefugeeFleet		;Abandon last colony and become Refugee Fleet
 GameTaskType Short AbandonColony		;Abandon Colony
 GameTaskType Short UpgradeOutpostToColony		;Upgrade To Colony
 GameTaskType Short StartColonyEvent		;Start Event {0}
@@ -622,6 +651,7 @@ GameTaskType Short UpgradePlanetaryFacility		;Upgrade {0}
 GameTaskType Short UI_LockViewOnSelected		;Lock View on Selected
 GameTaskType Short UI_WeaponRangeDisplay		;Display Weapon Ranges for selected ship
 GameTaskType Short UI_LocationShipSymbol		;Display ship and base symbols at location level
+GameTaskType Short UI_QuestContractScreen		;Create new Contract for this location
 GameTaskType Short UI_CycleCameraMode_Default		;Camera View: Default
 GameTaskType Short UI_CycleCameraMode_TopDown		;Camera View: Top Down
 GameTaskType Short UI_CycleCameraMode_HighAngle		;Camera View: High Angle
@@ -697,6 +727,8 @@ EmpireRelationType Migration		;Migration Treaty
 EmpireRelationType MilitaryRefuelling		;Military Refuelling
 EmpireRelationType MiningRights		;Mining Rights
 EmpireRelationType PirateProtection		;Protection Agreement
+EmpireRelationType PirateNeutral		;Neutral
+EmpireRelationType PirateHostile		;Hostile
 EmpireRelationType NonAggression		;Non Aggression Treaty
 EmpireRelationType OperationsMapSharing		;Operations Map Sharing
 EmpireRelationType Research		;Research Agreement
@@ -719,6 +751,8 @@ EmpireRelationType Short Migration		;Migrat
 EmpireRelationType Short MilitaryRefuelling		;Mil Ref
 EmpireRelationType Short MiningRights		;Mining
 EmpireRelationType Short PirateProtection		;Protect
+EmpireRelationType Short PirateNeutral		;Neutral
+EmpireRelationType Short PirateHostile		;Hostile
 EmpireRelationType Short NonAggression		;NonAgg
 EmpireRelationType Short OperationsMapSharing		;OpsMap
 EmpireRelationType Short Research		;Research
@@ -737,8 +771,8 @@ TroopType Militia		;Militia
 
 TacticsEngagementType DoNotEngage		;Do Not Engage
 TacticsEngagementType EngageWhenAttacked		;Engage When Attacked
-TacticsEngagementType FuelRange33		;33% of Fuel Range
-TacticsEngagementType FuelRange50		;50% of Fuel Range
+TacticsEngagementType FuelRange33		;30% of Fuel Range
+TacticsEngagementType FuelRange50		;40% of Fuel Range
 TacticsEngagementType Location		;Same Location
 TacticsEngagementType Nearby		;Nearby (5000 range)
 TacticsEngagementType SectorRange		;100M range
@@ -1158,6 +1192,8 @@ BonusType ScanSurveyTimeReduction		;Survey Time Reduction
 BonusType HyperDriveJumpAccuracy		;Hyperdrive Jump Accuracy
 BonusType BombardmentResistance		;Bombardment Resistance
 BonusType GroundCombatResistance		;Ground Combat Resistance
+BonusType ColonyInfluenceRate		;Colony Influence Rate
+BonusType ColonyInfluenceIncome		;Colony Influence Income
 
 ComponentCategory AreaShieldRecharge		;Area Shield Recharge
 ComponentCategory Armor		;Armor
@@ -1241,7 +1277,15 @@ Can only build with GOVERNMENTS		;Can only build with {0} governments
 
 ColonyCorruptionReductionProjectionRange		;Corruption Reducing Range
 ColonyIncomeDrainRatio		;Colony Income Siphoning
-ColonyInfluenceLevelToBuild		;Influence to build
+ColonyInfluenceLevelToBuild		;Influence required to build
+
+ColonyInfluenceFloor		;Influence Floor
+ColonyInfluenceIncrease		;Annual Influence Increase Rate
+ColonyInfluenceIncreaseLimit		;Influence Increase Limit
+ColonyInfluenceCap		;Influence Cap
+ColonyInfluenceIncreaseRateModifier		;Influence Rate Reduction
+ColonyInfluenceDefendingTroopStrength		;Influence Defending Troop Strength
+
 FighterBuildRate		;Fighter Build Rate
 FighterCapacity		;Fighter Capacity
 FighterRepairRate		;Fighter Repair Rate
@@ -1621,8 +1665,8 @@ Home Base		;Home Base
 ACTION TARGET, then targets RANGE		;{0} {1}, then targets {2}
 ACTION targets RANGE		;{0} targets {1}
 ENGAGEMENT when attacked		;when attacked
-ENGAGEMENT nearby		;nearby
-ENGAGEMENT nearby X		;nearby {0}
+ENGAGEMENT nearby		;nearby (5000 units range)
+ENGAGEMENT nearby X		;nearby {0} (5000 units range)
 ENGAGEMENT at same location		;at same location
 ENGAGEMENT at same location as X		;at same location as {0}
 ENGAGEMENT in same system		;in same system
@@ -1637,10 +1681,10 @@ ENGAGEMENT within 200M range of X		;within 200M range of {0}
 ENGAGEMENT within 300M range		;within 300M range
 ENGAGEMENT within 300M range of X		;within 300M range of {0}
 
-ENGAGEMENT within 33% fuel range		;within 33% fuel range
-ENGAGEMENT within 33% fuel range of X		;within 33% fuel range of {0}
-ENGAGEMENT within 50% fuel range		;within 50% fuel range
-ENGAGEMENT within 50% fuel range of X		;within 50% fuel range of {0}
+ENGAGEMENT within 33% fuel range		;within 30% fuel range
+ENGAGEMENT within 33% fuel range of X		;within 30% fuel range of {0}
+ENGAGEMENT within 50% fuel range		;within 40% fuel range
+ENGAGEMENT within 50% fuel range of X		;within 40% fuel range of {0}
 Manually controlled		;Manually controlled
 Posture		;Posture
 Fleet Summary Short		;{0} ships
@@ -1709,6 +1753,7 @@ X production rate		;{0} production rate
 X stockpile		;{0} stockpile
 Known Locations		;Known Locations
 Mined Locations		;Mined Locations
+Known Locations Explanation		;Note that Known Locations can include sources in foreign territory that you cannot mine yourself
 
 Mining Stations		;Mining Stations
 Availability		;Availability
@@ -1788,8 +1833,9 @@ IncomeType ResourceTrading		;Resource Trading
 IncomeType Fuel		;Fuel Sales
 IncomeType Information		;Information
 IncomeType Tribute		;Tribute Received
+IncomeType Tribute Pirate		;Protection Agreements
 IncomeType Raiding		;Raiding
-IncomeType Missions		;Missions
+IncomeType Missions		;Contracts
 IncomeType ColonyCrime		;Colony Crime
 IncomeType Tourism		;Tourism
 IncomeType ShipBuilding		;Ship Building
@@ -1803,9 +1849,10 @@ IncomeType ResourceTrading Explanation		;Your empire will automatically sell exc
 IncomeType Fuel Explanation		;Your empire will sell fuel to other empires when their ships dock at your bases or colonies
 IncomeType Information Explanation		;Information can be sold to other empires from the Diplomacy screen. This includes maps, tech, secret locations and other information
 IncomeType Tribute Explanation		;Tribute that other empires pay to you as part of a diplomatic agreement. Tribute is usually imposed by the victor of a war on a defeated enemy
+IncomeType Tribute Explanation Pirate		;Protection that other empires pay to you as part of a diplomatic agreement. The protection agreement ensures peace between your factions for a price.
 IncomeType Raiding Explanation		;Money obtained by raiding the colonies or bases of other empires
-IncomeType Missions Explanation		;Money earned from successful covert missions
-IncomeType ColonyCrime Explanation		;Wealth siphoned from colonies via criminal activities. The higher the control level of a colony, the more money is stolen
+IncomeType Missions Explanation		;Money earned from completed contracts
+IncomeType ColonyCrime Explanation		;Wealth siphoned from colonies via criminal activities. The higher your influence level at a colony, the more money is stolen.\n\nIncrease colony influence levels by parking your pirate ships in orbit at the colony, by raiding the colony and by building pirate facilities there.
 IncomeType Tourism Explanation		;Money earned from tourists staying at your Resort Bases
 IncomeType ShipBuilding Explanation		;Building ships for other empires, including independent colonies
 IncomeType Discoveries Explanation		;Money discovered in ancient ruins and abandoned ships and bases
@@ -1838,6 +1885,7 @@ ExpenseType PrivateFuel		;Private Fuel
 ExpenseType ColonyGrowthFunding Explanation		;Colonies normally grow slowly, but you can accelerate their growth by allocating funding.
 ExpenseType Research Explanation		;Research speed is greatly increased by allocating research funding
 ExpenseType ShipMaintenance Explanation		;Maintenance costs for state-owned ships and bases
+ExpenseType ShipMaintenance Explanation Pirate		;Maintenance costs for all of your ships and bases
 ExpenseType TroopMaintenance Explanation		;Maintenance costs for troop units
 ExpenseType FacilityMaintenance Explanation		;Maintenance costs for planetary facilities
 ExpenseType ShipBuilding Explanation		;Purchase costs for building new state-owned ships and bases
@@ -2289,12 +2337,12 @@ Sparse		;Sparse
 Dense		;Dense
 Nebula Density		;Nebula Density
 
-Next		;Próximo
-Start a New Game		;Começar um Novo Jogo
-Load Game		;Carregar Jogo
-Credits		;Créditos
-Close Credits		;Fechar Créditos
-Exit		;Sair
+Next		;Next
+Start a New Game		;Start a New Game
+Load Game		;Load Game
+Credits		;Credits
+Close Credits		;Close Credits
+Exit		;Exit
 StartNewGame_GalaxyShapeSize		;Galaxy Shape and Size
 StartNewGame_GalaxySettings		;Galaxy Settings
 StartNewGame_Threats		;Threats
@@ -2305,6 +2353,11 @@ StartNewGame_YourStartingSituation		;Your Starting Situation
 StartNewGame_OtherEmpires		;Other Empires
 StartNewGame_VictoryConditions		;Victory Conditions
 StartNewGame_StartGame		;Start Game
+
+StartNewGame_PlayMode		;Play Mode
+StartNewGame_PirateFactionSettings		;Pirate Faction
+StartNewGame_PiratePlaystyle		;Pirate Playstyle
+StartNewGame_LonePirate		;Lone Pirate Starting Ship
 
 Galaxy Expansion Random		;Random
 Galaxy Expansion PreWarp		;PreWarp
@@ -2346,6 +2399,7 @@ Galaxy NearbyHostileRaces Extreme		;Extreme
 Hostile Races Near Player		;Hostile Races Near Player
 NearbyHostileRaces Explanation		;How many hostile races neighbor the player when other empires are auto-generated. Nearby hostile races are an important factor in how difficult the game is.\n\nNote that even Normal setting still randomly allows hostile races near the player.
 
+Galaxy Research Speed Extremely Slow		;Extremely Slow
 Galaxy Research Speed Very Slow		;Very Slow
 Galaxy Research Speed Slow		;Slow
 Galaxy Research Speed Normal		;Normal
@@ -2638,6 +2692,9 @@ Colony Raid Unsuccessful		;Colony Raid Unsuccessful
 Base Raid Unsuccessful		;Base Raid Unsuccessful
 Base Raid Succeeds		;Base Raid Succeeds!
 
+Colony Raid Partially Successful		;Failed Raid Yields Loot
+Base Raid Partially Successful		;Failed Raid Yields Loot
+
 
 Facility Destroyed during Invasion		;{0} Destroyed during Invasion
 Facility Destroyed during Invasion Description		;The [FACILITY]{0}[/FACILITY] at our colony [LOCATION]{1}[/LOCATION] has been targeted and destroyed by enemy forces during a ground battle.
@@ -2834,6 +2891,11 @@ Destroy Event Ruins		;With the destruction of {1} at {0} we have made a curious 
 Build Event Facility		;Building the {0} at {1} has led to a curious discovery:
 Build Event Base		;Building the {0} at {1} has led to a curious discovery:
 
+EmpireBuildShipRole Event		;Building a new {0} has led to a curious discovery:
+DeliverResources Event		;Delivering resources to {0} has led to a curious discovery:
+DestroyAllHostileCreaturesAtLocation Event		;Destroying all hostile creatures at {0} has led to a curious discovery:
+TroopGarrisonStrengthAtColony Event		;Garrisoning troops at {0} has led to a curious discovery:
+
 EmpireRelationChange Event FirstContact		;Our first contact with the {0} has led to a curious discovery:
 EmpireRelationChange Event		;Our recently initiated {0} with the {1} has led to a curious discovery:
 
@@ -2927,7 +2989,9 @@ AutomationCategory DiplomaticGifts		;Diplomacy - Gifts
 AutomationCategory DiplomaticTreaties		;Diplomacy - Treaties
 AutomationCategory DiplomaticWar		;Diplomacy - War
 AutomationCategory FleetFormation		;Fleet Formation
-AutomationCategory FleetPostures		;Fleet Postures
+AutomationCategory FleetPostures		;Attack Fleet Postures
+AutomationCategory FleetPosturesDefense		;Defense Fleet Postures
+AutomationCategory FleetTemplateMigration		;Upgrade Fleet Templates
 AutomationCategory FleetTopup		;Fleet Ship Management
 AutomationCategory MilitaryAttack		;Military Attacks
 AutomationCategory WarMissions		;War Missions
@@ -2936,6 +3000,11 @@ AutomationCategory ResearchCrash		;Crash Research
 AutomationCategory ShipDesigns		;Ship & Base Design
 AutomationCategory TroopGeneration		;Troop Recruitment
 AutomationCategory FundingLevels		;Funding Levels
+AutomationCategory Contracts		;Contract Acceptance
+AutomationCategory ContractOffers		;Contract Offering
+AutomationCategory PirateInfluence		;Pirate Influence
+AutomationCategory Artifacts		;Artifacts
+AutomationCategory Equipment		;Equipment
 
 Pirate Raider		;Pirate Raider
 Pirate Raider Leader Title		;Chief Raider
@@ -3043,6 +3112,7 @@ Victory Condition CaptureMostCharacters		;Capture the most foreign characters in
 Victory Condition CaptureMostShips		;Capture the most ships and bases in the galaxy
 Victory Condition PirateMostSuccessfulRaids		;Complete the most successful Pirate Raids in the galaxy
 
+Victory Condition MostFreeTradeTreaties		;Have the most Free Trade Treaties in the galaxy
 Victory Condition MostNonAggressionPacts		;Have the most NonAggression Pacts in the galaxy
 Victory Condition MostDefenseTreaties		;Have the most Defense Treaties in the galaxy
 Victory Condition MostResearchFromSalvage		;Gain the most research and tech from salvage
@@ -3124,6 +3194,7 @@ Victory Condition Detail PirateMostSuccessfulMissionsDefend		;{0} completed pira
 Victory Condition Detail CaptureMostCharacters		;{0} captured characters
 Victory Condition Detail CaptureMostShips		;{0} captured ships and bases
 Victory Condition Detail PirateMostSuccessfulRaids		;{0} successful pirate raids
+Victory Condition Detail MostFreeTradeTreaties		;{0} Free Trade Treaties
 Victory Condition Detail MostNonAggressionPacts		;{0} Non-Aggression Pacts
 Victory Condition Detail MostDefenseTreaties		;{0} Defense Treaties
 Victory Condition Detail MostResearchTreaties		;{0} Research Treaties
@@ -3324,6 +3395,7 @@ EmpireIncidentFactorType ColonyDestroyed		;Destroyed Colonies
 EmpireIncidentFactorType ColonyInvaded		;Colony Invasions
 EmpireIncidentFactorType DestroyCreature		;Creatures Destroyed
 EmpireIncidentFactorType DestroyPirateShipBase		;Pirate Ships Destroyed
+EmpireIncidentFactorType DestroyShadowport		;Neutral Shadowport Destroyed
 EmpireIncidentFactorType DiplomaticDemands		;Threats and Demands
 EmpireIncidentFactorType EnslavePopulation		;Enslaved Population
 EmpireIncidentFactorType ExterminatePopulation		;Exterminated Population
@@ -3425,6 +3497,7 @@ EmpireIncidentFactorType Full ColonyDestroyed		;We are shocked and outraged at y
 EmpireIncidentFactorType Full ColonyInvaded		;We are angry at your invasions of our colonies
 EmpireIncidentFactorType Full DestroyCreature		;We appreciate your elimination of aggressive space monsters
 EmpireIncidentFactorType Full DestroyPirateShipBase		;We appreciate your elimination of dangerous pirates
+EmpireIncidentFactorType Full DestroyShadowport		;We are shocked at your destruction of a neutral Shadowport
 EmpireIncidentFactorType Full DiplomaticDemands		;You have made insulting demands of us
 EmpireIncidentFactorType Full EnslavePopulation		;We are upset at your brutal enslavement of our race
 EmpireIncidentFactorType Full ExterminatePopulation		;We are shocked and outraged at your genocidal massacre of our race
@@ -3553,7 +3626,7 @@ Auto Save Minutes		;Auto Save Minutes
 
 Exit to Desktop		;Exit to Desktop
 Exit to Main Menu		;Exit to Main Menu
-Settings		;Configurações
+Settings		;Settings
 Game Editor		;Game Editor
 Return to Game		;Return to Game
 Game Menu		;Game Menu
@@ -3631,6 +3704,7 @@ TradeOfferItemType Colonies		;Colonies
 TradeOfferItemType DiplomacyEndWarEmpires		;End War with Empire
 TradeOfferItemType DiplomacyStartWarEmpires		;Declare War against Empire
 TradeOfferItemType EmpireContacts		;Contact another empire
+TradeOfferItemType Privateering		;Privateering against an Empire
 TradeOfferItemType IndependentColonyLocations		;Independent Colony Locations
 TradeOfferItemType Characters		;Characters
 TradeOfferItemType MapGalaxy		;Galaxy Map
@@ -3648,6 +3722,8 @@ TradeOfferItem Description DiplomacyEndWarEmpires		;End War with {0}
 TradeOfferItem Description DiplomacyStartWarEmpires		;Declare War against {0}
 TradeOfferItem Description EmpireContacts		;Contact an unknown empire
 TradeOfferItem Description EmpireContacts Known		;Contact {0}
+TradeOfferItem Description Privateering		;Privateering against an unknown empire
+TradeOfferItem Description Privateering Known		;Privateering against {0}
 TradeOfferItem Description IndependentColonyLocations		;Reveal independent colony
 TradeOfferItem Description IndependentColonyLocations Known		;Reveal {0} ({1} colony)
 TradeOfferItem Description MapGalaxy		;Galaxy Map (all exploration)
@@ -4012,6 +4088,9 @@ Character Mission DefectCharacter		;Character Defection
 Character Mission InfectColonyWithPlague		;Infect Colony with Plague
 Character Mission CreateFalseIncident		;Create False Incident
 Character Mission ControlFactionLeader		;Control Faction Leader
+Character Mission CaptureCharacter		;Capture Character
+Character Mission RescueCharacter		;Rescue Character
+Character Mission StealArtifact		;Steal Artifact
 
 Character Mission Description CounterIntelligence		;Counter Intelligence against foreign agents
 Character Mission Description AssassinateCharacter		;Assassinate {0} {1}
@@ -4033,6 +4112,9 @@ Character Mission Description DefectCharacter		;Persuade {0} {1} to defect
 Character Mission Description InfectColonyWithPlague		;Infect {0} with {1}
 Character Mission Description CreateFalseIncident		;Create a negative incident with {0}, framing {1} for the incident
 Character Mission Description ControlFactionLeader		;Mind control {0}'s leader, making them a vassal
+Character Mission Description CaptureCharacter		;Capture and imprison {0} {1}
+Character Mission Description RescueCharacter		;Rescue {0} {1} from a foreign prison
+Character Mission Description StealArtifact		;Steal the {0}
 
 Character Mission Description AssassinateCharacter Us		;Assassinate our {0} {1}
 Character Mission Description DeepCover Us		;Infiltrate our operations
@@ -4052,6 +4134,9 @@ Character Mission Description DefectCharacter Us		;Persuade {0} {1} to defect fr
 Character Mission Description InfectColonyWithPlague Us		;Infect {0} with {1}
 Character Mission Description CreateFalseIncident Us		;Create a negative incident with us, framing {1} for the incident
 Character Mission Description ControlFactionLeader Us		;Mind control our leader, making us a vassal
+Character Mission Description CaptureCharacter Us		;Capture and imprison {0} {1}
+Character Mission Description RescueCharacter Us		;Rescue {0} {1} from a foreign prison
+Character Mission Description StealArtifact Us		;Steal the {0} from us
 
 Character Mission Outcome Success		;Our agent [CHARACTER]{0}[/CHARACTER] has evaded detection after successfully carrying out their mission to {1}
 Character Mission Outcome Fail		;Our agent [CHARACTER]{0}[/CHARACTER] has evaded detection after failing to {1}
@@ -4084,6 +4169,12 @@ Facility Destroyed Sabotage		;Facility Destroyed
 Facility Destroyed Sabotage Description		;The [LOCATION]{0} at {1}[/LOCATION] has been totally destroyed in an explosion!\n\nWe strongly suspect sabotage by foreign intelligence agents...
 Character Defects Persuaded		;{0} Defects
 Character Defects Persuaded Description		;[CHARACTER]{0} {1}[/CHARACTER] has left our empire and defected to the [FACTION]{2}[/FACTION]!\n\nWe strongly suspect they were influenced by foreign intelligence agents...
+Character Captured Description		;[CHARACTER]{0} {1}[/CHARACTER] has been captured and imprisoned by the [FACTION]{2}[/FACTION]!
+Character Captured		;{0} Captured
+Character Rescued Description		;[CHARACTER]{0} {1}[/CHARACTER] has been rescued from a foreign prison! They have now been safely returned to our empire.
+Character Rescued		;{0} Rescued
+Artifact Stolen Description		;The {0} has been stolen from a foreign empire! It is now safely in our empire's possession.
+Artifact Stolen		;{0} Stolen
 
 Foreign Agent Executed		;They have been executed for their crimes.
 Our Agent Executed		;[CHARACTER]{0}[/CHARACTER] has been executed by the [FACTION]{1}[/FACTION].
@@ -4122,6 +4213,9 @@ Allow Control Faction Leader		;Allow Control Faction Leader
 Allow Defect Character		;Allow Defect Character
 Allow Destroy Facility		;Allow Destroy Facility
 Allow Infect Colony with Plague		;Allow Infect Colony with Plague
+Allow Steal Artifact		;Allow Steal Artifact
+Allow Capture Character		;Allow Capture Character
+Allow Rescue Character		;Allow Rescue Character
 
 Intelligence Missions		;Intelligence Missions
 Characters		;Characters
@@ -4289,6 +4383,7 @@ We propose an immediate end to the war between us		;We propose an immediate end 
 End War with EMPIRE		;End War with {0}
 Propose an immediate end to the war with EMPIRE		;Propose an immediate end to the war with {0}
 EMPIRE offers TREATY		;{0} offers {1}
+EMPIRE offers Privateering		;{0} offers Privateering
 EMPIRE makes the following offer		;[FACTION]{0}[/FACTION] makes the following offer
 Offer TREATY to EMPIRE		;Offer {0} to {1}
 Offer EMPIRE a gift		;Offer {0} a gift
@@ -4369,9 +4464,13 @@ Map Overlay Nebula Boundaries Key Explanation		;Orange = Galactic Storm\nPurple 
 
 We have encountered a new empire		;We have encountered a new empire, the [FACTION]{0}[/FACTION]
 We have encountered a new empire SYSTEM		;We have encountered a new empire in the {0} system, the [FACTION]{1}[/FACTION]
+We have encountered a new Shadowport		;We have encountered a new Shadowport, [FACTION]{0}[/FACTION]
+We have encountered a new Shadowport SYSTEM		;We have encountered a new Shadowport in the {0} system, [FACTION]{1}[/FACTION]
 We have encountered a new pirate faction		;We have encountered a new pirate faction, the [FACTION]{0}[/FACTION]
 We have encountered a new pirate faction SYSTEM		;We have encountered a new pirate faction in the {0} system, the [FACTION]{1}[/FACTION]
 We have encountered a new independent colony		;We have encountered a new independent colony of {0}s at [FACTION]{1}[/FACTION] in the {2} system
+Shadowport Explanation		;Shadowports are neutral bases that provide services to pirates and smugglers. They can sell ships, equipment, resources and information for the right price. They can also refuel and repair ships that do not have a base of their own.\n\nShadowports prefer to remain independent and aloof, with their market open to all friendly visitors. However they will only trade with pirates and smugglers, not standard empires.
+
 very friendly		;very friendly
 friendly		;friendly
 mildly friendly		;mildly friendly
@@ -4476,7 +4575,7 @@ PLANET has the following scenery bonuses		;{0} has the following scenery bonuses
 
 Independent Colonization Minimum Success		;Independent Colonization Minimum Success
 Incoming for repair or retrofit		;Incoming for repair or retrofit
-Corruption Factors Explanation		;Corruption is increased by the following factors:\n- large population size\n- high tax rates (above 20%)\n- recent pirate raids\n- low development level for population size\n- unassimilated populations
+Corruption Factors Explanation		;Corruption is increased by the following factors:[ULI]large population size[/ULI][ULI]high tax rates (above 20%)[/ULI][ULI]recent pirate raids[/ULI][ULI]low development level for population size[/ULI][ULI]unassimilated populations[/ULI][ULI]Pirate influence (including hidden bases)[/ULI]
 Very high corruption reduces our happiness		;Very high corruption reduces our happiness
 High corruption reduces our happiness		;High corruption reduces our happiness
 Corruption reduces our happiness		;Corruption reduces our happiness
@@ -4577,6 +4676,7 @@ Are you sure you want to disband FLEET		;Are you sure you want to disband {0}
 Disband Fleet		;Disband Fleet
 
 We have put you in contact with the EMPIRE		;We have put you in contact with the {0}
+We have agreed to fund Privateering against EMPIRE		;We have agreed to fund Privateering against {0}
 We have added the independent colony COLONY to your map in the SYSTEM system		;We have added the independent colony [FACTION]{0}[/FACTION] to your map in the {1} system
 We have added the RUIN to your map at PLANET in the SYSTEM system		;We have added the [DISCOVERY]{0}[/DISCOVERY] to your map at [LOCATION]{1}[/LOCATION] in the {2} system
 We have added the SPECIALLOCATION to your map at LOCATION in the SYSTEM system		;We have added the [DISCOVERY]{0}[/DISCOVERY] to your map at [LOCATION]{1}[/LOCATION] in the {2} system
@@ -4811,6 +4911,7 @@ Artifact must be at a colony for bonuses to apply		;Artifact must be at a colony
 Artifact must be at your empire's capital for bonuses to apply		;Artifact must be at your empire's capital for bonuses to apply
 
 Artifact Transfer Explanation		;To move an artifact to a nearby ship, base or colony of your empire: first select the current location, then Ctrl-Right-click on the destination to show a popup menu with an 'Immediately move' option.\n\nAlternatively you can transfer to any colony, ship or base in your empire by Ctrl-right-clicking on the distant destination to show a popup menu with a 'Transfer' option.
+Equipment Transfer Explanation		;To move equipment to a nearby ship, base or colony of your empire: first select the current location, then Ctrl-Right-click on the destination to show a popup menu with an 'Immediately move' option.\n\nAlternatively you can transfer to any colony, ship or base in your empire by Ctrl-right-clicking on the distant destination to show a popup menu with a 'Transfer' option.
 Auto-Enabled		;Auto-Enabled
 Add Player Exploration Ship		;Add Player Exploration Ship
 
@@ -4917,8 +5018,13 @@ In exchange for this peace however we demand that you give us the following		;In
 
 Strategy		;Strategy
 Invasion		;Invasion
+Ignore		;Ignore
+Eliminate		;Eliminate
 Independent Colony Strategy Explanation Diplomacy		;When Diplomacy is automated we will befriend this colony through gifts before sending a colony ship to acquire it
 Independent Colony Strategy Explanation Invasion		;When Military Attacks are automated we will send an invasion fleet to take this colony by force
+Independent Colony Strategy Explanation Ignore		;This colony will be ignored. We will not offer gifts or treaties, nor will we attempt to colonize or invade
+Independent Colony Strategy Explanation Eliminate		;This colony will be eliminated. We will bombard the population to extinction
+Independent Colony Strategy Explanation Influence		;Your pirate faction will attempt to influence and control the independent colony by sending ships to the colony, raiding it and building hidden pirate facilities when you are able.
 
 Admirals		;Admirals
 Generals		;Generals
@@ -5051,26 +5157,41 @@ Diplomatic strategy for this empire is automated EXPLANATION		;Diplomatic strate
 
 DiplomaticStrategy Ally		;Ally
 DiplomaticStrategy Befriend		;Befriend
-DiplomaticStrategy Befriend Independent		;Diplomacy leading to peaceful Colonization
 DiplomaticStrategy CloseAlly		;Close Ally
 DiplomaticStrategy Conquer		;Conquer
-DiplomaticStrategy Conquer Independent		;Invasion when able
 DiplomaticStrategy Defend		;Defend
 DiplomaticStrategy Raid		;Raid
 DiplomaticStrategy Neutral		;Neutral
+DiplomaticStrategy Neutral Independent		;Ignore
 DiplomaticStrategy Undermine		;Undermine
+
+DiplomaticStrategy Colonization		;Diplomacy leading to peaceful Colonization
+DiplomaticStrategy Eliminate		;Eliminate
+DiplomaticStrategy Influence		;Influence and Control
+DiplomaticStrategy Invade		;Invasion when able
 
 DiplomaticStrategy Explanation Ally		;Ally strategy means that your empire is more likely to work towards high-level treaties (Military Refuelling, Research, Exploration, Mining Rights). You are also much less likely to undertake any intelligence missions against this empire.
 DiplomaticStrategy Explanation Befriend		;Befriend strategy means that your empire is more likely to work towards mid-level treaties (Migration, Territory Map Sharing, Galaxy Map Sharing). You will also only pursue low-level espionage missions against this empire (stealing map data).
 DiplomaticStrategy Explanation CloseAlly		;Close Ally strategy means that your empire is more likely to work towards very high-level treaties (Defense, Operations Map Sharing, Intelligence Sharing). You are also much less likely to undertake any intelligence missions against this empire.
 DiplomaticStrategy Explanation Conquer		;Conquer strategy means that your empire will prepare for war against this empire, moving your fleets into position for attack. You will also use the full array of espionage and sabotage missions against this empire.
 DiplomaticStrategy Explanation Defend		;Defend strategy means that your empire will prepare defenses against anticipated aggression from this empire, basing defensive fleets at vulnerable targets. You will also undertake a wide array of espionage missions, and possibly also some sabotage missions against this empire.
-DiplomaticStrategy Explanation Raid		;
+DiplomaticStrategy Explanation Raid		;Raid strategy means that your pirate faction will be willing to raid their colonies and bases. You will also attempt to extort non-pirate empires with protection arrangements.
 DiplomaticStrategy Explanation Neutral		;Neutral strategy means that your empire is more likely to work towards trade treaties and Non Aggression Treaties. You will typically be willing to undertake a wide array of espionage missions against this empire, but no sabotage missions.
 DiplomaticStrategy Explanation Undermine		;Undermine strategy means that your empire will undertake a complete array of espionage and sabotage missions against this empire in an effort to secretly undermine them.
 
-DiplomaticStrategy Explanation Befriend Independent		;Your empire will improve relations with the independent colony through gifts and trade treaties until they invite your peaceful colonization.
-DiplomaticStrategy Explanation Conquer Independent		;Your empire will prepare to invade and take the independent colony by force. Note that invading independent colonies incurs a reputation penalty.
+
+DiplomaticStrategy Explanation Befriend Pirate		;Befriend strategy means that your empire is more likely to work towards Military Refuelling treaties. You will also only pursue low-level espionage missions against this empire (stealing map data).
+DiplomaticStrategy Explanation Neutral Pirate		;Neutral strategy means that your empire is more likely to work towards Non Aggression Treaties. You will typically be willing to undertake a wide array of espionage missions against this empire, but no sabotage missions.
+
+
+DiplomaticStrategy Explanation Influence		;Your pirate faction will attempt to influence and control the independent colony by sending ships to the colony, raiding it and building hidden pirate facilities when you are able.
+DiplomaticStrategy Explanation Neutral Pirate Independent		;Your pirate faction will ignore this independent colony. You will not offer gifts or treaties, nor will you attempt to influence it.
+
+
+DiplomaticStrategy Explanation Colonization		;Your empire will improve relations with the independent colony through gifts and trade treaties until they invite your peaceful colonization.
+DiplomaticStrategy Explanation Invade		;Your empire will prepare to invade and take the independent colony by force. Note that invading independent colonies incurs a reputation penalty.
+DiplomaticStrategy Explanation Neutral Independent		;Your empire will ignore this independent colony. You will not offer gifts or treaties, nor will you attempt to colonize or invade
+DiplomaticStrategy Explanation Eliminate		;Your empire will eliminate this colony by bombarding the population to extinction.
 
 Standard Size Lists		;Standard Size Lists
 Smaller Lists		;Smaller Lists
@@ -5293,7 +5414,10 @@ PolicyExplanation AutomationDiplomaticTreaties		;Automate negotiation of diploma
 PolicyExplanation AutomationDiplomaticWar		;Automate negotiation of war and peace with other factions, or control this area manually.
 PolicyExplanation AutomationMilitaryAttacks		;Automate military attacks against enemy targets by your fleets and ships, or control this area manually.
 PolicyExplanation AutomationWarMissions		;Automate assignment of war missions that give bonus rewards during wars, or control this area manually. Note that manual control will turn off War Missions for your empire
-PolicyExplanation AttackOvermatchFactor		;The level of strength overmatch to use when each military ship evaluates attacks against enemy targets. Higher levels means more attacking ships will be assigned to individual targets to ensure success.
+PolicyExplanation AutomationContracts		;Automate acceptance of contracts that give bonus rewards, or control this area manually. Note that manual control will turn off Contract Acceptance for your empire
+PolicyExplanation AutomationContractOffers		;Automate offering of contracts that give bonus rewards, or control this area manually. Note that manual control will turn off Contract Offering for your empire
+PolicyExplanation AutomationPirateInfluence		;Automate establishing pirate influence at targeted colonies, or control this area manually
+PolicyExplanation AttackOvermatchFactor		;The level of strength overmatch to use when each military ship evaluates attacks against enemy targets. Higher levels means more attacking ships will be assigned to individual targets to ensure success.\n\nNote that this is NOT a minimum level for an attack to be assigned, but rather a [B]maximum level to ensure multiple attackers spread themselves across multiple targets more effectively[/B].
 PolicyExplanation CaptureTargetConditionShip		;When enemy ships should be captured instead of destroyed. Note that the attacker must also have Assault Pods to enable capture.
 PolicyExplanation CaptureTargetConditionBase		;When enemy bases should be captured instead of destroyed. Note that the attacker must also have Assault Pods to enable capture.
 PolicyExplanation CaptureEnlistMilitaryShip		;Whether captured military ships should be enlisted into your empire or should instead be scrapped for tech and resources.
@@ -5320,11 +5444,17 @@ PolicyExplanation ColonyTroopGarrisonLevel		;The level of defensive troop garris
 PolicyExplanation AttackTroopLevel		;The level of recruited attack troops. Higher levels means your colonies will recruit more attack troops to invade enemy colonies.
 PolicyExplanation AutomationFleetFormation		;Automate formation of new fleets, or control this area manually.
 PolicyExplanation AutomationFleetTopup		;Automate topup of ships for existing fleets, or control this area manually. When enabled, fleets will build new ships according to the amounts specified in their fleet template.
-PolicyExplanation AutomationFleetPostures		;Automate the selection of home bases, engagement ranges and attack targets for fleets, or control this area manually.
+PolicyExplanation AutomationFleetTemplateMigration		;Automate migration of fleet templates as new military ship hulls are researched, or control this area manually.\n\nWhen enabled, automated fleets will periodically review and upgrade their fleet template to include more ship roles (once these roles/hulls are available through research). This means that fleets will add larger military ships as they become available.\n\nHowever note that this will only happen for fleet templates that allow auto-upgrade. See the Fleet Templates screen to change the auto-upgrade status of each fleet template.
+PolicyExplanation AutomationFleetPostures		;Automate the selection of home bases, engagement ranges and attack targets for Attack fleets (Attack, Raid, Invade), or control this area manually.
+PolicyExplanation AutomationFleetPosturesDefense		;Automate the selection of home bases and engagement ranges for Defense fleets, or control this area manually.
 PolicyExplanation MilitaryShipsNotInFleetRatio		;Specifies the ratio of military ships that should not be allocated to fleets, but should instead operate on their own, performing Escort and Guard missions.\n\nNote that this simply puts a limit on what proportion of your military ships [B]can[/B] be assigned to fleets. It does [B]not[/B] necessarily mean that all other military ships [B]will[/B] be assigned to fleets. So setting this value to zero does not mean that all of your military ships will be assigned to fleets. That depends on how many fleets your empire has, and the composition of those fleets.
 PolicyExplanation AutomationResearch		;Automate the selection of new research projects, or control this area manually.
 PolicyExplanation AutomationResearchCrash		;Automate decisions on when to perform crash research projects, or control this area manually. Crash research spends money to double the research rate for a project, allowing you to acquire new technology sooner.
 PolicyExplanation ResearchMaximumConcurrentProjects		;The maximum number of concurrent projects that can be researched. When this is greater than one, then multiple projects can be researched simultaneously, splitting your research output across these projects. Note that researching multiple concurrent projects also requires multiple research stations.
+
+PolicyExplanation AutomationArtifacts		;Automate the movement of artifacts to their optimal location, or control this area manually.
+PolicyExplanation AutomationEquipment		;Automate the movement of ship equipment to their optimal ship, or control this area manually.
+
 PolicyExplanation AutomationCharacterMissions		;Automate intelligence mission assignment for your spies, or control this area manually. Note that you can also toggle automation of individual characters.
 PolicyExplanation AutomationCharacterLocations		;Automate the movement of your characters to their optimal location, or control this area manually. Note that you can also toggle automation of individual characters.
 PolicyExplanation IntelligenceMissionCounterIntelRatio		;Ratio of your spies that are assigned to counter-intelligence missions, defending against enemy intelligence missions.
@@ -5351,6 +5481,10 @@ PolicyExplanation IntelligenceMissionAllowDestroyFacility		;Allow or disallow De
 PolicyExplanation IntelligenceMissionAllowInfectColonyWithPlague		;Allow or disallow Infect Colony with Plague missions for your spies.
 PolicyExplanation IntelligenceMissionAllowCreateFalseIncident		;Allow or disallow Create False Incident missions for your spies.
 PolicyExplanation IntelligenceMissionAllowControlFactionLeader		;Allow or disallow Control Faction Leader missions for your spies.
+
+PolicyExplanation IntelligenceMissionAllowStealArtifact		;Allow or disallow Steal Artifact missions for your spies.
+PolicyExplanation IntelligenceMissionAllowCaptureCharacter		;Allow or disallow Capture Character missions for your spies.
+PolicyExplanation IntelligenceMissionAllowRescueCharacter		;Allow or disallow Rescue Character missions for your spies.
 
 PolicyExplanation AutomationPreset		;Select a preset configuration of automation settings that suits a particular play style.
 
@@ -5446,24 +5580,24 @@ Apply Tactics Description - Position in Fleet		;Apply these tactical settings to
 Apply Tactics Description - All Ships in Fleet		;Apply these tactical settings to all ships in this Fleet
 Settings applied to X ships		;Settings applied to {0} ships
 Note that manually-controlled fleets will not automatically retreat		;Note that manually-controlled fleets will not automatically retreat. This setting only applies to automated fleets (Attack, Defend, Raid, Invade).
-Note that manually-controlled fleets will not engage outside of their current star system		;Note that manually-controlled fleets will not automatically engage threats outside their current star system.
-Fleets Military Attacks Automation Explanation		;Fleets will not automatically engage threats outside their current star system when Military Attacks are manually-controlled (see Military section in Empire Policy settings). Thus for fleets to automatically respond to threats outside their current star system you should enable Military Attack automation (Fully Automated or Suggest). In addition you should use automated fleets (not Manual fleet role) if you want them to automatically engage threats beyond their current system.
+Note that manually-controlled fleets will not engage outside of their current star system		;Note that by default [HL]Invasion and Manually-controlled fleets[/HL] will only automatically engage [B]nearby[/B] threats (within 5000 units range). However [HL]Invasion fleets[/HL] will [B]invade enemy colonies[/B] within their defined Engagement Range.\n\nYou can increase the maximum engagement range for Manual and Invasion fleets in the Fleets section of the [B]Empire Policy[/B] screen (Maximum Auto-Response Range for Manual Fleets and Maximum Auto-Response Range for Invasion Fleets).
+Fleets Military Attacks Automation Explanation		;No fleet will automatically respond to threats outside their current star system when [B]Military Attacks[/B] are manually-controlled (see Military section in Empire Policy settings). Thus for fleets to automatically engage threats outside their current star system you should enable Military Attack automation (Fully Automated or Suggest). In addition you should use automated fleets (not Invasion or Manual fleet roles) if you want them to automatically engage threats beyond their current system.
 
 EMPIRE reports		;{0} reports
 
-FleetEngagementRange Explanation		;Fleet Engagement Range specifies when a fleet will engage targets.\n\nDo Not Engage: the fleet will never engage enemies\nEngage When Attacked: will engage enemies only when directly attacked by them\nNearby: will engage enemy targets that are nearby\nSame Location: will engage enemy targets that are at the same location (planet and moons)\nSame System: will engage enemy targets that are in the same star system\n50M range: will engage enemy targets that are within 50 million units\n100M range: will engage enemy targets that are within 100 million units\n200M range: will engage enemy targets that are within 200 million units\n300M range: will engage enemy targets that are within 300 million units\n33% of Fuel Range: will engage enemy targets that are within 33% of fleet fuel range\n50% of Fuel Range: will engage enemy targets that are within 50% of fleet fuel range\n\nNote that fleet engagement range overrides the engagement ranges of individual ships in the fleet. When a ship is part of a fleet it uses the fleet engagement range instead of its own engagement range.\n\nManually-controlled fleets will not automatically respond to threats outside their current star system. This is indicated by yellow text for this setting when the fleet is manually-controlled. To enable fleet engagement range beyond the current star system you should use an automated fleet role (Defend, Attack, Raid, Invade).\n\nFleets will also not automatically engage threats outside their current star system when Military Attacks are manually-controlled (see Military section in Empire Policy settings). This is indicated by orange text for this setting when Military Attacks are manually-controlled. Thus for fleets to automatically respond to threats outside their current star system you should enable Military Attack automation (Fully Automated or Suggest). In addition you should use automated fleets (not Manual fleet role) if you want them to automatically engage threats beyond their current system.
+FleetEngagementRange Explanation		;Fleet Engagement Range specifies when a fleet will engage targets.\n\n[ULI][B]Do Not Engage:[/B] the fleet will never engage enemies[/ULI][ULI][B]Engage When Attacked:[/B] will engage enemies only when directly attacked by them[/ULI][ULI][B]Nearby:[/B] will engage enemy targets that are nearby (within 5000 units range)[/ULI][ULI][B]Same Location:[/B] will engage enemy targets that are at the same location (planet and moons)[/ULI][ULI][B]Same System:[/B] will engage enemy targets that are in the same star system[/ULI][ULI][B]50M range:[/B] will engage enemy targets that are within 50 million units[/ULI][ULI][B]100M range:[/B] will engage enemy targets that are within 100 million units[/ULI][ULI][B]200M range:[/B] will engage enemy targets that are within 200 million units[/ULI][ULI][B]300M range:[/B] will engage enemy targets that are within 300 million units[/ULI][ULI][B]33% of Fuel Range:[/B] will engage enemy targets that are within 33% of fleet fuel range[/ULI][ULI][B]50% of Fuel Range:[/B] will engage enemy targets that are within 50% of fleet fuel range[/ULI]\n\nNote that [B]fleet engagement range overrides the engagement ranges of individual ships in the fleet[/B]. When a ship is part of a fleet it uses the fleet engagement range instead of its own engagement range.\n\n[HL]Manually-controlled and Invasion fleets[/HL] will only automatically engage [B]nearby[/B] threats (within 5000 units range). This is indicated by yellow text for this setting.\n\nHowever you can increase the maximum engagement range for Manual and Invasion fleets in the Fleets section of the [B]Empire Policy[/B] screen (Maximum Auto-Response Range for Manual Fleets and Maximum Auto-Response Range for Invasion Fleets).\n\nTo enable automated threat response for more distant targets you should use a different automated fleet role (Defense, Attack, Raid).\n\nNo fleet will automatically engage threats outside their current star system when [B]Military Attacks[/B] are manually-controlled (see Military section in Empire Policy settings). This is indicated by orange text for this setting when Military Attacks are manually-controlled.\n\nThus for fleets to automatically respond to threats outside their current star system you should enable Military Attack automation (Fully Automated or Suggest). In addition you should use automated fleets (not Invasion or Manual fleet roles) if you want them to automatically respond to distant threats.
 FleetFormationCoherence Explanation		;Specfies the proximity of Close Escort and Picket ships to their escorted Core ships in the fleet.
 FleetAllowShipRoleReassignment Explanation		;This determines whether ships can have their 'Role Within Fleet' automatically reassigned or not. This means that whenever a new fleet lead ship is selected (e.g. when a better ship joins fleet or when the old lead ship is lost) then the Core, Close Escort and Picket ships can change.
 FleetRetreatOverwhelmed Explanation		;Determines when the entire fleet will decide to retreat from a battle.
 
 FleetOverrideShipTacticsWithFleet Explanation		;Specifies whether ships in a fleet use their own individual tactics, or instead use a common set of tactical overrides from their fleet.
 
-ShipRoleInFleet Explanation		;Position Within Fleet specifies how the ship operates within a fleet.\n\nCore: Core ships are the most important ships in the fleet, and are escorted by the other fleet ships (Close Escort and Picket). Usually a fleet will have only one or two Core ships\nClose Escort: these ships escort the Core ships in a close defensive perimeter. When there are no enemies present or enemies are on all sides, then they will form a circular defensive perimeter around the Core ships. When enemy forces predominantly come from one direction then they form an arc defensive formation between the Core ships and the enemy ships.\nPicket: these ships escort the Core ships in a more distant defensive perimeter. When there are no enemies present or enemies are on all sides, then they will form a circular defensive perimeter around the Core ships. When enemy forces predominantly come from one direction then they form an arc defensive formation between the Core ships and the enemy ships.
-EngagementRange Explanation		;Engagement Range specifies when a ship will engage enemy targets.\n\nDo Not Engage: the ship will never engage enemies\nEngage When Attacked: will engage enemies only when directly attacked by them\nNearby: will engage enemy targets that are nearby\nSame Location: will engage enemy targets that are at the same location (planet and moons)\nSame System: will engage enemy targets that are in the same star system\n\nNote that when a ship is part of a fleet, then the Fleet Engagement Range overrides the ship engagement range. In other words, when a ship is part of a fleet it uses the fleet engagement range instead of its own.
-AttackRangeWeaker Explanation		;This determines how a ship will engage a target that is weaker than itself, including how it determines the optimal range to use.\n\nEvade: the ship will attempt to remain out of weapons range of the enemy target\nCautious: the ship will select an attack range that inflicts some damage on the enemy while minimizing damage to itself from the enemy\nNeutral: the ship will select an attack range that inflicts the maximum damage on the enemy while avoiding excessive damage to itself from the enemy\nAggressive: the ship will select an attack range that inflicts maximum damage on the enemy with little consideration for enemy damage against itself
-AttackRangeStronger Explanation		;This determines how a ship will engage a target that is stronger than itself, including how it determines the optimal range to use.\n\nEvade: the ship will attempt to remain out of weapons range of the enemy target\nCautious: the ship will select an attack range that inflicts some damage on the enemy while minimizing damage to itself from the enemy\nNeutral: the ship will select an attack range that inflicts the maximum damage on the enemy while avoiding excessive damage to itself from the enemy\nAggressive: the ship will select an attack range that inflicts maximum damage on the enemy with little consideration for enemy damage against itself
-ShipRetreatOptions Explanation		;This specifies when a ship will flee a battle location.\n\nEnemy in same System: will flee at the first sight of an enemy in the same star system\nEnemy at same Location: will flee at the first sight of an enemy in the same location\nEnemy Nearby: will flee when an enemy is nearby at the same location\nWhen Attacked: will flee when directly attacked by an enemy\nShields below 50% or any Armor damage: will flee when shields drop below 50% or any armor has been damaged\nShields below 20% or Armor below 50%: will flee when shields drop below 20% or armor is below 50%\nAny non-defense component damaged: will flee when any non-defense component is damaged, i.e. components other than shields or armor\n20% of non-defense components damaged: will flee when 20% of non-defense components are damaged\n50% of non-defense components damaged: will flee when 50% of non-defense components are damaged\nNever: this ship will never flee battle
-InvasionTactics Explanation		;This determines how a ship will land troops during a colony invasion.\n\nImmediately: the ship will attempt to immediately land troops at the colony\nWhen Clear: the ship will wait until all static defenses at the colony have been cleared before invading. This includes all defending bases in orbit around the colony\nNever: the ship will never invade enemy colonies
+ShipRoleInFleet Explanation		;Position Within Fleet specifies how the ship operates within a fleet.\n[ULI][B]Core:[/B] Core ships are the most important ships in the fleet, and are escorted by the other fleet ships (Close Escort and Picket). Usually a fleet will have only one or two Core ships[/ULI][ULI][B]Close Escort:[/B] these ships escort the Core ships in a close defensive perimeter. When there are no enemies present or enemies are on all sides, then they will form a circular defensive perimeter around the Core ships. When enemy forces predominantly come from one direction then they form an arc defensive formation between the Core ships and the enemy ships.[/ULI][ULI][B]Picket:[/B] these ships escort the Core ships in a more distant defensive perimeter. When there are no enemies present or enemies are on all sides, then they will form a circular defensive perimeter around the Core ships. When enemy forces predominantly come from one direction then they form an arc defensive formation between the Core ships and the enemy ships.[/ULI]
+EngagementRange Explanation		;Engagement Range specifies when a ship will engage enemy targets.\n[ULI][B]Do Not Engage:[/B] the ship will never engage enemies[/ULI][ULI][B]Engage When Attacked:[/B] will engage enemies only when directly attacked by them[/ULI][ULI][B]Nearby:[/B] will engage enemy targets that are nearby[/ULI][ULI][B]Same Location:[/B] will engage enemy targets that are at the same location (planet and moons)[/ULI][ULI][B]Same System:[/B] will engage enemy targets that are in the same star system[/ULI]\n\nNote that when a ship is part of a fleet, then the [B]Fleet Engagement Range overrides the ship engagement range[/B]. In other words, when a ship is part of a fleet it uses the fleet engagement range instead of its own.
+AttackRangeWeaker Explanation		;This determines how a ship will engage a target that is weaker than itself, including how it determines the optimal range to use.\n[ULI][B]Evade:[/B] the ship will attempt to remain out of weapons range of the enemy target[/ULI][ULI][B]Cautious:[/B] the ship will select an attack range that inflicts some damage on the enemy while minimizing damage to itself from the enemy[/ULI][ULI][B]Neutral:[/B] the ship will select an attack range that inflicts the maximum damage on the enemy while avoiding excessive damage to itself from the enemy[/ULI][ULI][B]Aggressive:[/B] the ship will select an attack range that inflicts maximum damage on the enemy with little consideration for enemy damage against itself[/ULI]
+AttackRangeStronger Explanation		;This determines how a ship will engage a target that is stronger than itself, including how it determines the optimal range to use.\n[ULI][B]Evade:[/B] the ship will attempt to remain out of weapons range of the enemy target[/ULI][ULI][B]Cautious:[/B] the ship will select an attack range that inflicts some damage on the enemy while minimizing damage to itself from the enemy[/ULI][ULI][B]Neutral:[/B] the ship will select an attack range that inflicts the maximum damage on the enemy while avoiding excessive damage to itself from the enemy[/ULI][ULI][B]Aggressive:[/B] the ship will select an attack range that inflicts maximum damage on the enemy with little consideration for enemy damage against itself[/ULI]
+ShipRetreatOptions Explanation		;This specifies when a ship will flee a battle location.\n[ULI][B]Enemy in same System:[/B] will flee at the first sight of an enemy in the same star system[/ULI][ULI][B]Enemy at same Location:[/B] will flee at the first sight of an enemy in the same location[/ULI][ULI][B]Enemy Nearby:[/B] will flee when an enemy is nearby at the same location[/ULI][ULI][B]When Attacked:[/B] will flee when directly attacked by an enemy[/ULI][ULI][B]Shields below 50% or any Armor damage:[/B] will flee when shields drop below 50% or any armor has been damaged[/ULI][ULI][B]Shields below 20% or Armor below 50%:[/B] will flee when shields drop below 20% or armor is below 50%[/ULI][ULI][B]Any non-defense component damaged:[/B] will flee when any non-defense component is damaged, i.e. components other than shields or armor[/ULI][ULI][B]20% of non-defense components damaged:[/B] will flee when 20% of non-defense components are damaged[/ULI][ULI][B]50% of non-defense components damaged:[/B] will flee when 50% of non-defense components are damaged[/ULI][ULI][B]Never:[/B] this ship will never flee battle[/ULI]
+InvasionTactics Explanation		;This determines how a ship will land troops during a colony invasion.\n[ULI][B]Immediately:[/B] the ship will attempt to immediately land troops at the colony[/ULI][ULI][B]When Clear:[/B] the ship will wait until all static defenses at the colony have been cleared before invading. This includes all defending bases in orbit around the colony[/ULI][ULI][B]Never:[/B] the ship will never invade enemy colonies[/ULI]
 
 Upon acquiring SHIPNAME in the SYSTEM system we have made the following discovery		;Upon acquiring [LOCATION]{0}[/LOCATION] in the {1} system we have made the following discovery in the cargo hold
 
@@ -5481,7 +5615,7 @@ Research Advances		;Research Advances
 
 Generic Display Adapter Explanation		;Distant Worlds has detected that your PC is using the generic 'Microsoft Basic Render Driver' display adapter. This means that you are likely missing a proper vendor-specific display driver (NVidia, AMD, etc).\n\nWithout a proper display driver Distant Worlds will run poorly, or may not even run at all. You are strongly recommended to install a proper display driver for your PC.
 
-Continue Game		;Continuar Jogo
+Continue Game		;Continue Game
 No saved games are available to continue		;No saved games are available to continue
 Continuing GAME		;Continue savegame '{0}'
 
@@ -5584,7 +5718,7 @@ Switch Empire Explanation		;Switch player to this empire. This allows you to vie
 Enable ;Enable
 Disable ;Disable
 
-Modifications ;Modificações
+Modifications ;Modifications
 ModsListInstruction ;You can organize the order of modifications here, as well as whether or not they are enabled. Changes are saved immediately.\n\nYou can also save a collection of mods as a named profile, which you can then reload using the dropdown list at the right.
 ModNoDescription ;No description provided
 
@@ -5819,6 +5953,8 @@ Settings Explanation NebulaStormSoundEffectsVolume		;Control the volume for nebu
 
 Government Colony Growth Funding Factor Explanation No Benefit		;{0} government completely eliminates the effectiveness of colony growth funding, thus making it pointless to spend money here
 Government Colony Growth Funding Factor Explanation Reduced Benefit		;{0} government reduces the effectiveness of colony growth funding to {1} of normal, thus making it less beneficial to spend money here
+Pirate Colony Growth Funding Factor Explanation No Benefit		;Pirate factions have no need of colony growth funding, thus making it pointless to spend money here
+;Pirate factions have no need of research funding, thus making it pointless to spend money here
 
 Government Colony Growth Funding Factor		;Colony Growth Funding Effectiveness
 Government Colony Growth Funding Factor Explanation		;The effectiveness of Colony Growth Funding can be modified: it can be increased, reduced or even eliminated.\n\nLower Colony Growth Funding Effectiveness can greatly slow population growth in your empire.\n\nWhen this modifier is zero then you should not spend any money on Colony Growth because it has no benefit.
@@ -6091,6 +6227,7 @@ Duration X		;Duration: {0} years
 Duration X-Y		;Duration: {0}-{1} years
 Location only		;Location only
 X is already started here		;{0} is already started here
+Cannot start when X is still active here		;Cannot start when {0} is still active here
 
 We are happy to have many troops to defend us		;We are happy to have many troops to defend us
 We are unhappy at the high troop level		;We are unhappy at the high troop level
@@ -6383,8 +6520,11 @@ AutomationCategory ColonyFacilities_Construction		;Colony Facilities - Construct
 AutomationCategory ColonyFacilities_Research		;Colony Facilities - Research
 AutomationCategory ColonyFacilities_Recreation		;Colony Facilities - Recreation
 
+AutomationCategory ColonyFacilities_Pirate		;Colony Facilities - Pirate Influence
+
 PolicyExplanation AutomationColonyFacilities_Upgrade		;Automate facility upgrading at the colonies in your empire, or control this area manually.
 PolicyExplanation AutomationColonyFacilities_Administrative		;Automate Capital and Administrative facility building at the colonies in your empire, or control this area manually. Note that this category also includes facilities relating to Diplomacy and Intelligence.
+PolicyExplanation AutomationColonyFacilities_Pirate		;Automate Pirate Influence facility building at colonies you want to control, or control this area manually.
 PolicyExplanation AutomationColonyFacilities_CreatureBreeding		;Automate Creature Breeding facility building at the colonies in your empire, or control this area manually.
 PolicyExplanation AutomationColonyFacilities_Terraforming		;Automate Terraforming facility building at the colonies in your empire, or control this area manually.
 PolicyExplanation AutomationColonyFacilities_Troops		;Automate Troop Recruitment facility building at the colonies in your empire, or control this area manually. Note that this category also includes facilities relating to Colony Defense.
@@ -6470,9 +6610,21 @@ Quest GameEventActionType AddBonusWarScore		;War Score
 Quest GameEventActionType VictoryConditionBonus		;Victory Score
 Quest GameEventActionType AddEmpireIncidentFactorGeneral Positive		;Improve Relations with {0}
 Quest GameEventActionType AddEmpireIncidentFactorGeneral Negative		;Harm Relations with {0}
+Quest GameEventActionType AddColonyInfluence		;Influence {0}
 Quest GameEventActionType AdjustWarWeariness Increase		;Increase Enemy War Weariness
 Quest GameEventActionType AdjustWarWeariness Reduce		;Reduce War Weariness
 Quest GameEventActionType AchieveVictoryObjective		;Victory Objective
+Quest GameEventActionType GenerateShipBase		;Give New Ship
+Quest GameEventActionType GenerateBonusAtOrb		;Reveal bonus at colony
+Quest GameEventActionType NavigationalCoordinatesExistingRuins		;Reveal Special Location
+Quest GameEventActionType NavigationalCoordinatesExistingIndependentColony		;Reveal Special Location
+Quest GameEventActionType NavigationalCoordinatesDebrisField		;Reveal Special Location
+Quest GameEventActionType NavigationalCoordinatesExistingAbandonedShip		;Reveal Special Location
+Quest GameEventActionType SetDiplomaticRelationType		;Sign Treaty
+Quest GameEventActionType SetIndependentColonyRelationType		;Sign Treaty
+Quest GameEventActionType GenerateTroops		;Give Troops
+Quest GameEventActionType GenerateCharacter		;Give Character
+Quest GameEventActionType AddCargo		;Give Resources
 
 CATEGORY project		;Random {0} project
 Random Project		;Random Project
@@ -7028,3 +7180,639 @@ ComponentCategory Description PlanetaryDetonator		;Planetary Detonator component
 ComponentCategory PlanetaryDetonator		;Planetary Detonator
 ComponentCategory PlanetaryDetonator Short		;PDT
 Preparing to Detonate		;Preparing to Detonate
+
+Show Advanced Settings		;Show Advanced Settings
+Hide Advanced Settings		;Hide Advanced Settings
+
+Fleet Military Attack Automation Manual		;Fleets will NOT automatically respond to threats outside their current star system.
+Fleet Military Attack Automation Suggest		;Advisors will suggest missions for Fleets within their Engagement Range.
+Fleet Military Attack Automation Automated		;Fleets will automatically assign missions within their Engagement Range.
+
+GameTaskType SetFleetRole With Next		;[B]Fleet Role[/B]\nCurrent: [B]{0}[/B], Next: [B]{1}[/B]
+From existing ships		;From existing ships
+Building new ships COST		;Building new ships for {0} credits
+Remove ships to match template		;Remove ships to match template
+Unaffordable new ships COST		;New ships cannot afford to build ({0} credits)
+No fleet ships will be added or removed		;No fleet ships will be added or removed
+
+Maximum Auto-Response Range for Manual Fleets		;Maximum Auto-Response Range for Manual Fleets
+Maximum Auto-Response Range for Invasion Fleets		;Maximum Auto-Response Range for Invasion Fleets
+PolicyExplanation MaximumEngagementRangeManualFleet		;The maximum range that Manual fleets will auto-respond to threats. This prevents Manual fleets from acting on their own - they must be manually directed by the player.
+PolicyExplanation MaximumEngagementRangeInvadeFleet		;The maximum range that Invasion fleets will auto-respond to threats. This prevents Invasion fleets from losing focus on their primary function of invading enemy colonies, or from attacking threats that they may be less able to handle.
+
+FleetTemplate Allow Upgrade Explanation		;Fleets can auto-upgrade their template as new military ship hulls are researched. This means that fleets using this template can change to a more suitable template that contains the new ship role.\n\nHowever this will only occur when 'Upgrade Fleet Templates' is automated (see Fleets section of Empire Policy screen).\n\n[WARN]To prevent fleets from changing this template set to 'Do Not Upgrade'[/WARN]
+
+Allow Upgrade		;Allow Upgrade
+Do Not Upgrade		;Do Not Upgrade
+Allow Fleet Template Auto-Upgrade		;Allow Fleet Template Auto-Upgrade
+
+Independent colony NAME		;Independent colony {0}
+Our colony NAME		;Our colony {0}
+Pirate faction NAME		;Pirate faction {0}
+A faction within our empire		;A faction within our empire
+NAME, a CATEGORY in the SYSTEM system		;{0}, a {1} in the {2} system
+NAME in the SYSTEM system		;{0} in the {1} system
+ROLE NAME		;{0} {1}
+SHIP was last seen in the SYSTEM system		;{0} was last seen in the {1} system
+
+a NAME		;a {0}
+an NAME		;an {0}
+
+Quest General Title New Mining Station		;Build New Mining Station
+Quest General Title New Spaceport		;Build New Spaceport
+Quest General Title New Resort Base		;Build New Resort Base
+Quest General Title New Research Station		;Build New Research Station
+Quest General Title New Defensive Base		;Build New Defensive Base
+Quest General Title New Monitoring Station		;Build New Monitoring Station
+Quest General Title New Military Ship		;Build New Military Ship
+Quest General Title New Exploration Ship		;Build New Exploration Ships
+Quest General Title New Construction Ships		;Build New Construction Ships
+Quest General Title New Colony		;Establish New Colony
+Quest General Title New Outpost		;Establish New Outpost
+Quest General Title Research		;Research New Tech
+Quest General Title Build Facility		;Build Planetary Facility
+Quest General Title Destroy Creature		;Destroy Dangerous Creature
+Quest General Title Clear Creatures		;Clear Creatures from Location
+Quest General Title Destroy Pirate Ship		;Destroy Pirate Ship
+Quest General Title Destroy Pirate Base		;Destroy Pirate Base
+Quest General Title Garrison Troop Strength		;Garrison Troops At Colony
+Quest General Title Defend Base		;Defend Base
+Quest General Title Defend Colony		;Defend Colony
+Quest General Title Obtain Artifact		;Obtain Artifact
+
+Quest General Description New Mining Station		;{1} asks that we [HL]build a new mining station[/HL] at {3}.\n\n{0} is eager to expand their operations, but are limited by inadequate resource supply.
+Quest General Description New Spaceport		;{1} asks that we [HL]build a new spaceport[/HL] at {3}.\n\n{0} is constrained by low cargo throughput at this location and would benefit from the services supplied by a spaceport here.
+Quest General Description New Resort Base		;{1} asks that we [HL]build a new resort base[/HL] at {3}.\n\n{0} is keen to expand their passenger services to new destinations and considers {2} to be a prime location for tourism.
+Quest General Description New Research Station		;{1} asks that we [HL]build a new research station[/HL] at {3}.\n\n{0} considers {2} to be an excellent location to research new technology breakthroughs.
+Quest General Description New Defensive Base		;Our military commanders ask that we [HL]build a new defensive base[/HL] at {3}.\n\nThey feel that {2} is at risk and requires better defenses.
+Quest General Description New Monitoring Station		;Our military commanders ask that we [HL]build a new monitoring station[/HL] at {3}.\n\nThey think that this {2} is an ideal location to monitor enemy fleet traffic, and would thus give us better visibility of any incoming attacks.
+Quest General Description New Military Ship		;Our military commanders ask that we [HL]build a new {4}[/HL].\n\nThey note that while we have the technology to build a ship of this type, we do not currently have any of these ships. These would be a valuable addition to our military forces.
+Quest General Description New Exploration Ship		;{1} asks that we [HL]build some new exploration ships[/HL].\n\n{0} notes that we do not have enough exploration ships for an empire of our size, and this is hampering our overall expansion.
+Quest General Description New Construction Ships		;{1} asks that we [HL]build some new construction ships[/HL].\n\n{0} notes that we do not have enough construction ships for an empire of our size, and this is hampering our overall expansion.
+Quest General Description New Colony		;Our planners recommend that we [HL]establish a new colony[/HL] at {3}.\n\nThey feel that {2} would make a great location for a new colony.
+Quest General Description New Outpost		;Our planners recommend that we [HL]establish a new outpost[/HL] at {3}.\n\nThey feel that {2} would be a valuable outpost location, gaining a firm foothold in this area.
+Quest General Description Research Mining Exploration		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would greatly boost our supply of raw resources, benefitting our entire empire.
+Quest General Description Research Weapons		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would greatly improve our military strength, benefitting our entire empire.
+Quest General Description Research Assault Troops		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would greatly improve our ground force strength, benefitting our entire empire.
+Quest General Description Research Shields Armor		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would improve our ship defenses, benefitting our entire empire.
+Quest General Description Research Defense Facilities		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would greatly strengthen our colony defenses, benefitting our entire empire.
+Quest General Description Research Military Hulls		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would greatly improve our military capabilities, benefitting our entire empire.
+Quest General Description Research Civilian Hulls		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would greatly improve our logistics and overall economy, thus benefitting our entire empire.
+Quest General Description Research Resort Base		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would greatly improve our tourism sector, benefitting our entire empire.
+Quest General Description Research Monitoring Station		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would vastly improve the visibility of enemy ship movements, benefitting our entire empire.
+Quest General Description Research Cargo Docking		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would accelerate the flow of cargo and passengers, benefitting our entire empire.
+Quest General Description Research Recreation Passengers		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would greatly enhance our tourism sector, benefitting our entire empire.
+Quest General Description Research Labs Medical		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would accelerate our research speed, benefitting our entire empire.
+Quest General Description Research Hyperdrive Fuel		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would increase the speed and range of our ships, benefitting our entire empire.
+Quest General Description Research Reactor		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would improve energy output and fuel usage for all of our ships and bases, benefitting our entire empire.
+Quest General Description Research Colonization		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would open up new colonization targets and improve suitability for our existing colonies, thus benefitting our entire empire.
+Quest General Description Research LRS		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would vastly improve the visibility of enemy ship movements, benefitting our entire empire.
+Quest General Description Research Ion Defense		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would open up previously inaccessible locations for expansion, benefitting our entire empire.
+Quest General Description Research Diplomacy Own Colonies		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would improve assimilation of these populations at our colonies, improving their economies and reducing the garrisons required to prevent unrest.
+Quest General Description Research Diplomacy Independent Colonies		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would improve relations with some independent colonies that could potentially join us.
+Quest General Description Research Plague Cures		;{1} asks that we undertake [HL]research in {4}[/HL].\n\n{0} feels that breakthroughs in this area would provide valuable cures for plagues that are spreading in the galaxy.
+Quest General Description Build Facility Troop Infantry		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} is a good location to recruit new infantry troops for our empire.
+Quest General Description Build Facility Troop Armor		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} is a good location to recruit new armored troops for our empire.
+Quest General Description Build Facility Troop Planetary Defense		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} is a good location to recruit new planetary defense troops for our empire.
+Quest General Description Build Facility Troop Special Forces		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} is a good location to recruit new special forces troops for our empire.
+Quest General Description Build Facility Planetary Shield		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} requires better defenses from potential enemy threats.
+Quest General Description Build Facility Fighter Base		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} requires better defenses from potential enemy threats.
+Quest General Description Build Facility Ion Weapon		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} requires better defenses from potential enemy threats.
+Quest General Description Build Facility Standard Weapon		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} requires better defenses from potential enemy threats.
+Quest General Description Build Facility Admin		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} would benefit from the increased income and reduced corruption that this facility would provide.
+Quest General Description Build Facility Terraforming		;Our military advisors asks that we should [HL]build a new {4}[/HL] at our colony {3}.\n\nThey feel that {2} would benefit from the improved quality and suitability.that this facility would provide.
+
+Quest General Description Destroy Creature Own System		;{1} asks that we [HL]destroy {3}[/HL].\n\n{0} explains that this dangerous creature is a threat to traffic in the system and is disrupting their operations.
+Quest General Description Destroy Creature Independent Colony		;{1} asks that we [HL]destroy {3}[/HL].\n\n{0} explains that this dangerous creature is a threat to traffic in the system and is disrupting their trade.
+Quest General Description Destroy Creature Expansion Location		;{1} asks that we [HL]destroy {3}[/HL].\n\n{0} explains that this dangerous creature is preventing expansion into this system.
+Quest General Description Clear Creatures Own System		;{1} asks that we [HL]clear all creatures[/HL] from {3}.\n\n{0} explains that the creatures at this location are a threat to traffic in the system, and are disrupting their operations.
+Quest General Description Clear Creatures Independent Colony		;{1} asks that we [HL]clear all creatures[/HL] from {3}.\n\n{0} explains that the creatures at this location are a threat to traffic in the system, and are disrupting their trade.
+Quest General Description Clear Creatures Expansion Location		;{1} asks that we [HL]clear all creatures[/HL] from {3}.\n\n{0} explains that the creatures at this location are preventing expansion into this system.
+Quest General Description Destroy Pirate Ship Recent Raid Colony		;{1} asks that we [HL]destroy pirate {3}[/HL] of the {4}.\n\n{0} is terrified by recent pirate raids against them. These attacks must stop!
+Quest General Description Destroy Pirate Ship Own Colony		;{1} asks that we [HL]destroy pirate {3}[/HL] of the {4}.\n\n{0} is concerned by nearby pirates. They want to weaken them before they can do any more damage.
+Quest General Description Destroy Pirate Ship Independent Colony		;{1} asks that we [HL]destroy pirate {3}[/HL] of the {4}.\n\n{0} is concerned by nearby pirates that are disrupting trade in their system. They want to weaken them before they can do any more damage.
+Quest General Description Destroy Pirate Ship Pirate Faction		;{1} asks that we [HL]destroy pirate {3}[/HL] of the {4}.\n\n{0} is concerned by other nearby pirates that are threatening their own operations. They intend to weaken these rivals before they become too strong.
+Quest General Description Destroy Pirate Base Own Colony		;{1} asks that we [HL]destroy {3}[/HL], a base of the {4}.\n\n{0} is concerned by these nearby pirates, and wants to wipe them out before they can do any more damage.
+Quest General Description Destroy Pirate Base Independent Colony		;{1} asks that we [HL]destroy {3}[/HL], a base of the {4}.\n\n{0} is concerned by these nearby pirates, and wants to wipe them out before they can do any more damage.
+Quest General Description Destroy Pirate Base Pirate Faction		;{1} asks that we [HL]destroy {3}[/HL], a base of the {4}.\n\n{0} is concerned by these other nearby pirates that are threatening their own operations. They intend to wipe out these rivals before they become too strong.
+Quest General Description Garrison Troop Strength		;{1} asks that we [HL]garrison {4} units of defensive troop strength[/HL] at {3}.\n\n{0} feels vulnerable to raids and invasion with their current inadequate troop garrison.
+Quest General Description Defend Base		;Our military commanders ask that we [HL]defend {3}[/HL] for {4} years.\n\nThey are concerned that this remote base may come under attack from pirates or other threats.\n\nWe must prevent {2} from being raided, captured or destroyed during that time.
+Quest General Description Defend Colony		;Our military commanders ask that we [HL]defend {3}[/HL] for {4} years.\n\nThey are concerned that this remote colony may come under attack from pirates or other threats.\n\nWe must prevent {2} from being raided, invaded or destroyed during that time.
+
+Quest General Description Obtain Artifact		;{1} asks that we [HL]obtain {3}[/HL], an ancient artifact.\n\n{2} is very precious to {0} due to its important role in their history. They seek its return and thus ask you to find it for them.
+
+Quest Pirate Title Rescue Character		;Rescue Character
+Quest Pirate Description Rescue Character		;Rescue {0} {1}, imprisoned by the {2}
+Quest Pirate Title Destroy Enemy Base		;Destroy Base
+Quest Pirate Description Destroy Enemy Base		;Destroy {0} of the {1}
+Quest Pirate Title Destroy Enemy Character		;Assassinate Character
+Quest Pirate Description Destroy Enemy Character		;Assassinate {0} {1} of the {2}
+Quest Pirate Title Destroy Enemy Facility		;Destroy Facility
+Quest Pirate Description Destroy Enemy Facility		;Destroy {0} at {1} of the {2}
+Quest Pirate Title Defend Colony		;Defend Colony
+Quest Pirate Description Defend Colony		;Defend {0} for {1} years
+Quest Pirate Title Defend Base		;Defend Base
+Quest Pirate Description Defend Base		;Defend {0} for {1} years
+Quest Pirate Title Destroy Pirate Base		;Destroy Pirate Base
+Quest Pirate Description Destroy Pirate Base		;Destroy {0} of the {1}
+Quest Pirate Title Destroy Pirate Ship		;Destroy Pirate Ship
+Quest Pirate Description Destroy Pirate Ship		;Destroy {0} ({1}) of the {2}
+Quest Pirate Title Clear Creatures From Location		;Clear Creatures From Location
+Quest Pirate Description Clear Creatures From Location		;Clear all dangerous creatures from location {0}
+Quest Pirate Title Destroy Creature		;Destroy Creature
+Quest Pirate Description Destroy Creature		;Destroy {0}, last seen at {1}
+Quest Pirate Title Deliver Resources		;Deliver Resources
+Quest Pirate Description Deliver Resources		;Deliver {0} {1} to {2}
+
+Quest Pirate Title Obtain Artifact		;Obtain Artifact
+Quest Pirate Description Obtain Artifact		;Obtain {0}, last seen at {1}
+
+Quest Shadowport Title Destroy Base		;Destroy Base
+Quest Shadowport Description Destroy Base		;Destroy {0} of the {1}
+Quest Shadowport Title Deliver Resources		;Deliver Resources
+Quest Shadowport Description Deliver Resources		;Deliver {0} {1} to {2}
+
+Quest General Reward Description REQUESTER		;{0} offers the following reward for completing this contract:
+
+We are pleased at your completion of our contract		;We are pleased at your completion of our contract
+
+Unknown Independent Colony		;Unknown Independent Colony
+Ancient Debris Field		;Ancient Debris Field
+Abandoned Ship or Base		;Abandoned Ship or Base
+
+Contract Completed		;Contract Completed
+Contract Assigned		;Contract Assigned
+
+GameEventTriggerType DeliverResources		;Deliver Resources
+GameEventTriggerType Destroy		;Destroy
+GameEventTriggerType Assassinate		;Assassinate
+GameEventTriggerType Acquire		;Capture
+GameEventTriggerType Rescue Character		;Rescue
+GameEventTriggerType Steal Artifact		;Steal
+GameEventTriggerType DateReached		;Defend
+GameEventTriggerType DestroyAllHostileCreaturesAtLocation		;Clear Creatures at Location
+GameEventTriggerType ResearchBreakthrough		;Complete Research
+GameEventTriggerType ResearchBreakthroughSteal		;Steal Research
+GameEventTriggerType Build		;Build
+GameEventTriggerType ConquerColony		;Conquer Colony
+GameEventTriggerType DestroyShipRole		;Destroy
+GameEventTriggerType EmpireBuildShipRole		;Build
+GameEventTriggerType EmpireCashflowLevel		;Achieve Empire Cashflow
+GameEventTriggerType EmpirePopulationLevel		;Achieve Empire Population
+GameEventTriggerType EmpireRelationChange		;Sign New Treaty
+GameEventTriggerType EmpireRelationChangeIndependentColony		;Sign New Treaty
+GameEventTriggerType TroopGarrisonStrengthAtColony		;Garrison Defensive Troop Strength
+
+GameEventTriggerType Title DeliverResources		;Deliver Resources
+GameEventTriggerType Title Destroy		;Destroy Target
+GameEventTriggerType Title Acquire		;Capture Target
+GameEventTriggerType Title Assassinate Character		;Assassinate Character
+GameEventTriggerType Title Rescue Character		;Rescue Character
+GameEventTriggerType Title Steal Artifact		;Steal Artifact
+GameEventTriggerType Title DateReached		;Defend Target
+GameEventTriggerType Title DestroyAllHostileCreaturesAtLocation		;Clear Creatures at Location
+GameEventTriggerType Title ResearchBreakthrough		;Complete Research
+GameEventTriggerType Title ResearchBreakthroughSteal		;Steal Research
+GameEventTriggerType Title Build Base		;Build Base
+GameEventTriggerType Title Build Facility		;Build Facility
+GameEventTriggerType Title ConquerColony		;Conquer Colony
+GameEventTriggerType Title DestroyShipRole		;Destroy {0}
+GameEventTriggerType Title EmpireBuildShipRole		;Build {0}
+GameEventTriggerType Title EmpireCashflowLevel		;Achieve Empire Cashflow
+GameEventTriggerType Title EmpirePopulationLevel		;Achieve Empire Population
+GameEventTriggerType Title EmpireRelationChange		;Sign New Treaty
+GameEventTriggerType Title EmpireRelationChangeIndependentColony		;Sign New Treaty
+GameEventTriggerType Title TroopGarrisonStrengthAtColony		;Garrison Defensive Troop Strength
+
+GameTaskType SelectQuestContractType		;Create a new Contract for the selected item. This contract can then be accepted and completed by other factions for the specified payment. For example, create contracts to: destroy the target, defend the target, supply a specific amount of a resource to the location, etc.
+
+Offer Contract		;Offer Contract
+Offer Contract for TARGET		;Offer Contract for {0}
+
+Contract Type		;Contract Type
+Contract Type Explanation		;Select the type of contract for this location.
+Resource Explanation		;Select the resource to supply to this destination
+Amount Explanation		;Specify the amount of the resource to supply
+Offer Amount		;Offer Amount
+Offer Amount Explanation		;Specify the monetary reward for completing the contract
+TRIGGERACTION TARGETNAME		;{0} {1}
+TRIGGERACTION Deliver AMOUNT RESOURCES TARGETNAME		;Deliver {0} {1} to {2}
+TRIGGERACTION Defend TARGETNAME DATE		;Defend {0} until {1}
+TRIGGERACTION Defend TARGETNAME DATEYEARS		;Defend {0} for {1} years
+TRIGGERACTION Research PROJECT		;Complete Research in {0}
+TRIGGERACTION Research Steal PROJECT		;Steal Research in {0}
+TRIGGERACTION Rescue CHARACTER EMPIRE		;Rescue {0} of the {1}
+TRIGGERACTION DestroyShipRole ROLE		;Destroy any {0}
+TRIGGERACTION EmpireBuildShipRole ROLE		;Build a new {0}
+TRIGGERACTION EmpireCashflowLevel MONEY		;Achieve Empire Cashflow of {0}
+TRIGGERACTION EmpirePopulationLevel POPULATION		;Achieve Empire Population of {0}
+TRIGGERACTION EmpireRelationChange TREATY EMPIRE		;Sign {0} with {1}
+TRIGGERACTION EmpireRelationChange TREATY		;Sign {0}
+TRIGGERACTION EmpireRelationChangeIndependentColony TREATY EMPIRE		;Sign {0} with {1}
+TRIGGERACTION EmpireRelationChangeIndependentColony TREATY		;Sign {0}
+TRIGGERACTION TroopGarrisonStrengthAtColony AMOUNT TARGETNAME		;Garrison Defensive Troop Strength of {0} at {1}
+
+CONTRACT for MONEY		;{0} for {1} credits
+Offerer		;Offerer
+Contracts Available		;Contracts Available
+Contracts Accepted		;Contracts Accepted
+Expiry Date		;Expiry Date
+Monetary Reward		;Monetary Reward
+Target Name		;Target Name
+Resource Delivery		;Resource Delivery
+Destroy Target		;Destroy Target
+Capture Target		;Capture Target
+Defend Target		;Defend Target
+
+a tech level X project		;a tech level {0} project
+Offered by EMPIRE		;Offered by {0}
+RESOURCE PRICE		;{0}: {1} credits/unit
+Contract Accepted		;Contract Accepted
+Contract Accepted Explanation EMPIRE CONTRACT		;{0} has accepted our contract to {1}
+Current Bid		;Current Bid
+Current Bid MONEY from EMPIRE		;Current Bid: {0} credits ({1})
+Bidder		;Bidder
+Bid accepted in X seconds		;Bid accepted in {0} seconds
+Click to bid X credits		;Click to bid {0} credits
+Own Offers		;Own Offers
+Your faction already has the maximum number of accepted contracts LIMIT		;Your faction already has the maximum number of accepted contracts ({0})
+
+Planetary facilities are present at the colony		;Planetary facilities are present at the colony
+
+Pirate influence from EMPIRE AMOUNT		;Pirate influence from {0}: {1}
+Other Pirate Factions		;Other Pirate Factions
+Only pirate factions can build this facility		;Only pirate factions can build this facility
+You have insufficient influence at this colony to build this facility		;You have insufficient influence at this colony to build this facility (Your Influence: {0}, Required: {1})
+Influenced Colonies		;Influenced Colonies
+Influence Targets		;Influence Targets
+
+Independent Transition To Empire Title		;New Empire Appears!
+Independent Transition To Empire Explanation		;The independent colony of {2} at {0} in the {1} system has begun expanding out into the stars!\n\nThey have decided that the time has come for them to stake their claim in the galaxy. To that end {0} has established a new {3} government. Their new empire is named {4}.\n\nThey continue to grow and spread, building new ships and bases, and looking for new territory.
+Pirate Influence		;Pirate Influence
+
+PIRATE becomes Hostile		;{0} becomes Hostile
+PIRATE becomes Hostile Explanation		;{0} has become hostile towards us!\n\nWe can no longer expect a peaceful coexistence with them. They may even attack our ships and bases.\n\nThis also means that our ships cannot dock and trade at their bases.
+PIRATE offers us Neutral		;{0} offers to end Hostilities
+
+Privateering Cancelled Title EMPIRE		;{0} cancels Privateering
+Privateering Cancelled Explanation EMPIRE TARGET		;{0} has cancelled their Privateering agreement with us against {1}.\n\n{0} will no longer pay us to destroy or capture targets of the {1}.
+
+Pirate Playstyle Balanced		;Balanced
+Pirate Playstyle Smuggler		;Smuggler
+Pirate Playstyle Raider		;Raider
+Pirate Playstyle Mercenary		;Mercenary
+
+Pirate Playstyle Description Balanced		;
+Pirate Playstyle Description Smuggler		;
+Pirate Playstyle Description Raider		;
+Pirate Playstyle Description Mercenary		;
+
+Playmode Standard Empire		;Standard Empire
+Playmode Pirate Faction		;Pirate Faction
+Playmode Lone Pirate		;Lone Pirate
+Playmode Refugee Fleet		;Refugee Fleet
+
+Playmode Description Standard Empire		;Play as a [HL]Standard Empire[/HL], moving out from your homeworld to establish new colonies.\n\nExplore new star systems to find resources and other valuable locations.\n\nExpand by building new mining stations, research stations and resort bases.\n\nPerform research to unlock new technologies.\n\nBuild up a strong military to deal with threats from other empires and pirates.\n\nUse diplomacy to make friends and deter enemies.\n\nExplore, Expand and Conquer!
+Playmode Description Pirate Faction		;Play as a [HL]Pirate Faction[/HL], operating outside the rules, as a law to yourself.\n\nMighty stellar empires are beginning to expand across the stars, bringing order to a once chaotic galaxy. Can you exploit these empires to your benefit? Can you retain enough influence in the untouched outlands of the galaxy to survive?...\n\nAs a pirate faction you will focus on [HL]influencing colonies[/HL] to establish your own criminal network. Siphon income from these controlled colonies, enriching and strengthening yourself.\n\n[HL]Raid and pillage[/HL] enemy colonies and bases, collecting further income. [HL]Perform contracts[/HL] offered by other factions, earning more money. As you grow, you can also try your hand at [HL]Privateering[/HL].\n\nEventually you may even choose to transition from a pirate faction to become a standard empire, with your own colonies.
+Playmode Description Lone Pirate		;Play as a [HL]Lone Pirate[/HL], with a single ship, travelling the stars\n\nPursue any path you choose:[ULI]Simple [HL]trading[/HL] of in-demand resources across the galaxy[/ULI][ULI]Action-packed [HL]raiding and combat[/HL] to loot and pillage, or to acquire new ships[/ULI][ULI]Stealthily [HL]perform contracts[/HL] on behalf of others, hunting bounties, destroying targets or finding items[/ULI]...or pursue any combination of the above areas as you forge your own path.\n\nYou are a free agent, unencumbered by obligations, responsible only for yourself.\n\nIn time you may choose to grow and become a more established pirate faction, but that is up to you.
+Playmode Description Refugee Fleet		;
+
+Playmode Objectives Standard Empire		;
+Playmode Objectives Pirate Faction		;
+Playmode Objectives Lone Pirate		;
+
+LonePirateStartingShip Smuggler		;Smuggler
+LonePirateStartingShip Miner		;Miner
+LonePirateStartingShip Bounty Hunter		;Bounty Hunter
+
+LonePirateStartingShip Description Smuggler		;
+LonePirateStartingShip Description Miner		;
+LonePirateStartingShip Description Bounty Hunter		;
+
+must have Return of the Shakturi expansion installed		;must have Return of the Shakturi expansion installed
+must have Pirates expansion installed		;must have Pirates expansion installed
+Enabled by a future expansion		;Enabled by a future expansion
+
+Fleet Name		;Fleet Name
+Fleet Flag		;Fleet Flag
+Pirate Starting Location		;Pirate Starting Location
+Starting Ships		;Starting Ships
+Pirate Playstyle Selection Explanation		;Select your preferred pirate playstyle below. Each playstyle has it's own bonuses and different starting ships.
+
+The colony is defended by troops		;The colony is defended by troops
+
+Queue Pirate Influence		;Queue Pirate Influence
+Cancel Queue Pirate Influence		;Cancel Queue Pirate Influence
+
+Influence		;Influence
+Pirate Factions Influencing COLONY		;Pirate Factions Influencing {0}
+
+Pirate Economy		;Pirate Economy
+Cashflow Explanation Pirate		;Cashflow remaining after subtracting all regular expenses
+Bonus Income Explanation Pirate		;This year's bonus income from non-regular sources (e.g. Contracts, Raiding, Privateering, etc)
+Cash Explanation Detailed Pirate		;Cash on hand. This can be spent on new units, building pirate facilities, purchasing resources, or many other things. Cash is increased by ensuring Cashflow is greater than zero, i.e. ensuring that your expenses are less than your income.
+
+Pirate factions cannot change their government		;Pirate factions cannot change their government
+Pirate factions cannot change their government Details		;Pirate factions cannot change their government until they build a Criminal Network wonder on one of the colonies they influence. Once they have built a Criminal Network the option to switch government becomes enabled here.\n\nWhen pirate factions switch government, this will permanently transition them to a standard empire, causing them to renounce their pirate ways and leave behind the pirate gameplay features and playstyle.\n\nAlternatively they can avoid switching government and instead remain as pirates.
+Pirate Change Government Warning Title		;Warning: Permanently Leaving Pirate Gameplay
+Pirate Change Government Warning		;When pirate factions switch government, this will [WARN]permanently transition them to a standard empire[/WARN], causing them to renounce their pirate ways and leave behind the pirate gameplay features and playstyle.\n\nAlternatively they can avoid switching government and instead remain as pirates.
+
+Cannot build facilities at foreign colonies		;Cannot build facilities at foreign colonies
+
+At least one of your hangar components must use an external component bay		;At least one of your hangar components must use an external component bay, otherwise ships and fighters will be unable to enter and exit the hangar
+
+Minimum Attack Level for Ships		;Minimum Attack Level for Ships
+Minimum Defend Level for Ships		;Minimum Defend Level for Ships
+
+PolicyExplanation ShipAttackMinimumLevel		;The minimum ratio of strength required for a ship outside a fleet to attack an enemy target. This evaluation considers all enemy strength at the target location, e.g. all enemy ships at the location or all hostile creatures at the location.\n\nThus the ship will not attack the target unless it can coordinate enough other nearby ships to adequately handle all enemy threats at the target location (i.e. have enough strength to meet this level).\n\nThis setting relates to [B]attacks against target locations where our empire does not have any colonies or bases[/B]. Note that this setting is not used by ships in fleets.
+
+PolicyExplanation ShipDefendMinimumLevel		;The minimum ratio of strength required for a ship outside a fleet to attack an enemy target. This evaluation considers all enemy strength at the target location, e.g. all enemy ships at the location or all hostile creatures at the location.\n\nThus the ship will not attack the target unless it can coordinate enough other nearby ships to adequately handle all enemy threats at the target location (i.e. have enough strength to meet this level).\n\nThis setting relates to [B]attacks against target locations where our empire has colonies or bases that required defending[/B]. Note that this setting is not used by ships in fleets.
+
+Attack all threats		;Attack all threats
+Maximum influence income for this colony		;Maximum influence income for this colony
+Maximum influence income for COLONY		;Maximum influence income for {0}
+
+Contracts		;Contracts
+Available Contracts		;Available Contracts
+Accepted Contracts		;Accepted Contracts
+Contract Offered		;Contract Offered
+Contract Offered to ACTION		;Contract Offered to {0}
+
+Pirate factions cannot create Alliances		;Pirate factions cannot create Alliances
+We are hostile with this faction		;We are hostile with this faction
+
+Buy		;Buy
+Sell		;Sell
+Buy Price		;Buy Price
+Buy Price Explanation		;The per-unit price that this location will buy this resource for
+Sell Price		;Sell Price
+Sell Price Explanation		;The per-unit price that this location will sell this resource for
+
+Shadowport		;Shadowport
+
+ShadowportTheme BountyHunterGuild		;Bounty Hunter
+ShadowportTheme MercenaryGuild		;Mercenary
+ShadowportTheme SmugglerOutpost		;Smuggler
+ShadowportTheme JunkDealer		;Junk Dealer
+ShadowportTheme HuntingGuild		;Hunting
+
+Shadowport TYPE		;{0} Shadowport
+You destroyed SHADOWPORT		;You destroyed {0}!
+
+Weapon Fire Rate		;Weapon Fire Rate
+Equipment		;Equipment
+Equipment & Upgrades		;Equipment & Upgrades
+We have discovered a valuable equipment		;We have discovered the [ARTIFACT]{0}[/ARTIFACT], a valuable piece of equipment. {1}\n\nWe have transferred the {0} to our ship.
+We have discovered a valuable equipment Short		;We have discovered the [ARTIFACT]{0}[/ARTIFACT], a valuable piece of equipment
+Valuable Equipment Discovered		;Valuable Equipment Discovered
+
+Buy Equipment		;Buy Equipment
+Buy Ship		;Buy Ship
+Trade Resources		;Trade Resources
+Undock and Leave		;Undock and Leave
+Refuel for X credits		;Refuel for {0} credits
+Repair for X credits		;Repair for {0} credits
+No fuel required		;No fuel required
+Cannot afford refuelling		;Cannot afford refuelling\n({0} credits)
+No repairs needed		;No repairs needed
+Cannot afford repairs		;Cannot afford repairs
+None available		;None available
+X available		;{0} available
+Must be docked at friendly pirate base or Shadowport		;Must be docked at friendly pirate base or Shadowport
+Must be docked at Shadowport		;Must be docked at Shadowport
+Select Equipment to buy		;Select Equipment to buy
+Buy Equipment Explanation		;Hovering an item of equipment from the lists below will display it's stats. Clicking on an item will select the equipment and show the final values for your ship including any existing equipment. Click the Buy button to purchase the selected equipment.
+Combined Stats Equipment Explanation		;Combined stats for all equipment onboard this ship are displayed below. This also includes any selected item from Equipment Available above. Note that values diminish with each additional item of equipment (50% of previous value).
+Equipment Available		;Equipment Available
+Equipment Onboard		;Equipment Onboard
+Combined Stats		;Combined Stats
+Buy EQUIPMENT for X credits		;Buy {0} for {1} credits
+Cannot afford EQUIPMENT for X credits		;Cannot afford {0} for {1} credits
+Select Equipment to sell		;Select Equipment to sell
+Sell EQUIPMENT for X credits		;Sell {0} for {1} credits
+Docked at X		;Docked at {0}
+
+Buy AMOUNT RESOURCE CREDITS		;Buy {0} {1} for {2} credits
+Sell AMOUNT RESOURCE CREDITS		;Sell {0} {1} for {2} credits
+Price - lowest first		;Price - lowest
+Price - highest first		;Price - highest
+Cargo available at X		;Cargo available at {0}
+Remaining Cargo Space		;Remaining Cargo Space
+No cargo space available		;No cargo space available
+No cargo to sell		;No cargo to sell
+No resources available		;No resources available
+Trade Resources at X		;Trade Resources at {0}
+
+Price is zero when loading cargo from own empire		;Price is zero when loading cargo from own empire
+Price is zero when unloading cargo at own empire		;Price is zero when unloading cargo at own empire
+X years from acceptance		;{0} years from acceptance
+
+Our faction is known as the X		;Our faction is known as the {0}.
+We are GOVERNMENT		;We are {0}.
+We are the RACE		;We are the {0}
+who are typically X		;who are typically {0}
+RACE have natural skills in X		;{0} have natural skills in {1}
+Our leader is NAME		;Our leader is {0}
+Our leader is NAME, skilled in X		;Our leader is {0}, skilled in {1}
+Our home base is X		;Our home base is {0}
+Our home base is X in the Y system		;Our home base is {0} in the {1} system
+Nearby is the PLANETTYPE PLANETMOON NAME		;Nearby is the {0} {1} {2}
+Explore, Expand and Conquer!		;Explore, Expand and Conquer!
+
+Cannot dock here		;Cannot dock here
+Dangerous threats at location		;Dangerous threats at location
+Same System		;Same System
+Move and Dock		;Move and Dock
+Move to TARGET and dock to trade resources		;Move to {0} and dock to trade resources
+No ship selected		;No ship selected
+Already docked at TARGET		;Already docked at {0}
+Already docking at TARGET		;Already docking at {0}
+
+Trading Points		;Trading Points
+Amount available at location		;Amount available at location
+Distance from X		;Distance from {0}
+Amount Abbreviation		;Amt
+Distance Abbreviation		;Dist
+
+Failure Penalty		;Failure Penalty
+We have failed to complete a contract for OFFERER		;We have failed to complete a contract for {0}
+Contract Failed		;Contract Failed
+This failure has cost us the following penalty		;This failure has cost us the following penalty
+You failed to complete our contract!		;You failed to complete our contract!
+
+We have no known sources for this resource		;We have no known sources for this resource
+We currently have indequate amounts of this resource at our Spaceports and Mining stations		;We currently have indequate amounts of this resource at our Spaceports and Mining stations
+We have no military ships that can handle the damaging effects at this location		;We have no military ships that can handle the damaging effects at this location
+We have no freighters that can handle the damaging effects at this location		;We have no freighters that can handle the damaging effects at this location
+We have no individual military ships or fleets that are strong enough to attack this target		;We have no individual military ships or fleets that are strong enough to attack this target
+We have no individual military ship with adequate Boarding strength to capture this target		;We have no individual military ship with adequate Boarding strength to capture this target
+We have no freighters available for this contract		;We have no freighters available for this contract
+We have no military ships available for this contract		;We have no military ships available for this contract
+
+Multiple Spies assigned		;Multiple Spies assigned to fulfill this contract
+Multiple Ships assigned		;Multiple Ships assigned to fulfill this contract
+Multiple Fleets assigned		;Multiple Fleets assigned to fulfill this contract
+X assigned to fulfill this contract		;{0} assigned to fulfill this contract
+X contracts available		;{0} contracts available
+Contracts from X		;Contracts from {0}
+
+Cannot Dock No Military Refuelling		;Military ships cannot dock without a Military Refuelling treaty
+Cannot Dock Not Met		;We have no relations with the target
+Cannot Dock Hostile Target		;We have hostile relations with the target
+Cannot Dock No Docking Bays		;The target has no docking bays
+Cannot Dock Target Destroyed		;The target has been destroyed
+Cannot Dock Abandoned Base		;The base is abandoned
+
+Show resource amounts and prices for X		;Show resource amounts and prices for {0}
+Cannot view resource details for this location		;Cannot view resource details for this location
+
+SHIP guarding LOCATION		;{0} guarding {1}
+Multiple Ships guarding LOCATION		;Multiple Ships guarding {0}
+
+Maximum influence income		;Maximum influence income
+
+Cannot accept contracts where the target is our own empire		;Cannot accept contracts where the target is our own empire
+Cannot bid on contracts where the target is our own empire		;Cannot bid on contracts where the target is our own empire
+
+This target is beyond the fuel range of our freighters		;This target is beyond the fuel range of our freighters
+This target is beyond the fuel range of our military ships		;This target is beyond the fuel range of our military ships
+We have no spies to perform this mission		;We have no spies to perform this mission
+
+Upgrade Ship		;Upgrade Ship
+Upgrade Costs		;Upgrade Costs
+You cannot afford this upgrade		;You cannot afford this upgrade
+Click Pay button above to initiate upgrade		;Click Pay button above to initiate upgrade
+Money Available		;Money Available
+Pay and Upgrade		;Pay and Upgrade
+Pay and Build		;Pay and Build
+Trade Equipment		;Trade Equipment
+
+Ships at X		;Ships at {0}
+Ships for sale at X		;Ships for sale at\n{0}
+Ships for sale at		;Ships for sale at
+Select Empty Ship Hull		;Select Empty Ship Hull
+Select Ship Hull with Components		;Select Ship Hull with Components
+Select Empty Ship Hull X credits		;Select Empty Ship Hull\n({0} credits)
+Select Ship Hull with Components X credits		;Select Ship Hull with Components\n({0} credits)
+Buy Ships		;Buy Ships
+Buy Ships at X		;Buy Ships at {0}
+General Info		;General Info
+You cannot afford this Ship		;You cannot afford this Ship
+Select a Hull from the list at the left		;Select a Hull from the list at the left
+YARD begins building our new ship		;{0} begins building our new ship
+YARD has begun construction on our new ship SHIP		;{0} has begun construction on our new ship {1}.\n\nWe expect to see our completed ship very soon!
+
+X will buy up to Y units		;{0} will buy up to {1} units
+X will buy at least Y units		;{0} will buy at least {1} units
+This location is unwilling to buy any of this resource		;This location is unwilling to buy any of this resource
+Buy Price Explanation More		;The price we pay to buy one unit of this resource, i.e. the price that this location will sell one unit of this resource for.
+Sell Price Explanation More		;The price we earn when selling one unit of this resource, i.e. the price that this location will pay for one unit of this resource.
+
+Pirate Colony Takeover Invasion Title		;Pirates Battle to take over {0}!
+Pirate Colony Takeover Invasion Description		;The {1} have renounced their pirate ways and established a formal government.\n\nUnfortunately for us that means that they want to take over our colony {0}, due to their significant influence there.\n\nA ground battle has broken out at {0} as the {1} attempt to wrest control of the colony from us!
+Pirate Faction Becomes Empire Title		;{0} leaves their Pirate ways
+Pirate Faction Becomes Empire Description		;The {0} have renounced their pirate ways and established a formal government.\n\nThey have acquired {1} colonies through their influence.{2}
+Pirate Faction Becomes Empire Colony Battles Description		; Ground battles rage at {0} colonies as they attempt to wrest control of them from their current owners.
+
+Victory Condition BuildMostPirateFacilities		;Build the most Pirate facilities (Hidden Bases, Hidden Fortresses, Criminal Networks)
+Victory Condition CompletedContracts		;Complete the most Contracts
+Victory Condition CompletedContractsResourceTrading		;Complete the most Resource Trading Contracts
+Victory Condition CompletedContractsDestroyTarget		;Complete the most Destroy Target Contracts
+Victory Condition CompletedContractsDefendTarget		;Complete the most Defend Target Contracts
+Victory Condition TradeMostResources		;Trade the most Resources with other factions
+
+Victory Condition Detail BuildMostPirateFacilities		;{0} Pirate Facilities built
+Victory Condition Detail CompletedContracts		;{0} Contracts completed
+Victory Condition Detail CompletedContractsResourceTrading		;{0} Resource Trading Contracts completed
+Victory Condition Detail CompletedContractsDestroyTarget		;{0} Destroy Target Contracts completed
+Victory Condition Detail CompletedContractsDefendTarget		;{0} Defend Target Contracts completed
+Victory Condition Detail TradeMostResources		;{0} resources traded
+
+Victory Conditions		;Victory Conditions
+
+SHIP guarding or raiding LOCATION		;{0} guarding or raiding {1}
+Multiple Ships guarding or raiding LOCATION		;Multiple Ships guarding or raiding {0}
+
+ARTIFACT has been transferred to REQUESTER		;[B]{0} has been transferred to {1}, completing our contract with them.[/B]
+Amount Delivered		;Amount Delivered
+
+Other Pirate Factions Influencing COLONY		;Other Pirate Factions Influencing {0}
+
+Cannot transition to Refugee Fleet when have more than one colony		;Cannot transition to Refugee Fleet when have more than one colony
+Cannot transition to Refugee Fleet when have inadequate tech Explanation		;Cannot transition to Refugee Fleet when have inadequate tech. Must have a buildable colony ship design with a jump range of 50M or greater.
+
+You will lose your last colony COLONY and transition to a Refugee Fleet Explanation		;This action will cause you to [WARN]lose your last colony {0} and transition to a Refugee Fleet[/WARN].\n\nYou will retain all of your research knowledge, exploration data and diplomatic relations.\n\nBut you will [WARN]lose all of your existing ships, bases and troops[/WARN].\n\nInstead you will command a small Refugee Fleet in search of a new home. Your new lone Colony Ship will have all of the population from {0} onboard, ready to settle a new colony.\n\nAll of your existing characters and artifacts will also be loaded onto your new Refugee Fleet.
+Are you sure you want to abandon COLONY and become a Refugee Fleet		;Are you sure you want to abandon {0} and become a Refugee Fleet
+Become Refugee Fleet		;Become Refugee Fleet
+
+Character Trait Wanderer		;Wanderer
+Character Trait Haggler		;Haggler
+Character Trait Tinkerer		;Tinkerer
+Character Trait Bargainer		;Bargainer
+Character Trait Unnoticed		;Unnoticed
+
+Salvage Kings Title		;Salvage Kings
+Salvage Kings Description		;While salvaging a {0} in the {1} system we have made the following discovery:\n{2}\n\nWhile this is a fine discovery, our salvage team feels sure that there are [HL]even better discoveries[/HL] to be made.\n\nThey recommend that we fully deconstruct the debris in pursuit of [HL]improved benefits[/HL] that are suspected to exist.\n\nNote that doing so will [WARN]forfeit the initial discoveries[/WARN] mentioned above. And we may not even find any improved benefits, in which case we would gain nothing.\n\nWhat should we do? Take these already discovered benefits? Or search harder for better ones? 
+Take the existing discovery		;Take the existing discovery
+Search for better items		;Search for better items
+Salvage Kings Keep Initial Title		;Keep what we've already found
+Salvage Kings Keep Initial Description		;It's a fair choice to keep what we have already found. We'd prefer to avoid risk and uncertainty.\n\nIn the {0} we found the following:\n\n{1}
+Salvage Kings Success Title		;An Even Better Discovery!
+Salvage Kings Success Description		;Our search for further discoveries has been successful!\n\nIn the {0} we have found the following:\n\n{1}
+Salvage Kings Failure Title		;No further benefits found...
+Salvage Kings Failure Description		;Unfortunately our search for improved benefits from the {0} came to nothing - we could not find anything more.\n\nSadly we have also lost the benefits that we initially discovered in this debris.\n\nSalvage is an inexact and uncertain venture...
+
+Independent Colony Cancels Trade Treaty Title		;{0} Cancels Trade Treaty
+Independent Colony Cancels Trade Treaty Description		;[FACTION]{0}[/FACTION] has cancelled their trade treaty with us!\n\nThis is due to the [HL]Penalty Clause[/HL] of their trade treaty with the [FACTION]{1}[/FACTION], which requires them to cancel trade with anyone who declares war against the {1}.\n\nOur war against the {1} has brought unwanted side effects...
+
+Independent Colony Cancels Trade Treaty With Other Title		;{0} Cancels Trade Treaty with {1}
+Independent Colony Cancels Trade Treaty With Other Description		;[FACTION]{0}[/FACTION] has cancelled their trade treaty with the [FACTION]{1}[/FACTION]!\n\nThis is in accord with the [HL]Penalty Clause[/HL] of our trade treaty with {0}, which requires them to cancel trade with anyone who declares war against us.\n\nPenalty Clauses can be so useful!...
+
+Account Confiscation Title		;Account Confiscation
+Account Confiscation Description		;The recent war declaration against us by the [FACTION]{0}[/FACTION] has activated [HL]Account Confiscation[/HL].\n\nThis allows us to take bonus income of {1} of all trade income with the {0} over the previous year!\n\nThis Account Confiscation totalled [GOOD]{2} credits[/GOOD].
+
+Account Confiscation Target Title		;Account Confiscation
+Account Confiscation Target Description		;Our recent war declaration against the [FACTION]{0}[/FACTION] has activated [HL]Account Confiscation[/HL].\n\nThis has allowed the {0} to extort bonus income of {1} of all trade income with us over the previous year! Although the money was stolen from our traders, not us directly, this is still an outrageous abuse!\n\nThis Account Confiscation totalled [BAD]{2} credits[/BAD].
+
+Character Trait HardBargainer		;Hard Bargainer
+Character Trait Xenophile		;Xenophile
+Character Trait MultiDimensional		;Multi-Dimensional
+Character Trait Xenolocutor		;Xenolocutor
+Character Trait Suspicious		;Suspicious
+
+Exploit Trade Loopholes		;Exploit Trade Loopholes
+Exploit Trade Loopholes Explanation		;We may choose to exploit loopholes in our trade treaty to [GOOD]take {0} credits from this faction[/GOOD].\n\nNo doubt they will be quite upset with this action, and will likely [BAD]cancel our trade treaty[/BAD] with them.\n\nThis will also [BAD]harm our reputation[/BAD].
+Exploit Trade Title		;{0} Exploits Trade Loopholes
+Exploit Trade Description		;The [FACTION]{0}[/FACTION] have exploited loopholes in their trade treaty with us to [BAD]steal {1} credits from us![/BAD]\n\nThe {0} claim that this is all perfectly legal and proper, but we certainly do not agree with these thieves!
+We have cancelled our trade treaty with them		;We have cancelled our trade treaty with them
+We do not have a trade treaty with this faction		;We do not have a trade treaty with this faction
+Exploit Trade Initiator Title		;We Have Exploited Trade Loopholes!
+Exploit Trade Initiator Description		;We have exploited the fine print in our trade treaty with the [FACTION]{0}[/FACTION] to [GOOD]extract {1} credits from them![/GOOD]\n\nThe {0} are quite upset with this, but they really should read their trade agreements more carefully.\n\nLoopholes are handy things!
+Exploit Trade Initiator Description Independent		;We have exploited the fine print in our trade treaty with [FACTION]{0}[/FACTION] to [GOOD]extract {1} credits from them![/GOOD]\n\n{0} are quite upset with this, but they really should read their trade agreements more carefully.\n\nLoopholes are handy things!
+
+AUTOMATION CATEGORY is LEVEL		;{0} is set to {1}
+Click to cycle to the next setting		;Click to cycle to the next setting
+View all Automation settings in the Policy screen		;View all Automation settings in the Policy screen
+
+Automation Summary Title		;Review Automation Settings
+Automation Summary Explanation		;Distant Worlds 2 is a complex game with many features. But you can control as much or as little as you like.\n\nYou can [HL]automate any part of the game[/HL] so that you can focus on other parts that you prefer. Many areas also provide [HL]Advisor Suggestions[/HL], giving you recommendations on what to do next in that area.\n\nIt's important that you set Automation in a way that suits your playstyle. You can [HL]review and change your automation settings in the Policy screen (P key)[/HL].\n\nNote that the Policy screen also has many sub-settings to refine how an area will be handled, should you choose to automate it. Reviewing the tooltips on each setting can help you better understand how to make automation work for you.
+
+Your current automation settings are below		;Your current automation settings are shown below:
+
+No threats detected		;No threats detected
+
+Refuel or repair each fleet ship at their nearest location		;Refuel or repair each fleet ship at their nearest location
+Fleet is Dispersed		;Fleet is Dispersed
+Refuelling or Repairing each fleet ship at their nearest location		;Refuelling or Repairing each fleet ship at their nearest location
+
+Fleet Fuel Tanker Explanation Manual		;This Fleet Fuel Tanker is [HL]manually controlled[/HL]. It will [B]move with the fleet[/B].\nYou must manually direct this ship to mine or load fuel.\nYou can also manually refuel fleet ships, either individually or by using the fleet 'Refuel from Fuel Tankers' command
+Fleet Fuel Tanker Explanation Automated		;This Fleet Fuel Tanker is [HL]automated[/HL]. Although assigned to the fleet, it will [B]operate independently to mine or load fuel[/B].\nIt will also automatically refuel the fleet as needed.\nNote that you can also use the fleet 'Refuel from Fuel Tankers' command to initiate fleet refuelling
+
+Galactic Nomads		;Galactic Nomads
+
+Empire-wide		;Empire-wide
+Requires at least AMOUNT RACE		;Requires at least {0} {1} at the colony
+Requires at least AMOUNT		;Requires at least {0} population at the colony
+Requires non-RACE population at the colony		;Requires non-{0} population at the colony
+
+Required by colony Army Template		;Required by colony Army Template

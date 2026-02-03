@@ -13,6 +13,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
 		<Name>The Clever Steward</Name>
 		<Description>An ancient painting (oil on a canvas made from the skin of an executed deserter) that depicts the steward of a primitive Dhayut estate. The steward is surrounded by the tools of his trade, and those familiar with Dhayut iconography are able to see how the various tools form a kind of implicit argument for the best system for managing and exploiting a property. These principles depicted can be expanded and applied on a planetary scale.</Description>
 		<ImageFilename>Artifacts/the clever steward</ImageFilename>
@@ -30,6 +31,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
 		<Name>The Great Deceiver</Name>
 		<Description>A marble statue presenting a diplomat of the early space faring age of the ancient Dhayut. The diplomat stands in a gesture signifying openness and generosity within Dhayut culture. The expression is one of welcome, though many non Dhayut find the face menacing or even terrifying. One of the diplomat’s hands conceals a deadly blade. It is not known if this statue depicts an actual diplomat or merely the diplomatic ideal.</Description>
 		<ImageFilename>Artifacts/the great deceiver</ImageFilename>
@@ -52,6 +54,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
 		<Name>The Threads of Research</Name>
 		<Description>This ancient data crystal is functional despite having been burned, crushed, submerged in sea water, and possibly regurgitated. It contains a scientific manifesto written by an anonymous Dhayut scientist from the ancient galaxy. This scientist spent decades writing down her theories (and also secretly abducting and devouring any of her co-workers whom she viewed as a threat), and while her ideas were ignored in her own time, the revolutionary principles have the potential to supercharge scientific research.</Description>
 		<ImageFilename>Artifacts/the threads of research</ImageFilename>
