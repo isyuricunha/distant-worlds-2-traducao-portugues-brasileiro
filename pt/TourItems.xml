@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ArrayOfTourItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <TourItem>
-    <Title>Basic Tour</Title>
+    <Title>Tour Básico</Title>
     <Steps>
       <TourStep>
         <StepTitle>Introduction</StepTitle>
@@ -339,7 +339,7 @@ Explore, Expand and Conquer!</MarkupText>
   </TourItem>
   
   <TourItem>
-    <Title>Your Empire</Title>
+    <Title>Seu Império</Title>
     <Steps>
       <TourStep>
         <StepTitle>Economy</StepTitle>
@@ -445,7 +445,7 @@ The top section 'Advisors and Automation' summarizes all of the automation setti
   </TourItem>
 
   <TourItem>
-    <Title>Diplomacy</Title>
+    <Title>Diplomacia</Title>
     <Steps>
       <TourStep>
         <StepTitle>Diplomatic Relations</StepTitle>
@@ -640,7 +640,7 @@ You can see the details of each imprisoned enemy character by hovering over the 
   </TourItem>
 
   <TourItem>
-    <Title>Characters</Title>
+    <Title>Personagens</Title>
     <Steps>
       <TourStep>
         <StepTitle>Characters</StepTitle>
@@ -711,7 +711,7 @@ You can see the details of each imprisoned enemy character by hovering over the 
   </TourItem>
 
   <TourItem>
-    <Title>Colonies</Title>
+    <Title>Colônias</Title>
     <Steps>
       <TourStep>
         <StepTitle>Colonies</StepTitle>
@@ -841,7 +841,7 @@ Hovering over an artifact in the list will also show a detailed summary panel at
   </TourItem>
 
   <TourItem>
-    <Title>Exploration</Title>
+    <Title>Exploração</Title>
     <Steps>
       <TourStep>
         <StepTitle>Exploration Ships</StepTitle>
@@ -918,7 +918,7 @@ Hovering over a special location in the list will also show a detailed summary p
   </TourItem>
 
   <TourItem>
-    <Title>Resources and Mining</Title>
+    <Title>Recursos e Mineração</Title>
     <Steps>
       <TourStep>
         <StepTitle>Resources</StepTitle>
@@ -1017,7 +1017,7 @@ Each list item shows the current cargo and mission of the Fuel Tanker.</MarkupTe
   </TourItem>
 
   <TourItem>
-    <Title>Construction</Title>
+    <Title>Construção</Title>
     <Steps>
       <TourStep>
         <StepTitle>Ship Construction</StepTitle>
@@ -1102,7 +1102,7 @@ Left-clicking once on a construction yard badge will queue construction of a sin
   </TourItem>
 
   <TourItem>
-    <Title>Ship Design Screen</Title>
+    <Title>Tela de Design de Naves</Title>
     <Steps>
       <TourStep>
         <StepTitle>Introduction</StepTitle>
@@ -1309,7 +1309,7 @@ Or you can click the Cancel button to return to the main view without saving the
   </TourItem>
 
   <TourItem>
-    <Title>Research</Title>
+    <Title>Pesquisa</Title>
     <Steps>
       <TourStep>
         <StepTitle>Research</StepTitle>
@@ -1416,7 +1416,7 @@ At the very bottom of the detail panel is a list of all the events that the scie
   </TourItem>
 
   <TourItem>
-    <Title>Research Screen</Title>
+    <Title>Tela de Pesquisa</Title>
     <Steps>
       <TourStep>
         <StepTitle>Overview</StepTitle>
@@ -1541,7 +1541,7 @@ At the top is the 'Exit Research' button. Clicking this button will close the Re
   </TourItem>
 
   <TourItem>
-    <Title>Military</Title>
+    <Title>Militar</Title>
     <Steps>
       <TourStep>
         <StepTitle>Military Ships</StepTitle>
@@ -1820,7 +1820,7 @@ If you cannot investigate the location the Queue button will be disabled. A tool
   </TourItem>
 
   <TourItem>
-    <Title>Civilian</Title>
+    <Title>Civil</Title>
     <Steps>
       <TourStep>
         <StepTitle>All Civilian Ships</StepTitle>
