@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Resource>
+		<ResourceId>79</ResourceId>
+		<Name>Cristal de Fenda</Name>
+		<Description>Cristal de Fenda é uma estrutura cristalina orgânica de cor rosa profundo. Ele cresce como parte do exoesqueleto da criatura Andarilho da Fenda. Os Andarilhos da Fenda emergem de rasgos gravitacionais no espaço que são portais para uma misteriosa dimensão psíquica. Acredita-se que o Cristal de Fenda seja formado pela interação de energia psíquica e gravitacional. Os cristais possuem propriedades únicas que podem acelerar o crescimento populacional.</Description>
+		<BaseCost>8</BaseCost>
+		<ImageFilename>Environment/Resources/Rift Crystal</ImageFilename>
+		<Bonuses />
+	</Resource>
+	<Resource>
+		<ResourceId>80</ResourceId>
+		<Name>Plasma Cerebral de Andarilho</Name>
+		<Description>Os Andarilhos da Fenda são criaturas enormes que emergem de rasgos gravitacionais no espaço, portais para uma misteriosa dimensão psíquica. Seu plasma cerebral possui propriedades únicas que o tornam muito eficaz no combate a pragas. Os cérebros dos Andarilhos da Fenda parecem ter poderes psíquicos intensos, com traços residuais disso em seu plasma cerebral mesmo após sua destruição. O Plasma Cerebral de Andarilho tem uma cor rosa brilhante e é levemente luminoso.</Description>
+		<BaseCost>8</BaseCost>
+		<ImageFilename>Environment/Resources/Strider Brain Plasma</ImageFilename>
+		<Bonuses />
+	</Resource>
+</ArrayOfResource>
