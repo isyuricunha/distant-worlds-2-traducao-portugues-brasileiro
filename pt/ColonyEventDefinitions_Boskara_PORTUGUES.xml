@@ -69,7 +69,7 @@
 		<EmpireHaveAnyCharacterAvailableWithTrait>Warspawn</EmpireHaveAnyCharacterAvailableWithTrait>
 		<MinimumPopulationAmount>1000000000</MinimumPopulationAmount>
 		<MinimumPopulationRaceId>6</MinimumPopulationRaceId>
-		<GameEventName>War Spawning (Boskara)</GameEventName>
+		<GameEventName>Geração de Guerra (Boskara)</GameEventName>
 		<EmpireHappiness>0</EmpireHappiness>
 		<DamagePerYear>0</DamagePerYear>
 		<ValuesDecayGradually>false</ValuesDecayGradually>

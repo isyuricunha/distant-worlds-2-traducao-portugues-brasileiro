@@ -39,7 +39,7 @@
 		<Name>Pesquisar os Arquivos</Name>
 		<Description></Description>
 		<ImageFilename>Environment/Events/Zenox Search the Archives</ImageFilename>
-		<GameEventName>Search the Archives (Zenox)</GameEventName>
+		<GameEventName>Pesquisar nos Arquivos (Zenox)</GameEventName>
 		<RaceFilterIds>
 			<unsignedByte>7</unsignedByte>
 		</RaceFilterIds>

@@ -58,7 +58,7 @@ Além disso, nossa colônia [LOCATION]{0}[/LOCATION] receberá um [GOOD]impulso 
 		<EmpireHappiness>10</EmpireHappiness>
 		<DevelopmentChange>0.1</DevelopmentChange>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<GameEventName>Outstanding Bakdur Hunt Spice (Teekan)</GameEventName>
+		<GameEventName>Especiaria Excepcional de Caça Bakdur (Teekan)</GameEventName>
 		<Name>Caçada Excepcional ao Bakdur</Name>
 		<Description>A Grande Caçada ao Bakdur em nossa colônia {0} foi um sucesso espetacular, com uma captura enorme de Bakdur!
 

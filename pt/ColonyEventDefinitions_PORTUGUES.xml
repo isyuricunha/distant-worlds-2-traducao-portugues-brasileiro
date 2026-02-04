@@ -267,7 +267,7 @@ Vítimas infectadas ficam sob uma forma de sugestão psíquica, fazendo com que 
 			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
 		</MustHaveRacesOtherThanRaceIds>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<GameEventName>Start Xenophobic Riots (Haakonish)</GameEventName>
+		<GameEventName>Iniciar Revoltas Xenofóbicas (Haakonish)</GameEventName>
 		<Name>Rebeliões Xenofóbicas</Name>
 		<Description>Rebeliões xenofóbicas contra a população não-haakonish, com os seguintes efeitos:[ULI]Reduz imediatamente as populações não-haakonish na colônia em 25%[/ULI][ULI][GOOD]+10 Felicidade na Colônia[/GOOD] por 5 anos[/ULI][ULI]Prejudica [BAD]significativamente nossa reputação[/BAD][/ULI][ULI]Afeta negativamente a [BAD]migração[/BAD] para a colônia por 10 anos[/ULI]</Description>
 		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
@@ -424,7 +424,7 @@ Assim, pelos próximos dois anos, nosso império desfrutará dos seguintes benef
 			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
 		</RaceFilterIds>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<GameEventName>Start Economic Boost (Haakonish)</GameEventName>
+		<GameEventName>Iniciar Impulso Econômico (Haakonish)</GameEventName>
 		<Name>Impulso Econômico</Name>
 		<Description>Nossos brilhantes magos das finanças descobriram uma maneira de temporariamente aumentar a produção econômica por meio de uma contabilidade criativa!
 
@@ -456,7 +456,7 @@ Iniciar este Impulso Econômico [GOOD]aumentará a renda do império em +10% por
 				<Factor>0.3</Factor>
 			</OrbTypeFactor>
 		</OrbTypeFilters>
-		<GameEventName>Great Bakdur Hunt (Teekan)</GameEventName>
+		<GameEventName>Grande Caçada Bakdur (Teekan)</GameEventName>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Grande Caçada ao Bakdur</Name>
 		<Description>Inicie uma Grande Caçada ao Bakdur em uma colônia do tipo Deserto. O resultado da caçada pode variar, mas sempre trará alguns benefícios: normalmente um bônus de Felicidade em todo o império e um bônus de Desenvolvimento na colônia. Só pode ser iniciada uma vez a cada 5 anos.</Description>
