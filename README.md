@@ -2,9 +2,11 @@
 
 Este repositório contém arquivos traduzidos para **Português do Brasil (PT-BR)**.
 
-A instalação é feita **substituindo arquivos** dentro da pasta do jogo:
+A instalação é feita como **mod**, sem substituir os arquivos originais do jogo.
 
-`Distant Worlds 2\data`
+O mod deve ficar nesta pasta:
+
+`Distant Worlds 2\mods\pt`
 
 Você não precisa instalar programas extras. Basta copiar os arquivos corretamente.
 
@@ -13,28 +15,26 @@ Você não precisa instalar programas extras. Basta copiar os arquivos corretame
 ## Antes de começar (importante)
 
 - **Feche o jogo** antes de mexer nos arquivos.
-- Se você já tinha outra tradução instalada, é recomendado **remover a tradução antiga antes** (veja a seção **Remover / voltar ao original**).
-- Faça um **backup** para poder voltar ao original se quiser.
+- Se você já tinha outra tradução instalada, é recomendado **remover a tradução antiga antes** (veja a seção **Remover**).
 
-### Como fazer backup
+### Sobre os arquivos da tradução
 
-1. Abra a pasta `Distant Worlds 2\data` (instruções abaixo).
-2. Crie uma pasta chamada, por exemplo: `Backup_Original`.
-3. Copie para esse backup os arquivos que você vai substituir.
-   - Dica: você pode copiar a pasta `data` inteira, se tiver espaço.
+Os arquivos traduzidos terminam com **`_PORTUGUES`** no nome (por exemplo, `GameText_PORTUGUES.txt`).
+
+Isso é proposital: assim a tradução fica separada dos arquivos originais.
 
 ---
 
 ## Onde fica a pasta do jogo (exemplos)
 
-Você precisa encontrar a pasta do jogo e abrir **a pasta `data`**.
+Você precisa encontrar a pasta do jogo e abrir **a pasta `mods`**.
 
 ### Steam
 
-Caminhos comuns:
+Pasta de mods (caminhos comuns):
 
-- `C:\Program Files (x86)\Steam\steamapps\common\Distant Worlds 2\data`
-- `D:\SteamLibrary\steamapps\common\Distant Worlds 2\data`
+- `C:\Program Files (x86)\Steam\steamapps\common\Distant Worlds 2\mods`
+- `D:\SteamLibrary\steamapps\common\Distant Worlds 2\mods`
 
 Dica (Steam):
 
@@ -42,27 +42,27 @@ Dica (Steam):
 2. Vá em **Biblioteca**.
 3. Clique com o botão direito em **Distant Worlds 2**.
 4. **Gerenciar** -> **Explorar arquivos locais**.
-5. Abra a pasta `data`.
+5. Abra a pasta `mods`.
 
 ### GOG
 
-Caminhos comuns:
+Pasta de mods (caminhos comuns):
 
-- `C:\GOG Games\Distant Worlds 2\data`
-- `C:\Program Files (x86)\GOG Galaxy\Games\Distant Worlds 2\data`
+- `C:\GOG Games\Distant Worlds 2\mods`
+- `C:\Program Files (x86)\GOG Galaxy\Games\Distant Worlds 2\mods`
 
 ### Epic Games
 
-Caminhos comuns:
+Pasta de mods (caminhos comuns):
 
-- `C:\Program Files\Epic Games\DistantWorlds2\data`
-- `D:\Epic Games\DistantWorlds2\data`
+- `C:\Program Files\Epic Games\DistantWorlds2\mods`
+- `D:\Epic Games\DistantWorlds2\mods`
 
 ### Instalação manual / “portable” / outros
 
 Exemplo comum:
 
-- `C:\Games\Distant Worlds 2\data`
+- `C:\Games\Distant Worlds 2\mods`
 
 ---
 
@@ -70,7 +70,7 @@ Exemplo comum:
 
 ### O que você deve copiar
 
-Você deve copiar **apenas os arquivos traduzidos** para dentro de `Distant Worlds 2\data`.
+Você deve copiar **a pasta inteira `pt`** para dentro de `Distant Worlds 2\mods`.
 
 Neste repositório, os arquivos traduzidos ficam na pasta:
 
@@ -86,20 +86,17 @@ Se você estiver usando um `.zip` ou `.7z`, primeiro **extraia** o conteúdo.
 ### Passo a passo (recomendado)
 
 1. Abra a pasta `pt\` (ou extraia o pacote e abra a pasta extraída).
-2. **Selecione todos os arquivos** dentro dessa pasta.
-3. Copie (`Ctrl+C`).
-4. Abra a pasta do jogo: `Distant Worlds 2\data`.
-5. Cole (`Ctrl+V`).
-6. Quando o Windows perguntar para **substituir arquivos**, escolha:
-   - **Substituir os arquivos no destino**
+2. Copie a pasta `pt`.
+3. Abra a pasta do jogo: `Distant Worlds 2\mods`.
+4. Cole a pasta `pt` ali dentro.
+5. O resultado final deve ficar assim:
+   - `...\Distant Worlds 2\mods\pt`
 
 Importante:
 
-- O correto é que os arquivos fiquem **direto dentro de `data`**, por exemplo:
-  - `...\Distant Worlds 2\data\GameText.txt`
-  - `...\Distant Worlds 2\data\GameEvents.xml`
+- Dentro de `...\mods\pt` você deve ver os arquivos com `*_PORTUGUES` e também subpastas (por exemplo `dialog`, `Galactopedia`, `policy`).
 - Não é para ficar assim:
-  - `...\Distant Worlds 2\data\pt\GameText.txt`
+  - `...\Distant Worlds 2\mods\pt\pt\...`
 
 ---
 
@@ -108,41 +105,27 @@ Importante:
 - Abra o jogo e verifique se os textos principais (menus, descrições, eventos, etc.) aparecem em **Português**.
 - Se o jogo continuar em Inglês, normalmente é um destes motivos:
   - Você copiou os arquivos para a pasta errada.
-  - Os arquivos ficaram dentro de uma subpasta (por exemplo, `data\pt\`).
-  - O Windows não substituiu os arquivos (faltou aceitar a substituição).
+  - A pasta ficou dentro de outra pasta (por exemplo, `mods\pt\pt\`).
+  - A pasta `mods` não existe no seu jogo e precisa ser criada.
 
 ---
 
 ## Atualizar a tradução
 
-1. (Recomendado) Faça backup dos arquivos atuais.
-2. Copie a versão nova por cima, do mesmo jeito (colando em `Distant Worlds 2\data` e aceitando substituir).
+1. Apague (ou renomeie) a pasta antiga: `...\Distant Worlds 2\mods\pt`
+2. Copie a pasta `pt` nova para `...\Distant Worlds 2\mods\`
 
 ---
 
-## Remover / voltar ao original
+## Remover
 
-Você tem algumas opções.
+Para remover a tradução, basta apagar a pasta:
 
-### Opção A: Restaurar seu backup
-
-- Copie de volta os arquivos que você salvou no `Backup_Original` para `Distant Worlds 2\data`.
-
-### Opção B: Verificar / reparar arquivos do jogo
-
-Isso costuma restaurar automaticamente os arquivos originais.
-
-- Steam: **Propriedades** -> **Arquivos instalados** -> **Verificar integridade dos arquivos do jogo**
-- GOG Galaxy: opção de **Repair/Verify** (verificar/reparar) na tela do jogo
-- Epic Games: opção **Verify** (verificar) na biblioteca
-
-### Opção C: Reinstalar
-
-Se nada funcionar, reinstalar o jogo também volta ao original.
+- `...\Distant Worlds 2\mods\pt`
 
 ---
 
 ## Observações
 
-- Esta tradução funciona por **substituição de arquivos** na pasta `data`.
+- Esta tradução funciona como **mod** e não substitui os arquivos originais.
 - Se o jogo atualizar, pode ser necessário **instalar a tradução novamente**.
