@@ -1,0 +1,57 @@
+Personagens são as pessoas na galáxia que governam impérios, conduzem diplomacia, comandam frotas, lideram tropas em batalha, realizam pesquisas científicas, projetam novas tecnologias e executam missões de espionagem.
+
+Cada personagem possui habilidades e traços que determinam seus pontos fortes e fracos. Por meio de suas experiências e ações, os personagens podem adquirir novas habilidades e traços (tanto positivos quanto negativos), além de aumentar o nível de suas habilidades.
+
+Alguns personagens têm inicialmente seus traços e níveis de habilidade ocultos. Eles não serão revelados até que sejam realmente designados para uma missão ou outra responsabilidade que utilize essas habilidades. Esses personagens são considerados "Não Testados".
+
+As habilidades dos personagens fornecem bônus específicos de acordo com o papel do personagem. Alguns exemplos:
+[ULI]O Líder do seu império fornece bônus para todo o império[/ULI]
+[ULI]Embaixadores fornecem bônus para as relações diplomáticas com o império estrangeiro onde atuam como embaixadores[/ULI]
+[ULI]Almirantes de Frota fornecem bônus para todas as naves em sua frota[/ULI]
+[ULI]Generais de Tropas fornecem bônus para as tropas que lideram em batalha em uma colônia[/ULI]
+[ULI]Cientistas fornecem bônus para a estação de pesquisa onde estão[/ULI]
+[ULI]Espiões utilizam suas várias habilidades relacionadas à espionagem para realizar diferentes tipos de missões de inteligência[/ULI]
+
+[H3]Como as habilidades dos personagens se aplicam a um Local[/H3]
+Como descrito acima, alguns personagens fornecem bônus ao seu local atual, por exemplo, almirantes fornecem bônus para naves em sua frota, cientistas fornecem bônus de pesquisa para sua estação de pesquisa.
+
+Quando há vários personagens no mesmo local (colônia, nave, base ou frota), suas habilidades não se acumulam de forma linear. Em vez disso, personagens subsequentes aplicam suas habilidades de maneira decrescente.
+
+Assim, a melhor habilidade de personagem para uma área se aplica a 100% de seu valor, mas o próximo personagem mais forte para essa habilidade aplica apenas 50% de seu nível de habilidade naquela área. O terceiro personagem mais forte aplica apenas 25% de seu nível de habilidade naquela área. Cada personagem subsequente no local reduz pela metade a quantidade de sua habilidade que é adicionada ao total para aquela área de habilidade.
+
+Isso significa que muitas vezes é melhor distribuir os personagens por vários locais em vez de concentrá-los em um único local, por exemplo, ter almirantes e generais em várias frotas, cientistas em várias estações de pesquisa, etc.
+
+[H2]Tipos de Personagens[/H2]
+[H3]Líderes[/H3]
+Seu império sempre tem um líder. As habilidades e traços do seu líder afetam todo o império.
+
+Diferentes tipos de governo têm formas distintas de substituir líderes. Governos eleitos geralmente realizam eleições e substituem líderes de forma pacífica. Governos não eleitos substituem líderes com menos frequência, mas quando a mudança acontece, pode ser bastante disruptiva.
+
+Os bônus gerados pelos Líderes se aplicam a todo o império. Líderes são designados ao seu Mundo Natal e são muito menos eficazes se não estiverem estacionados na capital.
+
+Facções piratas têm Líderes Piratas especiais. Esses personagens combinam as habilidades e traços de Líderes e Almirantes de Frota. Alguns Líderes Piratas serão melhores em liderança, enquanto outros podem ser melhores como almirantes. Líderes Piratas geralmente são baseados na base pirata da facção.
+
+[H3]Embaixadores[/H3]
+Embaixadores são Diplomatas habilidosos que podem ajudar a manter seus inimigos calmos e desenvolver amizades em aliados plenos.
+
+Para influenciar uma facção alienígena com um Embaixador, você deve descobrir o mundo natal dessa facção e então designar o Embaixador para aquele local.
+
+[H3]Cientistas[/H3]
+Esses personagens podem aumentar a produção de Pesquisa em um único Espaçoporto ou Estação de Pesquisa. Designe-os a um Espaçoporto ou Estação de Pesquisa para ver seus efeitos.
+
+[H3]Almirantes de Frota[/H3]
+Esses personagens afetam todas as naves de uma única frota. Designe-os a uma Frota para ver seus efeitos.
+
+[H3]Generais de Tropas[/H3]
+Esses personagens afetam todas as tropas em uma colônia ou carregadas em uma frota. Designe-os a uma Frota ou a uma colônia para ver seus efeitos.
+
+[H3]Espiões[/H3]
+Esses personagens têm uma variedade de missões especiais. Por padrão, eles são designados para Contra-Inteligência, o que ajuda a proteger seu império contra missões de espionagem inimigas. Veja o tópico 'Missões de Inteligência' para mais informações.
+
+[H3]Sobrevivência dos Personagens[/H3]
+Personagens podem se aposentar ou perecer devido a diversas causas. Mantenha seus personagens mais valiosos em segurança, garantindo que eles e os locais onde estão designados estejam protegidos de danos.
+
+Personagens também podem ser demitidos usando o botão Demitir na Tela de Personagens, mas pode levar algum tempo até que outro personagem do mesmo tipo seja gerado. Na maioria dos casos, vale a pena tentar desenvolver os personagens em vez de demiti-los e esperar que um mais excepcional apareça.
+
+[H3]Geração de Novos Personagens[/H3]
+As ações do jogador influenciam o tipo de novos personagens que têm maior probabilidade de serem gerados. Iniciar uma grande expansão de naves militares provavelmente gerará um novo Almirante. Da mesma forma, convencer facções alienígenas a assinar novos tratados pode gerar um Embaixador, e um avanço crítico em Pesquisa pode revelar um novo Cientista.
