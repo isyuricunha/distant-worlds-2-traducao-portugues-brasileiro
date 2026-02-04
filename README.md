@@ -19,9 +19,14 @@ Você não precisa instalar programas extras. Basta copiar os arquivos corretame
 
 ### Sobre os arquivos da tradução
 
-Os arquivos traduzidos terminam com **`_PORTUGUES`** no nome (por exemplo, `GameText_PORTUGUES.txt`).
+Em geral, os arquivos traduzidos terminam com **`_PORTUGUES`** no nome (por exemplo, `TourItems_PORTUGUES.xml`).
 
-Isso é proposital: assim a tradução fica separada dos arquivos originais.
+Existem algumas exceções que **mantêm o nome original**:
+
+- Pastas `dialog`, `Galactopedia` e `policy` (mantêm a mesma estrutura e nomes de arquivos)
+- Alguns arquivos principais (por exemplo `GameText.txt`, `ShipHulls.xml`, `Races.xml`, `Governments.xml`, `Hints.txt`, `FixedStructureDefinitions.xml`)
+
+Isso é normal nesta tradução. O importante é que tudo fique dentro de `...\mods\pt`.
 
 ---
 
