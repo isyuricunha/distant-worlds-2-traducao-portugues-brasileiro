@@ -1,0 +1,71 @@
+
+GREETING_INTRODUCTION			;Seja bem-vindo, visitante!\n\nSomos os orgulhosos e sensatos Kiadianos de {0}.\n\nHá algo que possamos fazer por você?
+GREETING_FRIENDLY			;A que devemos o prazer de sua companhia, amigo?
+GREETING_NEUTRAL			;Sobre o que devemos conversar?
+GREETING_ANGRY				;Explique sua presença diante de nós
+
+OFFER_FREETRADE				;Seria uma honra se você aceitasse firmar um Acordo de Livre Comércio conosco.\n\nO que acha?
+FREETRADE_ACCEPT			;Sua oferta de um Acordo de Livre Comércio faz todo o sentido. Nós aceitamos
+FREETRADE_REJECT			;Lamentamos, mas não podemos nos comprometer com um Acordo de Livre Comércio neste momento
+
+CANCELTREATY				;Após muita deliberação cuidadosa, decidimos que não podemos mais manter nosso {0} com você.\n\nEste tratado está cancelado
+CANCELTREATY_RESPONSE_FRIENDLY		;Estamos surpresos e um tanto preocupados com seu cancelamento irracional deste tratado.\n\nMas essa é sua escolha
+CANCELTREATY_RESPONSE_NEUTRAL		;Achamos sua falta de comprometimento perturbadora...
+CANCELTREATY_RESPONSE_ANGRY		;O cancelamento deste tratado é mais sua perda do que nossa...
+
+TREATY_PROPOSAL				;O que exatamente você está propondo?
+TREATY_ACCEPTRESPONSE			;Sentimo-nos honrados com sua aceitação.\n\nQue este acordo seja forte e lucrativo!
+TREATY_REJECTRESPONSE			;Que decepção...
+
+TRADESANCTIONS_IMPOSE			;Você não nos deixa escolha senão impor Sanções Comerciais contra você.\n\nEsperamos que aprenda a ser razoável, mas até lá, todo o comércio entre nossos impérios está encerrado
+TRADESANCTIONS_IMPOSE_RESPONSE_ANGRY	;Nossas suspeitas foram confirmadas: vocês agem sem honra
+TRADESANCTIONS_IMPOSE_RESPONSE_NEUTRAL	;Vocês deveriam tomar cuidado para não assumirem mais do que podem lidar...
+TRADESANCTIONS_IMPOSE_RESPONSE_SURPRISED	;Estamos profundamente consternados com sua traição!
+
+Tem certeza disso?
+TRADESANCTIONS_LIFT			;Nossas Sanções Comerciais contra vocês foram suspensas.
+
+O comércio normal será retomado entre nós
+TRADESANCTIONS_LIFT_RESPONSE		;Acolhemos com satisfação o retorno ao comércio livre e aberto com vocês
+
+WAR_DECLARE				;Não podemos mais tolerar sua cruel tirania. Declaramos formalmente GUERRA ao seu império maligno.
+
+Vamos acabar com sua opressão criminosa!
+WAR_DECLARE_RESPONSE_EAGER		;Vocês acenderam o fogo, mas são VOCÊS que serão consumidos por ele!
+WAR_DECLARE_RESPONSE_NEUTRAL		;Sua arrogância não tem fundamento – isso não terminará bem para vocês
+WAR_DECLARE_RESPONSE_SURPRISED		;Estamos chocados com sua traição desonrosa!
+
+Nunca esqueceremos essa perfídia!
+
+WAR_END					;Esta guerra continua sem fim.
+
+Um cessar-fogo é necessário, não concordam?
+WAR_END_ACCEPT				;Concordamos com um cessar-fogo. Nossas forças estão recuando imediatamente
+WAR_END_REJECT				;Não, esta guerra continuará
+
+GIFT_GIVE				;Enviamos a vocês um presente de {0} créditos.
+
+Que isso ajude a fomentar boas relações entre nossos dois grandes impérios
+GIFT_THANKS				;Agradecemos pelo presente. Foi um gesto gentil
+
+WARNING						;Um aviso para nós? Do que se trata?
+WARNING_INTELLIGENCEMISSIONS			;Estamos cientes de suas missões secretas contra nós. Cessem-nas imediatamente ou enfrentem as consequências!
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;Missões secretas contra nossos aliados? Isso seria muito improvável.
+
+No entanto, investigaremos suas alegações.
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Agradecemos pelo aviso.
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;Missões secretas contra vocês?
+
+Por que faríamos algo assim?
+
+Talvez devessem refletir sobre a resposta para essa pergunta...
+WARNING_ATTACKS					;Seus ataques militares ultrajantes contra nós devem cessar imediatamente!
+
+Estejam cientes de que defenderemos nosso território com força letal!
+WARNING_ATTACKS_RESPONSE_FRIENDLY		;Essa notícia é profundamente preocupante! Por favor, aceitem nossas sinceras desculpas.
+
+Asseguramos que lidaremos com os comandantes militares renegados envolvidos nesses atos desprezíveis.
+WARNING_ATTACKS_RESPONSE_NEUTRAL		;Investigaremos este assunto e agiremos de forma apropriada.
+WARNING_ATTACKS_RESPONSE_ANGRY			;Com as forças de nossos dois impérios tão próximas, acidentes às vezes acontecem.
+
+Por isso, sugerimos que retirem suas forças.
