@@ -107,11 +107,11 @@ Importante:
 
 ## Como confirmar que deu certo
 
-- Abra o jogo e verifique se os textos principais (menus, descrições, eventos, etc.) aparecem em **Português**.
-- Se o jogo continuar em Inglês, normalmente é um destes motivos:
-  - Você copiou os arquivos para a pasta errada.
-  - A pasta ficou dentro de outra pasta (por exemplo, `mods\pt\pt\`).
-  - A pasta `mods` não existe no seu jogo e precisa ser criada.
+- Abra o jogo e clique em "modifications".
+- Ative o mod da tradução.
+- Salve as configurações.
+- Feche o jogo completamente.
+- Abra o jogo novamente e verifique se os textos aparecem em **Português**.
 
 ---
 
