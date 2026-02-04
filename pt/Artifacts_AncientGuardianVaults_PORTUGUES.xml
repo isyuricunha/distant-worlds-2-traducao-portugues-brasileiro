@@ -18,6 +18,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>2</RaceId>
 		<Name>Prioridades de Governança</Name>
 		<Description>No século IX, segundo o antigo calendário Teekan, o vasto Conglomerado Teekan começou a enfrentar um declínio econômico sem precedentes. Suas redes comerciais permaneciam robustas, mas a alta inflação, o desemprego e a redução dos rendimentos criaram uma situação política instável para o Conselho de Diretores governante.
 	
@@ -44,6 +45,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
 		<Name>Tratamento de Fertilidade Zenox</Name>
 		<Description>A Erradicação, como o vírus mais tarde passou a ser chamado, se espalhou por anos antes de ser detectado. A doença se adaptava ao código genético de toda forma de vida que encontrava, independentemente da espécie. Somente quando os demógrafos começaram a notar um declínio populacional em toda a galáxia – não apenas em espécies sencientes, mas também em animais e algumas plantas – é que a busca por um vírus transespécies teve início.
 
@@ -72,6 +74,7 @@ Os Guardiões Ancestrais conseguiram obter uma amostra desse notável soro em tr
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
 		<Name>Princípios de Defesa Colonial de Kiraditu</Name>
 		<Description>A história tem um tom de lenda, mas os Guardiões Ancestrais verificaram sua veracidade (embora lendas muitas vezes mereçam ser preservadas). Dois irmãos, que cresceram pobres e sem amigos nos cortiços de Porto Machado Grande, de alguma forma se aproximaram da milícia local e acabaram como alunos na prestigiada Academia Militar Grand Mortalen para o Avanço Militar.
 
@@ -105,6 +108,7 @@ Quando Kiraditu finalmente caiu, Hudnar imediatamente partiu para destruir os Pr
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
 		<Name>Riso e Liderança</Name>
 		<Description>Muitas espécies empregam vários tipos de humor, alguns dos quais podem até ser traduzidos entre culturas. De todas as espécies conhecidas, os humanos estão entre as poucas que transformaram a produção de humor em uma profissão de tempo integral (embora haja algum debate sobre se certos carrascos públicos Dhayut desempenham um papel semelhante).
 
@@ -138,6 +142,7 @@ Apesar de extensas análises, os Guardiões Ancestrais não conseguiram quantifi
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
 		<Name>Arquivos do Retiro Reflexivo</Name>
 		<Description>O mundo Zenox de Refúgio Pensativo foi originalmente estabelecido como uma base de pesquisa, destinada a abrigar não mais do que alguns milhares de cientistas, junto com suas famílias e quaisquer trabalhadores secundários necessários para manter o posto avançado. Ao longo de um século, desenvolveu-se no principal centro de pesquisa científica experimental dos Zenox, incluindo muitas linhas de investigação que os Guardiões Ancestrais consideraram tanto interessantes quanto alarmantes.
 
@@ -164,6 +169,7 @@ Houve algum debate entre os Guardiões Ancestrais sobre se os Arquivos de Refúg
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>2</RaceId>
 		<Name>O Método Maditor</Name>
 		<Description>Os Teekans eram celebrados por toda a galáxia por sua habilidade em mineração, uma capacidade que outras culturas desejavam imitar. Sua reputação cultural como engenheiros de mineração era justificada, mas também altamente exagerada a ponto de alguns assumirem que todos os Teekans eram engenheiros de mineração talentosos.
 
@@ -197,6 +203,7 @@ Quando falhou em cumprir todas as cotas futuras, foi executado. Anos depois, o p
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
 		<Name>Diplomacia e Outros Meios</Name>
 		<Description>Na antiga galáxia, os humanos eram frequentemente considerados os diplomatas mais talentosos. O Corpo Diplomático Humano enviava seus representantes para grandes conflitos galácticos onde acreditavam que resoluções pacíficas eram possíveis. Suspeitava-se amplamente (e pesquisas dos Guardiões Ancestrais confirmam essas suspeitas) que o Corpo Diplomático Humano também era motivado a empregar seus serviços de maneiras que melhor promovessem os interesses humanos.
 
@@ -230,6 +237,7 @@ Os Boskarans e Haakonish sentiram que não tinham escolha a não ser comparecer 
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
 		<Name>Manual de Treinamento de Hattir</Name>
 		<Description>No espaço de meio século, três mundos Mortalen diferentes foram sitiados por exércitos invasores vastamente superiores. Em menor número e sobrepujados, em cada caso os mundos Mortalen sobreviveram contra probabilidades quase impossíveis. Consequentemente, os Mortalen ganharam a reputação não apenas de guerreiros ferozes, mas também de defensores inigualáveis.
 
@@ -258,6 +266,7 @@ Em vez de admitir fraqueza, Hattir começou a forjar uma estratégia baseada nos
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>1</RaceId>
 		<Name>O Método Itimai</Name>
 		<Description>"Eles estão com Hadi Itimai." É uma antiga expressão Ackdariana que significa que alguém está perdido e nunca será encontrado. Mas quem foi Hadi Itimai?
 
@@ -284,6 +293,7 @@ Esse desaparecimento se tornou algo de um fenômeno cultural. Rumores, teorias d
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
 		<Name>As Reformas Jhahtu</Name>
 		<Description>Assim que a Guerra Shakturi começou e o verdadeiro poder dos invasores se tornou evidente, um grande esforço foi iniciado para aumentar o tamanho das frotas da Aliança da Liberdade. Mesmo aqueles governos que acreditavam que suas defesas eram mais do que suficientes agora percebiam que estavam lamentavelmente despreparados para a ameaça de extinção que enfrentavam.
 

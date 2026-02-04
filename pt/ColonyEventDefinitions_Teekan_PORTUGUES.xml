@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>135</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>0</EmpireHappiness>
+		<MigrationFactor>1</MigrationFactor>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Tempo de Peregrinação</Name>
+		<Description>Nossa nova colônia está atraindo novos colonos de toda a região!</Description>
+		<ImageFilename>Environment/Events/Wander Time</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>136</ColonyEventDefinitionId> <!-- Great Bakdur Hunt - Mediocre -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<DevelopmentChange>0.05</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Caçada Medíocre ao Bakdur</Name>
+		<Description>A Grande Caçada ao Bakdur em nossa colônia {0} foi decepcionante, com uma captura apenas medíocre.
+
+Ainda assim, pelos próximos 5 anos, teremos um [GOOD]aumento de 5% na felicidade em todo o império[/GOOD].
+
+Além disso, nossa colônia [LOCATION]{0}[/LOCATION] receberá um [GOOD]impulso de +5 no desenvolvimento[/GOOD] por 5 anos.</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>137</ColonyEventDefinitionId>
+		<!-- Great Bakdur Hunt - Good -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<DevelopmentChange>0.1</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Boa Caçada ao Bakdur</Name>
+		<Description>A Grande Caçada ao Bakdur em nossa colônia {0} foi boa, com muitos Bakdur capturados!
+
+Assim, pelos próximos 5 anos, teremos um [GOOD]aumento de 10% na felicidade em todo o império[/GOOD].
+
+Além disso, nossa colônia [LOCATION]{0}[/LOCATION] receberá um [GOOD]impulso de +10 no desenvolvimento[/GOOD] por 5 anos.
+		</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>138</ColonyEventDefinitionId>
+		<!-- Great Bakdur Hunt - Oustanding -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<DevelopmentChange>0.1</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Outstanding Bakdur Hunt Spice (Teekan)</GameEventName>
+		<Name>Caçada Excepcional ao Bakdur</Name>
+		<Description>A Grande Caçada ao Bakdur em nossa colônia {0} foi um sucesso espetacular, com uma captura enorme de Bakdur!
+
+Assim, pelos próximos 5 anos, teremos um [GOOD]aumento de 10% na felicidade em todo o império[/GOOD].
+
+Além disso, nossa colônia [LOCATION]{0}[/LOCATION] receberá um [GOOD]impulso de +5 no desenvolvimento[/GOOD] por 5 anos.
+
+Esta caçada excepcional também revelou um grande depósito de [RESOURCE]Tempero Korabbiano[/RESOURCE], que proporcionará um enorme impulso ao desenvolvimento do nosso império!</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+</ArrayOfColonyEventDefinition>

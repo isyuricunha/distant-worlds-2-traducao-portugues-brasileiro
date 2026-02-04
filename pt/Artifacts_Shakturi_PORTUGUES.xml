@@ -13,6 +13,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0.2</QualityBoost>
+		<RaceId>20</RaceId>
 		<Name>Memória de Shaktur</Name>
 		<Description>Uma relíquia shakturi antiga que projeta um estranho poder por todo o planeta onde está localizada. A relíquia evoca memórias nostálgicas do mundo natal dos shakturis, melhorando de alguma forma o desenvolvimento e a qualidade do próprio planeta. Ou pelo menos essa é a percepção daqueles que estão no planeta.</Description>
 		<ImageFilename>Artifacts/Memory of Shaktur</ImageFilename>
@@ -35,6 +36,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>20</RaceId>
 		<Name>Cristal de Ocultação</Name>
 		<ImageFilename>Artifacts/Concealment Crystal</ImageFilename>
 	</Artifact>
@@ -67,6 +69,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>20</RaceId>
 		<Name>Esfera da Agressão</Name>
 		<ImageFilename>Artifacts/Sphere of Aggression</ImageFilename>
 	</Artifact>
@@ -98,6 +101,7 @@
 			<short>958</short> <!-- Optimized Xaraktor Virus -->
 		</ResearchProjectUnlockIds>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>20</RaceId>
 		<Name>Capacete da Compreensão Shakturi</Name>
 		<ImageFilename>Artifacts/Helmet of Shakturi Understanding</ImageFilename>
 	</Artifact>

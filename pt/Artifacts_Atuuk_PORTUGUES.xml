@@ -18,6 +18,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>9</RaceId>
 		<Name>O Hino dos Soldados</Name>
 		<Description>Este dispositivo de reprodução de áudio contém uma única gravação com fidelidade sonora notável. Muitas espécies serão incapazes de decifrar as letras, mas todos que ouvirem serão tomados por coragem e inspirados a novos patamares de proeza marcial.</Description>
 		<ImageFilename>Artifacts/the soldiers anthem</ImageFilename>
@@ -35,6 +36,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>6</RaceId>
 		<Name>Computador de Bombardeio Tático</Name>
 		<Description>Um pequeno computador portátil, com uma carcaça externa condizente com a estética Boskara. Este dispositivo foi projetado para se conectar facilmente a outros sistemas computacionais, maximizando a eficácia de bombardeios.</Description>
 		<ImageFilename>Artifacts/tactical bombardment computer</ImageFilename>
@@ -62,6 +64,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>9</RaceId>
 		<Name>A Estatueta dos Heróis Inspiradores</Name>
 		<Description>Esta estatueta leve retrata uma figura Atuuk de aparência importante, olhando serenamente para fora. Há costuras visíveis onde partes da estatueta foram unidas. Esta relíquia da galáxia antiga seria uma excelente peça de museu e provavelmente promoverá felicidade e admiração em todos que a contemplarem.</Description>
 		<ImageFilename>Artifacts/figurine of inspiring heroes</ImageFilename>

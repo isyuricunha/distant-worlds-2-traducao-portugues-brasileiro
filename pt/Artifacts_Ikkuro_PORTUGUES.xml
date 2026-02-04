@@ -18,6 +18,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
 		<Name>Talismã do Navegador Sábio</Name>
 		<Description>Um pingente de madeira extremamente pesado em uma corrente de prata, feito para ser usado no pescoço. O pingente tem o formato de uma antiga nave espacial Ikkuro, do tipo que não seria capaz de viajar além de um sistema solar. Esses pingentes eram concedidos aos mestres artesãos da antiga guilda de construtores navais Ikkuro e indicam que seu portador alcançou o ápice do conhecimento em design e construção de naves. Devido ao seu grande peso, esses pingentes geralmente eram usados apenas em ocasiões cerimoniais.</Description>
 		<ImageFilename>Artifacts/the talisman of the wise navigator</ImageFilename>
@@ -55,6 +56,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
 		<Name>Orbe da Prosperidade</Name>
 		<Description>Um orbe aproximadamente do tamanho do crânio de um Ikkuro adulto, perfeitamente redondo e feito de um material misterioso desconhecido nos tempos modernos – possivelmente uma espécie de alumínio translúcido. Dentro do orbe há uma nuvem de gases rodopiantes de diferentes cores, que interagem sem nunca se misturarem. Acredita-se que tais orbes eram usados pelos Ikkuro da galáxia antiga como auxílio à meditação.</Description>
 		<ImageFilename>Artifacts/the orb of thriving</ImageFilename>
@@ -82,6 +84,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
 		<Name>Árvore da Criação</Name>
 		<Description>Inspirado em um antigo mito de criação Ikkuro, este holograma retrata uma árvore maciça e quase impossivelmente alta, com um tronco retorcido e inúmeros galhos exuberantes, repletos de folhagem e grandes frutos maduros. Diz-se que aqueles que se sentam sob a árvore e contemplam uma vida de harmonia e equilíbrio conseguem provar o fruto, que alegadamente é doce e levemente azedo.</Description>
 		<ImageFilename>Artifacts/the tree of creation</ImageFilename>
@@ -114,6 +117,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
 		<Name>O Livro da Necessidade Harmoniosa</Name>
 		<Description>Este antigo códice vem do mundo natal dos Ikkuro e diz-se que é anterior às viagens espaciais e possivelmente até mesmo às aeronaves atmosféricas. O nome do autor se perdeu no tempo, mas o livro teria sido escrito pelo governante de um antigo Estado-nação e reflete sobre como a guerra às vezes é necessária para promover a causa da paz. Para que a paz seja alcançada ainda mais rapidamente, ele fornece muitas informações úteis sobre como esmagar os inimigos da harmonia.</Description>
 		<ImageFilename>Artifacts/the book of harmonious necessity</ImageFilename>

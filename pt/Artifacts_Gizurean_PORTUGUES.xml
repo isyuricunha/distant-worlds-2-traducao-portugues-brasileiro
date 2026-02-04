@@ -28,6 +28,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>11</RaceId>
 		<Name>Núcleo de Dados de Equilíbrio Tático</Name>
 		<Description>Um compêndio de observações e estratégias compilado pelos antigos Gizureanos, detalhando tanto estratégias ofensivas quanto defensivas. Grande parte do conteúdo está escrita no estilo conciso típico dos antigos Gizureanos, mas há anotações que sugerem que o material pode ter incluído contribuições de pelo menos um tático de outra espécie.</Description>
 		<ImageFilename>Artifacts/tactical balance datacore</ImageFilename>
@@ -50,6 +51,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>11</RaceId>
 		<Name>Esquema de Estaleiro Gizureano</Name>
 		<Description>Um manual elaborado pelos antigos Gizureanos descrevendo as melhores práticas para construção e manutenção de naves. Algumas referências no texto sugerem que o documento foi compilado nos últimos dias da Guerra Shakturi, quando a espécie de mente coletiva da galáxia se viu lutando pela sobrevivência contra seus antigos aliados. O tom de desespero é um tanto... perturbador.</Description>
 		<ImageFilename>Artifacts/gizurean shipyard schematic</ImageFilename>
@@ -67,6 +69,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>11</RaceId>
 		<Name>Compêndio da Frota Colmeia</Name>
 		<Description>Uma análise das naves Colmeia realizada pelos antigos Gizureanos durante a época do Cataclismo. O foco principal é nas técnicas Colmeia para embarque rápido de naves inimigas.</Description>
 		<ImageFilename>Artifacts/hive fleet compendium</ImageFilename>

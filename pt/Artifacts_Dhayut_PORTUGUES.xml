@@ -13,6 +13,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
 		<Name>O Mordomo Astuto</Name>
 		<Description>Uma pintura antiga (óleo em uma tela feita da pele de um desertor executado) que retrata o mordomo de uma propriedade primitiva Dhayut. O mordomo está cercado pelas ferramentas de seu ofício, e aqueles familiarizados com a iconografia Dhayut conseguem perceber como as várias ferramentas formam uma espécie de argumento implícito sobre o melhor sistema para gerenciar e explorar uma propriedade. Esses princípios retratados podem ser expandidos e aplicados em escala planetária.</Description>
 		<ImageFilename>Artifacts/the clever steward</ImageFilename>
@@ -30,6 +31,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
 		<Name>O Grande Enganador</Name>
 		<Description>Uma estátua de mármore que retrata um diplomata da era primitiva de viagens espaciais dos antigos Dhayut. O diplomata está em uma pose que simboliza abertura e generosidade dentro da cultura Dhayut. A expressão é de boas-vindas, embora muitos não-Dhayut achem o rosto ameaçador ou até aterrorizante. Uma das mãos do diplomata esconde uma lâmina mortal. Não se sabe se esta estátua retrata um diplomata real ou apenas o ideal diplomático.</Description>
 		<ImageFilename>Artifacts/the great deceiver</ImageFilename>
@@ -52,6 +54,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
 		<Name>Os Fios da Pesquisa</Name>
 		<Description>Este antigo cristal de dados ainda funciona, apesar de ter sido queimado, esmagado, submerso em água do mar e possivelmente regurgitado. Ele contém um manifesto científico escrito por uma cientista Dhayut anônima da galáxia antiga. Essa cientista passou décadas anotando suas teorias (e também sequestrando e devorando secretamente qualquer colega que considerasse uma ameaça), e embora suas ideias tenham sido ignoradas em sua época, os princípios revolucionários têm o potencial de impulsionar a pesquisa científica.</Description>
 		<ImageFilename>Artifacts/the threads of research</ImageFilename>

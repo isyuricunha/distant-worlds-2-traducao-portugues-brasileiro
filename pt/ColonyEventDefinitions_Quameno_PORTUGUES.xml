@@ -23,7 +23,7 @@
 		<Type>Undefined</Type>
 		<DurationMinimum>1</DurationMinimum>
 		<DurationMaximum>1</DurationMaximum>
-		<EmpireHappiness>-50</EmpireHappiness>
+		<EmpireHappiness>-25</EmpireHappiness>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -44,7 +44,7 @@
 		<EmpireHappiness>10</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>A Resposta</Name>
-		<Description>A recente construção do Centro da Transcendência proporcionou um aumento na felicidade do nosso império.</Description>
+		<Description>A recente construção do Centro de Transcendência proporcionou um aumento na felicidade do nosso império</Description>
 		<ImageFilename>Environment/Events/the answer</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>

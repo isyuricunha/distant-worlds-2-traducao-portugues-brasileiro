@@ -23,6 +23,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
 		<Name>Drone de Desenvolvimento do Guardião Ancestral</Name>
 		<Description>Um drone projetado para ajudar a reestabelecer colônias destruídas pelos Shakturi durante a guerra. Ele acelera a construção de infraestrutura e centros econômicos, ajudando a colônia a prosperar em um ritmo acelerado. O drone resiste ativamente a todas as tentativas de analisar sua tecnologia. Seus criadores tomaram grandes precauções para garantir que ele não pudesse ser replicado.</Description>
 		<ImageFilename>Artifacts/ancient guardian development drone</ImageFilename>
@@ -50,6 +51,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
 		<Name>Plano de Melhoria Mundial X-1084-W</Name>
 		<Description>Um cristal de dados contendo informações projetadas para facilitar tanto o desenvolvimento básico de colônias quanto o desenvolvimento e manutenção de instalações avançadas. Composto durante a guerra dos Shakturi, parece antecipar uma época em que a galáxia precisaria se reconstruir após um colapso completo da civilização. Mesmo assim, o texto foca em procedimentos práticos e é totalmente desprovido de sentimentalismo.</Description>
 		<ImageFilename>Artifacts/world improvement plan x-1084-w</ImageFilename>
@@ -67,6 +69,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
 		<Name>Cristal Revelador</Name>
 		<Description>Que ser racional pode compreender um item de design Shakturi? Ele não contém elementos de tecnologia como entendemos. É apenas um emaranhado de cristais entrelaçados, e ainda assim este dispositivo nos permitirá aprimorar as leituras de sensores em todo o nosso império. O que mais os Shakturi poderiam fazer? </Description>
 		<ImageFilename>Artifacts/Unveiling Crystal</ImageFilename>
@@ -89,6 +92,7 @@
 			</Bonus>
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
 		<Name>Segredos dos Construtores</Name>
 		<Description>Mentes mecânicas não pensam de maneiras que seres orgânicos possam compreender. A decisão dos Guardiões Ancestrais de construir Abóbadas para preservar conhecimento foi tomada ao longo de um período de tempo impossivelmente longo. Também aconteceu em um piscar de olhos. Não tente entender como ambas as coisas podem ser verdadeiras. Você deve apenas aceitar que é assim.
 

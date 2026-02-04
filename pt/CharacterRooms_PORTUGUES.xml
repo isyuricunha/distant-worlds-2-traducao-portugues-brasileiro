@@ -280,36 +280,4 @@
       </SortableTextValue>
     </AnimationNames>
   </CharacterRoom>
-
-<!--
-	<CharacterRoom>
-		<RoomId>10</RoomId>
-		<Name>Ikkuro_Padrão</Name>
-		<RoomImageFilename>Characters/Rooms/Ikkuro_Default</RoomImageFilename>
-		<WindowRatioRegion>
-			<X>0.42</X>
-			<Y>0.19</Y>
-			<Width>0.45</Width>
-			<Height>0.44</Height>
-			<Left>0.42</Left>
-			<Top>0.19</Top>
-			<Location>
-				<X>0.42</X>
-				<Y>0.19</Y>
-			</Location>
-			<Size>
-				<Width>0.45</Width>
-				<Height>0.44</Height>
-			</Size>
-		</WindowRatioRegion>
-		<DataPath>data\CharacterRooms\Ikkuro\backround</DataPath>
-		<AnimationNames>
-			<SortableTextValue>
-				<Text>Ikkuro_backround_anim</Text>
-				<Value>1</Value>
-			</SortableTextValue>
-		</AnimationNames>
-	</CharacterRoom>
--->
-
 </ArrayOfCharacterRoom>
