@@ -388,7 +388,7 @@ No hangar, encontramos [DISCOVERY]duas naves de exploração funcionais[/DISCOVE
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Todas as Coisas Devem Desmoronar no Fim</MessageTitle>
-				<Description>Como temíamos, nossa busca fez as ruínas desabarem. Nossa equipe conseguiu evacuar em segurança, e nenhum Wekkarus se feriu.
+				<Description>Como temíamos, nossa busca fez com que as ruínas desabassem sobre si mesmas. Nossa equipe conseguiu evacuar em segurança, e nenhum Wekkarus se feriu.
 
 No armazém, encontramos alguns recursos úteis, que devem nos ajudar enquanto reconquistamos as estrelas. Também encontramos os registros fragmentados, que identificam um arquivo. Ele pode conter informações vitais sobre os Artefatos Perdidos. Devemos investigar imediatamente.
 
@@ -564,7 +564,7 @@ Recebemos:
 	</GameEvent>
 	<GameEvent>
 		<Name>Contatar o Mapa das Gerações Anteriores (Wekkarus)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -3413,13 +3413,13 @@ Talvez seja por isso que nos odeiam. Nós vivemos em comunhão com aqueles que v
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>O Que Era Deles Agora é Nosso</MessageTitle>
-				<Description>Recuperamos todos os recursos valiosos dos restos da nave Shakturi. Ao fazê-lo, descobrimos um mapa estelar que parece mostrar a [LOCATION]localização de dois mundos de oceano profundo[/LOCATION]. Não sabemos se atualmente são habitados por Wekkarus, mas valem a pena ser investigados.
+				<Description>Recuperamos todos os recursos valiosos dos destroços da nave Shakturi. Nesse processo, descobrimos um mapa estelar que parece mostrar a [LOCATION]localização de dois mundos de oceano profundo[/LOCATION]. Não sabemos se eles estão atualmente habitados pelos Wekkarus, mas valem a pena serem investigados.
 
 Recebemos:
 
 1.500 Hexodório
 1.500 Aculon
-600 Quartzo Dirílio
+600 Quartzo de Dirílio
 600 Osália
 600 Cristal Kaasiano</Description>
 				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
@@ -3927,13 +3927,13 @@ Parece que, quando a frota avançada Shakturi entrou nesta galáxia, sua primeir
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Recuperação de Recursos</MessageTitle>
-				<Description>Recuperamos todos os recursos valiosos dos destroços da nave Shakturi. Nesse processo, descobrimos um mapa estelar que parece indicar a localização de dois mundos de oceano profundo. Não sabemos se estão atualmente habitados pelos Wekkarus, mas valem a pena ser investigados.
+				<Description>Recuperamos todos os recursos valiosos dos destroços da nave Shakturi. Nesse processo, descobrimos um mapa estelar que parece mostrar a localização de dois mundos de oceano profundo. Não sabemos se eles estão atualmente habitados pelos Wekkarus, mas valem a pena serem investigados.
 
 Recebemos:
 
 1.500 Hexodório
 1.500 Aculon
-600 Quartzo Dirílio
+600 Quartzo de Dirílio
 600 Osália
 600 Cristal Kaasiano</Description>
 				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>

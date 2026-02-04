@@ -1986,7 +1986,7 @@ A nave acidentada é sofisticada além de nossa tecnologia atual. Vale a pena de
 	</GameEvent>
 	<GameEvent>
 		<Name>Contatar Mundo Ikkuro Independente (Dhayut)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -2546,7 +2546,7 @@ Capturamos alguns dos nativos, que inicialmente torturamos apenas por entretenim
 	</GameEvent>
 	<GameEvent>
 		<Name>Contatar Mundo Subordinado Independente (Dhayut)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>

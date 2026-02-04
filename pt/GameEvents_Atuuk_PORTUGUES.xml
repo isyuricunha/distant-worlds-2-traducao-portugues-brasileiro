@@ -1868,7 +1868,7 @@ Alienígenas chegaram a esta instalação de pesquisa e os Atuuk provavelmente o
 	</GameEvent>
 	<GameEvent>
 		<Name>Primeiro Contato com a Colônia Perdida (Atuuk)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -2419,7 +2419,7 @@ Agora eles não gostam de nós, o que é uma pena. Seu mundo é atrasado e se sa
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<Description>Nós gostamos de dinheiro!</Description>
+				<Description>Não gostamos de insultos!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
@@ -3877,9 +3877,9 @@ A maioria dos arquivos está corrompida ou ininteligível, mas obtivemos alguns 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Um Lugar Terrível</MessageTitle>
-				<Description>Um exame superficial revelou que alienígenas de uma espécie, os Atuuk, foram mantidos aqui pelos Shakturi. Traduzir os registros restantes é um desafio, mas documentos encontrados em um idioma não-Shakturi mencionam algo chamado "campo de anulação psíquica".
+				<Description>Um exame minucioso revelou que alienígenas de uma espécie, os Atuuk, foram mantidos aqui pelos Shakturi. Traduzir os registros restantes é um desafio, mas documentos encontrados em um idioma não-Shakturi mencionam algo chamado de "campo de anulação psíquica".
 
-Também encontramos alguns cristais de dados com especificações técnicas para nossa equipe analisar. Havia também um mapa estelar com um local marcado.</Description>
+Também encontramos alguns cristais de dados com especificações técnicas para nossa gente analisar. Havia também um mapa estelar com um local marcado.</Description>
 				<ImageFilepath>Environment/Events/the atuuk prison</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -4787,7 +4787,7 @@ Dedicamos tanto do nosso poder cerebral ao estudo da tecnologia dos Amigos do Pa
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Atack</ChoiceButtonText>
+				<ChoiceButtonText>Attack</ChoiceButtonText>
 				<GeneratedItemName>O Mapa dos Amigos (Atuuk)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>

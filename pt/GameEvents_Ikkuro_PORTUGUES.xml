@@ -452,7 +452,7 @@ Devemos descobrir a verdade. Nosso estudo de relíquias e ruínas antigas nos aj
 	</GameEvent>
 	<GameEvent>
 		<Name>Contato com Mundo Dhayut Independente (Ikkuro)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -3608,11 +3608,11 @@ Sua insistência primitiva em habitar planetas não nos perturba, no entanto. Re
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>O Cofre Ancestral</MessageTitle>
-				<Description>Nossos cientistas adentraram a antiga instalação Ikkuro. Parece ser uma espécie de cofre de dados, embora os bancos de dados estejam bastante danificados e deteriorados. Aparentemente, a instalação foi destruída pelos danos sísmicos que afligiram o restante deste mundo. 
+				<Description>Nossos cientistas adentraram a antiga instalação Ikkuro. Parece ser algum tipo de cofre de dados, embora os bancos de dados estejam em grande parte danificados e deteriorados. Aparentemente, a instalação foi destruída pelos danos sísmicos que afligiram o restante deste mundo.
 
-Há algumas menções sobreviventes de invasores ancestrais travando guerra contra a galáxia. Também há menção de seus aliados, a Teia Dhayut, por quem nossos ancestrais nutriam particular animosidade. Não conseguimos determinar o motivo. A resposta pode estar relacionada a uma carta estelar que revela um local que parece ser de grande importância. Devemos investigar. 
+Há algumas menções sobreviventes de invasores ancestrais travando guerra pela galáxia. Também há menção de seus aliados, a Teia Dhayut, por quem nossos ancestrais nutriam particular animosidade. Não conseguimos determinar o motivo. A resposta pode estar relacionada a uma carta estelar que revela um local que parece ser de grande importância. Devemos investigar.
 
-Também descobrimos um tomo antigo, O Livro da Necessidade Harmoniosa. Trata-se de uma fascinante justificativa filosófica para o porquê de a preservação da vida às vezes exigir guerras violentas e até mesmo preventivas. Qualquer cientista que ler esta obra certamente se sentirá inspirado ao pesquisar tecnologia de armas.</Description>
+Também descobrimos um antigo tomo, O Livro da Necessidade Harmoniosa. Trata-se de uma fascinante justificativa filosófica para o porquê de a preservação da vida às vezes exigir guerras violentas e até mesmo preventivas. Qualquer cientista que leia esta obra certamente se sentirá inspirado ao pesquisar tecnologia de armas.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4205,11 +4205,11 @@ Também descobrimos um tomo antigo, O Livro da Necessidade Harmoniosa. Trata-se 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>O Cofre Ancestral</MessageTitle>
-				<Description>Nossos cientistas conseguiram acesso à antiga instalação Ikkuro. Parece ser algum tipo de cofre de dados, embora os bancos de dados estejam bastante danificados e deteriorados. Aparentemente, a instalação foi destruída pelos danos sísmicos que afligiram o restante deste mundo. Sem dúvida, os Ikkuro mereceram sofrer.
+				<Description>Nossos cientistas conseguiram entrar na antiga instalação Ikkuro. Parece ser algum tipo de cofre de dados, embora os bancos de dados estejam em grande parte danificados e deteriorados. Aparentemente, a instalação foi destruída pelos danos sísmicos que afligiram o restante deste mundo. Sem dúvida, os Ikkuro mereceram sofrer.
 
-Há algumas menções sobreviventes de invasores ancestrais travando guerra pela galáxia. Também há menção de seus aliados, a Teia Dhayut, pelos quais os Ikkuro nutriam particular animosidade. Encontramos uma carta estelar que revela um local que parece ser de grande importância. Pode valer a pena investigarmos.
+Há algumas menções sobreviventes de invasores ancestrais travando guerra pela galáxia. Também há menção de seus aliados, a Teia Dhayut, por quem os Ikkuro nutriam particular animosidade. Encontramos uma carta estelar que revela um local que parece ser de grande importância. Pode valer a pena investigarmos.
 
-Também descobrimos um tomo antigo, O Livro da Necessidade Harmoniosa. Trata-se de uma estranha justificativa filosófica para o porquê de a preservação da vida às vezes exigir guerras violentas e até mesmo preventivas. Por que a guerra precisaria de desculpas tão tortuosas? É um conceito alienígena e difícil de compreender, mas oferece insights inesperados. Qualquer cientista que ler esta obra certamente se sentirá inspirado ao pesquisar tecnologia de armas. </Description>
+Também descobrimos um antigo tomo, O Livro da Necessidade Harmoniosa. Trata-se de uma estranha justificativa filosófica para o porquê de a preservação da vida às vezes exigir guerras violentas e até mesmo preventivas. Por que a guerra precisaria de desculpas tão tortuosas? É um conceito alienígena e difícil de entender, mas oferece percepções inesperadas. Qualquer cientista que leia esta obra certamente se sentirá inspirado ao pesquisar tecnologia de armas. </Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4804,11 +4804,11 @@ Também descobrimos um tomo antigo, O Livro da Necessidade Harmoniosa. Trata-se 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>O Cofre Ancestral</MessageTitle>
-				<Description>Nossos cientistas conseguiram acesso à antiga instalação Ikkuro. Parece ser uma espécie de cofre de dados, embora os bancos de dados estejam bastante danificados e deteriorados. Aparentemente, a instalação foi destruída pelos danos sísmicos que afligiram o resto deste mundo. 
+				<Description>Nossos cientistas conseguiram entrar na antiga instalação Ikkuro. Parece ser algum tipo de cofre de dados, embora os bancos de dados estejam em grande parte danificados e deteriorados. Aparentemente, a instalação foi destruída pelos danos sísmicos que afligiram o restante deste mundo.
 
-Há algumas menções sobreviventes de invasores ancestrais travando guerra pela galáxia. Também há menção de seus aliados, a Teia Dhayut, contra quem os Ikkuro nutriam uma animosidade particular. Não conseguimos determinar o motivo. A resposta pode estar relacionada a uma carta estelar que revela um local que parece ser de grande importância. 
+Há algumas menções sobreviventes de invasores ancestrais travando guerra pela galáxia. Também há menção de seus aliados, a Teia Dhayut, por quem os Ikkuro nutriam particular animosidade. Não conseguimos determinar o motivo. A resposta pode estar relacionada a uma carta estelar que revela um local que parece ser de grande importância.
 
-Também descobrimos um tomo antigo, O Livro da Necessidade Harmoniosa. Trata-se de uma justificativa filosófica para o porquê a preservação da vida pode, às vezes, exigir guerras violentas e até mesmo preventivas. Qualquer cientista que ler esta obra certamente se sentirá inspirado ao pesquisar tecnologia de armas.</Description>
+Também descobrimos um antigo tomo, O Livro da Necessidade Harmoniosa. Trata-se de uma justificativa filosófica para o porquê de a preservação da vida às vezes exigir guerras violentas e até mesmo preventivas. Qualquer cientista que leia esta obra certamente se sentirá inspirado ao pesquisar tecnologia de armas.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

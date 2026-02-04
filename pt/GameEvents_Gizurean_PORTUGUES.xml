@@ -1143,7 +1143,7 @@ Está na hora de começar a procurar mais alienígenas!</Description>
 	</GameEvent>
 	<GameEvent>
 		<Name>Contatar Pesquisadores Teekan (Gizureano)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
