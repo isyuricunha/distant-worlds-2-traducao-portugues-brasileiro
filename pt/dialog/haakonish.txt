@@ -55,18 +55,12 @@ TREATY_REJECTRESPONSE   ;Vocês estão rejeitando nossa oferta de tratado?!\n\nI
 PROTECTION_ACCEPTRESPONSE  ;Que maravilhoso! Aguardamos ansiosamente seus pagamentos mensais
 PROTECTION_REJECTRESPONSE  ;Uma escolha insensata. Você ainda pagará caro por isso, de um jeito ou de outro...
 
-GIFT_GIVE    ;Oferecemos a você um presente de {0} créditos.
-
-Não esqueça: para avarentos como nós abrirem mão desse dinheiro de bom grado, significa que realmente gostamos de você!
+GIFT_GIVE    ;Oferecemos a você um presente de {0} créditos.\n\nNão esqueça: para avarentos como nós abrirem mão desse dinheiro de bom grado, significa que realmente gostamos de você!
 GIFT_THANKS_ANGRY    ;Recebemos seu presente mesquinho
-GIFT_THANKS_NEUTRAL    ;Agradecemos pelo seu presente de distinção: dinheiro!
-
-Da próxima vez, ficaríamos felizes em receber quantias ainda maiores. Só queríamos ter certeza de que você sabia disso...
+GIFT_THANKS_NEUTRAL    ;Agradecemos pelo seu presente de distinção: dinheiro!\n\nDa próxima vez, ficaríamos felizes em receber quantias ainda maiores. Só queríamos ter certeza de que você sabia disso...
 GIFT_THANKS_FRIENDLY    ;Estamos radiantes em receber seu presente tão generoso! A única coisa que nos agradaria mais seria um dinheiro adicional.
 GIFT_PROPOSE    ;Que tipo de presente você tem em mente? Por acaso envolveria dinheiro?
 
-WAR_DECLARE_RESPONSE_ANGRY  ;VOCÊ atacando a GENTE?! Estamos rindo tanto que não conseguimos respirar. Talvez esse fosse o seu plano de ataque meio idiota?
-
-Prepare-se para provar a derrota!
+WAR_DECLARE_RESPONSE_ANGRY  ;VOCÊ atacando a GENTE?! Estamos rindo tanto que não conseguimos respirar. Talvez esse fosse o seu plano de ataque meio idiota?\n\nPrepare-se para provar a derrota!
 WAR_DECLARE_RESPONSE_NEUTRAL  ;Que injusto. Nós odiamos guerras – elas são tão caras!
 WAR_DECLARE_RESPONSE_FRIENDLY  ;Deve haver algum engano! O que fizemos para ofendê-lo?! Ainda não somos mais amigos?

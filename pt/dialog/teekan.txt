@@ -41,45 +41,27 @@ PROTECTION_REJECT_ANGRY  ;Não, não queremos ter que proteger suas coisas sem v
 PROTECTION_REJECT_FRIENDLY  ;Não, não queremos um Acordo de Proteção com você
 
 CANCELTREATY    ;{0} com você não é bom agora. Tudo terminado
-CANCELTREATY_RESPONSE_FRIENDLY  ;Você parou de gostar da gente? Como a gente conserta?
-
-A gente até tem banho se você quiser
-CANCELTREATY_RESPONSE_NEUTRAL  ;Hã? Você não gosta mais da gente?
-
-Tá bom então
-CANCELTREATY_RESPONSE_ANGRY  ;Nenhum tratado agora?
-
-Bom, a gente achou que você era esquisito mesmo. Você não tem cheiro! E é limpo demais
+CANCELTREATY_RESPONSE_FRIENDLY  ;Você parou de gostar da gente? Como a gente conserta?\n\nA gente até tem banho se você quiser
+CANCELTREATY_RESPONSE_NEUTRAL  ;Hã? Você não gosta mais da gente?\n\nTá bom então
+CANCELTREATY_RESPONSE_ANGRY  ;Nenhum tratado agora?\n\nBom, a gente achou que você era esquisito mesmo. Você não tem cheiro! E é limpo demais
 
 CANCELPROTECTION_RESPONSE_FRIENDLY  ;Estranho. Ah, bom.
 CANCELPROTECTION_RESPONSE_NEUTRAL  ;Decisão boba. Talvez a gente encontre outras formas de conseguir os custos...
 CANCELPROTECTION_RESPONSE_ANGRY  ;Burro! Você acha que consegue sobreviver sem 'proteção'?!
 
-TREATY_PROPOSAL    ;Ooooh, tratado, tratado! Que emocionante!
-
-Tá bom, a gente tá ouvindo agora. Nos conte o plano
-TREATY_ACCEPTRESPONSE   ;Ihú! Novo amigo!
-
-Você tem algum traste quebrado que não quer? A gente pega pra você, sim?
-TREATY_REJECTRESPONSE   ;Que pena. A gente já tinha preparado uma festa.
-
-Mas agora não
+TREATY_PROPOSAL    ;Ooooh, tratado, tratado! Que emocionante!\n\nTá bom, a gente tá ouvindo agora. Nos conte o plano
+TREATY_ACCEPTRESPONSE   ;Ihú! Novo amigo!\n\nVocê tem algum traste quebrado que não quer? A gente pega pra você, sim?
+TREATY_REJECTRESPONSE   ;Que pena. A gente já tinha preparado uma festa.\n\nMas agora não
 
 PROTECTION_ACCEPTRESPONSE  ;Que emocionante! A gente mal pode esperar pelos seus custos mensais
 PROTECTION_REJECTRESPONSE  ;Idiotas! Vocês vão acabar como sucata quebrada que a gente recolhe...
 
-GIFT_GIVE    ;Algo pra você: {0} créditos.
-
-Tenha um tempo feliz, tá bom?
+GIFT_GIVE    ;Algo pra você: {0} créditos.\n\nTenha um tempo feliz, tá bom?
 GIFT_THANKS_ANGRY    ;Recebemos seu presentinho. Será que caiu um pouco no caminho?
 GIFT_THANKS_NEUTRAL    ;Ficamos felizes com seu presente gentil. Obrigado!
 GIFT_THANKS_FRIENDLY    ;Ihuu! Ficamos muito felizes com seu presente generoso!
 GIFT_PROPOSE    ;Que tipo de presente você tá pensando?
 
-WAR_DECLARE_RESPONSE_ANGRY  ;Ficamos felizes em lutar com você! Você é limpinho demais, não tem cheiro!
-
-Cuidado: grandes naves de caça estão indo atrás de você!
+WAR_DECLARE_RESPONSE_ANGRY  ;Ficamos felizes em lutar com você! Você é limpinho demais, não tem cheiro!\n\nCuidado: grandes naves de caça estão indo atrás de você!
 WAR_DECLARE_RESPONSE_NEUTRAL  ;Tá bom então. Vamos dar uma surra em você agora!
-WAR_DECLARE_RESPONSE_FRIENDLY  ;Guerra, você disse? Não é bom!
-
-Não faz sentido
+WAR_DECLARE_RESPONSE_FRIENDLY  ;Guerra, você disse? Não é bom!\n\nNão faz sentido

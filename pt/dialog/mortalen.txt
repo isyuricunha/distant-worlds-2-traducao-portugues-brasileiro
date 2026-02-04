@@ -41,9 +41,7 @@ PROTECTION_REJECT_ANGRY  ;Não, não queremos proteger seu império fraco! Apena
 PROTECTION_REJECT_FRIENDLY  ;Não, não queremos um Acordo de Proteção com você
 
 CANCELTREATY    ;Nosso {0} compartilhado não cumpre mais seu propósito. Estamos encerrando este acordo
-CANCELTREATY_RESPONSE_FRIENDLY  ;Estamos surpresos com sua imprudência, amigo!
-
-Tem certeza disso?
+CANCELTREATY_RESPONSE_FRIENDLY  ;Estamos surpresos com sua imprudência, amigo!\n\nTem certeza disso?
 CANCELTREATY_RESPONSE_NEUTRAL  ;Sua ofensa não será esquecida. A retribuição chegará no momento certo...
 CANCELTREATY_RESPONSE_ANGRY  ;Estamos felizes em nos livrar de sua civilização fraca e medrosa
 
@@ -53,27 +51,17 @@ CANCELPROTECTION_RESPONSE_ANGRY  ;Tolo! Você realmente acha que seu império fr
 
 TREATY_PROPOSAL    ;Você propõe um tratado? Vamos ouvir o que tem em mente
 TREATY_ACCEPTRESPONSE   ;Sentimo-nos honrados com sua aceitação. Que nossos dois poderosos impérios cresçam ainda mais fortes!
-TREATY_REJECTRESPONSE   ;Não levamos insultos como este na esportiva!
-
-Você deveria tomar cuidado...
+TREATY_REJECTRESPONSE   ;Não levamos insultos como este na esportiva!\n\nVocê deveria tomar cuidado...
 
 PROTECTION_ACCEPTRESPONSE  ;Ótimo. Aguardamos seus pagamentos mensais
 PROTECTION_REJECTRESPONSE  ;Uma escolha tola. Você certamente pagará de um jeito ou de outro...
 
-GIFT_GIVE    ;Oferecemos a você um presente de {0} créditos.
-
-Que nossos impérios trabalhem juntos com força
+GIFT_GIVE    ;Oferecemos a você um presente de {0} créditos.\n\nQue nossos impérios trabalhem juntos com força
 GIFT_THANKS_ANGRY    ;Recebemos seu presente insignificante
 GIFT_THANKS_NEUTRAL    ;Agradecemos pelo seu generoso presente
 GIFT_THANKS_FRIENDLY    ;Estamos encantados em receber seu valioso presente!
 GIFT_PROPOSE    ;Que tipo de presente você tem em mente?
 
-WAR_DECLARE_RESPONSE_ANGRY  ;Sua imprudência será sua ruína! Você só deve travar batalhas que possa vencer.
-
-Nós infligiremos uma derrota esmagadora sobre você
-WAR_DECLARE_RESPONSE_NEUTRAL  ;Estamos prontos para enfrentá-lo em batalha.
-
-Vitória aos fortes!
-WAR_DECLARE_RESPONSE_FRIENDLY  ;Não temos desejo de lutar contra você.
-
-Mas faremos o que for necessário
+WAR_DECLARE_RESPONSE_ANGRY  ;Sua imprudência será sua ruína! Você só deve travar batalhas que possa vencer.\n\nNós infligiremos uma derrota esmagadora sobre você
+WAR_DECLARE_RESPONSE_NEUTRAL  ;Estamos prontos para enfrentá-lo em batalha.\n\nVitória aos fortes!
+WAR_DECLARE_RESPONSE_FRIENDLY  ;Não temos desejo de lutar contra você.\n\nMas faremos o que for necessário

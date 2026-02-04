@@ -14,61 +14,23 @@ PIRATE_PROTECTIONREJECTRESPONSE		;Que pena que você é tão pão-duro! Sem paga
 PIRATE_PROTECTIONALREADYPAID		;Você já nos pagou pela proteção.\n\nVolte quando o período atual de proteção expirar. Ficaremos felizes em aceitar outro pagamento então.
 PIRATE_BUYINFO				;Podemos fornecer informações sobre qualquer um dos itens listados abaixo pelos preços indicados
 PIRATE_ATTACKOFFER_EMPIRES		;Estaríamos dispostos a atacar qualquer um dos impérios listados abaixo pelos preços indicados
-PIRATE_ATTACKOFFER_SINGLEEMPIRE		;Parece que você está tendo problemas com o {0}. Ficaríamos muito felizes em atacar as bases deles para você.
-
-É claro que seríamos muito discretos sobre nosso acordo – ninguém mais saberia.
-
-Tudo o que pedimos por esse serviço é um pequeno pagamento de {1} créditos. O que acha?
+PIRATE_ATTACKOFFER_SINGLEEMPIRE		;Parece que você está tendo problemas com o {0}. Ficaríamos muito felizes em atacar as bases deles para você.\n\nÉ claro que seríamos muito discretos sobre nosso acordo – ninguém mais saberia.\n\nTudo o que pedimos por esse serviço é um pequeno pagamento de {1} créditos. O que acha?
 PIRATE_ATTACKCOMMENCE			;Considere um dinheiro bem gasto. Começaremos nossos ataques ao {0} imediatamente!
 
-PIRATE_ALLIANCEPROPOSE			;Seu acordo anterior conosco expirou. Que tal fazer uma aliança permanente conosco?
-
-Por uma taxa mensal contínua de {0} créditos, poderíamos proteger suas naves e também atacar seus inimigos, enquanto você mantém as mãos limpas.
-
-O que acha?
+PIRATE_ALLIANCEPROPOSE			;Seu acordo anterior conosco expirou. Que tal fazer uma aliança permanente conosco?\n\nPor uma taxa mensal contínua de {0} créditos, poderíamos proteger suas naves e também atacar seus inimigos, enquanto você mantém as mãos limpas.\n\nO que acha?
 PIRATE_ALLIANCEACCEPT			;Aceitamos sua oferta de aliança
-PIRATE_ALLIANCEACCEPTRESPONSE	;Excelente decisão!
-
-Garantiremos que suas naves estejam seguras contra nossos saqueadores. E começaremos a mirar nos ativos de seus inimigos.
-
-Avise-nos se há alguém que gostaria especialmente que atacássemos
+PIRATE_ALLIANCEACCEPTRESPONSE	;Excelente decisão!\n\nGarantiremos que suas naves estejam seguras contra nossos saqueadores. E começaremos a mirar nos ativos de seus inimigos.\n\nAvise-nos se há alguém que gostaria especialmente que atacássemos
 PIRATE_ALLIANCEREJECT			;Rejeitamos sua oferta de aliança
-PIRATE_ALLIANCEREJECTRESPONSE	;Uma escolha ruim.
-
-Não podemos ajudá-lo sem o reembolso adequado.
-
-A pirataria é um negócio caro, sabia?
+PIRATE_ALLIANCEREJECTRESPONSE	;Uma escolha ruim.\n\nNão podemos ajudá-lo sem o reembolso adequado.\n\nA pirataria é um negócio caro, sabia?
 PIRATE_ALLIANCECANCEL			;Desejamos cancelar esta aliança
-PIRATE_ALLIANCECANCELRESPONSE	;Um fim triste para uma relação tão lucrativa...
+PIRATE_ALLIANCECANCELRESPONSE	;Um fim triste para uma relação tão lucrativa...\n\nLembre-se de que, sem pagamento contínuo, não podemos garantir a segurança de suas naves.\n\nTalvez devesse reconsiderar?
 
-Lembre-se de que, sem pagamento contínuo, não podemos garantir a segurança de suas naves.
-
-Talvez devesse reconsiderar?
-
-INFO_OFFER_UNMETEMPIRE			;A troca com outras civilizações é a chave para o crescimento e a prosperidade, não acha?
-
-Podemos colocá-lo em contato com outro império por {0} créditos
-INFO_OFFER_INDEPENDENTCOLONY		;Pensando em onde estabelecer sua próxima colônia?
-
-Podemos revelar a localização de uma colônia independente por {0} créditos
-INFO_OFFER_SYSTEMMAPS			;Conhecer seus arredores é fundamental para a sobrevivência.
-
-Temos mapas de um sistema inexplorado que estamos dispostos a vender por {0} créditos
-INFO_OFFER_RUINS			;Há muitos segredos valiosos escondidos pela galáxia.
-
-Fizemos uma descoberta intrigante que teríamos prazer em compartilhar com você por {0} créditos.
-
-O que acha?
-INFO_OFFER_DEBRISFIELD			;Há muitos segredos valiosos escondidos pela galáxia.
-
-Fizemos uma descoberta intrigante que teríamos prazer em compartilhar com você por {0} créditos.
-
-O que acha?
-INFO_OFFER_RESTRICTEDAREA		;Há muitos segredos valiosos escondidos pela galáxia.
-
-Fizemos uma descoberta intrigante que teríamos prazer em compartilhar com você por {0} créditos.
-
-O que acha?
+INFO_OFFER_UNMETEMPIRE			;A troca com outras civilizações é a chave para o crescimento e a prosperidade, não acha?\n\nPodemos colocá-lo em contato com outro império por {0} créditos
+INFO_OFFER_INDEPENDENTCOLONY		;Pensando em onde estabelecer sua próxima colônia?\n\nPodemos revelar a localização de uma colônia independente por {0} créditos
+INFO_OFFER_SYSTEMMAPS			;Conhecer seus arredores é fundamental para a sobrevivência.\n\nTemos mapas de um sistema inexplorado que estamos dispostos a vender por {0} créditos
+INFO_OFFER_RUINS			;Há muitos segredos valiosos escondidos pela galáxia.\n\nFizemos uma descoberta intrigante que teríamos prazer em compartilhar com você por {0} créditos.\n\nO que acha?
+INFO_OFFER_DEBRISFIELD			;Há muitos segredos valiosos escondidos pela galáxia.\n\nFizemos uma descoberta intrigante que teríamos prazer em compartilhar com você por {0} créditos.\n\nO que acha?
+INFO_OFFER_RESTRICTEDAREA		;Há muitos segredos valiosos escondidos pela galáxia.\n\nFizemos uma descoberta intrigante que teríamos prazer em compartilhar com você por {0} créditos.\n\nO que acha?
 INFO_OFFER_PLANETDESTROYER		;Há muitos segredos valiosos escondidos por toda a galáxia.\n\nFizemos uma descoberta intrigante que teríamos prazer em compartilhar com você por {0} créditos.\n\nO que acha?
 
 OFFER_FREETRADE				;Nós o instamos a se juntar à nossa economia dinâmica em um Acordo de Livre Comércio!\n\nO que acha?
@@ -89,13 +51,9 @@ DEAL_REJECTDEMAND_RESPONSE	;Como ousa rejeitar nosso ultimato totalmente razoáv
 'DEAL_REJECTCOMPLAIN		;Esta proposta é totalmente unilateral! NÃO a aceitaremos!
 'DEAL_REJECTCOMPLAIN		;Não nos intimide! Ofereça um comércio justo e talvez consideremos
 
-MUTUALDEFENSE_ACCEPT			;Concordamos, um Pacto de Defesa Mútua com você seria altamente benéfico.
-
-Vida longa à nossa aliança!
+MUTUALDEFENSE_ACCEPT			;Concordamos, um Pacto de Defesa Mútua com você seria altamente benéfico.\n\nVida longa à nossa aliança!
 MUTUALDEFENSE_REJECT			;Agradecemos pela oferta, mas não desejamos um Pacto de Defesa Mútua neste momento
-MUTUALDEFENSE_REQUESTHELP		;Estamos sendo atacados pelos {0}! Apelamos para que honre seu tratado conosco e declare guerra a eles.
-
-Você estará ao nosso lado?
+MUTUALDEFENSE_REQUESTHELP		;Estamos sendo atacados pelos {0}! Apelamos para que honre seu tratado conosco e declare guerra a eles.\n\nVocê estará ao nosso lado?
 MUTUALDEFENSE_HONORREQUESTHELP		;Estamos ao lado de nossos amigos e aliados – declaramos guerra aos {0}!
 MUTUALDEFENSE_HONORREQUESTHELP_RESPONSE	;Agradecemos profundamente pelo seu apoio leal, amigo!
 MUTUALDEFENSE_DECLINEREQUESTHELP	;Desculpe, mas vocês estão por conta própria...
@@ -132,15 +90,9 @@ WAR_DECLARE_REQUESTJOINT		;Solicitamos formalmente que declare guerra ao {0}
 WAR_DECLARE_REQUESTJOINT_ACCEPT		;A seu pedido, declaramos guerra ao {0}
 WAR_DECLARE_REQUESTJOINT_REJECT		;Não declararemos guerra ao {0}. Lutem suas próprias guerras!
 
-WAR_END					;Propomos o fim desta guerra sem sentido.
-
-O que acha?
-WAR_END_SUBJUGATIONDEMAND		;Concordamos em encerrar esta guerra somente se vocês aceitarem escravizar-se e se tornarem nosso Domínio Subjugado.
-
-Um pequeno preço a pagar para poupar suas vidas, não acham?
-WAR_END_SUBJUGATIONOFFER		;Oferecemos nos subjugar como escravos de seu poderoso império se concordarem em encerrar esta guerra destrutiva contra nós.
-
-Seus humildes escravos aguardam sua resposta — o que dizem?
+WAR_END					;Propomos o fim desta guerra sem sentido.\n\nO que acha?
+WAR_END_SUBJUGATIONDEMAND		;Concordamos em encerrar esta guerra somente se vocês aceitarem escravizar-se e se tornarem nosso Domínio Subjugado.\n\nUm pequeno preço a pagar para poupar suas vidas, não acham?
+WAR_END_SUBJUGATIONOFFER		;Oferecemos nos subjugar como escravos de seu poderoso império se concordarem em encerrar esta guerra destrutiva contra nós.\n\nSeus humildes escravos aguardam sua resposta — o que dizem?
 
 WAR_END_REQUESTOTHER			;Por favor, encerre sua guerra com o {0}
 WAR_END_REQUESTOTHER_ACCEPT		;A seu pedido, encerraremos nossa guerra com o {0}
@@ -148,9 +100,7 @@ WAR_END_REQUESTOTHER_REJECT		;Não pararemos nossa luta contra os miseráveis {0
 
 SUBJUGATIONDEMAND_ACCEPT		;Sim, aceitamos a derrota e reconhecemos seu status como nosso governante
 SUBJUGATIONDEMAND_REJECT		;Não, não aceitaremos sua absurda exigência de subjugação!
-SUBJUGATIONOFFER_ACCEPT			;Ótimo, aceitamos seu reconhecimento da derrota. Aguardamos ansiosos pelo nosso tributo regular.
-
-Vão agora e tentem não causar tantos problemas!
+SUBJUGATIONOFFER_ACCEPT			;Ótimo, aceitamos seu reconhecimento da derrota. Aguardamos ansiosos pelo nosso tributo regular.\n\nVão agora e tentem não causar tantos problemas!
 SUBJUGATIONOFFER_REJECT			;Não, vocês devem sofrer mais antes que esta guerra termine
 
 SUBJUGATION_REQUESTRELEASE		;Nosso povo se rebela sob seu governo despótico! Imploramos que nos liberte da escravidão
@@ -167,9 +117,7 @@ WARNING_ATTACKS_RESPONSE_FRIENDLY		;Que terrível, por favor, aceitem nossas sin
 WARNING_ATTACKS_RESPONSE_NEUTRAL		;Investigaremos este incidente e lidaremos com o comandante militar ofensivo
 WARNING_ATTACKS_RESPONSE_ANGRY			;Ataques? Não perderíamos nosso tempo com ataques contra um império tão patético quanto o de vocês.
 
-WARNING_REMOVEFORCESSYSTEM					;Não toleraremos a presença de suas forças em nosso território.
-
-Retirem suas naves militares do sistema {0} imediatamente!
+WARNING_REMOVEFORCESSYSTEM					;Não toleraremos a presença de suas forças em nosso território.\n\nRetirem suas naves militares do sistema {0} imediatamente!
 WARNING_REMOVEFORCESSYSTEM_RESPONSE_COMPLY	;Não vemos motivo para retirar nossas naves do sistema {0}.
 WARNING_REMOVEFORCESSYSTEM_RESPONSE_REFUSE	;Atenderemos ao seu pedido. Nossas naves estão deixando o sistema {0}.
 WARNING_REMOVEFORCESSYSTEM_RESPONSE_NOFORCESPRESENT	;Certamente estão enganados? Não temos nenhuma força militar em seu território.

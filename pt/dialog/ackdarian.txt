@@ -57,21 +57,13 @@ TREATY_REJECTRESPONSE   ;Tem certeza de que não podemos fazê-lo mudar de ideia
 PROTECTION_ACCEPTRESPONSE  ;Excelente! Aguardamos ansiosamente seus pagamentos mensais
 PROTECTION_REJECTRESPONSE  ;Uma escolha tola. Você pagará de um jeito ou de outro...
 
-GIFT_GIVE    ;Oferecemos este presente de {0} créditos.
-
-Talvez você possa gastar um pouco deles em nossas belas pérolas de Ucântio?
+GIFT_GIVE    ;Oferecemos este presente de {0} créditos.\n\nTalvez você possa gastar um pouco deles em nossas belas pérolas de Ucântio?
 GIFT_THANKS_ANGRY    ;Seu minguado presente foi anotado
 GIFT_THANKS_NEUTRAL    ;Agradecemos pelo seu gentil presente
 GIFT_THANKS_FRIENDLY    ;Ficamos encantados em receber seu presente tão generoso!
 GIFT_PROPOSE    ;Que tipo de presente você tem em mente?
 
-WAR_DECLARE_RESPONSE_ANGRY  ;Guerra contra nós?! Vamos lhe dar uma lição de guerra.
-
-Não temos medo de você
-WAR_DECLARE_RESPONSE_NEUTRAL  ;Você escolheu este caminho, e nós responderemos.
-
-Prepare suas defesas!
-WAR_DECLARE_RESPONSE_FRIENDLY  ;Você tem o hábito de atacar seus amigos? Seu comportamento é muito estranho.
-
-Esteja avisado de que nos defenderemos!
+WAR_DECLARE_RESPONSE_ANGRY  ;Guerra contra nós?! Vamos lhe dar uma lição de guerra.\n\nNão temos medo de você
+WAR_DECLARE_RESPONSE_NEUTRAL  ;Você escolheu este caminho, e nós responderemos.\n\nPrepare suas defesas!
+WAR_DECLARE_RESPONSE_FRIENDLY  ;Você tem o hábito de atacar seus amigos? Seu comportamento é muito estranho.\n\nEsteja avisado de que nos defenderemos!
 

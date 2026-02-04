@@ -1,20 +1,12 @@
-GREETING_INTRODUCTION		;Nós somos os {0}. Não buscamos nada dos outros, apenas sermos deixados em paz.
-
-Qual é o propósito desta comunicação?
+GREETING_INTRODUCTION		;Nós somos os {0}. Não buscamos nada dos outros, apenas sermos deixados em paz.\n\nQual é o propósito desta comunicação?
 GREETING_FRIENDLY			;O que deseja discutir?
 GREETING_NEUTRAL			;Transmita sua mensagem.
 GREETING_ANGRY				;Fale.
 
-MUTUALDEFENSE_ACCEPT			;Sim, um Pacto de Defesa Mútua é uma excelente ideia.
-
-Nós aceitamos.
+MUTUALDEFENSE_ACCEPT			;Sim, um Pacto de Defesa Mútua é uma excelente ideia.\n\nNós aceitamos.
 MUTUALDEFENSE_REJECT			;Não, não temos interesse em um Pacto de Defesa Mútua.
-MUTUALDEFENSE_REQUESTHELP		;Estamos sendo atacados pelos {0}. Solicitamos que honre seu tratado conosco e declare guerra a eles.
-
-Podemos contar com sua assistência?
-MUTUALDEFENSE_HONORREQUESTHELP		;Certamente, cumpriremos com as diretrizes de nossa aliança.
-
-Declaramos guerra aos {0}.
+MUTUALDEFENSE_REQUESTHELP		;Estamos sendo atacados pelos {0}. Solicitamos que honre seu tratado conosco e declare guerra a eles.\n\nPodemos contar com sua assistência?
+MUTUALDEFENSE_HONORREQUESTHELP		;Certamente, cumpriremos com as diretrizes de nossa aliança.\n\nDeclaramos guerra aos {0}.
 MUTUALDEFENSE_HONORREQUESTHELP_RESPONSE	;Isso é muito útil.
 MUTUALDEFENSE_DECLINEREQUESTHELP	;Não podemos atender a este pedido.
 MUTUALDEFENSE_DECLINEREQUESTHELP_RESPONSE	;Isso é muito preocupante. Sua falha em nos auxiliar terá graves consequências.
@@ -31,9 +23,7 @@ TREATY_PROPOSAL					;O que você propõe?
 TREATY_ACCEPTRESPONSE			;Este é um resultado bastante satisfatório. Antecipamos muitos benefícios com esse acordo.
 TREATY_REJECTRESPONSE			;Muito lamentável
 
-TRADESANCTIONS_IMPOSE						;É necessário impor Sanções Comerciais contra você.
-
-Todo o comércio entre nossos dois impérios está encerrado.
+TRADESANCTIONS_IMPOSE						;É necessário impor Sanções Comerciais contra você.\n\nTodo o comércio entre nossos dois impérios está encerrado.
 TRADESANCTIONS_IMPOSE_RESPONSE_ANGRY		;Você está se tornando um grande problema.
 TRADESANCTIONS_IMPOSE_RESPONSE_NEUTRAL		;Isso é extremamente inútil.
 TRADESANCTIONS_IMPOSE_RESPONSE_SURPRISED	;Não compreendemos suas ações. Isso é extremamente ilógico.
@@ -84,6 +74,4 @@ WARNING_REMOVEFORCESSYSTEM_RESPONSE_COMPLY	;Não vemos necessidade de remover no
 WARNING_REMOVEFORCESSYSTEM_RESPONSE_REFUSE	;Atenderemos ao seu pedido. Nossas naves estão deixando seus sistemas.
 WARNING_REMOVEFORCESSYSTEM_RESPONSE_NOFORCESPRESENT	;Você está enganado. Não temos nenhuma força militar em seu território.
 
-HISTORY_OFFER_STORYMESSAGE		;Temos um aviso importante que você precisa ouvir.
-
-Você está nos dando total atenção?
+HISTORY_OFFER_STORYMESSAGE		;Temos um aviso importante que você precisa ouvir.\n\nVocê está nos dando total atenção?

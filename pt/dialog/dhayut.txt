@@ -1,50 +1,24 @@
 
-GREETING_INTRODUCTION			;Nós somos os {0}.
-
-Não tememos ninguém. Defendemos nosso território com coragem.
-
-Não nos provoque
+GREETING_INTRODUCTION			;Nós somos os {0}.\n\nNão tememos ninguém. Defendemos nosso território com coragem.\n\nNão nos provoque
 GREETING_FRIENDLY			;Fale conosco, aliado
 GREETING_NEUTRAL			;Tem algo a dizer?
 GREETING_ANGRY				;Fale logo, sua mera presença nos irrita!
 
-PIRATE_PROTECTIONPROPOSE		;Procurando proteção?
+PIRATE_PROTECTIONPROPOSE		;Procurando proteção?\n\nPela pequena taxa mostrada abaixo, podemos 'proteger' todas as suas naves em nossa região
+PIRATE_PROTECTIONPROPOSEINITIATE	;A galáxia pode ser um lugar sombrio e perigoso. Sem a devida proteção, você pode se machucar.\n\nPodemos garantir que nenhuma de suas naves sofra danos enquanto negociar em nosso território.\n\nA taxa mensal de proteção está indicada abaixo
 
-Pela pequena taxa mostrada abaixo, podemos 'proteger' todas as suas naves em nossa região
-PIRATE_PROTECTIONPROPOSEINITIATE	;A galáxia pode ser um lugar sombrio e perigoso. Sem a devida proteção, você pode se machucar.
-
-Podemos garantir que nenhuma de suas naves sofra danos enquanto negociar em nosso território.
-
-A taxa mensal de proteção está indicada abaixo
-
-PIRATE_PROTECTIONACCEPTRESPONSE		;Você fez uma boa escolha!
-
-Agora você tem seis meses de comércio sem problemas para todas as suas naves
-PIRATE_PROTECTIONREJECTRESPONSE		;Se não pagar, coisas assustadoras podem acontecer.
-
-Isso seria triste
-PIRATE_ATTACKOFFER_SINGLEEMPIRE		;Você não está se dando muito bem com os {0}. Podemos ajudar com esse problema infligindo perdas dolorosas aos {0}.
-
-Eles não vão saber o que os atingiu!
-
-Basta nos pagar {1} créditos e deixe que cuidamos disso para você.
-
-Fechado?
-PIRATE_ATTACKCOMMENCE			;Transferência de créditos recebida.
-
-Nossos ataques aos {0} começarão imediatamente!
+PIRATE_PROTECTIONACCEPTRESPONSE		;Você fez uma boa escolha!\n\nAgora você tem seis meses de comércio sem problemas para todas as suas naves
+PIRATE_PROTECTIONREJECTRESPONSE		;Se não pagar, coisas assustadoras podem acontecer.\n\nIsso seria triste
+PIRATE_ATTACKOFFER_SINGLEEMPIRE		;Você não está se dando muito bem com os {0}. Podemos ajudar com esse problema infligindo perdas dolorosas aos {0}.\n\nEles não vão saber o que os atingiu!\n\nBasta nos pagar {1} créditos e deixe que cuidamos disso para você.\n\nFechado?
+PIRATE_ATTACKCOMMENCE			;Transferência de créditos recebida.\n\nNossos ataques aos {0} começarão imediatamente!
 
 
-OFFER_FREETRADE				;Oferecemos a você um Acordo de Livre Comércio. Os lucros podem ser enormes!
-
-Você aceita?
+OFFER_FREETRADE				;Oferecemos a você um Acordo de Livre Comércio. Os lucros podem ser enormes!\n\nVocê aceita?
 FREETRADE_ACCEPT			;Este Acordo de Livre Comércio parece muito lucrativo! Nós aceitamos!
 FREETRADE_REJECT			;Não queremos um Acordo de Livre Comércio com você. Você é fraco demais para nos beneficiar
 
 CANCELTREATY				;Este {0} não nos serve mais. Estamos cancelando-o
-CANCELTREATY_RESPONSE_FRIENDLY		;Que infortúnio.
-
-Valorizávamos este tratado. Parece que você não
+CANCELTREATY_RESPONSE_FRIENDLY		;Que infortúnio.\n\nValorizávamos este tratado. Parece que você não
 CANCELTREATY_RESPONSE_NEUTRAL		;Muito bem, então. Este tratado está encerrado
 CANCELTREATY_RESPONSE_ANGRY		;Ha ha! Isso deveria nos assustar? Podemos ensinar o que é medo de verdade.\n\nNão nos provoque!
 
@@ -64,36 +38,20 @@ WAR_DECLARE_RESPONSE_EAGER		;Nós aceitamos a guerra com vocês! Agora podemos a
 WAR_DECLARE_RESPONSE_NEUTRAL		;Isso não terminará bem para vocês.\n\nPreparem suas defesas — vão precisar delas!
 WAR_DECLARE_RESPONSE_SURPRISED		;Não esperávamos tamanha traição de vocês.\n\nMas agora vocês selaram seu destino: vamos exterminar sua civilização inútil
 
-WAR_END					;Nossa ira foi saciada. Agora é hora de esta guerra terminar.
-
-O que você diz?
+WAR_END					;Nossa ira foi saciada. Agora é hora de esta guerra terminar.\n\nO que você diz?
 WAR_END_ACCEPT				;Sim, concordamos em encerrar esta guerra. Pelo menos por enquanto...
 WAR_END_REJECT				;Não, estamos gostando demais desta guerra para querer terminá-la!
 
 GIFT_GIVE				;Nós lhe damos {0} créditos. Não somos generosos?
 GIFT_THANKS				;Um presente? Para nós? Que maravilhoso! Obrigado
 
-WARNING_INTELLIGENCEMISSIONS			;Suas missões secretas nos enfurecem!
-
-Parem com isso agora mesmo, ou sintam nossa dolorosa resposta!
-WARNING_ATTACKS					;Por que vocês estão atacando nossas naves?!
-
-Parem com isso! Estamos furiosos, furiosos, FURIOSOS!
+WARNING_INTELLIGENCEMISSIONS			;Suas missões secretas nos enfurecem!\n\nParem com isso agora mesmo, ou sintam nossa dolorosa resposta!
+WARNING_ATTACKS					;Por que vocês estão atacando nossas naves?!\n\nParem com isso! Estamos furiosos, furiosos, FURIOSOS!
 
 WARNING						;Que aviso é este?
-WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;Não sabemos de nenhuma missão contra vocês, amigo.
-
-Mas nem sempre sabemos de tudo que acontece em nosso vasto império.
-
-Vamos investigar este assunto para vocês
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;Não sabemos de nenhuma missão contra vocês, amigo.\n\nMas nem sempre sabemos de tudo que acontece em nosso vasto império.\n\nVamos investigar este assunto para vocês
 WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Vamos investigar suas alegações
-WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;Missões secretas? Sim, é que não gostamos de vocês.
-
-Podem esperar mais delas, e esperamos que não detectem as próximas...
-WARNING_ATTACKS_RESPONSE_FRIENDLY		;Nossas desculpas: alguns de nossos capitães de naves estelares devem ter se empolgado um pouco.
-
-Vamos garantir que isso não aconteça novamente
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;Missões secretas? Sim, é que não gostamos de vocês.\n\nPodem esperar mais delas, e esperamos que não detectem as próximas...
+WARNING_ATTACKS_RESPONSE_FRIENDLY		;Nossas desculpas: alguns de nossos capitães de naves estelares devem ter se empolgado um pouco.\n\nVamos garantir que isso não aconteça novamente
 WARNING_ATTACKS_RESPONSE_NEUTRAL		;Isso é muito preocupante. Vamos investigar este assunto
-WARNING_ATTACKS_RESPONSE_ANGRY			;Ataques? Bem, sim, nós enviamos esses ataques.
-
-Vocês estão surpresos com isso? Acham que gostamos de vocês ou algo assim?
+WARNING_ATTACKS_RESPONSE_ANGRY			;Ataques? Bem, sim, nós enviamos esses ataques.\n\nVocês estão surpresos com isso? Acham que gostamos de vocês ou algo assim?

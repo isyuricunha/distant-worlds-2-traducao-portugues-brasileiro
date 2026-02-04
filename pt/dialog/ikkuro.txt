@@ -36,47 +36,21 @@ WAR_DECLARE_RESPONSE_EAGER		;VENHA LOGO! Vamos te enterrar!
 WAR_DECLARE_RESPONSE_NEUTRAL		;Controle-se! Esse é o último erro que você vai cometer
 WAR_DECLARE_RESPONSE_SURPRISED		;Imagina!\n\nAchamos que éramos amigos? Parece que estávamos enganados
 
-WAR_END					;A gente até gostava dessa guerra no começo, mas agora já não é mais divertido.
-
-Vamos dar uma trégua? O que você acha?
-WAR_END_ACCEPT				;Sim, já deu pra hoje.
-
-Podemos continuar depois, se ainda estivermos afim
-WAR_END_REJECT				;Não, essa guerra é divertida demais pra parar!
-
-Você já está entediado?
+WAR_END					;A gente até gostava dessa guerra no começo, mas agora já não é mais divertido.\n\nVamos dar uma trégua? O que você acha?
+WAR_END_ACCEPT				;Sim, já deu pra hoje.\n\nPodemos continuar depois, se ainda estivermos afim
+WAR_END_REJECT				;Não, essa guerra é divertida demais pra parar!\n\nVocê já está entediado?
 
 GIFT_GIVE				;Temos uma coisa pra você: {0} créditos! Gostou?
 GIFT_THANKS				;Uau! Um presente pra nós! Valeu!
 
-WARNING_INTELLIGENCEMISSIONS		;Ei, a gente sabe de todas aquelas missões secretas que você está mandando contra nós.
-
-E estamos bem irritados com isso!
-
-Para com isso agora, tá bom?
-WARNING_ATTACKS				;Parem com os ataques às nossas naves agora mesmo!
-
-Nossa paciência está se esgotando – estamos te avisando!
+WARNING_INTELLIGENCEMISSIONS		;Ei, a gente sabe de todas aquelas missões secretas que você está mandando contra nós.\n\nE estamos bem irritados com isso!\n\nPara com isso agora, tá bom?
+WARNING_ATTACKS				;Parem com os ataques às nossas naves agora mesmo!\n\nNossa paciência está se esgotando – estamos te avisando!
 
 
 WARNING						;Um aviso? O que será que pode ser?
-WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;Entendemos sua preocupação.
-
-Vamos garantir que isso não aconteça de novo
-WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Antes de responder, precisamos verificar os detalhes desse incidente.
-
-A gente volta a falar com você, tá bom?
-WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;Agora que você mencionou: sim, nós ordenamos aquelas missões contra vocês.
-
-Por quê? Porque a gente te odeia, na verdade.
-
-Ficou claro?
-WARNING_ATTACKS_RESPONSE_FRIENDLY		;Que horrível. Por favor, aceitem nossas desculpas.
-
-Nos passe os detalhes do incidente e vamos lidar com o capitão da nave responsável
-WARNING_ATTACKS_RESPONSE_NEUTRAL		;Hmm, não é bom. Ser pego, quero dizer.
-
-Por favor, aceitem nossas desculpas
-WARNING_ATTACKS_RESPONSE_ANGRY			;A gente até lembra de ter ordenado alguns ataques recentemente.
-
-Mas só faríamos isso com nossos inimigos. Então acho que isso faz de vocês nossos inimigos, né?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;Entendemos sua preocupação.\n\nVamos garantir que isso não aconteça de novo
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Antes de responder, precisamos verificar os detalhes desse incidente.\n\nA gente volta a falar com você, tá bom?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;Agora que você mencionou: sim, nós ordenamos aquelas missões contra vocês.\n\nPor quê? Porque a gente te odeia, na verdade.\n\nFicou claro?
+WARNING_ATTACKS_RESPONSE_FRIENDLY		;Que horrível. Por favor, aceitem nossas desculpas.\n\nNos passe os detalhes do incidente e vamos lidar com o capitão da nave responsável
+WARNING_ATTACKS_RESPONSE_NEUTRAL		;Hmm, não é bom. Ser pego, quero dizer.\n\nPor favor, aceitem nossas desculpas
+WARNING_ATTACKS_RESPONSE_ANGRY			;A gente até lembra de ter ordenado alguns ataques recentemente.\n\nMas só faríamos isso com nossos inimigos. Então acho que isso faz de vocês nossos inimigos, né?

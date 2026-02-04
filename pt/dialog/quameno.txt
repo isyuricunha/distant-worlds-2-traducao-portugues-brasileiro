@@ -19,9 +19,7 @@ DEAL_REJECT_RESPONSE		;Que ilógico e triste
 DEAL_REJECT				;Este acordo não faz sentido – nós o rejeitamos
 
 TREATY_PROPOSAL				;Uma proposta de tratado? Estamos ansiosos para ouvir sua ideia
-TREATY_ACCEPTRESPONSE			;Ficamos muito satisfeitos com sua aceitação, nosso novo aliado.
-
-Sinta-se à vontade para compartilhar seus pensamentos conosco a qualquer momento
+TREATY_ACCEPTRESPONSE			;Ficamos muito satisfeitos com sua aceitação, nosso novo aliado.\n\nSinta-se à vontade para compartilhar seus pensamentos conosco a qualquer momento
 TREATY_REJECTRESPONSE			;Talvez em outra ocasião você pense diferente
 PROTECTION_ACCEPTRESPONSE		;Você é lógico. Aguardamos seus pagamentos mensais
 PROTECTION_REJECTRESPONSE		;Isso não faz sentido. Pagar agora é mais barato do que pagar depois...
@@ -29,9 +27,7 @@ PROTECTION_REJECTRESPONSE		;Isso não faz sentido. Pagar agora é mais barato do
 SWAP_MAPS		;Que tipo de mapa você gostaria de trocar?
 
 WAR_END_ACCEPT				;Sim, esta guerra não tem propósito. Estamos ordenando que nossas forças parem de lutar
-WAR_END_REJECT				;Já é tarde demais para a paz.
-
-Esta guerra continuará até que você seja derrotado
+WAR_END_REJECT				;Já é tarde demais para a paz.\n\nEsta guerra continuará até que você seja derrotado
 WAR_END_ACCEPT_RESPONSE			;Uma escolha lógica. Nossas forças estão recuando agora
 
 WAR_END_ACCEPT_BECOMEVASSAL				;Concordamos em nos tornar seu vassalo. Cessaremos as hostilidades imediatamente e iniciaremos os pagamentos mensais de tributo
@@ -39,35 +35,21 @@ WAR_END_REJECT_BECOMEVASSAL				;Não, nos recusamos a nos subjugar como seu vass
 WAR_END_ACCEPT_ACCEPTVASSAL				;Aceitamos sua rendição e subjugação como nosso vassalo. Aguardamos seus pagamentos mensais de tributo
 WAR_END_REJECT_ACCEPTVASSAL				;Não, recusamos sua oferta de subjugação como nosso vassalo. Esta guerra ainda não acabou
 
-WAR_DECLARE_RESPONSE_ANGRY		;Não é comum buscarmos a guerra. Mas, no seu caso, a recebemos de braços abertos.
-
-Antecipamos sua rápida derrota
-WAR_DECLARE_RESPONSE_NEUTRAL		;Podemos ser pacíficos, mas também estamos preparados.
-
-Se busca guerra, nós a daremos a você
-WAR_DECLARE_RESPONSE_FRIENDLY		;Não compreendemos sua agressão.
-
-Iremos nos defender, mas pedimos que reconsidere
+WAR_DECLARE_RESPONSE_ANGRY		;Não é comum buscarmos a guerra. Mas, no seu caso, a recebemos de braços abertos.\n\nAntecipamos sua rápida derrota
+WAR_DECLARE_RESPONSE_NEUTRAL		;Podemos ser pacíficos, mas também estamos preparados.\n\nSe busca guerra, nós a daremos a você
+WAR_DECLARE_RESPONSE_FRIENDLY		;Não compreendemos sua agressão.\n\nIremos nos defender, mas pedimos que reconsidere
 
 TREATY_ACCEPT			;Aceitamos sua oferta de {0}
 TREATY_REJECT			;Não, não queremos {0} no momento
 TREATY_REJECT_TOOSOON_NEUTRAL			;Lamentamos, mas {0} com você não seria viável agora. É muito cedo após a última mudança em nossas relações
 TREATY_REJECT_TOOSOON_ANGRY			;Não temos nenhum interesse em {0} com você. Além disso, é muito cedo após a última mudança em nossas relações
 TREATY_REJECT_TOOSOON_FRIENDLY			;Lamentamos, amigo, mas {0} com você não seria adequado para nós agora. É muito cedo após a última mudança em nossas relações
-TREATY_ACCEPT_NEUTRAL			;{0} com você? Aceitamos com entusiasmo!
-
-Deixaremos nossos embaixadores para acertar os detalhes do tratado
-TREATY_REJECT_NEUTRAL			;Lamentamos, mas {0} com você não funcionaria agora.
-
-Mas você sempre pode tentar novamente mais tarde
+TREATY_ACCEPT_NEUTRAL			;{0} com você? Aceitamos com entusiasmo!\n\nDeixaremos nossos embaixadores para acertar os detalhes do tratado
+TREATY_REJECT_NEUTRAL			;Lamentamos, mas {0} com você não funcionaria agora.\n\nMas você sempre pode tentar novamente mais tarde
 TREATY_ACCEPT_ANGRY			;Aceitamos sua oferta de {0}. Mas não se engane: ainda não gostamos muito de você
 TREATY_REJECT_ANGRY			;Não temos nenhum interesse em {0} com você
-TREATY_ACCEPT_FRIENDLY			;{0} com você? Aceitamos com entusiasmo!
-
-Deixaremos nossos embaixadores para acertar os detalhes do tratado
-TREATY_REJECT_FRIENDLY			;Lamentamos, amigo, mas {0} com você não seria adequado para nós agora.
-
-Talvez devêssemos voltar a esse assunto mais tarde
+TREATY_ACCEPT_FRIENDLY			;{0} com você? Aceitamos com entusiasmo!\n\nDeixaremos nossos embaixadores para acertar os detalhes do tratado
+TREATY_REJECT_FRIENDLY			;Lamentamos, amigo, mas {0} com você não seria adequado para nós agora.\n\nTalvez devêssemos voltar a esse assunto mais tarde
 
 PROTECTION_ACCEPT		;Aceitamos seu pedido de proteção. A taxa mensal é de {0} créditos
 PROTECTION_ACCEPT_NEUTRAL		;Aceitamos seu pedido de proteção. A taxa mensal é de {0} créditos
@@ -78,15 +60,9 @@ PROTECTION_REJECT_NEUTRAL		;Não, protegê-los daria muito trabalho
 PROTECTION_REJECT_ANGRY		;Não, não queremos protegê-los. Preferimos muito mais saqueá-los
 PROTECTION_REJECT_FRIENDLY		;Não, não queremos um Acordo de Proteção com vocês
 
-CANCELTREATY_RESPONSE_FRIENDLY		;Isso nos decepciona. Achávamos que esse tratado era muito vantajoso.
-
-Mas respeitamos sua decisão de encerrá-lo
-CANCELTREATY_RESPONSE_NEUTRAL		;Que infortúnio.
-
-Mas é bom conversarmos abertamente sobre esses assuntos importantes
-CANCELTREATY_RESPONSE_ANGRY		;Nossos sentimentos são os mesmos — também não queremos mais esse tratado.
-
-É melhor que ele termine
+CANCELTREATY_RESPONSE_FRIENDLY		;Isso nos decepciona. Achávamos que esse tratado era muito vantajoso.\n\nMas respeitamos sua decisão de encerrá-lo
+CANCELTREATY_RESPONSE_NEUTRAL		;Que infortúnio.\n\nMas é bom conversarmos abertamente sobre esses assuntos importantes
+CANCELTREATY_RESPONSE_ANGRY		;Nossos sentimentos são os mesmos — também não queremos mais esse tratado.\n\nÉ melhor que ele termine
 CANCELPROTECTION_RESPONSE_FRIENDLY		;Que ilógico. Achávamos que aqueles pagamentos mensais funcionavam bem, pelo menos para nós
 CANCELPROTECTION_RESPONSE_NEUTRAL		;Ah, que pena para vocês. Agora teremos que encontrar outras formas de obter esses pagamentos mensais...
 CANCELPROTECTION_RESPONSE_ANGRY		;Você não faz sentido. Agora simplesmente obteremos esses créditos de vocês por outros meios...

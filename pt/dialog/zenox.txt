@@ -40,27 +40,17 @@ PROTECTION_REJECT_NEUTRAL  ;Não estamos interessados em proteção
 PROTECTION_REJECT_ANGRY  ;Não protegeremos seu império inútil.
 PROTECTION_REJECT_FRIENDLY  ;Não estamos interessados em proteção
 
-CANCELTREATY    ;Pensamos muito em nosso {0}, nós pensamos.
-
-Chegou a hora de acabar com isso, sentimos. As coisas mudaram
-CANCELTREATY_RESPONSE_FRIENDLY  ;Lamentável, isso é. O tratado era bom, sentimos.
-
-Mas agora acabou
+CANCELTREATY    ;Pensamos muito em nosso {0}, nós pensamos.\n\nChegou a hora de acabar com isso, sentimos. As coisas mudaram
+CANCELTREATY_RESPONSE_FRIENDLY  ;Lamentável, isso é. O tratado era bom, sentimos.\n\nMas agora acabou
 CANCELTREATY_RESPONSE_NEUTRAL  ;As coisas vêm e vão. Já vimos isso antes
-CANCELTREATY_RESPONSE_ANGRY  ;Isso é realmente o melhor.
-
-Fiel aos nossos sentimentos, esse tratado já não era mais
+CANCELTREATY_RESPONSE_ANGRY  ;Isso é realmente o melhor.\n\nFiel aos nossos sentimentos, esse tratado já não era mais
 
 CANCELPROTECTION_RESPONSE_FRIENDLY  ;Talvez isso seja o melhor
 CANCELPROTECTION_RESPONSE_NEUTRAL  ;Vamos sentir falta desses créditos mensais. Talvez encontremos outras formas de obtê-los...
 CANCELPROTECTION_RESPONSE_ANGRY  ;Míope, você é! Acha que consegue sobreviver sem nossa 'proteção', é?!
 
-TREATY_PROPOSAL    ;Um tratado, você diz?
-
-Vamos ouvir sua oferta. Vamos considerar nossa resposta
-TREATY_ACCEPTRESPONSE   ;Chegamos a um acordo! Muito bom, isso é.
-
-Vamos compartilhar uma história com você, amigo?
+TREATY_PROPOSAL    ;Um tratado, você diz?\n\nVamos ouvir sua oferta. Vamos considerar nossa resposta
+TREATY_ACCEPTRESPONSE   ;Chegamos a um acordo! Muito bom, isso é.\n\nVamos compartilhar uma história com você, amigo?
 TREATY_REJECTRESPONSE   ;Muito insatisfatório, isso é. Esperávamos um resultado melhor
 
 PROTECTION_ACCEPTRESPONSE  ;Maravilhoso! Vamos aguardar ansiosamente seus pagamentos mensais

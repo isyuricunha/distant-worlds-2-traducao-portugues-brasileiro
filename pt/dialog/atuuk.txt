@@ -1,8 +1,6 @@
 
 
-GREETING_INTRODUCTION			;Oi, alienígena engraçado! {0} nós somos.
-
-Amigos de vocês, nós seremos!
+GREETING_INTRODUCTION			;Oi, alienígena engraçado! {0} nós somos.\n\nAmigos de vocês, nós seremos!
 GREETING_FRIENDLY			;É bom ver você, amigo. Nós ajudar você, sim?
 GREETING_NEUTRAL			;Nós escutamos. Você fala
 GREETING_ANGRY				;O que vocês, fedidos, querem dessa vez?
@@ -13,11 +11,7 @@ GIFT_THANKS_NEUTRAL				;Obrigado pelo dinheiro! Agora tudo cheira bem!
 GIFT_THANKS_FRIENDLY				;Obrigado pelo dinheiro! Você é nosso bom amigo!
 
 OFFER_DEAL				;Hora de negociar! Nós damos coisas e você dá coisas
-PIRATEPROTECTION_DEAL				;A galáxia é um lugar perigoso, você sabe. É fácil se machucar.
-
-Por uma pequena taxa de {0} créditos, podemos proteger todas as suas naves no nosso espaço.
-
-É melhor pagar, hmmm?...
+PIRATEPROTECTION_DEAL				;A galáxia é um lugar perigoso, você sabe. É fácil se machucar.\n\nPor uma pequena taxa de {0} créditos, podemos proteger todas as suas naves no nosso espaço.\n\nÉ melhor pagar, hmmm?...
 DEAL_BEGIN				;Conte-nos mais...
 DEAL_ACCEPT				;Bom negócio, nós aceitamos
 DEAL_ACCEPT_RESPONSE		;Estamos felizes que você concorda!
@@ -69,9 +63,7 @@ PROTECTION_REJECT_FRIENDLY		;Não, não queremos 'proteger' você
 CANCELTREATY				;O acordo de {0} com você acabou. Já tivemos o suficiente
 CANCELTREATY_RESPONSE_FRIENDLY		;Não somos mais amigos? Estamos com cheiro ruim? O que foi? Muito triste
 CANCELTREATY_RESPONSE_NEUTRAL		;Tratado encerrado? Tudo bem então
-CANCELTREATY_RESPONSE_ANGRY		;Não gostamos de você mesmo. Você tem um cheiro estranho e não é um bom caçador.
-
-Vá embora agora
+CANCELTREATY_RESPONSE_ANGRY		;Não gostamos de você mesmo. Você tem um cheiro estranho e não é um bom caçador.\n\nVá embora agora
 CANCELPROTECTION_RESPONSE_FRIENDLY		;Sem mais pagamentos? Tudo bem então
 CANCELPROTECTION_RESPONSE_NEUTRAL		;Você é menos esperto do que parece. Acho que vai se arrepender disso...
 CANCELPROTECTION_RESPONSE_ANGRY		;Má decisão, fedido! Agora vamos usar outros meios para pegar suas coisas...

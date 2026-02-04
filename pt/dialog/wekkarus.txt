@@ -26,9 +26,7 @@ PROTECTION_REJECTRESPONSE		;Uma escolha ruim. A galáxia acabou de se tornar um 
 
 SWAP_MAPS		;Que tipo de mapa você gostaria de trocar?
 
-WAR_END_ACCEPT				;Sim, esta guerra deve acabar.
-
-Nossas forças estão retornando para casa agora
+WAR_END_ACCEPT				;Sim, esta guerra deve acabar.\n\nNossas forças estão retornando para casa agora
 WAR_END_REJECT				;Acabar com a guerra? Não, esta guerra não pode terminar enquanto vocês ainda estiverem livres
 WAR_END_ACCEPT_RESPONSE			;Muito bem. Nossas forças estão recuando agora
 
@@ -37,12 +35,8 @@ WAR_END_REJECT_BECOMEVASSAL				;Não, nos recusamos a nos subjugar como seus vas
 WAR_END_ACCEPT_ACCEPTVASSAL				;Aceitamos sua rendição e subjugação como nossos vassalos. Aguardamos seus pagamentos mensais de tributo.
 WAR_END_REJECT_ACCEPTVASSAL				;Não, recusamos sua oferta de subjugação como nossos vassalos. Esta guerra ainda não acabou.
 
-WAR_DECLARE_RESPONSE_ANGRY		;Somos um povo pacífico, mas sabemos defender nossos lares!
-
-Lutaremos com todas as forças
-WAR_DECLARE_RESPONSE_NEUTRAL		;Sua agressão tornou este caminho inevitável.
-
-Estamos prontos para vocês!
+WAR_DECLARE_RESPONSE_ANGRY		;Somos um povo pacífico, mas sabemos defender nossos lares!\n\nLutaremos com todas as forças
+WAR_DECLARE_RESPONSE_NEUTRAL		;Sua agressão tornou este caminho inevitável.\n\nEstamos prontos para vocês!
 WAR_DECLARE_RESPONSE_FRIENDLY		;Que chocante! Você é um Darkhul mortal, atacando pelas costas.\n\nVamos colocá-lo de volta na sua jaula!
 
 TREATY_ACCEPT			;Aceitamos sua oferta de {0}
