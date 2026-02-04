@@ -806,20 +806,20 @@ Você pode alterar o status de automação da nave de colonização usando o bot
       </TourStep>
       <TourStep>
         <StepTitle>Instalações Planetárias</StepTitle>
-        <MarkupText>Instalações Planetárias são construídas em colônias do seu império. Elas fornecem vários bônus ou novas capacidades para a colônia.
-
-Algumas instalações permitem o recrutamento de novos tipos de tropas. Outras fornecem armas baseadas em solo para defender a colônia. Outras instalações dão bônus à governança, reduzindo a corrupção e melhorando a felicidade e, assim, aumentando a renda da colônia.
+        <MarkupText>Instalações Planetárias são construídas em colônias dentro do seu império. Elas fornecem vários bônus ou novas capacidades para a colônia.
+        
+Algumas instalações permitem o recrutamento de novos tipos de tropas. Outras fornecem armas baseadas em solo para defender a colônia. Outras instalações oferecem bônus à governança, reduzindo a corrupção e melhorando a felicidade, aumentando assim a renda da colônia.
 
 Novas instalações são habilitadas por meio de pesquisa: examine os projetos na tela de pesquisa para ver quais instalações você pode desbloquear.
 
 [H3]Construindo Novas Instalações[/H3]
-Para construir uma nova instalação em uma colônia, selecione a Colônia e use o botão de ação 'Construir Instalações' no Painel de Seleção. Isso apresentará uma lista de botões com todas as instalações que podem ser construídas na colônia.
+Para construir uma nova instalação em uma colônia, selecione a Colônia e use o botão de ação 'Construir Instalações' no Painel de Seleção. Isso apresentará uma lista de botões com todas as instalações que podem ser construídas na colônia. 
 Passe o cursor sobre cada botão para ver um resumo da instalação. Clique em um botão para pagar o custo de construção e iniciar a construção da instalação.
 
 [H3]Itens da Lista de Instalações[/H3]
-Esta tela lista todas as instalações planetárias, maravilhas e ruínas em colônias do seu império. Verifique as opções de ordenação e filtragem no topo do painel. As opções de filtro permitem focar em tipos específicos de instalações, como instalações de armas, recrutamento de tropas ou edifícios de governança.
+Esta tela lista todas as instalações planetárias, maravilhas e ruínas nas colônias do seu império. Verifique as opções de ordenação e filtro no topo do painel. As opções de filtro permitem focar em tipos específicos de instalações, como instalações de armas, recrutamento de tropas ou edifícios de governança.
 
-Quando afastado para a visão da galáxia ou do sistema, os locais das instalações são destacados no mapa. Passar o cursor sobre um item da lista destacará o local no mapa. Clicar no item o selecionará. Clicar duas vezes no item moverá a visão para aquele local.
+Quando afastado para a visão da galáxia ou do sistema, os locais das instalações são destacados no mapa. Passar o cursor sobre um item na lista destacará o local no mapa. Clicar no item irá selecioná-lo. Clicar duas vezes no item moverá a visão para aquele local.
 
 Passar o cursor sobre um item da lista abre um resumo detalhado da instalação em um painel à direita.</MarkupText>
         <RelatedControlNames>
@@ -1692,19 +1692,19 @@ Cada item da lista mostra a força de ataque, força de defesa e custo de manute
       </TourStep>
       <TourStep>
         <StepTitle>Modelos de Exército</StepTitle>
-        <MarkupText>Os Modelos de Exército permitem definir a composição relativa dos tipos de tropas. Os Modelos de Exército são usados por frotas e colônias para especificar quantas tropas de cada tipo elas devem ter.
+        <MarkupText>Modelos de Exército permitem definir a composição relativa dos tipos de tropas. Os Modelos de Exército são usados por frotas e colônias para especificar quantas tropas de cada tipo devem ter.
 
-[H3]Tipos de Modelos de Exército[/H3]
-Existem 4 tipos básicos de Modelos de Exército:
-[ULI]Invasão: atribuído a frotas para definir quais tropas devem ser usadas ao invadir colônias inimigas. Normalmente incluem muitas Blindadas, algumas Forças Especiais, algumas Infantarias e Titãs (se disponíveis).[/ULI]
-[ULI]Defesa de Colônia Principal: atribuído a colônias principais (como sua capital) para definir quais tropas devem ser usadas para defender a colônia de tropas inimigas invasoras. Normalmente incluem todos os tipos de tropas, mas especialmente muitas infantarias e unidades de defesa planetária.[/ULI]
-[ULI]Defesa de Colônia de Fronteira: atribuído a colônias de fronteira vulneráveis para definir quais tropas devem ser usadas para defender a colônia de tropas inimigas invasoras. Normalmente incluem muitas infantarias e algumas unidades de defesa planetária.[/ULI]
-[ULI]Defesa Padrão de Colônia: atribuído a todas as outras colônias para definir quais tropas devem ser usadas para defender a colônia de tropas inimigas invasoras. Normalmente incluem muitas infantarias.[/ULI]
+[H3]Tipos de Modelo de Exército[/H3]
+Existem 4 tipos básicos de Modelo de Exército:
+[ULI]Invasão: atribuído a frotas para definir quais tropas devem ser usadas ao invadir colônias inimigas. Normalmente incluem muita Armadura, algumas Forças Especiais, alguma Infantaria e Titãs (se disponíveis).[/ULI]
+[ULI]Defesa de Colônia Principal: atribuído a colônias principais (como sua capital) para definir quais tropas devem ser usadas para defender a colônia de tropas inimigas invasoras. Normalmente incluem todos os tipos de tropas, mas especialmente muita infantaria e unidades de defesa planetária.[/ULI]
+[ULI]Defesa de Colônia de Fronteira: atribuído a colônias de fronteira vulneráveis para definir quais tropas devem ser usadas para defender a colônia de tropas inimigas invasoras. Normalmente incluem muita infantaria e algumas unidades de defesa planetária.[/ULI]
+[ULI]Defesa Padrão de Colônia: atribuído a todas as outras colônias para definir quais tropas devem ser usadas para defender a colônia de tropas inimigas invasoras. Normalmente incluem muita infantaria.[/ULI]
 
-Existe um modelo padrão para cada tipo, mas você pode modificá-los ou criar modelos adicionais que atendam às suas necessidades.
+Há um modelo padrão para cada tipo, mas você pode modificá-los ou criar modelos adicionais que atendam às suas necessidades.
 
 [H3]Atribuindo Modelos de Exército[/H3]
-Você pode selecionar um Modelo de Exército para uma colônia selecionando a colônia e usando os botões 'Definir Automação da Colônia' &gt; 'Modelo de Exército' no Painel de Seleção. Isso abrirá uma lista de todos os Modelos de Exército que podem ser usados.
+Você pode selecionar um Modelo de Exército para uma colônia selecionando a colônia e usando os botões 'Definir Automação da Colônia' &gt; 'Modelo de Exército' no Painel de Seleção. Isso abrirá uma lista de todos os Modelos de Exército que podem ser usados. 
 Selecione o modelo que deseja usar para a colônia clicando nele na lista. A colônia então tentará recrutar tropas defensivas na proporção definida pelo modelo.
 
 Você pode selecionar um Modelo de Exército para uma frota selecionando a frota e usando o botão 'Modelo de Exército' no Painel de Seleção. Isso abrirá uma lista de todos os Modelos de Exército que podem ser usados. Selecione o modelo que deseja usar para a frota clicando nele na lista. A frota então tentará carregar tropas na proporção definida pelo modelo.</MarkupText>
