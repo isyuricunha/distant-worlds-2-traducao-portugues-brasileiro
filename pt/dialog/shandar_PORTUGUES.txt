@@ -1,0 +1,65 @@
+
+GREETING_INTRODUCTION			;Olá! Nós somos os {0}.\n\nSomos bem tranquilos em relação a tudo ao nosso redor.\n\nSó queremos que nos deixem em paz para aproveitar o calor natural de nossas casas vulcânicas.
+GREETING_FRIENDLY			;E aí, amigo?\n\nQue tal uma gelada cerveja de Rephidium e um mergulho em nossas aconchegantes piscinas termais geotérmicas?
+GREETING_NEUTRAL			;Olá, visitantes galácticos!\n\nSobre o que vamos conversar?
+GREETING_ANGRY				;Ora, ora. Aí vem encrenca. Qual é o problema agora?
+
+OFFER_FREETRADE				;Ei! Tivemos uma ideia legal: um Acordo de Livre Comércio!\n\nVocê recebe muitas pedras preciosas brilhantes da gente, e nós recebemos um monte de... seja lá o que você produz.\n\nO que acha?
+FREETRADE_ACCEPT			;Um Acordo de Livre Comércio? Parece incrível!\n\nAceitamos.
+FREETRADE_REJECT			;Não, não achamos que um Acordo de Livre Comércio com vocês seja uma boa ideia.\n\nTalvez mais tarde, tudo bem?
+
+CANCELTREATY				;Sabe aquele {0} que temos com vocês? Bom, estamos cancelando agora.\n\nDesculpe por isso, mas temos certeza de que vocês vão superar.
+CANCELTREATY_RESPONSE_FRIENDLY		;Sem tratado mais, é? Bom, isso acontece às vezes.\n\nEntão sem problemas, ok?
+CANCELTREATY_RESPONSE_NEUTRAL		;Não quer mais esse tratado? Se é o que diz, então tá.
+CANCELTREATY_RESPONSE_ANGRY		;Sabe de uma coisa? Você é muito frio.\n\nNão costumamos dizer isso de alguém, não.
+
+TREATY_PROPOSAL				;Tem um plano? Conte tudo pra gente.
+TREATY_ACCEPTRESPONSE			;Isso é ótimo!\n\nIsso pede uma comemoração. Vocês gostam de piscinas termais?
+TREATY_REJECTRESPONSE			;Estamos sentindo uma vibe bem gelada vindo de vocês. Devemos nos preocupar?
+
+TRADESANCTIONS_IMPOSE			;Chegou a esse ponto: estamos impondo Sanções Comerciais contra vocês!\n\nAgora vão ter que arrumar outro lugar para conseguir suas pedras preciosas.
+TRADESANCTIONS_IMPOSE_RESPONSE_ANGRY	;Você realmente exagera! Não vamos tolerar isso, seu alienígena frio e calculista!
+TRADESANCTIONS_IMPOSE_RESPONSE_NEUTRAL	;Sanções comerciais são exatamente o que não precisamos!\n\nVocê realmente precisa aprender a relaxar...
+TRADESANCTIONS_IMPOSE_RESPONSE_SURPRISED	;Sanções comerciais?! O que aconteceu?\n\nVocê precisa se acalmar. Isso não vai resolver nada
+TRADESANCTIONS_LIFT			;Decidimos suspender nossas sanções comerciais contra você.\n\nVocê não parece mais tão tenso
+TRADESANCTIONS_LIFT_RESPONSE		;Legal. Nós também estamos prontos para negociar de novo
+
+WAR_DECLARE				;Você nos levou ao limite: GUERRA contra o seu império rabugento!\n\nVamos fazer chover lava incandescente sobre vocês, opressores do mal!
+WAR_DECLARE_RESPONSE_EAGER		;Estávamos esperando por essa chance!\n\nAceitamos a guerra com vocês. Agora vamos te dar uma lição!
+WAR_DECLARE_RESPONSE_NEUTRAL		;Vocês são um bando de alienígenas raivosos mesmo, né?\n\nSe querem briga, vão ter uma
+WAR_DECLARE_RESPONSE_SURPRISED		;Guerra, você disse?! O que provocou isso?\n\nSe estão chateados, deviam mesmo é conversar com a gente, sabiam?
+
+WAR_END					;Essa guerra está nos estressando muito. Propomos um cessar-fogo.\n\nVocê aceita?
+WAR_END_ACCEPT				;Tudo bem, vamos acabar com essa guerra.\n\nNão precisamos mais desse estresse
+WAR_END_REJECT				;De jeito nenhum! Não vamos parar essa guerra enquanto estivermos na vantagem!
+
+GIFT_GIVE				;Olá! Temos um presente para você: {0} créditos.\n\nSabe, nós realmente gostamos de você!
+GIFT_THANKS				;Muito obrigado pelo presente!
+
+WARNING						;Um aviso para nós? O que fizemos de errado?
+WARNING_INTELLIGENCEMISSIONS			;Sabemos tudo sobre essas missões secretas que vocês enviaram contra nós.
+
+Elas nos deixam muito irritados, então parem com isso agora!
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;Missões de inteligência? Nunca ouvimos falar de nenhuma.
+
+Vamos verificar e depois entramos em contato
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Missões secretas? Não temos certeza sobre isso.
+
+Podemos entrar em contato depois que investigarmos?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;Missões secretas?
+
+Tem certeza de que não é só sua paranoia natural tomando conta de você?
+
+Você precisa relaxar
+WARNING_ATTACKS					;Estamos muito irritados com seus ataques às nossas naves e bases!
+
+Recuem agora, ou então!
+WARNING_ATTACKS_RESPONSE_FRIENDLY		;Pedimos muitas desculpas. Que erro terrível!
+
+Vamos garantir que isso não aconteça novamente
+WARNING_ATTACKS_RESPONSE_NEUTRAL		;Pedimos muitas desculpas. Que erro terrível!
+
+Vamos garantir que isso não aconteça novamente
+WARNING_ATTACKS_RESPONSE_ANGRY			;Ataques contra vocês?
+
+Aqui vai algo para pensar: quando pessoas tranquilas como nós estão atacando vocês, talvez devessem se perguntar 'Por quê?'
