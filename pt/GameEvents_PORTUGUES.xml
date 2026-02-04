@@ -7539,13 +7539,11 @@ Talvez assim possamos desvendar o mistério de sua destruição.</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Registros Parciais Recuperados da Frota Antiga</MessageTitle>
-				<Description>Tomamos o controle de {0}.
+				<Description>Nós abordamos {0} e assumimos o controle.\n\nEmbora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
 
-Embora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
+As mensagens indicam que esta nave fazia parte da 4ª Frota da Aliança. Essa frota tinha a missão de defender um sistema próximo contra algo chamado Shakturi. Parece que eles não tiveram sucesso...
 
-As mensagens indicam que esta nave fazia parte da 4ª Frota da Aliança. Essa frota tinha a missão de defender um sistema próximo contra algo chamado Shakturi. Parece que não tiveram sucesso...
-
-Além disso, encontramos um conjunto de coordenadas galácticas armazenadas no núcleo do computador. Nenhuma explicação é dada sobre essas coordenadas, mas parecem ter sido o próximo destino da frota...
+Além disso, encontramos um conjunto de coordenadas galácticas armazenadas no núcleo do computador. Não há explicação sobre essas coordenadas, mas parecem ter sido o próximo destino da frota...
 
 Adicionamos um sinal de localização para as coordenadas no mapa galáctico.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -7912,13 +7910,11 @@ Talvez possamos, então, desvendar o mistério de sua destruição.</Description
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Registros Parciais Recuperados da Frota Ancestral</MessageTitle>
-				<Description>Tomamos o controle de {0}.
+				<Description>Nós abordamos {0} e assumimos o controle.\n\nEmbora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
 
-Embora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
+As mensagens indicam que esta nave fazia parte da 7ª Frota da Aliança. Essa frota tinha a missão de defender um sistema próximo contra algo chamado Shakturi. Parece que eles não tiveram sucesso...
 
-As mensagens indicam que esta nave fazia parte da 7ª Frota da Aliança. Essa frota tinha a missão de defender um sistema próximo contra algo chamado Shakturi. Parece que não tiveram sucesso...
-
-Além disso, encontramos um conjunto de coordenadas galácticas armazenadas no núcleo do computador. Nenhuma explicação é dada sobre essas coordenadas, mas parecem ter sido o próximo destino da frota...
+Além disso, encontramos um conjunto de coordenadas galácticas armazenadas no núcleo do computador. Não há explicação sobre essas coordenadas, mas parecem ter sido o próximo destino da frota...
 
 Adicionamos um sinal de localização para as coordenadas no mapa galáctico.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -8285,13 +8281,11 @@ Talvez possamos, então, desvendar o mistério de sua destruição.</Description
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Registros Parciais Recuperados da Frota Ancestral</MessageTitle>
-				<Description>Tomamos o controle da {0} após o embarque.
+				<Description>Nós abordamos {0} e assumimos o controle.\n\nEmbora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
 
-Embora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
+As mensagens indicam que esta nave fazia parte da 9ª Frota da Aliança. Essa frota tinha a missão de defender um sistema próximo contra algo chamado Shakturi. Parece que eles não tiveram sucesso...
 
-As mensagens indicam que esta nave fazia parte da 9ª Frota da Aliança. Essa frota tinha a missão de defender um sistema próximo contra algo chamado Shakturi. Parece que não tiveram sucesso...
-
-Além disso, encontramos um conjunto de coordenadas galácticas armazenadas no núcleo do computador. Nenhuma explicação é dada sobre essas coordenadas, mas parecem ter sido o próximo destino da frota...
+Além disso, encontramos um conjunto de coordenadas galácticas armazenadas no núcleo do computador. Não há explicação sobre essas coordenadas, mas parecem ter sido o próximo destino da frota...
 
 Adicionamos um sinal de localização para as coordenadas no mapa galáctico.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -8658,13 +8652,11 @@ Talvez possamos, então, desvendar o mistério de sua destruição.</Description
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Registros Parciais Recuperados da Frota Ancestral</MessageTitle>
-				<Description>Tomamos o controle de {0} após abordagem.
+				<Description>Nós abordamos {0} e assumimos o controle.\n\nEmbora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
 
-Embora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
+As mensagens indicam que esta nave fazia parte de uma antiga frota Mortalen. Essa frota tinha a missão de atacar um adversário temível conhecido como os Shakturi. Aparentemente, os Shakturi venceram a batalha...
 
-As mensagens indicam que esta nave fazia parte de uma frota ancestral Mortalen. Essa frota tinha a missão de atacar um adversário temível conhecido como Shakturi. Aparentemente, os Shakturi venceram a batalha...
-
-Além disso, encontramos um conjunto de coordenadas galácticas armazenadas no núcleo do computador. Nenhuma explicação é dada sobre essas coordenadas, mas parecem ter sido o próximo destino da frota...
+Além disso, encontramos um conjunto de coordenadas galácticas armazenadas no núcleo do computador. Não há explicação sobre essas coordenadas, mas parecem ter sido o próximo destino da frota...
 
 Adicionamos um sinal de localização para as coordenadas no mapa galáctico.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -9075,9 +9067,7 @@ Nosso entendimento mais profundo agora nos permite curar esse vírus perigoso.</
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Registros parciais recuperados da Frota Ancestral Ackdariana</MessageTitle>
-				<Description>Nós abordamos {0} e assumimos o controle.
-
-Embora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
+				<Description>Nós abordamos {0} e assumimos o controle.\n\nEmbora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.\n
 
 As mensagens indicam que esta frota fazia parte de um império chamado Aliança da Liberdade. Esta frota tinha a missão de defender um sistema próximo contra algo chamado Shakturi. Parece que eles perderam a batalha...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -9162,9 +9152,7 @@ As mensagens indicam que esta frota fazia parte de um império chamado Aliança 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Registros parciais recuperados da Frota Ancestral Humana</MessageTitle>
-				<Description>Nós abordamos {0} e assumimos o controle.
-
-Embora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
+				<Description>Nós abordamos {0} e assumimos o controle.\n\nEmbora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
 
 As mensagens indicam que esta frota fazia parte de um império chamado Aliança da Liberdade. Esta frota tinha a missão de defender um sistema próximo contra algo chamado Shakturi. Parece que eles perderam a batalha...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -9249,9 +9237,7 @@ As mensagens indicam que esta frota fazia parte de um império chamado Aliança 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Registros parciais recuperados da Frota Ancestral Zenox</MessageTitle>
-				<Description>Nós abordamos {0} e assumimos o controle.
-
-Embora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
+				<Description>Nós abordamos {0} e assumimos o controle.\n\nEmbora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo central do computador.
 
 As mensagens indicam que esta frota fazia parte de um império chamado Aliança da Liberdade. Esta frota tinha a missão de defender um sistema próximo contra algo chamado Shakturi. Parece que eles perderam a batalha...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -9336,11 +9322,9 @@ As mensagens indicam que esta frota fazia parte de um império chamado Aliança 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Registros parciais recuperados da Frota Ancestral Boskara</MessageTitle>
-				<Description>Nós abordamos {0} e assumimos o controle.
+				<Description>Nós abordamos {0} e assumimos o controle.\n\nEmbora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
 
-Embora muito tenha sido perdido, conseguimos recuperar uma pequena parte dos registros do núcleo do computador central.
-
-As mensagens indicam que esta frota fazia parte de um império temível chamado Eixo Shaktur. Sua última entrada intacta nos registros indica que eles estavam saltando para atacar um mundo central Haakonish. Os registros não contêm qualquer indicação de batalha, no entanto, esta frota foi claramente destruída por algo...</Description>
+As mensagens indicam que esta frota fazia parte de um império temível chamado Eixo Shaktur. O último registro intacto indica que eles estavam saltando para atacar um mundo central Haakonish. Os registros não contêm nenhuma indicação de uma batalha, no entanto, esta frota foi claramente destruída por algo...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -12949,11 +12933,7 @@ As ruínas também se revelam uma fonte abundante de vários recursos importante
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Um Mundo Fortaleza Destruído</MessageTitle>
-				<Description>As extensas ruínas neste mundo mostram que ele já foi um planeta altamente militarizado e fortemente defendido, talvez na fronteira da República Solar Ancestral Humana.
-
-Há evidências claras de um bombardeio orbital, bem como de um cataclismo súbito e massivo, seguido por muitos eventos menores ao longo dos séculos. As tempestades gravitacionais no planeta e dentro do sistema parecem ser remanescentes desse cataclismo e continuam extremamente perigosas.
-
-Nenhuma forma de vida sobrevive na superfície, embora inúmeros vestígios de antigos humanos e de várias flora e fauna sejam evidentes. O próprio planeta também foi quase despedaçado por eventos sísmicos massivos no passado. Em seu estado atual, seria muito difícil para a vida retornar e sobreviver.
+				<Description>As extensas ruínas neste mundo mostram que ele já foi um planeta altamente militarizado e fortemente defendido, talvez na fronteira da Antiga República Solar Humana.\n\nHá evidências claras de um bombardeio orbital, bem como de um cataclismo súbito e massivo, seguido por muitos eventos menores ao longo dos séculos. As tempestades gravitacionais no planeta e dentro do sistema parecem ser remanescentes desse cataclismo e continuam extremamente perigosas.\n\nNenhuma forma de vida sobrevive na superfície, embora inúmeros restos de antigos humanos e de várias flora e fauna sejam evidentes. O próprio planeta também foi quase despedaçado por eventos sísmicos massivos no passado. Em seu estado atual, seria muito difícil para a vida retornar e sobreviver.
 
 As ruínas também se revelam uma fonte abundante de vários recursos importantes e valiosos, e algumas das instalações militares danificadas podem ser de interesse.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
