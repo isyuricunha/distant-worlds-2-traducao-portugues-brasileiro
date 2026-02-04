@@ -1,0 +1,77 @@
+
+
+GREETING_INTRODUCTION			;Oi, alienígena engraçado! {0} nós somos.
+
+Amigos de vocês, nós seremos!
+GREETING_FRIENDLY			;É bom ver você, amigo. Nós ajudar você, sim?
+GREETING_NEUTRAL			;Nós escutamos. Você fala
+GREETING_ANGRY				;O que vocês, fedidos, querem dessa vez?
+
+GIFT_PROPOSE				;Qual é o presente?
+GIFT_THANKS_ANGRY				;Você nos manda dinheiro. Da próxima vez, mande mais. Estaremos esperando
+GIFT_THANKS_NEUTRAL				;Obrigado pelo dinheiro! Agora tudo cheira bem!
+GIFT_THANKS_FRIENDLY				;Obrigado pelo dinheiro! Você é nosso bom amigo!
+
+OFFER_DEAL				;Hora de negociar! Nós damos coisas e você dá coisas
+PIRATEPROTECTION_DEAL				;A galáxia é um lugar perigoso, você sabe. É fácil se machucar.
+
+Por uma pequena taxa de {0} créditos, podemos proteger todas as suas naves no nosso espaço.
+
+É melhor pagar, hmmm?...
+DEAL_BEGIN				;Conte-nos mais...
+DEAL_ACCEPT				;Bom negócio, nós aceitamos
+DEAL_ACCEPT_RESPONSE		;Estamos felizes que você concorda!
+DEAL_REJECT_RESPONSE		;Sem acordo? Ficamos tristes
+DEAL_REJECT				;Mau negócio, não vai rolar
+
+TREATY_PROPOSAL				;Mostre-nos o tratado - nós dizemos se cheira bem ou mal
+TREATY_ACCEPTRESPONSE			;Vamos fazer uma grande festa! Sejam bem-vindos, amigos!
+TREATY_REJECTRESPONSE			;Você está perdendo muitas festas grandes, muita boa caçada. Pense mais - mude de ideia
+PROTECTION_ACCEPTRESPONSE		;Seu dinheiro cheira muito bem! Sem acidentes para suas naves até gastarmos todo o dinheiro
+PROTECTION_REJECTRESPONSE		;Sem pagamento - sem proteção. É muito simples
+
+SWAP_MAPS		;Que tipo de mapa você quer trocar?
+
+WAR_END_ACCEPT				;Sim, nós paramos a guerra agora. Prontos para a grande festa
+WAR_END_REJECT				;Não, nós acabamos de começar a caçada. Não é hora de terminar a guerra agora. Ainda não é hora da festa
+WAR_END_ACCEPT_RESPONSE			;Bom, a caçada acabou agora
+
+WAR_END_ACCEPT_BECOMEVASSAL				;Nós concordamos em nos tornar seus vassalos. Pararemos de lutar agora mesmo e começaremos a pagar nosso tributo mensal
+WAR_END_REJECT_BECOMEVASSAL				;Não, nós NÃO vamos nos submeter como seus vassalos.
+WAR_END_ACCEPT_ACCEPTVASSAL				;Nós aceitamos sua rendição e subjugação como nossos vassalos. Estamos prontos para receber seus pagamentos mensais de tributo.
+WAR_END_REJECT_ACCEPTVASSAL				;Não, não queremos sua oferta de subjugação como nossos vassalos. Ainda há mais caçada a ser feita nesta guerra.
+
+WAR_DECLARE_RESPONSE_ANGRY		;Não estamos assustados. Somos bons caçadores. Você vai se arrepender
+WAR_DECLARE_RESPONSE_NEUTRAL		;Estamos prontos para a guerra. Nossas lanças estão afiadas!
+WAR_DECLARE_RESPONSE_FRIENDLY		;Vocês estão todos confusos! Somos amigos, vamos fazer um banquete juntos — não guerra! Digam que foi um engano
+
+TREATY_ACCEPT			;Sim, nós aceitamos {0}! Vamos fazer um grande banquete! Sejam bem-vindos, amigos!
+TREATY_REJECT			;Não, não queremos {0} agora. Talvez mais tarde, tá bom?
+TREATY_REJECT_TOOSOON_NEUTRAL			;Não, não queremos {0}. Acabamos de mudar nossos tratados!
+TREATY_REJECT_TOOSOON_ANGRY			;De jeito nenhum, nada de {0} com vocês! Além disso, acabamos de mudar nossos tratados recentemente
+TREATY_REJECT_TOOSOON_FRIENDLY			;Não, ainda não queremos {0}. Acabamos de mudar nossos tratados! Mas talvez mais tarde, tá bom?
+TREATY_ACCEPT_NEUTRAL			;Sim, nós aceitamos {0}! Vamos fazer um grande banquete! Sejam bem-vindos, amigos!
+TREATY_REJECT_NEUTRAL			;Não, não queremos {0} agora. Talvez mais tarde, vamos ver
+TREATY_ACCEPT_ANGRY			;Aceitamos sua oferta de {0}
+TREATY_REJECT_ANGRY			;De jeito nenhum, nada de {0} com vocês! Nunca, jamais
+TREATY_ACCEPT_FRIENDLY			;Sim, nós aceitamos {0}! Vamos fazer um grande banquete! Sejam bem-vindos, amigos!
+TREATY_REJECT_FRIENDLY			;Não, não queremos {0} agora. Talvez mais tarde, tá bom?
+
+PROTECTION_ACCEPT		;Aceitamos seu pedido de proteção. A taxa mensal é de {0} créditos
+PROTECTION_ACCEPT_NEUTRAL		;Seu dinheiro tem um cheiro ótimo! Não haverá acidentes com suas naves até gastarmos todo o dinheiro. Lembre-se: são {0} créditos por mês, tá bom?
+PROTECTION_ACCEPT_ANGRY		;Tá bom, não haverá mais acidentes com suas naves agora. {0} créditos por mês, não esqueça. Agora caiam fora daqui
+PROTECTION_ACCEPT_FRIENDLY		;Seu dinheiro tem um cheiro muito bom! Sem acidentes com suas naves até gastarmos todo o dinheiro. Lembre-se, são {0} créditos por mês, certo?
+PROTECTION_REJECT			;Não, não queremos 'proteger' você
+PROTECTION_REJECT_NEUTRAL		;Não, não queremos 'proteger' você
+PROTECTION_REJECT_ANGRY		;Não, não vamos 'proteger' você. Você cheira muito mal. E é um caçador terrível
+PROTECTION_REJECT_FRIENDLY		;Não, não queremos 'proteger' você
+
+CANCELTREATY				;O acordo de {0} com você acabou. Já tivemos o suficiente
+CANCELTREATY_RESPONSE_FRIENDLY		;Não somos mais amigos? Estamos com cheiro ruim? O que foi? Muito triste
+CANCELTREATY_RESPONSE_NEUTRAL		;Tratado encerrado? Tudo bem então
+CANCELTREATY_RESPONSE_ANGRY		;Não gostamos de você mesmo. Você tem um cheiro estranho e não é um bom caçador.
+
+Vá embora agora
+CANCELPROTECTION_RESPONSE_FRIENDLY		;Sem mais pagamentos? Tudo bem então
+CANCELPROTECTION_RESPONSE_NEUTRAL		;Você é menos esperto do que parece. Acho que vai se arrepender disso...
+CANCELPROTECTION_RESPONSE_ANGRY		;Má decisão, fedido! Agora vamos usar outros meios para pegar suas coisas...

@@ -14,3 +14,4 @@ Com uma nave ou frota selecionada, mantenha pressionado o botão direito do mous
 Para aproximar rapidamente o item selecionado, clique duas vezes na área do cabeçalho do Painel de Seleção ou pressione a tecla Backspace
 Você pode alternar as configurações de automação da nave selecionada usando a tecla =
 Navegue para trás e para frente no histórico do Painel de Seleção usando as teclas de seta esquerda e direita
+Se quiser que os Petroleiros de Combustível reabasteçam automaticamente sua frota, você deve automatizar os Petroleiros de Combustível, mesmo que a frota esteja sob controle manual

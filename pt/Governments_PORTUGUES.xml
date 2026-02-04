@@ -5,7 +5,7 @@
 		<LeaderTitle>Presidente</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -21,7 +21,7 @@
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -109,11 +109,31 @@
 			</IndexFactor>
 			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
-				<Factor>-0.7</Factor>
+				<Factor>-0.8</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
-				<Factor>0.8</Factor>
+				<Factor>0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>-0.2</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -233,7 +253,7 @@ Os cidadãos de Repúblicas normalmente desfrutam de muitas liberdades e direito
 		<LeaderTitle>Grande Comerciante</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -249,7 +269,7 @@ Os cidadãos de Repúblicas normalmente desfrutam de muitas liberdades e direito
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -330,11 +350,31 @@ Os cidadãos de Repúblicas normalmente desfrutam de muitas liberdades e direito
 			</IndexFactor>
 			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
-				<Factor>-0.5</Factor>
+				<Factor>-0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
-				<Factor>0.5</Factor>
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>-0.1</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -433,7 +473,7 @@ As Guildas Mercantis geralmente permitem um alto grau de liberdade e autonomia a
 		<CabinetTitle>Cabinet</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -449,7 +489,7 @@ As Guildas Mercantis geralmente permitem um alto grau de liberdade e autonomia a
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -537,11 +577,31 @@ As Guildas Mercantis geralmente permitem um alto grau de liberdade e autonomia a
 			</IndexFactor>
 			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
-				<Factor>-0.7</Factor>
+				<Factor>-0.8</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
-				<Factor>0.9</Factor>
+				<Factor>0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>-0.3</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -643,7 +703,7 @@ Os cidadãos de governos democráticos desfrutam de liberdades e direitos univer
 		<CabinetTitle>Noble Council</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -659,7 +719,7 @@ Os cidadãos de governos democráticos desfrutam de liberdades e direitos univer
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -676,7 +736,7 @@ Os cidadãos de governos democráticos desfrutam de liberdades e direitos univer
 				<float>1</float> <!-- EnemyRaids -->
 			</ExpenseFactors>
 		</EconomicFactors>
-		<LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementTypicalPeriod>25</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>20</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
@@ -713,7 +773,7 @@ Os cidadãos de governos democráticos desfrutam de liberdades e direitos univer
 		<Biases>
 			<IndexFactor>
 				<Index>0</Index> <!-- Republic -->
-				<Factor>-0.1</Factor>
+				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>1</Index> <!-- Mercantile Guild -->
@@ -721,7 +781,7 @@ Os cidadãos de governos democráticos desfrutam de liberdades e direitos univer
 			</IndexFactor>
 			<IndexFactor>
 				<Index>2</Index> <!-- Democracy -->
-				<Factor>-0.2</Factor>
+				<Factor>-0.3</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index> <!-- Feudalism -->
@@ -729,7 +789,7 @@ Os cidadãos de governos democráticos desfrutam de liberdades e direitos univer
 			</IndexFactor>
 			<IndexFactor>
 				<Index>4</Index> <!-- Monarchy -->
-				<Factor>0.4</Factor>
+				<Factor>0.3</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>5</Index> <!-- Military Dictatorship -->
@@ -745,11 +805,31 @@ Os cidadãos de governos democráticos desfrutam de liberdades e direitos univer
 			</IndexFactor>
 			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
-				<Factor>-0.3</Factor>
+				<Factor>-0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
 				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>0.1</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -889,7 +969,7 @@ Sociedades feudalistas dão grande ênfase à hierarquia e ao status. Suas estru
 		<LeaderTitle>Imperador</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -905,7 +985,7 @@ Sociedades feudalistas dão grande ênfase à hierarquia e ao status. Suas estru
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -957,7 +1037,7 @@ Sociedades feudalistas dão grande ênfase à hierarquia e ao status. Suas estru
 		<Biases>
 			<IndexFactor>
 				<Index>0</Index> <!-- Republic -->
-				<Factor>-0.1</Factor>
+				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>1</Index> <!-- Mercantile Guild -->
@@ -965,7 +1045,7 @@ Sociedades feudalistas dão grande ênfase à hierarquia e ao status. Suas estru
 			</IndexFactor>
 			<IndexFactor>
 				<Index>2</Index> <!-- Democracy -->
-				<Factor>-0.2</Factor>
+				<Factor>-0.3</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index> <!-- Feudalism -->
@@ -989,11 +1069,31 @@ Sociedades feudalistas dão grande ênfase à hierarquia e ao status. Suas estru
 			</IndexFactor>
 			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
-				<Factor>-0.3</Factor>
+				<Factor>-0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
 				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>0.1</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -1098,7 +1198,7 @@ Os monarcas podem governar com poder absoluto ou podem compartilhar o poder com 
 		<CabinetTitle>War Council</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -1114,7 +1214,7 @@ Os monarcas podem governar com poder absoluto ou podem compartilhar o poder com 
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -1204,11 +1304,31 @@ Os monarcas podem governar com poder absoluto ou podem compartilhar o poder com 
 			</IndexFactor>
 			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
-				<Factor>-0.1</Factor>
+				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
 				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>0.1</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -1341,7 +1461,7 @@ Ditaduras Militares regulam quase todos os aspectos do comportamento público e 
 		<CabinetTitle>Panel of Experts</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -1357,7 +1477,7 @@ Ditaduras Militares regulam quase todos os aspectos do comportamento público e 
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -1415,19 +1535,19 @@ Ditaduras Militares regulam quase todos os aspectos do comportamento público e 
 			</IndexFactor>
 			<IndexFactor>
 				<Index>2</Index> <!-- Democracy -->
-				<Factor>-0.2</Factor>
+				<Factor>0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index> <!-- Feudalism -->
-				<Factor>-0.2</Factor>
+				<Factor>-0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>4</Index> <!-- Monarchy -->
-				<Factor>0</Factor>
+				<Factor>0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>5</Index> <!-- Military Dictatorship -->
-				<Factor>-0.1</Factor>
+				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>6</Index> <!-- Technocracy -->
@@ -1439,11 +1559,31 @@ Ditaduras Militares regulam quase todos os aspectos do comportamento público e 
 			</IndexFactor>
 			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
-				<Factor>-0.3</Factor>
+				<Factor>-0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
-				<Factor>0.3</Factor>
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>0</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -1574,7 +1714,7 @@ O tipo de governo Tecnocracia está disponível apenas para as raças Ackdariana
 		<LeaderTitle>Grande Supervisor</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -1590,7 +1730,7 @@ O tipo de governo Tecnocracia está disponível apenas para as raças Ackdariana
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -1670,11 +1810,31 @@ O tipo de governo Tecnocracia está disponível apenas para as raças Ackdariana
 			</IndexFactor>
 			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
-				<Factor>0.4</Factor>
+				<Factor>0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
-				<Factor>-0.3</Factor>
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>0.3</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -1798,7 +1958,7 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 		<LeaderTitle>Lorde das Trevas</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -1814,7 +1974,7 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -1869,11 +2029,11 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 			</IndexFactor>
 			<IndexFactor>
 				<Index>4</Index> <!-- Monarchy -->
-				<Factor>-0.1</Factor>
+				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>5</Index> <!-- Military Dictatorship -->
-				<Factor>0.5</Factor>
+				<Factor>-0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>6</Index> <!-- Technocracy -->
@@ -1881,7 +2041,7 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 			</IndexFactor>
 			<IndexFactor>
 				<Index>7</Index> <!-- Hive Mind -->
-				<Factor>0</Factor>
+				<Factor>-0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
@@ -1890,6 +2050,26 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
 				<Factor>-1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>-0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>-0.6</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>-0.1</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -1994,7 +2174,7 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 		<CabinetTitle>Cabinet</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -2010,7 +2190,7 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -2049,27 +2229,27 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 		<Biases>
 			<IndexFactor>
 				<Index>0</Index> <!-- Republic -->
-				<Factor>0.8</Factor>
+				<Factor>0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>1</Index> <!-- Mercantile Guild -->
-				<Factor>0.2</Factor>
+				<Factor>0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>2</Index> <!-- Democracy -->
-				<Factor>0.8</Factor>
+				<Factor>0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index> <!-- Feudalism -->
-				<Factor>-0.2</Factor>
+				<Factor>-0.3</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>4</Index> <!-- Monarchy -->
-				<Factor>-0.1</Factor>
+				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>5</Index> <!-- Military Dictatorship -->
-				<Factor>-0.8</Factor>
+				<Factor>-0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>6</Index> <!-- Technocracy -->
@@ -2086,6 +2266,26 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
 				<Factor>1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>0.6</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>-0.3</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -2184,7 +2384,7 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 		<CabinetTitle>Cabinet</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -2200,7 +2400,7 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -2239,43 +2439,63 @@ O tipo de governo Mente Coletiva está disponível apenas para as raças Boskara
 		<Biases>
 			<IndexFactor>
 				<Index>0</Index> <!-- Republic -->
-				<Factor>0.8</Factor>
+				<Factor>0.5</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>1</Index> <!-- Mercantile Guild -->
-				<Factor>0.2</Factor>
+				<Factor>0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>2</Index> <!-- Democracy -->
-				<Factor>0.8</Factor>
+				<Factor>0.5</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index> <!-- Feudalism -->
-				<Factor>-0.2</Factor>
+				<Factor>-0.3</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>4</Index> <!-- Monarchy -->
-				<Factor>-0.1</Factor>
-			</IndexFactor>
-			<IndexFactor>
-				<Index>5</Index> <!-- Military Dictatorship -->
-				<Factor>-0.8</Factor>
-			</IndexFactor>
-			<IndexFactor>
-				<Index>6</Index> <!-- Technocracy -->
-				<Factor>0.2</Factor>
-			</IndexFactor>
-			<IndexFactor>
-				<Index>7</Index> <!-- Hive Mind -->
 				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
 				<Index>8</Index> <!-- Way of Darkness -->
-				<Factor>-1</Factor>
+				<Factor>-0.8</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index> <!-- Way of the Ancients -->
-				<Factor>1</Factor>
+				<Factor>0.6</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>-0.2</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>

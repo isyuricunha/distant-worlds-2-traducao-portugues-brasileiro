@@ -4,7 +4,7 @@
     <ResourceId>0</ResourceId>
     <Name>Cristal de Emeros</Name>
     <Description>Cristal de Emeros é uma pedra preciosa verde brilhante. É tipicamente usado em componentes de armas. Cristal de Emeros é encontrado em mundos Vulcânicos e ocasionalmente em mundos Carbonáceos.</Description>
-    <BaseCost>8</BaseCost>
+    <BaseCost>4</BaseCost>
     <ImageFilename>Environment/Resources/EmerosCrystal</ImageFilename>
     <Bonuses />
   </Resource>
@@ -12,7 +12,7 @@
     <ResourceId>1</ResourceId>
     <Name>Pedra de Nekros</Name>
     <Description>Pedra de Nekros é uma pedra preciosa vermelho-escura usada em componentes de armas. Pedra de Nekros é encontrada em mundos Vulcânicos e ocasionalmente em mundos Desérticos Rochosos.</Description>
-    <BaseCost>5</BaseCost>
+    <BaseCost>2.5</BaseCost>
     <ImageFilename>Environment/Resources/NekrosStone</ImageFilename>
     <Bonuses />
   </Resource>
@@ -20,7 +20,7 @@
     <ResourceId>2</ResourceId>
     <Name>Osália</Name>
     <Description>Osália é uma pedra preciosa roxa usada em componentes de armas. Pedras de Osália são encontradas em mundos Vulcânicos, Desérticos e Continentais.</Description>
-    <BaseCost>11</BaseCost>
+    <BaseCost>5.5</BaseCost>
     <ImageFilename>Environment/Resources/Osalia</ImageFilename>
     <Bonuses />
   </Resource>
@@ -28,7 +28,7 @@
     <ResourceId>3</ResourceId>
     <Name>Cristal Kaasiano</Name>
     <Description>Cristal Kaasiano é uma pedra preciosa rara de cor azul-petróleo. É tipicamente usado em componentes de armas de alta qualidade. Cristal Kaasiano é encontrado em mundos Oceânicos.</Description>
-    <BaseCost>18</BaseCost>
+    <BaseCost>9</BaseCost>
     <ImageFilename>Environment/Resources/KaasianCrystal</ImageFilename>
     <Bonuses />
   </Resource>
@@ -36,7 +36,7 @@
     <ResourceId>4</ResourceId>
     <Name>Argônio</Name>
     <Description>Argônio é um gás inerte amarelo. É tipicamente usado em armas, escudos e componentes de reatores. Argônio é encontrado em mundos Gigantes Gasosos e Gigantes Gasosos Congelados.</Description>
-    <BaseCost>7</BaseCost>
+    <BaseCost>3.5</BaseCost>
     <ImageFilename>Environment/Resources/Argon</ImageFilename>
     <Bonuses />
   </Resource>
@@ -44,7 +44,7 @@
     <ResourceId>5</ResourceId>
     <Name>Criptônio</Name>
     <Description>Criptônio é um gás inerte verde. É tipicamente usado em armas, escudos e componentes de reatores. Quantidades mínimas são encontradas em mundos Gigantes Gasosos e Gigantes Gasosos Congelados.</Description>
-    <BaseCost>10</BaseCost>
+    <BaseCost>5</BaseCost>
     <ImageFilename>Environment/Resources/Krypton</ImageFilename>
     <Bonuses />
   </Resource>
@@ -52,7 +52,7 @@
     <ResourceId>6</ResourceId>
     <Name>Tidério</Name>
     <Description>Tidério é um gás inerte raro usado em armas, escudos e componentes de reatores. O gás Tidério tem um tom rosado. É mais pesado que o ar e afunda ao nível do solo, a menos que seja sustentado por outros gases ao redor. É encontrado em quantidades mínimas em mundos Gelados e Gigantes Gasosos Congelados.</Description>
-    <BaseCost>15</BaseCost>
+    <BaseCost>7.5</BaseCost>
     <ImageFilename>Environment/Resources/Tyderios</ImageFilename>
     <Bonuses />
   </Resource>
@@ -60,7 +60,7 @@
     <ResourceId>7</ResourceId>
     <Name>Silício</Name>
     <Description>Silício é usado em componentes eletrônicos e coletores de energia. É encontrado em mundos Rochosos de Silício e Desérticos.</Description>
-    <BaseCost>5</BaseCost>
+    <BaseCost>2.5</BaseCost>
     <ImageFilename>Environment/Resources/Silicon</ImageFilename>
     <Bonuses />
   </Resource>
@@ -68,7 +68,7 @@
     <ResourceId>8</ResourceId>
     <Name>Aço</Name>
     <Description>Aço é um material de construção muito comum, fundido a partir de minério de ferro. Grandes quantidades de aço são necessárias para construir a maioria das naves e bases. Minério de ferro geralmente é encontrado em mundos Rochosos Metálicos e Continentais, ou em asteroides.</Description>
-    <BaseCost>5</BaseCost>
+    <BaseCost>2.5</BaseCost>
     <ImageFilename>Environment/Resources/Steel</ImageFilename>
     <Bonuses />
   </Resource>
@@ -76,7 +76,7 @@
     <ResourceId>9</ResourceId>
     <Name>Mebnar</Name>
     <Description>Mebnar é um metal muito denso, fundido a partir de minério de Mebnar. Tem uma aparência opaca cinza-escuro, quase preta. É particularmente útil como blindagem pesada em componentes de Reator. Mebnar é frequentemente encontrado em mundos Rochosos Metálicos e asteroides.</Description>
-    <BaseCost>6</BaseCost>
+    <BaseCost>3</BaseCost>
     <ImageFilename>Environment/Resources/Mebnar</ImageFilename>
     <Bonuses />
   </Resource>
@@ -84,7 +84,7 @@
     <ResourceId>10</ResourceId>
     <Name>Aculon</Name>
     <Description>Aculon é um metal azul muito resistente ao calor, fundido a partir de minério de Aculon. É tipicamente usado em componentes expostos a temperaturas extremas. Minério de Aculon é encontrado em mundos Vulcânicos e Rochosos Metálicos e em asteroides.</Description>
-    <BaseCost>12</BaseCost>
+    <BaseCost>6</BaseCost>
     <ImageFilename>Environment/Resources/Aculon</ImageFilename>
     <Bonuses />
   </Resource>
@@ -92,7 +92,7 @@
     <ResourceId>11</ResourceId>
     <Name>Cuprica</Name>
     <Description>Cuprica é um metal brilhante, fundido a partir de minério de Cuprica. É extremamente resistente e leve, com uma aparência vermelho-acastanhada brilhante. Cuprica é comumente usada em armas de feixe e torpedos. É encontrada em alguns planetas Rochosos Metálicos e em asteroides.</Description>
-    <BaseCost>18</BaseCost>
+    <BaseCost>9</BaseCost>
     <ImageFilename>Environment/Resources/Cuprica</ImageFilename>
     <Bonuses />
   </Resource>
@@ -100,7 +100,7 @@
     <ResourceId>12</ResourceId>
     <Name>Polímero</Name>
     <Description>Polímeros são vários tipos de plásticos, geralmente produzidos a partir de petróleo. São tipicamente usados em componentes eletrônicos. Polímero é encontrado em mundos Oceânicos, Pântanos Lamacentos e Continentais.</Description>
-    <BaseCost>6</BaseCost>
+    <BaseCost>3</BaseCost>
     <ImageFilename>Environment/Resources/Polymer</ImageFilename>
     <Bonuses />
   </Resource>
@@ -108,7 +108,7 @@
     <ResourceId>13</ResourceId>
     <Name>Carbonita</Name>
     <Description>Carbonita é um composto de carbono super-resistente. É tipicamente usado em componentes que exigem grande resistência e tolerância a altas temperaturas. Carbonita é encontrada em mundos Pântanos Lamacentos, Florestas de Mangue, Continentais e Carbonáceos.</Description>
-    <BaseCost>9</BaseCost>
+    <BaseCost>4.5</BaseCost>
     <ImageFilename>Environment/Resources/Carbonite</ImageFilename>
     <Bonuses />
   </Resource>
@@ -116,7 +116,7 @@
     <ResourceId>14</ResourceId>
     <Name>Caslon</Name>
     <Description>Caslon é um gás comum que serve como combustível universal para reatores. É encontrado em mundos Gigantes Gasosos.</Description>
-    <BaseCost>3</BaseCost>
+    <BaseCost>1.5</BaseCost>
     <ImageFilename>Environment/Resources/Caslon</ImageFilename>
     <Bonuses />
   </Resource>
@@ -125,7 +125,7 @@
     <ResourceId>15</ResourceId>
     <Name>Fruta Loros</Name>
     <Description>A Fruta Loros é uma fruta rosa doce extremamente rara da árvore Loros. É valorizada por suas incríveis propriedades restauradoras, além de seu sabor rico e textura aveludada. A fruta Loros aumenta drasticamente a expectativa de vida. O processo natural de envelhecimento é radicalmente desacelerado, permitindo que um ser viva muito mais do que o normal. Qualquer colônia abastecida com Fruta Loros, portanto, recebe um grande bônus de desenvolvimento, além de qualquer outro bônus. Uma vez descoberta, todos os esforços devem ser feitos para controlar o comércio desse recurso altamente valioso. A Fruta Loros cresce apenas em mundos de Pântano Lamacento.</Description>
-    <BaseCost>200</BaseCost>
+    <BaseCost>100</BaseCost>
     <ImageFilename>Environment/Resources/LorosFruit</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -149,7 +149,7 @@
     <ResourceId>16</ResourceId>
     <Name>Noz Megallos</Name>
     <Description>A Noz Megallos é a noz amarelada e azeda da árvore Megallos. Essas árvores têm uma aparência nodosa e retorcida. Crescem muito lentamente, geralmente levando 2.000 anos para atingir uma altura madura de 5 metros. Seu vasto sistema radicular pode se espalhar por até 30 metros em todas as direções. Elas crescem no interior de florestas densas em mundos Continentais.</Description>
-    <BaseCost>12</BaseCost>
+    <BaseCost>6</BaseCost>
     <ImageFilename>Environment/Resources/MegallosNut</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -168,7 +168,7 @@
     <ResourceId>17</ResourceId>
     <Name>Tempero Falajiano</Name>
     <Description>O Tempero Falajiano é um tempero marrom em pó colhido do arbusto Falajiano. É altamente valorizado por seu sabor rico e distinto. O tempero Falajiano é amplamente utilizado na culinária exótica. Ele é feito das folhas do arbusto Falajiano, secando-as lentamente e depois moendo-as até obter um pó fino. Os arbustos Falajianos crescem em lagoas pantanosas em mundos de Pântano Lamacento.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/FalajianSpice</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -182,7 +182,7 @@
     <ResourceId>18</ResourceId>
     <Name>Tempero Korabbiano</Name>
     <Description>O Tempero Korabbiano é um tempero cristalizado branco extremamente raro. É valorizado por suas propriedades medicinais únicas. Sob circunstâncias especiais, depósitos de Tempero Korabbiano se acumulam espontaneamente nas paredes de cânions rochosos. O processo exato que forma o Tempero Korabbiano nunca foi precisamente identificado. Mas teoriza-se que o tempero é criado por uma reação química entre certos tipos de rochas e os ventos quentes e fortes que às vezes sopram pelos cânions. Ele aumenta drasticamente a acuidade mental, permitindo que um ser realize feitos intelectuais incríveis. Qualquer colônia abastecida com Tempero Korabbiano, portanto, recebe um grande bônus de desenvolvimento, além de qualquer outro bônus. Uma vez descoberto, todos os esforços devem ser feitos para controlar o comércio desse recurso altamente valioso. O Tempero Korabbiano é encontrado exclusivamente em mundos Desérticos.</Description>
-    <BaseCost>180</BaseCost>
+    <BaseCost>90</BaseCost>
     <ImageFilename>Environment/Resources/KorabbianSpice</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -206,7 +206,7 @@
     <ResourceId>19</ResourceId>
     <Name>Carne de Ekarus</Name>
     <Description>A Carne de Ekarus é a carne tenra da besta Ekarus. O Ekarus é um predador feroz que habita pântanos aquáticos em mundos de Pântano Lamacento. Ele pode permanecer submerso debaixo d'água por horas, emergindo apenas quando localiza uma presa adequada nadando acima.</Description>
-    <BaseCost>18</BaseCost>
+    <BaseCost>9</BaseCost>
     <ImageFilename>Environment/Resources/EkarusMeat</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -225,7 +225,7 @@
     <ResourceId>20</ResourceId>
     <Name>Vinho Nepthys</Name>
     <Description>O Vinho Nepthys é um vinho fino feito de algas Nepthys. Enormes florestas dessas algas crescem nas profundezas dos oceanos. Os agrupamentos de algas podem atingir alturas de 40 metros ou mais. As algas Nepthys são exclusivas de mundos Oceânicos.</Description>
-    <BaseCost>22</BaseCost>
+    <BaseCost>11</BaseCost>
     <ImageFilename>Environment/Resources/NepthysWine</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -244,7 +244,7 @@
     <ResourceId>21</ResourceId>
     <Name>Cerveja Rephidium</Name>
     <Description>A Cerveja Rephidium é uma cerveja deliciosa e super seca. Várias variações diferentes de cerveja Rephidium são produzidas. Algumas dessas misturas usam ingredientes secretos. No entanto, o principal ingrediente comum são as folhas e caules do arbusto Repha. A Cerveja Rephidium é produzida em mundos Florestais.</Description>
-    <BaseCost>8</BaseCost>
+    <BaseCost>4</BaseCost>
     <ImageFilename>Environment/Resources/RephidiumAle</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -263,7 +263,7 @@
     <ResourceId>22</ResourceId>
     <Name>Wiconium</Name>
     <Description>Wiconium é um tipo de álcool incrivelmente doce feito a partir da rara planta Wiconius. Essa planta é uma suculenta semelhante a um cacto, com folhas grossas e esponjosas que contêm o rico suco de Wiconium. A planta Wiconius é encontrada apenas em mundos de Savana Desértica.</Description>
-    <BaseCost>19</BaseCost>
+    <BaseCost>9.5</BaseCost>
     <ImageFilename>Environment/Resources/Wiconium</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -282,7 +282,7 @@
     <ResourceId>23</ResourceId>
     <Name>Vodkol</Name>
     <Description>Vodkol é uma bebida alcoólica poderosa feita a partir das raízes da planta Vodia. Essa planta resistente cresce nas terras áridas de tundra de mundos de Gelo. Acima do solo, a planta Vodia parece um arbusto ralo com folhas largas e amarelo-pálidas. Abaixo do solo, possui raízes bulbosas e brancas.</Description>
-    <BaseCost>13</BaseCost>
+    <BaseCost>6.5</BaseCost>
     <ImageFilename>Environment/Resources/Vodkol</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -301,7 +301,7 @@
     <ResourceId>24</ResourceId>
     <Name>Pele de Questuriano</Name>
     <Description>Pele de Questuriano é a pele macia e escamosa do Questuriano, um enorme réptil aquático. Os Questurianos são predadores mortais que podem atingir mais de 100 metros de comprimento. Habitam túneis e cavernas submarinas escuras nas profundezas de vastos oceanos e são encontrados exclusivamente em mundos Oceânicos.</Description>
-    <BaseCost>27</BaseCost>
+    <BaseCost>13.5</BaseCost>
     <ImageFilename>Environment/Resources/QuesturianSkin</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -334,7 +334,7 @@
     <ResourceId>26</ResourceId>
     <Name>Pelo de Caguar</Name>
     <Description>Pelo de Caguar é a pelagem luxuriante do Caguar listrado. O Caguar é um enorme felino dente-de-sabre que ronda as florestas tropicais selvagens de mundos de Floresta e Pântano Alagadiço. O comprimento de um Caguar adulto, do focinho à cauda, é de aproximadamente 4 metros. Eles possuem garras afiadíssimas que usam para capturar suas presas.</Description>
-    <BaseCost>31</BaseCost>
+    <BaseCost>15.5</BaseCost>
     <ImageFilename>Environment/Resources/CaguarFur</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -348,7 +348,7 @@
     <ResourceId>27</ResourceId>
     <Name>Plumagem de Terálio</Name>
     <Description>Plumagem de Terálio é a penugem branca e macia da criatura Terálio. Os Terálios são aves quadrúpedes que habitam as terras áridas de tundra de mundos de Gelo Congelado. Possuem uma envergadura que pode chegar a 6 metros. Os Terálios caçam pequenos roedores ou até mesmo espécies sencientes, como Jintus ou Ugnaris.</Description>
-    <BaseCost>19</BaseCost>
+    <BaseCost>9.5</BaseCost>
     <ImageFilename>Environment/Resources/TerallionDown</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -367,7 +367,7 @@
     <ResourceId>28</ResourceId>
     <Name>Pelo de Dantha</Name>
     <Description>Pelo de Dantha é a pelagem marrom-esbranquiçada e desgrenhada do Dantha. Os Danthas são grandes animais que vivem nas vastas planícies desérticas de mundos Desérticos. Vivem em manadas que variam de 30 a 200 indivíduos. Os Danthas migram pelo deserto em busca de alimento. Sua dieta preferida são os fungos Lopid, que crescem cerca de meio metro abaixo das areias do deserto. Os Danthas possuem um olfato altamente desenvolvido, que lhes permite localizar esses crescimentos fúngicos ricos em água e desenterrá-los.</Description>
-    <BaseCost>14</BaseCost>
+    <BaseCost>7</BaseCost>
     <ImageFilename>Environment/Resources/DanthaFur</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -381,7 +381,7 @@
     <ResourceId>29</ResourceId>
     <Name>Incenso Aquasiano</Name>
     <Description>Incenso Aquasiano é um perfume de cor azul intensa. É feito a partir de uma combinação de vários ingredientes únicos encontrados em mundos Oceânicos. O ingrediente principal são os espinhos venenosos das anêmonas-do-mar Dakhul. Outro componente é o coral Orkton azul brilhante, triturado até virar um pó fino.</Description>
-    <BaseCost>29</BaseCost>
+    <BaseCost>14.5</BaseCost>
     <ImageFilename>Environment/Resources/AquasianIncense</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -400,7 +400,7 @@
     <ResourceId>30</ResourceId>
     <Name>Incenso Natarrano</Name>
     <Description>O Incenso Natarrano é um perfume belo, porém sutil, feito a partir da planta Natarril. O Natarril é um pequeno arbusto com folhas azul-esverdeadas e flores multicoloridas deslumbrantes. Geralmente é encontrado agarrado a penhascos rochosos em mundos Desérticos Rochosos.</Description>
-    <BaseCost>26</BaseCost>
+    <BaseCost>13</BaseCost>
     <ImageFilename>Environment/Resources/NatarranIncense</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -419,7 +419,7 @@
     <ResourceId>31</ResourceId>
     <Name>Fluido Zentabiano</Name>
     <Description>O Fluido Zentabiano é um potente fluido curativo feito a partir da rara flor Zentabia. Essas flores ocasionalmente crescem em fendas protegidas em mundos Vulcânicos. Seus pétalas têm uma coloração verde brilhante. Elas prosperam em ambientes muito quentes. O fluido Zentabiano pode curar quase qualquer ferimento ou doença. Ele pode até mesmo reparar membros ou órgãos danificados. Qualquer colônia abastecida com Fluido Zentabiano recebe, assim, um grande bônus de desenvolvimento, além de qualquer outro bônus. Uma vez descoberto, todo esforço deve ser feito para controlar o comércio desse recurso altamente valioso.</Description>
-    <BaseCost>190</BaseCost>
+    <BaseCost>95</BaseCost>
     <ImageFilename>Environment/Resources/ZentabiaFluid</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -448,7 +448,7 @@
     <ResourceId>32</ResourceId>
     <Name>Jade Ilosiana</Name>
     <Description>A Jade Ilosiana é uma pedra verde translúcida e bela. Ela é minerada em grandes placas a partir de rochas de leitos de rios. A jade Ilosiana é encontrada exclusivamente em mundos Pântanos Lamacentos.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/IlosianJade</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -462,7 +462,7 @@
     <ResourceId>33</ResourceId>
     <Name>Opala Otandiana</Name>
     <Description>A Opala Otandiana é uma pedra brilhante, cintilante e multicolorida. As opalas Otandianas são encontradas nas margens de lagos de lava em mundos Vulcânicos. Elas são produzidas quando certos tipos de lava esfriam muito rapidamente.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/OtandiumOpal</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -481,7 +481,7 @@
     <ResourceId>34</ResourceId>
     <Name>Marfim Jakanta</Name>
     <Description>O Marfim Jakanta vem das presas de marfim da fera de gelo Jakanta. Os Jakantas são criaturas reclusas que habitam as montanhas de planetas de Gelo. São animais grandes, semelhantes a ursos, com seis patas e pelagem branca e espessa. Suas presas podem crescer até mais de 3 metros de comprimento.</Description>
-    <BaseCost>23</BaseCost>
+    <BaseCost>11.5</BaseCost>
     <ImageFilename>Environment/Resources/JakantaIvory</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -495,7 +495,7 @@
     <ResourceId>35</ResourceId>
     <Name>Pérola Ucantiana</Name>
     <Description>As Pérolas Ucantianas são pérolas enormes, rosas e azuis, que crescem na amêijoa Ucantiana, um molusco encontrado nas profundezas dos mares de mundos Oceânicos. A amêijoa Ucantiana pode viver por milhares de anos e atingir diâmetros de 5 metros ou mais. Uma única amêijoa pode produzir centenas de pérolas.</Description>
-    <BaseCost>31</BaseCost>
+    <BaseCost>15.5</BaseCost>
     <ImageFilename>Environment/Resources/UcantiumPearl</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -514,7 +514,7 @@
     <ResourceId>36</ResourceId>
     <Name>Mármore Yarras</Name>
     <Description>O Mármore Yarras é um mármore azul de textura magnífica. Ele é formado quando rochas carbonáticas são infundidas com milhões de minúsculos cristais Azuis de Agea. Isso geralmente é causado por riachos subterrâneos que fluem através das formações rochosas por milhares de anos. O mármore Yarras é encontrado em mundos Continentais.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/YarrasMarble</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -529,7 +529,7 @@
     <ResourceId>37</ResourceId>
     <Name>Raiz de Podantia</Name>
     <Description>Raiz de Podântia é uma erva medicinal que ajuda a curar muitas doenças. Seus caules finos e fibrosos são repletos de nutrientes poderosos que fortalecem o sistema imunológico. É encontrada em mundos Vulcânicos de Enxofre.</Description>
-    <BaseCost>30</BaseCost>
+    <BaseCost>15</BaseCost>
     <ImageFilename>Environment/Resources/PodanthiaRoot</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -548,7 +548,7 @@
     <ResourceId>38</ResourceId>
     <Name>Perfume de Vofula</Name>
     <Description>Perfume de Vofula é uma fragrância inebriante que vem das flores verde-brilhantes da planta Vofula. A planta Vofula é um pequeno arbusto que cresce próximo aos lagos de hidrocarbonetos em mundos Carbonáceos.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/VofulaScent</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -562,7 +562,7 @@
     <ResourceId>39</ResourceId>
     <Name>Madeira de Suculos</Name>
     <Description>Suculos é uma madeira exótica rara proveniente da árvore Suculos. A madeira extremamente dura dessa árvore possui uma cor vermelho-escura com um belo veio e textura. As árvores Suculos crescem a alturas enormes de 400 metros ou mais. Elas são encontradas nas vastas savanas arbustivas de mundos Desérticos de Savana.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/SucculosWood</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -576,7 +576,7 @@
     <ResourceId>40</ResourceId>
     <Name>Copandil</Name>
     <Description>Copandil é uma bebida alcoólica muito forte, fermentada a partir dos bulbos do arbusto Copandil. O líquido amarelo concentrado possui um sabor intenso e ardente. É encontrado em mundos de Campos.</Description>
-    <BaseCost>25</BaseCost>
+    <BaseCost>12.5</BaseCost>
     <ImageFilename>Environment/Resources/Copandil</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -595,7 +595,7 @@
     <ResourceId>41</ResourceId>
     <Name>Ovos de Norjak</Name>
     <Description>Esses ovos são postos pelo Norjak — uma criatura enorme semelhante a uma lontra, encontrada em planetas de Gelo. Os ovos de Norjak têm tipicamente 30-40 cm de tamanho e uma cor azul-clara. São valorizados pelo seu sabor delicado e são altamente nutritivos.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/NorjakEggs</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -614,7 +614,7 @@
     <ResourceId>42</ResourceId>
     <Name>Frutas de Breqiian</Name>
     <Description>As frutas de Breqiian são os pequenos frutos roxos da trepadeira Breqiian. Essas trepadeiras crescem no alto do dossel das vastas florestas de mundos Florestais. A trepadeira Breqiian retira nutrientes de sua árvore hospedeira, dando a cada trepadeira e suas frutas um sabor ligeiramente diferente.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/BreqiianBerries</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -628,7 +628,7 @@
     <ResourceId>43</ResourceId>
     <Name>Kasotti</Name>
     <Description>Kasotti é uma bebida alcoólica cremosa que vem das folhas grossas e suculentas da planta Kasot, uma erva rasteira que cresce nas planícies costeiras baixas de mundos de Tundra Gelada.</Description>
-    <BaseCost>15</BaseCost>
+    <BaseCost>7.5</BaseCost>
     <ImageFilename>Environment/Resources/Kasotti</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -642,7 +642,7 @@
     <ResourceId>44</ResourceId>
     <Name>Filé de Oksunum</Name>
     <Description>Oksunum são criaturas ágeis semelhantes a cabras que habitam os cânions isolados de mundos Desérticos Rochosos. Elas se alimentam de muitos musgos e líquens delicados que crescem nas ravinas sombreadas. Isso dá à sua carne macia um sabor delicioso.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/OksunumSteak</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -661,7 +661,7 @@
     <ResourceId>45</ResourceId>
     <Name>Pelo de Attarion</Name>
     <Description>Attarions são gatos predadores que vivem nas altas montanhas de mundos de Gelo Congelado. Eles chegam a 2 metros de comprimento e possuem uma bela pelagem cinza-esbranquiçada. O pelo é extremamente macio e leve. É valorizado por seu calor e durabilidade quando usado em roupas.</Description>
-    <BaseCost>25</BaseCost>
+    <BaseCost>12.5</BaseCost>
     <ImageFilename>Environment/Resources/AttarionFur</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -680,7 +680,7 @@
     <ResourceId>46</ResourceId>
     <Name>Vinho Muurion</Name>
     <Description>As plantas Muurion são brotos altos semelhantes ao bambu, que podem atingir 15 metros de altura. Elas crescem nas vastas planícies de mundos de Campos. As plantas Muurion possuem muitas flores pequenas e fragrantes. As pétalas amarelas dessas flores são usadas para fazer o vinho Muurion.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/MuurionWine</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -699,7 +699,7 @@
     <ResourceId>47</ResourceId>
     <Name>Fruta Inkasdia</Name>
     <Description>A fruta Inkasdia cresce em pequenos arbustos nos pântanos de mundos de Floresta de Mangue. A fruta tem uma casca roxa e resistente com espinhos felpudos. Mas por dentro há uma polpa macia, rica e suculenta, valorizada por seu sabor e textura deliciosos.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/InkasdiaFruit</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -713,7 +713,7 @@
     <ResourceId>48</ResourceId>
     <Name>Pedra-de-Fogo Feraxiana</Name>
     <Description>Pedras-de-Fogo Feraxianas são encontradas às vezes em mundos Vulcânicos de Enxofre. Elas se formam quando parte do núcleo planetário é forçada para cima por vulcões de enxofre ativos. O núcleo resfriado frequentemente contém pedras-de-fogo, assim chamadas não apenas por sua origem, mas porque parecem brilhar por dentro quando atingidas por raios de luz. Geralmente são de uma cor amarelo-ouro brilhante, mas também existe uma pedra-de-fogo azul luminosa, rara, mas que ocorre naturalmente.</Description>
-    <BaseCost>35</BaseCost>
+    <BaseCost>17.5</BaseCost>
     <ImageFilename>Environment/Resources/FeraxianFirestone</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -732,7 +732,7 @@
     <ResourceId>49</ResourceId>
     <Name>Cristal Vakala</Name>
     <Description>Os Cristais Vakala podem produzir um espetáculo deslumbrante de cores quando a luz brilha através deles. Eles têm a capacidade única de converter luz não visível em espectro visível, permitindo assim a visibilidade de raios infravermelhos e ultravioletas. Os Cristais Vakala são encontrados perto da margem de lagos de hidrocarbonetos em mundos Carbonáceos.</Description>
-    <BaseCost>32</BaseCost>
+    <BaseCost>16</BaseCost>
     <ImageFilename>Environment/Resources/VakalaCrystal</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -751,7 +751,7 @@
     <ResourceId>50</ResourceId>
     <Name>Cerveja Decarion</Name>
     <Description>A Cerveja Decarion é uma bebida alcoólica forte de cor vermelho-vivo, produzida em mundos de Tundra Gelada. Esse álcool vem de um pequeno arbusto chamado Decaria, que possui folhas amarelo-avermelhadas. A bebida é feita a partir das raízes da planta, que se estendem profundamente no solo. Ela é colhida no verão antes de ser replantada no outono.</Description>
-    <BaseCost>24</BaseCost>
+    <BaseCost>12</BaseCost>
     <ImageFilename>Environment/Resources/DecarionAle</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -770,7 +770,7 @@
     <ResourceId>51</ResourceId>
     <Name>Âmbar Obrudano</Name>
     <Description>O Âmbar Obrudano é a resina iridescente vermelho-alaranjada da árvore Obrudan. Essas árvores crescem em pequenos grupos em mundos de Pântano Lamacento. A casca da árvore é muito frágil e, quando danificada, a resina vaza lentamente e endurece no tronco, criando o âmbar. É frequentemente usado em joias devido à sua aparência chamativa.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/ObrudanAmber</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -784,7 +784,7 @@
     <ResourceId>52</ResourceId>
     <Name>Folha Yapara</Name>
     <Description>A Folha de Yapara é um arbusto rasteiro que cresce nas profundezas dos áridos desertos de mundos de Savana Desértica. As folhas têm uma coloração amarelada-esverdeada. A Folha de Yapara suporta calor intenso e pode sobreviver sem água por quase 10 anos. As folhas desta planta são repletas de poderosos fitonutrientes, muito eficazes na proteção contra toxinas e patógenos.</Description>
-    <BaseCost>30</BaseCost>
+    <BaseCost>15</BaseCost>
     <ImageFilename>Environment/Resources/YaparaLeaf</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -808,7 +808,7 @@
     <ResourceId>53</ResourceId>
     <Name>Néctar Giraxiano</Name>
     <Description>O néctar giraxiano é um medicamento potente encontrado em mundos Continentais. O néctar é produzido em grandes tubos das flores da árvore Giraxiana. Ele possui uma cor rosa radiante. É refinado e combinado com outros ingredientes para criar um medicamento que ajuda a quebrar febres.</Description>
-    <BaseCost>25</BaseCost>
+    <BaseCost>12.5</BaseCost>
     <ImageFilename>Environment/Resources/GiraxianNectar</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -832,7 +832,7 @@
     <ResourceId>54</ResourceId>
     <Name>Obsidiana de Hapek</Name>
     <Description>Este tipo raro de obsidiana é encontrado na superfície de alguns mundos de Floresta. Tem uma cor azul ou verde-água deslumbrante. A Obsidiana de Hapek é especialmente valorizada quando transformada em facas, pois lâminas de obsidiana podem ter um fio de corte muitas vezes mais afiado do que facas de metal. Sua bela coloração também a torna cobiçada como gema em joias, além de ser usada em ferramentas e ornamentos.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/HapekObsidian</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -851,7 +851,7 @@
     <ResourceId>55</ResourceId>
     <Name>Fungo Lukaarin</Name>
     <Description>O Fungo Lukaarin é uma iguaria rara que cresce nas águas rasas ao redor das raízes de árvores de mangue. Centenas desses pequenos nódulos marrons crescem juntos em grandes massas. Eles são muito doces e possuem um aroma intenso. São encontrados exclusivamente em mundos de Floresta de Mangue.</Description>
-    <BaseCost>25</BaseCost>
+    <BaseCost>12.5</BaseCost>
     <ImageFilename>Environment/Resources/LukaarianFungus</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -865,7 +865,7 @@
     <ResourceId>56</ResourceId>
     <Name>Rhylig</Name>
     <Description>Rhylig é um cristal que projeta hologramas 3D naturalmente quando a luz incide sobre ele. É criado pela interação de lava derretida pura com rocha obsidiana. Tem uma cor laranja-escura e é tipicamente encontrado nas margens de rios de lava derretida em mundos Vulcânicos.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/RhyligCrystal</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -879,7 +879,7 @@
     <ResourceId>57</ResourceId>
     <Name>Escamas de Shudasta</Name>
     <Description>As Escamas de Shudasta são as peles escamosas super-resistentes dos gigantescos lagartos Shudasta. Esses lagartos vivem vidas majoritariamente solitárias em mundos de Deserto Rochoso e podem crescer muito, alguns dos maiores atingindo 11 ou 12 metros de comprimento. Podem ser difíceis de capturar e matar, mas sua pele é muito valiosa, usada em roupas e revestimentos de cadeiras. As escamas têm uma cor cinza-prateada.</Description>
-    <BaseCost>30</BaseCost>
+    <BaseCost>15</BaseCost>
     <ImageFilename>Environment/Resources/ShudastaScales</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -903,7 +903,7 @@
     <ResourceId>58</ResourceId>
     <Name>Granito Tebraakiano</Name>
     <Description>O Granito Tebraakiano é encontrado apenas em mundos Vulcânicos. É formado pela mistura de magma com basalto, sendo forçado para camadas mais profundas do subsolo. À medida que o magma esfria, forma cristais que possuem um brilho vermelho radiante. O Granito Tebraakiano apresenta uma mistura de cores como vermelho, branco, cinza e preto. É um granito muito duro, usado para decorar e construir edifícios.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/TebraakianGranite</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -922,7 +922,7 @@
     <ResourceId>59</ResourceId>
     <Name>Xukantar</Name>
     <Description>Xukantar é um perfume potente destilado parcialmente de um tipo exótico de alga de Oceano Profundo. A alga é roxa e possui folhas planas e enrugadas. Quando espremidas, as folhas expelem um líquido roxo-escuro com um aroma maravilhoso. O líquido é ocasionalmente usado para tingir tecidos, mas mais comumente é utilizado como perfume. A raridade desse perfume se deve à pequena quantidade de líquido produzida a partir de grandes quantidades de alga, estando sempre em demanda.</Description>
-    <BaseCost>35</BaseCost>
+    <BaseCost>17.5</BaseCost>
     <ImageFilename>Environment/Resources/Xukantar</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -937,7 +937,7 @@
     <ResourceId>60</ResourceId>
     <Name>Grão Korduva</Name>
     <Description>O Grão Korduva é cultivado em mundos de Campos. Esse grão cresce em hastes muito altas, de 3 a 4 metros de altura. Cada haste pode ter milhões de espigas, produzindo colheitas colossais. O grão tem uma cor bege e é valorizado por seu alto valor nutricional e sabor agradável.</Description>
-    <BaseCost>25</BaseCost>
+    <BaseCost>12.5</BaseCost>
     <ImageFilename>Environment/Resources/KorduvaGrain</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -956,7 +956,7 @@
     <ResourceId>61</ResourceId>
     <Name>Xarope Losarn</Name>
     <Description>O Xarope Losarn é a seiva espessa e doce da árvore Losarn. Grandes florestas de árvores Losarn são cultivadas em mundos Continentais. O Xarope Losarn tem uma rica cor dourada e é universalmente apreciado por seu sabor delicioso.</Description>
-    <BaseCost>18</BaseCost>
+    <BaseCost>9</BaseCost>
     <ImageFilename>Environment/Resources/LosarnSyrup</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -970,7 +970,7 @@
     <ResourceId>62</ResourceId>
     <Name>Âmbar Akrasan</Name>
     <Description>O Âmbar Akrasan é a seiva da árvore Akrasan, que cresce em áreas de névoa densa em planetas de Floresta de Manguezais. As árvores Akrasan possuem grandes cavidades ocas. Essas cavidades dentro da árvore funcionam como fornos isolados, onde a seiva fica extremamente quente. Seções fracas do tronco frequentemente explodem devido à pressão da seiva quente. A seiva escorre e atrai insetos, que ficam presos nela. A névoa fria endurece a seiva, formando o belo âmbar dourado.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/AkrasanAmber</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -984,7 +984,7 @@
     <ResourceId>63</ResourceId>
     <Name>Chá Doakan</Name>
     <Description>O Chá Doakan é feito das folhas do bambu Doakan. Ele cresce em áreas sombreadas nas regiões montanhosas de planetas de Savana Desértica. Não requer muita água para sobreviver, o que deixa as folhas enrugadas e ásperas. O chá feito com essas folhas tem muito sabor.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/DoakanTea</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -998,7 +998,7 @@
     <ResourceId>64</ResourceId>
     <Name>Ônix Yotapiano</Name>
     <Description>O Ônix Yotapiano é uma pedra preciosa de cor roxo-escuro a negra, encontrada em cavernas subterrâneas rasas em planetas de Deserto Rochoso. É altamente valorizado por sua interação com outras pedras preciosas, intensificando e aprofundando suas cores. Por isso, é frequentemente usado em joias.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/YotapianOnyx</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1012,7 +1012,7 @@
     <ResourceId>65</ResourceId>
     <Name>Resina Hyutil</Name>
     <Description>A Resina Hyutil vem de plantas bulbosas no fundo do oceano profundo. Essas plantas secretam a resina, especialmente quando expostas à luz ultravioleta. A Resina Hyutil é geralmente vermelha ou roxa translúcida e escura, mas também já foram encontradas resinas azuis e marrons. A resina é extremamente resistente e deve ser exposta a altas temperaturas para ser moldada em utensílios delicados e ornamentos, forma na qual é mais valorizada. É encontrada exclusivamente em mundos de Oceano Profundo.</Description>
-    <BaseCost>21</BaseCost>
+    <BaseCost>10.5</BaseCost>
     <ImageFilename>Environment/Resources/HyutilResin</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1026,7 +1026,7 @@
     <ResourceId>66</ResourceId>
     <Name>Tentáculos de Darkhul</Name>
     <Description>Os Darkhuls são monstros marinhos formidáveis que habitam os túneis submarinos sem fundo de mundos de Oceano Profundo. Os Darkhuls podem atingir comprimentos de 100 metros ou mais. São predadores ápices que não temem nada. Caçar essas criaturas aterrorizantes é, portanto, uma tarefa perigosa, repleta de riscos. Os tentáculos de Darkhul são uma iguaria rara, usada como alimento e remédio em toda a galáxia.</Description>
-    <BaseCost>45</BaseCost>
+    <BaseCost>22.5</BaseCost>
     <ImageFilename>Environment/Resources/DarkhulTentacles</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1045,7 +1045,7 @@
     <ResourceId>67</ResourceId>
     <Name>Conhaque Sokaliano</Name>
     <Description>O Conhaque Sokaliano é destilado a partir do vinho de ameixa Sokaliano. O vinho é feito de ameixas Sokalianas raras, que têm uma cor rosa profundo. As ameixeiras Sokalianas crescem apenas nas regiões montanhosas de mundos Desérticos Arenosos. O Conhaque Sokaliano é amplamente renomado por seu sabor de caramelo e sua bela cor rosa. Geralmente é envelhecido por mais de 50 anos para enriquecer seu sabor.</Description>
-    <BaseCost>30</BaseCost>
+    <BaseCost>15</BaseCost>
     <ImageFilename>Environment/Resources/SokalianBrandy</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1064,7 +1064,7 @@
     <ResourceId>68</ResourceId>
     <Name>Madeira Bartak</Name>
     <Description>A Madeira Bartak é a madeira muito densa da árvore Bartak, encontrada principalmente em mundos Florestais. Possui um belo grão marrom-escuro e um acabamento muito fino e liso quando serrada. Pode ser esculpida em móveis ou usada na construção. As árvores Bartak podem atingir tamanhos gigantescos, levando muitos séculos para alcançar alturas de até 300 metros.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/BartakWood</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1083,7 +1083,7 @@
     <ResourceId>69</ResourceId>
     <Name>Anêmona Wruzos</Name>
     <Description>A Anêmona Wruzos flutua em pequenos aglomerados na superfície do oceano e é colhida para alimentação. Uma característica interessante dessa anêmona rara é que ela relaxa e se expande sob a luz do sol, mas se contrai quando exposta a tempestades. É considerada uma iguaria refinada e geralmente é marinada em vários molhos ou especiarias antes de ser consumida. Geralmente é de cor creme ou rosa-claro. As Anêmonas Wruzos são encontradas exclusivamente em mundos Oceânicos.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/WruzosAnemone</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1097,7 +1097,7 @@
     <ResourceId>70</ResourceId>
     <Name>Fibra de Mariposa Tassont</Name>
     <Description>As gigantescas Mariposas Tassont são as maiores de sua espécie. Elas vivem nas profundezas de vastas cavernas em mundos Desérticos Arenosos, onde o clima é mais confortável para elas. A engenhosa fibra de suas asas suporta cargas enormes, embora tenha apenas alguns mícrons de espessura. É muito procurada para a confecção de roupas e trajes cerimoniais. Mas também é usada em trabalhos estruturais e de segurança, como escalada em rochas.</Description>
-    <BaseCost>27</BaseCost>
+    <BaseCost>13.5</BaseCost>
     <ImageFilename>Environment/Resources/TassontMothFibre</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1116,7 +1116,7 @@
     <ResourceId>71</ResourceId>
     <Name>Concha Ordulos</Name>
     <Description>A rara Concha Ordulos é encontrada em alguns mundos Oceânicos. As conchas são pequenas e de formato aproximadamente oval, com tamanho muito uniforme. A parte externa é revestida por uma substância iridescente que proporciona um brilho de cores, semelhante a um prisma natural imperfeito. As conchas já foram amplamente usadas como forma de moeda em alguns mundos, mas agora são usadas principalmente como ornamentos e na decoração de roupas.</Description>
-    <BaseCost>24</BaseCost>
+    <BaseCost>12</BaseCost>
     <ImageFilename>Environment/Resources/OrdulosShell</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1135,7 +1135,7 @@
     <ResourceId>72</ResourceId>
     <Name>Musgo Tebruliano</Name>
     <Description>O Musgo Tebruliano cresce em uma espécie rara de árvore que se desenvolve horizontalmente nas falésias de gelo de alguns mundos Glaciais. O musgo tem uma cor cinza-claro e cresce em fios pendentes dos troncos das árvores. É usado em muitas culinárias como erva ou guarnição para certos pratos e é considerado uma iguaria rara.</Description>
-    <BaseCost>20</BaseCost>
+    <BaseCost>10</BaseCost>
     <ImageFilename>Environment/Resources/TebrullianMoss</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1149,7 +1149,7 @@
     <ResourceId>73</ResourceId>
     <Name>Coral Sarrobia</Name>
     <Description>O Coral Sarrobia é muito duro e afiado. Cresce debaixo d'água em áreas costeiras rasas de planetas Oceânicos. Pode apresentar várias cores, como turquesa, jade e violeta. A luz solar de alguns tipos de estrelas pode fazer o coral brilhar e ficar belíssimo.</Description>
-    <BaseCost>17</BaseCost>
+    <BaseCost>8.5</BaseCost>
     <ImageFilename>Environment/Resources/SarrobiaCoral</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1163,7 +1163,7 @@
     <ResourceId>74</ResourceId>
     <Name>Feijões Korhuga</Name>
     <Description>Os Feijões Korhuga crescem em uma pequena árvore espinhosa encontrada em mundos Desérticos Arenosos. A árvore leva muitas décadas para atingir a maturidade. Quando finalmente amadurece, produz pequenas vagens que são colhidas e secas. Os Feijões Korhuga são um alimento saboroso, porém muito picante, usado como ingrediente em pratos de muitas culturas do deserto. Também é utilizado por muitos chefs em toda a galáxia.</Description>
-    <BaseCost>16</BaseCost>
+    <BaseCost>8</BaseCost>
     <ImageFilename>Environment/Resources/KorhugaBeans</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1177,7 +1177,7 @@
     <ResourceId>75</ResourceId>
     <Name>Tentáculos de Ardilus</Name>
     <Description>Ardilus são grandes monstros do espaço profundo que normalmente espreitam perto de planetas Gigantes Gasosos. Caçá-los rende os cobiçados tentáculos de Ardilus. Esses tentáculos têm muitos usos: algumas partes podem ser consumidas, outras produzem corante. As protuberâncias espinhosas são populares na construção decorativa.</Description>
-    <BaseCost>60</BaseCost>
+    <BaseCost>30</BaseCost>
     <ImageFilename>Environment/Resources/ArdilusTentacles</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1191,7 +1191,7 @@
     <ResourceId>76</ResourceId>
     <Name>Cristal Gravilex</Name>
     <Description>Gravilex são monstros espaciais cristalinos que normalmente vivem perto das coroas de tipos exóticos de estrelas. Caçar esses Gravilex rende suas estruturas cristalinas únicas. Os cristais podem apresentar uma variedade de cores deslumbrantes. Eles possuem propriedades holográficas especiais que os tornam muito procurados para joias e decorações.</Description>
-    <BaseCost>45</BaseCost>
+    <BaseCost>22.5</BaseCost>
     <ImageFilename>Environment/Resources/GravillexCrystal</ImageFilename>
     <Bonuses>
       <Bonus>
@@ -1205,7 +1205,7 @@
     <ResourceId>77</ResourceId>
     <Name>Quartzo Dirílio</Name>
     <Description>O Quartzo Dirílio é usado em componentes eletrônicos de alta tecnologia e coletores de energia. Ele é encontrado em mundos Vulcânicos de Enxofre.</Description>
-    <BaseCost>12</BaseCost>
+    <BaseCost>6</BaseCost>
     <ImageFilename>Environment/Resources/DyrilliumQuartz</ImageFilename>
     <Bonuses />
   </Resource>
@@ -1213,7 +1213,7 @@
     <ResourceId>78</ResourceId>
     <Name>Hexodório</Name>
     <Description>Hexodório é um tipo único de polímero. É muito resistente e tolerante a danos. Tem muitos usos em diversos componentes de alta tecnologia. O Hexodório é geralmente encontrado em mundos Congelados de Gelo, embora outros planetas de Gelo também possam ter pequenos depósitos.</Description>
-    <BaseCost>19</BaseCost>
+    <BaseCost>9.5</BaseCost>
     <ImageFilename>Environment/Resources/Hexodorium</ImageFilename>
     <Bonuses />
   </Resource>
