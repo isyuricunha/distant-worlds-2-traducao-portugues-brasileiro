@@ -1,0 +1,67 @@
+
+GREETING_INTRODUCTION			;Nós somos os {0}.\n\nConsumimos tudo, especialmente coisas saborosas.\n\nVocê é saboroso?
+GREETING_FRIENDLY			;Olá, amigo. Nos envie suas palavras
+GREETING_NEUTRAL			;O que é?
+GREETING_ANGRY				;Sua presença nos desagrada. Seja rápido no que quer
+
+GIFT_PROPOSE				;Que tipo de presente está nos oferecendo? Podemos comê-lo?
+GIFT_THANKS_ANGRY				;Sua oferta miserável foi notada
+GIFT_THANKS_NEUTRAL				;Obrigado pelo presente!
+GIFT_THANKS_FRIENDLY				;Seu presente generoso nos deixa felizes!
+
+OFFER_DEAL				;Aceitaria esta troca?
+PIRATEPROTECTION_DEAL				;Seria muito desafortunado se alguma de suas naves ou bases sofresse danos.\n\nPela modesta taxa mensal de {0} créditos, podemos garantir que nossas embarcações evitem danificar as suas.\n\nSeria sábio aceitar nossa oferta...
+DEAL_BEGIN				;Que acordo é esse?
+DEAL_ACCEPT				;Gostamos desse acordo – aceitamos
+DEAL_ACCEPT_RESPONSE		;Ficamos felizes que aceitou!
+DEAL_REJECT_RESPONSE		;Que decepção...
+DEAL_REJECT				;Esse acordo não tem gosto bom – nós o rejeitamos
+
+TREATY_PROPOSAL				;Que novo tratado você está propondo?
+TREATY_ACCEPTRESPONSE			;Maravilhoso! Vamos festejar junto com nossos novos aliados!
+TREATY_REJECTRESPONSE			;Que decepcionante...
+PROTECTION_ACCEPTRESPONSE		;Boa escolha! Aguardamos seus pagamentos mensais
+PROTECTION_REJECTRESPONSE		;Uma péssima escolha. Você vai pagar de um jeito ou de outro...
+
+SWAP_MAPS		;Que tipo de mapa você gostaria de trocar?
+
+WAR_END_ACCEPT				;Sim, esta guerra deve acabar agora. Retiraremos nossas forças. Esperamos que vocês façam o mesmo
+WAR_END_REJECT				;Não, vocês devem ser consumidos. Já criamos algumas receitas saborosas com vocês como ingrediente principal!
+WAR_END_ACCEPT_RESPONSE			;Uma boa escolha. Sempre podemos lutar novamente mais tarde
+
+WAR_END_ACCEPT_BECOMEVASSAL				;Concordamos em nos tornar seus vassalos. Cessaremos as hostilidades imediatamente e iniciaremos os pagamentos mensais de tributo
+WAR_END_REJECT_BECOMEVASSAL				;Não, nos recusamos a nos subjugar como seus vassalos
+WAR_END_ACCEPT_ACCEPTVASSAL				;Aceitamos sua rendição e subjugação como nossos vassalos. Aguardamos seus pagamentos mensais de tributo
+WAR_END_REJECT_ACCEPTVASSAL				;Não, recusamos sua oferta de subjugação como nossos vassalos. Esta guerra ainda não acabou
+
+WAR_DECLARE_RESPONSE_ANGRY		;Nós saudamos a guerra com vocês! Preparem-se para serem consumidos...
+WAR_DECLARE_RESPONSE_NEUTRAL		;Como desejar. Nossos enxames de guerra estão prontos
+WAR_DECLARE_RESPONSE_FRIENDLY		;Espere, o quê?! Por que isso?! Achávamos que vocês gostavam da gente?
+
+TREATY_ACCEPT			;Aceitamos sua oferta de {0}
+TREATY_REJECT			;Não, não queremos {0} no momento
+TREATY_REJECT_TOOSOON_NEUTRAL			;Não, não estamos interessados em {0}. É muito cedo depois da última mudança em nossas relações
+TREATY_REJECT_TOOSOON_ANGRY			;Definitivamente não temos interesse em {0} com vocês! Além disso, é muito cedo depois da última mudança em nossas relações
+TREATY_REJECT_TOOSOON_FRIENDLY			;Desculpe, mas não estamos interessados em {0}. É muito cedo depois da última mudança em nossas relações
+TREATY_ACCEPT_NEUTRAL			;Aceitamos sua oferta de {0}
+TREATY_REJECT_NEUTRAL			;Não, não estamos interessados em {0} neste momento
+TREATY_ACCEPT_ANGRY			;Não temos nada melhor para fazer, então por que não? Aceitamos sua oferta de {0}
+TREATY_REJECT_ANGRY			;Definitivamente não temos interesse em {0} com vocês!
+TREATY_ACCEPT_FRIENDLY			;{0} é uma ótima ideia! Aceitamos. Vamos fazer uma festa para comemorar!
+TREATY_REJECT_FRIENDLY			;Desculpe, mas {0} não nos convém neste momento
+
+PROTECTION_ACCEPT		;Aceitamos seu pedido de proteção. A taxa mensal é de {0} créditos
+PROTECTION_ACCEPT_NEUTRAL		;Aceitamos seu pedido de proteção. A taxa mensal é de {0} créditos
+PROTECTION_ACCEPT_ANGRY		;Sua fraqueza foi notada. Nossa 'proteção' custará {0} créditos por mês. Podem ir agora
+PROTECTION_ACCEPT_FRIENDLY		;Aceitamos seu pedido de proteção. A taxa mensal é de {0} créditos
+PROTECTION_REJECT			;Não, não estamos interessados em proteção no momento
+PROTECTION_REJECT_NEUTRAL		;Não, não queremos um Acordo de Proteção com vocês
+PROTECTION_REJECT_ANGRY		;Não, não queremos protegê-los. Temos outros planos para vocês. Planos que envolvem temperos e condimentos deliciosos...
+PROTECTION_REJECT_FRIENDLY		;Não, não queremos um Acordo de Proteção com vocês
+
+CANCELTREATY_RESPONSE_FRIENDLY		;Justo quando achávamos que as coisas estavam indo tão bem!
+CANCELTREATY_RESPONSE_NEUTRAL		;Claro, tanto faz.
+CANCELTREATY_RESPONSE_ANGRY		;Não gostávamos daquele tratado mesmo! Vocês só nos estavam atrasando
+CANCELPROTECTION_RESPONSE_FRIENDLY		;Isso nos deixa tristes. Gostávamos daqueles pagamentos mensais
+CANCELPROTECTION_RESPONSE_NEUTRAL		;Parece que teremos que encontrar outras formas de obter esses pagamentos mensais...
+CANCELPROTECTION_RESPONSE_ANGRY		;Como ousam! Como vamos receber nosso dinheiro de vocês agora?!... Não importa, já pensamos em um jeito...
