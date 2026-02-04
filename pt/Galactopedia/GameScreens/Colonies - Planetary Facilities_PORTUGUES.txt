@@ -1,0 +1,15 @@
+Instalações Planetárias são construídas em colônias do seu império. Elas fornecem vários bônus ou novas capacidades para a colônia.
+
+Algumas instalações permitem o recrutamento de novos tipos de tropas. Outras fornecem armas baseadas em solo para defender a colônia. Outras instalações oferecem bônus à governança, reduzindo a corrupção e melhorando a felicidade, aumentando assim a renda da colônia.
+
+Novas instalações são habilitadas por meio de pesquisa: examine os projetos na tela de pesquisa para ver quais instalações você pode desbloquear.
+
+[H3]Construindo Novas Instalações[/H3]
+Para construir uma nova instalação em uma colônia, selecione a Colônia e use o botão de ação 'Construir Instalações' no Painel de Seleção. Isso apresentará uma lista de botões com todas as instalações que podem ser construídas na colônia. Passe o cursor sobre cada botão para ver um resumo da instalação. Clique em um botão para pagar o custo de construção e iniciar a construção da instalação.
+
+[H3]Itens da Lista de Instalações[/H3]
+Esta tela lista todas as instalações planetárias, maravilhas e ruínas em colônias do seu império. Verifique as opções de ordenação e filtro no topo do painel. As opções de filtro permitem focar em tipos específicos de instalações, como instalações de armas, recrutamento de tropas ou edifícios de governança.
+
+Quando afastado para o nível de galáxia ou sistema, os locais das instalações são destacados no mapa. Passar o cursor sobre um item na lista destacará o local no mapa. Clicar no item irá selecioná-lo. Clicar duas vezes no item moverá a visualização para esse local.
+
+Passar o cursor sobre um item da lista abre um resumo detalhado da instalação em um painel à direita.

@@ -1,0 +1,28 @@
+À direita da tela está o Painel de Controle de Pesquisa. Este painel oferece várias funções úteis para navegar na árvore de tecnologias.
+
+[H3]Saindo da Pesquisa[/H3]
+No topo está o botão Sair da Pesquisa. Clique neste botão para fechar a tela de Pesquisa e retornar ao jogo.
+
+[H3]Projetos Simultâneos Máximos[/H3]
+Abaixo está uma explicação sobre o número máximo de projetos de pesquisa simultâneos. Passe o cursor sobre essa explicação para mais detalhes.
+
+[H3]Zoom In/Out[/H3]
+À direita estão os botões Ampliar e Reduzir, que permitem ver mais ou menos dos projetos disponíveis.
+
+[H3]Botões de Salto[/H3]
+Em seguida estão os botões de Salto. Clicar em um desses botões permite mover imediatamente a visualização para a primeira linha de projetos daquela categoria.
+
+Por exemplo, clicar no botão de salto 'Tecnologia de Hiperespaço' moverá imediatamente a visualização para mostrar os projetos de hiperpropulsão no topo da tela.
+
+[H3]Filtrando Projetos[/H3]
+Abaixo está uma lista suspensa que permite filtrar os projetos exibidos. Isso permite que você se concentre exclusivamente em uma categoria. Claro, isso também significa que você não poderá ver os outros projetos. Portanto, lembre-se de voltar para 'Todos os Projetos'.
+
+[H3]Próximo Projeto Sugerido[/H3]
+Em seguida está o botão 'Adicionar Projeto Sugerido à Fila'. Este botão sugere o próximo projeto que seus conselheiros de pesquisa acreditam que você deveria pesquisar. Clique no botão para adicionar o projeto sugerido à fila.
+
+Passar o cursor sobre o botão exibirá um resumo do projeto sugerido. Enquanto o cursor estiver sobre o botão, o projeto também será 'destacado' na visualização (pode ser necessário reduzir o zoom para vê-lo).
+
+[H3]Fila de Pesquisa[/H3]
+Por fim, há a fila de pesquisa. Esta contém todos os projetos atualmente enfileirados para pesquisa. Os projetos no topo da fila estão sendo ativamente desenvolvidos (de acordo com o número de projetos simultâneos), enquanto os projetos subsequentes aguardam a conclusão dos primeiros.
+
+Você pode remover projetos da fila clicando com o botão direito neles. Também é possível mover projetos para cima ou para baixo na fila usando as setas à direita.

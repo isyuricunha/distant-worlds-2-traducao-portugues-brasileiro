@@ -1,0 +1,97 @@
+Naves e frotas possuem configurações táticas que determinam como elas respondem a ameaças e como se envolvem em batalhas.
+
+As configurações táticas podem ser acessadas pelo botão 'Definir Táticas', localizado no canto direito abaixo do Painel de Seleção (é necessário ter uma de suas próprias naves ou frotas selecionada).
+
+O significado de cada uma dessas configurações está descrito abaixo, primeiro para naves e, em seguida, para configurações específicas de frotas.
+
+[H2]Configurações Táticas de Naves[/H2]
+[H3]Posição na Frota[/H3]
+A Posição na Frota especifica como a nave opera dentro de uma frota.
+[ULI][B]Núcleo:[/B] Naves Núcleo são as mais importantes da frota e são escoltadas pelas outras naves da frota (Escolta Próxima e Patrulha). Normalmente, uma frota terá apenas uma ou duas naves Núcleo[/ULI]
+[ULI][B]Escolta Próxima:[/B] essas naves escoltam as naves Núcleo em um perímetro defensivo próximo. Quando não há inimigos presentes ou os inimigos estão por todos os lados, elas formam um perímetro defensivo circular ao redor das naves Núcleo. Quando as forças inimigas vêm predominantemente de uma direção, elas formam uma formação defensiva em arco entre as naves Núcleo e as naves inimigas.[/ULI]
+[ULI][B]Patrulha:[/B] essas naves escoltam as naves Núcleo em um perímetro defensivo mais distante. Quando não há inimigos presentes ou os inimigos estão por todos os lados, elas formam um perímetro defensivo circular ao redor das naves Núcleo. Quando as forças inimigas vêm predominantemente de uma direção, elas formam uma formação defensiva em arco entre as naves Núcleo e as naves inimigas.[/ULI]
+
+[H3]Alcance de Engajamento[/H3]
+O Alcance de Engajamento especifica quando uma nave irá engajar alvos inimigos.
+[ULI][B]Não Engajar:[/B] a nave nunca engajará inimigos[/ULI]
+[ULI][B]Engajar Quando Atacado:[/B] irá engajar inimigos apenas quando for atacada diretamente por eles[/ULI]
+[ULI][B]Próximo:[/B] irá engajar alvos inimigos que estejam próximos[/ULI]
+[ULI][B]Mesmo Local:[/B] irá engajar alvos inimigos que estejam no mesmo local (planeta e luas)[/ULI]
+[ULI][B]Mesmo Sistema:[/B] irá engajar alvos inimigos que estiverem no mesmo sistema estelar[/ULI]
+
+Observe que, quando uma nave faz parte de uma frota, o Alcance de Engajamento da Frota substitui o alcance de engajamento da nave. Em outras palavras, quando uma nave faz parte de uma frota, ela usa o alcance de engajamento da frota em vez do seu próprio.
+
+[H3]Postura de Ataque - Alvos Mais Fracos[/H3]
+Determina como uma nave irá engajar um alvo mais fraco que ela, incluindo como define o alcance ideal a ser usado.
+[ULI][B]Evadir:[/B] a nave tentará permanecer fora do alcance das armas do alvo inimigo[/ULI]
+[ULI][B]Cauteloso:[/B] a nave selecionará um alcance de ataque que cause algum dano ao inimigo, minimizando o dano recebido dele[/ULI]
+[ULI][B]Neutro:[/B] a nave selecionará um alcance de ataque que cause o máximo de dano ao inimigo, evitando danos excessivos a si mesma[/ULI]
+[ULI][B]Agressivo:[/B] a nave selecionará um alcance de ataque que cause o máximo de dano ao inimigo, com pouca consideração pelos danos recebidos dele[/ULI]
+
+[H3]Postura de Ataque - Alvos Mais Fortes[/H3]
+Determina como uma nave irá engajar um alvo mais forte que ela, incluindo como define o alcance ideal a ser usado.
+[ULI][B]Evadir:[/B] a nave tentará permanecer fora do alcance das armas do alvo inimigo[/ULI]
+[ULI][B]Cauteloso:[/B] a nave selecionará um alcance de ataque que cause algum dano ao inimigo, minimizando o dano recebido dele[/ULI]
+[ULI][B]Neutro:[/B] a nave selecionará um alcance de ataque que cause o máximo de dano ao inimigo, evitando danos excessivos a si mesma[/ULI]
+[ULI][B]Agressivo:[/B] a nave selecionará um alcance de ataque que cause o máximo de dano ao inimigo, com pouca consideração pelos danos recebidos dele[/ULI]
+
+[H3]Recuar Quando[/H3]
+Define quando uma nave irá fugir de um local de batalha.
+[ULI][B]Inimigo no mesmo Sistema:[/B] irá fugir ao avistar um inimigo no mesmo sistema estelar[/ULI]
+[ULI][B]Inimigo no mesmo Local:[/B] irá fugir ao avistar um inimigo no mesmo local[/ULI]
+[ULI][B]Inimigo Próximo:[/B] irá fugir quando um inimigo estiver próximo no mesmo local[/ULI]
+[ULI][B]Quando Atacada:[/B] irá fugir quando for atacada diretamente por um inimigo[/ULI]
+[ULI][B]Escudos abaixo de 50% ou qualquer dano na Blindagem:[/B] irá fugir quando os escudos caírem abaixo de 50% ou qualquer blindagem for danificada[/ULI]
+[ULI][B]Escudos abaixo de 20% ou Blindagem abaixo de 50%:[/B] irá fugir quando os escudos caírem abaixo de 20% ou a blindagem estiver abaixo de 50%[/ULI]
+[ULI][B]Qualquer componente não defensivo danificado:[/B] irá fugir quando qualquer componente não defensivo for danificado, ou seja, componentes que não sejam escudos ou blindagem[/ULI]
+[ULI][B]20% dos componentes não defensivos danificados:[/B] irá fugir quando 20% dos componentes não defensivos estiverem danificados[/ULI]
+[ULI][B]50% dos componentes não defensivos danificados:[/B] irá fugir quando 50% dos componentes não defensivos estiverem danificados[/ULI]
+[ULI][B]Nunca:[/B] esta nave nunca fugirá de uma batalha[/ULI]
+
+[H3]Invadir Colônias[/H3]
+Define como uma nave desembarcará tropas durante uma invasão de colônia.
+[ULI][B]Imediatamente:[/B] a nave tentará desembarcar tropas imediatamente na colônia[/ULI]
+[ULI][B]Quando Livre:[/B] a nave esperará até que todas as defesas estáticas da colônia sejam eliminadas antes de invadir. Isso inclui todas as bases de defesa em órbita da colônia[/ULI]
+[ULI][B]Nunca:[/B] a nave nunca invadirá colônias inimigas[/ULI]
+
+[H2]Configurações Táticas da Frota[/H2]
+[H3]Alcance de Engajamento da Frota[/H3]
+O Alcance de Engajamento da Frota especifica quando uma frota irá engajar alvos.
+[ULI][B]Não Engajar:[/B] a frota nunca engajará inimigos[/ULI]
+[ULI][B]Engajar Quando Atacado:[/B] engajará inimigos apenas quando for atacado diretamente por eles[/ULI]
+[ULI][B]Próximos:[/B] engajará alvos inimigos que estiverem próximos (dentro de 5000 unidades)[/ULI]
+[ULI][B]Mesmo Local:[/B] engajará alvos inimigos que estiverem no mesmo local (planeta e luas)[/ULI]
+[ULI][B]Mesmo Sistema:[/B] engajará alvos inimigos que estiverem no mesmo sistema estelar[/ULI]
+[ULI][B]Alcance de 50M:[/B] engajará alvos inimigos que estiverem dentro de 50 milhões de unidades[/ULI]
+[ULI][B]Alcance de 100M:[/B] engajará alvos inimigos que estiverem dentro de 100 milhões de unidades[/ULI]
+[ULI][B]Alcance de 200M:[/B] engajará alvos inimigos que estiverem dentro de 200 milhões de unidades[/ULI]
+[ULI][B]Alcance de 300M:[/B] engajará alvos inimigos que estiverem dentro de 300 milhões de unidades[/ULI]
+[ULI][B]33% do Alcance de Combustível:[/B] engajará alvos inimigos que estiverem dentro de 33% do alcance de combustível da frota[/ULI]
+[ULI][B]50% do Alcance de Combustível:[/B] engajará alvos inimigos que estiverem dentro de 50% do alcance de combustível da frota[/ULI]
+
+Observe que o alcance de engajamento da frota substitui os alcances de engajamento individuais das naves na frota. Quando uma nave faz parte de uma frota, ela usa o alcance de engajamento da frota em vez do seu próprio.
+
+Frotas controladas manualmente não responderão automaticamente a ameaças fora de seu sistema estelar atual. Isso é indicado pelo texto em amarelo para essa configuração quando a frota está sob controle manual. Para habilitar o alcance de engajamento da frota além do sistema estelar atual, você deve usar uma função de frota automatizada (Defender, Atacar, Incursão, Invadir).
+
+As frotas também não engajarão automaticamente ameaças fora de seu sistema estelar atual quando os Ataques Militares estiverem sob controle manual (veja a seção Militar nas configurações de Política do Império). Isso é indicado pelo texto em laranja para essa configuração quando os Ataques Militares estão sob controle manual. Portanto, para que as frotas respondam automaticamente a ameaças fora de seu sistema estelar atual, você deve habilitar a automação de Ataques Militares (Totalmente Automatizado ou Sugestão). Além disso, deve usar frotas automatizadas (não a função Manual) se quiser que elas engajem automaticamente ameaças além de seu sistema atual.
+
+[H3]Formação[/H3]
+Especifica a proximidade das naves de Escolta Próxima e Piquete em relação às naves Nucleares escoltadas na frota.
+[ULI]Muito Próxima[/ULI]
+[ULI]Próxima[/ULI]
+[ULI]Normal[/ULI]
+[ULI]Solta[/ULI]
+[ULI]Muito Solta[/ULI]
+
+[H3]Permitir Reatribuição de Função da Nave[/H3]
+Determina se as naves podem ter sua 'Função Dentro da Frota' reatribuída automaticamente ou não. Isso significa que, sempre que uma nova nave líder da frota for selecionada (por exemplo, quando uma nave melhor se juntar à frota ou quando a antiga nave líder for perdida), as naves Nucleares, de Escolta Próxima e Piquete podem mudar.
+[ULI]Naves reatribuem funções dentro da frota conforme necessário[/ULI]
+[ULI]Naves mantêm a função atual dentro da frota[/ULI]
+
+[H3]Recuar Quando[/H3]
+Determina quando toda a frota decidirá recuar de uma batalha.
+[ULI]Força inimiga 50% maior[/ULI]
+[ULI]Força inimiga 100% maior[/ULI]
+[ULI]Força inimiga 200% maior[/ULI]
+[ULI]Nunca[/ULI]
+[ULI]Força inimiga maior[/ULI]

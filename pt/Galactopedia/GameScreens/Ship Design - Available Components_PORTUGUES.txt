@@ -1,0 +1,10 @@
+A lista de Componentes Disponíveis mostra todos os componentes pesquisados que podem ser adicionados ao projeto.
+
+Apenas componentes válidos para a função são exibidos. Assim, caças não mostram componentes de naves, e vice-versa. Componentes também serão excluídos se forem grandes demais para qualquer baia do casco.
+
+Você pode filtrar ainda mais os componentes usando a lista suspensa no canto superior esquerdo do painel. Isso permite filtrar por tipo de baia ou mostrar apenas o componente mais recente por categoria.
+
+Você pode ordenar os componentes usando a lista suspensa no canto superior direito do painel. Isso permite ordenar por nome, categoria, nível tecnológico ou tamanho.
+
+[H3]Resumo do Componente[/H3]
+Ao passar o cursor sobre cada componente, um resumo em pop-up aparecerá à direita, detalhando as especificações do componente.

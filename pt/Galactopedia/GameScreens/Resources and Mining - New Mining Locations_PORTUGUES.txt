@@ -1,0 +1,17 @@
+Esta tela lista potenciais novos locais de mineração que você pode selecionar como alvo. Esses locais são onde você deve construir novas estações de mineração.
+
+Verifique as opções de ordenação e filtro no topo do painel. As opções de filtro permitem que você selecione recursos específicos. Os itens de filtro em amarelo são recursos de construção usados para construir novas naves e bases. Os itens de filtro em azul claro são recursos de luxo usados para desenvolver suas colônias.
+
+Quando afastado para a visão da galáxia ou do sistema, os novos locais de mineração são destacados no mapa. Passar o cursor sobre um item da lista destacará o local no mapa. Clicar no item irá selecioná-lo. Clicar duas vezes no item moverá a visão para esse local.
+
+Cada item da lista mostra os recursos conhecidos e os níveis de abundância no local. Se o seu império estiver com escassez do recurso, ele será cercado por uma borda vermelha tracejada. Passe o cursor sobre cada recurso para ver um resumo completo, incluindo quaisquer bônus que ele ofereça.
+
+[H3]Enfileirando Novas Estações de Mineração[/H3]
+O botão à direita permite enfileirar a construção de uma nova estação de mineração no local. Quando a próxima nave de construção estiver disponível, ela construirá uma estação de mineração aqui. Você pode clicar no botão novamente para cancelar a construção.
+
+Se você não puder construir no local, o botão Enfileirar ficará desativado. Uma dica aparecerá no botão explicando por que você não pode construir ali.
+
+[H3]Locais Perigosos[/H3]
+Um símbolo de raio vermelho será exibido ao lado do nome do local se ele for considerado perigoso. Um local é perigoso quando há ameaças não eliminadas presentes, como piratas ou criaturas espaciais mortais.
+
+Naves não militares não viajarão para um local perigoso. As ameaças devem ser eliminadas primeiro por naves militares ou uma frota. Isso significa que, embora você possa enfileirar a construção de novas estações de mineração em um local perigoso, as naves de construção não irão até lá para construir a nova estação até que as ameaças sejam eliminadas.

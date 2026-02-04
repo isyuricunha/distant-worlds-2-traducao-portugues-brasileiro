@@ -1,0 +1,24 @@
+Naves e bases custam para o seu império de duas formas:
+[ULI]Custo inicial de compra único[/ULI]
+[ULI]Custos anuais contínuos de manutenção[/ULI]
+
+Você deve planejar suas necessidades com cuidado ao comprar novas naves.
+
+Os custos de compra e manutenção de naves e bases são determinados, em grande parte, pelo preço atual dos recursos necessários para construí-las. Assim, em termos simples:
+
+Custo de Compra da Nave = Recursos Necessários × Preços Atuais dos Recursos
+
+[H3]Preços dos recursos[/H3]
+Os preços dos recursos são determinados no mercado aberto com base na oferta e demanda.
+
+Assim, quando um recurso está em alta demanda pela galáxia, mas com baixa oferta, seu preço aumentará drasticamente. Por outro lado, um recurso com alta oferta pela galáxia e demanda relativamente baixa será barato.
+
+Quando você fornece suprimentos de recursos por meio de seus espaçoportos e estações de mineração, ajuda a reduzir o preço dos recursos em toda a galáxia. Isso beneficia seu império, pois diminui os custos de compra e manutenção de naves. Também proporciona os mesmos benefícios para outros impérios.
+
+[H3]Reduzindo os custos de manutenção de naves[/H3]
+A manutenção de naves é uma grande despesa para o seu império. Portanto, você deve fazer todo o possível para reduzir esses custos. Alguns mecanismos eficazes para diminuir os custos de manutenção de naves são:
+[ULI]Garanta que você tenha suprimentos abundantes de recursos de construção provenientes de suas colônias e estações de mineração[/ULI]
+[ULI]Pesquise completamente a tecnologia de Centro de Comando. Componentes de Centro de Comando de nível superior reduzem os custos de manutenção de suas naves e bases[/ULI]
+[ULI]Use um tipo de governo que tenha custos de manutenção de naves mais baixos: Feudalismo, Monarquia, Ditadura Militar, Mente Coletiva e governos de Guilda Mercantil têm custos mais baixos[/ULI]
+[ULI]Escolha uma raça alienígena com custos naturais de manutenção de naves mais baixos: as raças Ackdarian e Haakonish possuem custos menores[/ULI]
+[ULI]Absorva muitas colônias de uma das raças acima em seu império por meio de colonização ou conquista[/ULI]

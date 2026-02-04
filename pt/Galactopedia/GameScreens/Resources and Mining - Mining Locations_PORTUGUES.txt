@@ -1,0 +1,5 @@
+Esta tela lista todas as atuais localizações de mineração em seu império. Isso inclui colônias e estações de mineração. Verifique as opções de ordenação e filtro no topo do painel. Você pode filtrar por recursos individuais para identificar rapidamente todas as localizações de um recurso específico em seu império.
+
+Quando afastado para a visão da galáxia ou do sistema, as localizações de mineração são destacadas no mapa. Passar o cursor sobre um item na lista destacará a localização no mapa. Clicar no item selecionará sua localização. Clicar duas vezes no item moverá a visão para essa localização.
+
+Cada item da lista mostra todos os recursos conhecidos sendo minerados naquela localização, junto com suas abundâncias. Se um recurso tiver escassez de produção, sua imagem será cercada por uma borda vermelha tracejada. Passe o cursor sobre cada recurso para mais detalhes, incluindo quaisquer bônus que ele forneça.

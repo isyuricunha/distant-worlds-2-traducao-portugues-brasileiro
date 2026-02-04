@@ -1,0 +1,8 @@
+A tela de Ordem de Construção oferece uma maneira rápida de construir um grande número de naves. Cada linha lista uma única função de nave, junto com um campo de quantidade. Altere a quantidade a ser construída no campo numérico. Você também pode selecionar o projeto específico a ser construído para cada função na lista suspensa no centro de cada linha.
+
+Depois de definir a quantidade e o projeto que deseja construir para cada função, clique no botão Comprar no topo do painel para adquirir as novas naves e iniciar a construção. As novas naves serão construídas no melhor estaleiro disponível em seu império. Muitas vezes, isso significa usar vários estaleiros espalhados por todo o seu império.
+
+[H3]Sobreposição de Mapa por Função[/H3]
+Se você clicar em uma linha de função, poderá especificar a quantidade e o local de construção de cada nova nave clicando com o botão esquerdo nos ícones amarelos de estaleiro exibidos no nível da galáxia.
+
+Clicar uma vez com o botão esquerdo em um ícone de estaleiro colocará a construção de uma única nave para aquela função naquele local na fila. Clicar com o botão direito no ícone removerá a construção de uma única nave para aquela função naquele local.

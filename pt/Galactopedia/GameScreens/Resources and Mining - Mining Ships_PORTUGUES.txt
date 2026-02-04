@@ -1,0 +1,12 @@
+Naves de Mineração são naves móveis de extração de recursos. Elas viajam até locais de mineração para extrair recursos. Quando estão com a carga completa, retornam os recursos extraídos ao porto espacial mais próximo.
+
+Naves de Mineração fazem parte da sua economia civil, portanto, normalmente você não pode atribuir missões a elas. Em vez disso, elas buscam locais de mineração por conta própria, priorizando recursos com alta demanda em seu império.
+
+No entanto, alguns tipos de governo permitem que você atribua missões diretamente às Naves de Mineração. Você pode escolher onde cada nave irá minerar selecionando-a e clicando com o botão direito no local de mineração desejado.
+
+[H3]Lista de Naves de Mineração[/H3]
+Esta tela lista todas as Naves de Mineração do seu império. Verifique as opções de ordenação e filtro no topo do painel. Você pode filtrar pelos tipos de recursos que estão sendo minerados: combustível, construção ou recursos de luxo.
+
+Quando afastado para a visão da galáxia ou do sistema, as naves de mineração são destacadas no mapa. Passar o cursor sobre um item da lista destacará sua localização no mapa. Clicar no item irá selecioná-lo. Clicar duas vezes no item moverá a visão para essa localização.
+
+Cada item da lista mostra os recursos que a nave de mineração está extraindo e a missão atual.

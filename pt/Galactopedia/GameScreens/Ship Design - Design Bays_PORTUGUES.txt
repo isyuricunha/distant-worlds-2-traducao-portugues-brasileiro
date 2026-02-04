@@ -1,0 +1,27 @@
+A lista de Baías de Projeto mostra todas as baías de componentes no casco.
+
+Os componentes adicionados à lista de Baías de Projeto são o núcleo do projeto. Os componentes adicionados aqui definem as capacidades e o comportamento do projeto.
+
+Cada baía possui um tipo e tamanho. Você só pode colocar componentes em uma baía quando o tipo corresponder e quando o tamanho do componente couber na baía.
+
+Existem 6 tipos de baías de componentes. Cada tipo de baía permite apenas certos tipos de componentes:
+[ULI]Geral: centros de comando, alojamentos da tripulação, células de combustível, reatores, hiperpropulsores, baías de carga, compartimentos de passageiros, compartimentos de tropas, motores de mineração, coletores de energia e todos os outros[/ULI]
+[ULI]Armas: armas ou feixes tratores[/ULI]
+[ULI]Motores: motores e motores vetoriais[/ULI]
+[ULI]Defesa: blindagem, escudos ou controle de danos[/ULI]
+[ULI]Hangares: baías de atracação, estaleiros de construção ou baías de caças[/ULI]
+[ULI]Sensores: scanners, contramedidas, computadores de mira, módulos de pesquisa, bloqueadores de scanners[/ULI]
+
+Para adicionar um componente a uma baía:
+[OLI]selecione o componente desejado na lista de Componentes Disponíveis[/OLI]
+[OLI]encontre uma baía do tipo correspondente e de tamanho adequado na lista de Baías de Projeto[/OLI]
+[OLI]clique com o botão esquerdo na baía para colocar o componente[/OLI]
+
+Você também pode fazer o seguinte:
+[ULI]ao passar o cursor sobre uma baia que já contém um componente, uma janela pop-up de comparação será exibida. Isso permite que você veja rapidamente as diferenças entre eles[/ULI]
+[ULI]clique com o botão direito em uma baia para remover um componente existente[/ULI]
+
+[H3]Baias Externas[/H3]
+Observe que algumas baias de componentes são externas no modelo de visualização. Em outras palavras, elas podem ser vistas no exterior da nave ou base.
+
+As baias externas são indicadas na lista de Baias de Projeto por um ícone de 'visualização' à esquerda. Você pode clicar no ícone de visualização para girar a prévia e mostrar a baia externa.

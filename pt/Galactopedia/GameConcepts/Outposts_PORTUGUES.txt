@@ -1,0 +1,39 @@
+Postos Avançados são pequenos assentamentos fechados na superfície que podem ser estabelecidos em planetas e luas.
+
+Eles são ideais para colonizar planetas que, de outra forma, seriam inóspitos para a colonização. São particularmente úteis para adquirir ruínas importantes com bônus para o império ou recursos valiosos.
+
+[H3]Diferenças das Colônias[/H3]
+Embora os Postos Avançados sejam semelhantes às Colônias em alguns aspectos, eles também apresentam várias diferenças importantes.
+
+A principal diferença é que os Postos Avançados não crescem além de sua população inicial de assentamento.
+
+Postos Avançados também não pagam impostos. Portanto, não geram renda.
+
+Eles podem ser estabelecidos em qualquer planeta ou lua com superfície sólida onde a adequação seja -50 ou melhor.
+
+[H3]Custos de Manutenção[/H3]
+Postos Avançados têm custos de manutenção que se correlacionam com a adequação da população do planeta. Uma adequação menor aumenta os custos de manutenção, enquanto uma adequação melhor os reduz.
+
+Assim, os Postos Avançados sempre representam um dreno líquido para sua economia — eles nunca geram dinheiro, mas sempre têm custos de manutenção.
+
+Portanto, você deve considerar cuidadosamente se realmente deseja estabelecer um posto avançado em um local. Deve haver algum benefício claro que supere os custos de manutenção.
+
+[H3]Postos Avançados reivindicam território[/H3]
+Postos Avançados também reivindicam todo o sistema como território para seu império.
+
+No entanto, como os Postos Avançados não crescem, seu território nunca se estenderá além do sistema.
+
+[H3]Restrições[/H3]
+Os Postos Avançados também possuem algumas restrições:
+[ULI]eles não podem construir novas naves ou bases[/ULI]
+[ULI]eles não podem construir a maioria das instalações planetárias[/ULI]
+[ULI]eles não podem recrutar tropas[/ULI]
+
+Há também um limite para o número total de Postos Avançados: você só pode ter um Posto Avançado para cada Colônia em seu império.
+
+[H3]Estabelecendo novos Postos Avançados[/H3]
+Estabelecer um Posto Avançado requer enviar uma Nave de Colonização para o planeta-alvo, mas, em vez de realizar uma missão de 'Colonização', a nave realiza uma missão de 'Estabelecer Posto Avançado'.
+
+A Lista de Novas Colônias também pode ser usada para enfileirar novos Postos Avançados, da mesma forma que você faz para Colonização.
+
+Além disso, você também pode usar o botão 'Enfileirar Posto Avançado' no Painel de Seleção para qualquer planeta ou lua desabitada que se qualifique como posto avançado.

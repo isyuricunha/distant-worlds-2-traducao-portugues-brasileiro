@@ -1,0 +1,14 @@
+O líder do seu império é exibido aqui. Seu Líder é um personagem muito importante para o seu império. As habilidades dele se aplicam a todo o império, proporcionando benefícios ou penalidades em diversas áreas.
+
+Você pode ver os detalhes do seu líder passando o cursor sobre a entrada da lista e clicando para fixar o painel à direita.
+
+Você pode alterar o nome do seu Líder clicando no nome abaixo do retrato e digitando um novo.
+
+[H3]Localização do Líder[/H3]
+Seu líder deve estar localizado na capital do seu império. Mas, se desejar, você pode transferi-lo para outro local usando a lista suspensa e o botão Transferir abaixo.
+
+[H3]Eventos[/H3]
+Na parte inferior do painel de detalhes há uma lista de todos os eventos em que seu líder esteve envolvido. Vários eventos podem melhorar ou diminuir as habilidades do seu Líder ou conceder novos traços de personalidade.
+
+[H3]Dispensar seu Líder[/H3]
+Se o seu líder tiver habilidades muito ruins, você pode decidir dispensá-lo usando o botão abaixo do retrato. Um novo líder será eventualmente selecionado para substituí-lo.

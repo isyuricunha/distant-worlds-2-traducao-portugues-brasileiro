@@ -1,0 +1,15 @@
+A tela de Design de Naves permite criar um novo projeto para uma nave, base ou caça.
+
+Você cria um novo projeto adicionando componentes às baias de um casco.
+
+Seu novo projeto deve atender a vários requisitos para ser considerado válido. Por exemplo:
+[ULI]todos os projetos devem ter um centro de comando[/ULI]
+[ULI]todos os projetos devem armazenar combustível para gerar energia a partir de um reator[/ULI]
+[ULI]todas as naves devem ter motores para serem móveis[/ULI]
+
+Há muitos outros requisitos específicos para cada função.
+
+[H3]Botão Recomendações[/H3]
+Verifique o botão Recomendações e o painel pop-out enquanto adiciona componentes ao seu projeto (no topo do painel Resumo do Projeto). Algumas recomendações são opcionais (mostradas em amarelo). Outras recomendações são obrigatórias (mostradas em vermelho).
+
+Você não poderá salvar seu projeto até que todos os requisitos sejam atendidos.
