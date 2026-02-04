@@ -1,0 +1,77 @@
+GREETING_INTRODUCTION   ;Saudações! Nós somos os {0}.\n\nMuito temos a contar, para aqueles sábios o suficiente para ouvir.\n\nVocê é sábio?
+GREETING_FRIENDLY   ;Estamos satisfeitos em vê-lo.\n\nTem tempo para uma história?
+GREETING_NEUTRAL   ;Bem, aqui está você. Veio falar conosco, veio.\n\nConte-nos tudo, sem pressa
+GREETING_ANGRY    ;Hmmm, lembramos de você, lembramos. Bem problemático, você é.\n\nAinda assim, ouvimos sua voz, ouvimos
+
+OFFER_DEAL    ;Aceitaria este acordo comercial?
+OFFER_DEAL_RESPONSE  ;Está nos oferecendo um acordo? De que tipo?
+
+PIRATEPROTECTION_DEAL    ;Se alguma de suas naves ou bases sofrer danos, seria uma pena.\n\nPagar-nos a taxa mensal de {0} créditos seria inteligente.\n\nGarantir que não precisemos repreender nossos comandantes por acidentes infelizes, você pode. Um pouco apressados no gatilho, eles podem ser...
+
+DEAL_BEGIN    ;Uma proposta? O que está envolvido?
+DEAL_ACCEPT    ;Aceitamos sua proposta
+DEAL_ACCEPT_RESPONSE  ;Um excelente resultado, este é!
+DEAL_REJECT_RESPONSE  ;Que decepção...
+DEAL_REJECT    ;Esta proposta não é do nosso interesse - sem acordo
+
+SWAP_MAPS  ;Gostaria de trocar um mapa? De que tipo?
+
+WAR_END_ACCEPT    ;Concordamos em encerrar esta guerra. Pararemos nossos combates
+WAR_END_REJECT    ;De jeito nenhum!\n\nMisericórdia para você - não temos nenhuma! Aniquilá-lo, devemos
+
+TREATY_ACCEPT   ;Aceitamos a sua oferta de {0}
+TREATY_REJECT   ;Não estamos interessados em {0}, neste momento
+TREATY_REJECT_TOOSOON_NEUTRAL   ;Não estamos interessados em {0}. É muito cedo após a última mudança em nossas relações
+TREATY_REJECT_TOOSOON_ANGRY   ;Não temos interesse em {0} com você! É muito cedo após a última mudança em nossas relações
+TREATY_REJECT_TOOSOON_FRIENDLY   ;Pedimos desculpas. Não estamos interessados em {0}. É muito cedo após a última mudança em nossas relações
+TREATY_ACCEPT_NEUTRAL   ;Aceitamos a sua oferta de {0}
+TREATY_REJECT_NEUTRAL   ;Não estamos interessados em {0}, neste momento
+TREATY_ACCEPT_ANGRY   ;Aceitamos a sua oferta de {0}
+TREATY_REJECT_ANGRY   ;Não temos interesse em {0} com você
+TREATY_ACCEPT_FRIENDLY   ;Aceitamos calorosamente a sua oferta de {0}!
+TREATY_REJECT_FRIENDLY   ;Pedimos desculpas. Não estamos interessados em {0}
+
+PROTECTION_ACCEPT  ;Aceitamos o seu pedido de proteção. A taxa mensal é de {0} créditos
+PROTECTION_ACCEPT_NEUTRAL  ;Aceitamos o seu pedido de proteção. A taxa mensal é de {0} créditos
+PROTECTION_ACCEPT_ANGRY  ;Sua fraqueza será lembrada. Nossa 'proteção' custará {0} créditos por mês
+PROTECTION_ACCEPT_FRIENDLY  ;Aceitamos o seu pedido de proteção. A taxa mensal é de {0} créditos
+PROTECTION_REJECT   ;Não estamos interessados em proteção
+PROTECTION_REJECT_NEUTRAL  ;Não estamos interessados em proteção
+PROTECTION_REJECT_ANGRY  ;Não protegeremos seu império inútil.
+PROTECTION_REJECT_FRIENDLY  ;Não estamos interessados em proteção
+
+CANCELTREATY    ;Pensamos muito em nosso {0}, nós pensamos.
+
+Chegou a hora de acabar com isso, sentimos. As coisas mudaram
+CANCELTREATY_RESPONSE_FRIENDLY  ;Lamentável, isso é. O tratado era bom, sentimos.
+
+Mas agora acabou
+CANCELTREATY_RESPONSE_NEUTRAL  ;As coisas vêm e vão. Já vimos isso antes
+CANCELTREATY_RESPONSE_ANGRY  ;Isso é realmente o melhor.
+
+Fiel aos nossos sentimentos, esse tratado já não era mais
+
+CANCELPROTECTION_RESPONSE_FRIENDLY  ;Talvez isso seja o melhor
+CANCELPROTECTION_RESPONSE_NEUTRAL  ;Vamos sentir falta desses créditos mensais. Talvez encontremos outras formas de obtê-los...
+CANCELPROTECTION_RESPONSE_ANGRY  ;Míope, você é! Acha que consegue sobreviver sem nossa 'proteção', é?!
+
+TREATY_PROPOSAL    ;Um tratado, você diz?
+
+Vamos ouvir sua oferta. Vamos considerar nossa resposta
+TREATY_ACCEPTRESPONSE   ;Chegamos a um acordo! Muito bom, isso é.
+
+Vamos compartilhar uma história com você, amigo?
+TREATY_REJECTRESPONSE   ;Muito insatisfatório, isso é. Esperávamos um resultado melhor
+
+PROTECTION_ACCEPTRESPONSE  ;Maravilhoso! Vamos aguardar ansiosamente seus pagamentos mensais
+PROTECTION_REJECTRESPONSE  ;Uma escolha tola. Pague de um jeito ou de outro, você irá...
+
+GIFT_GIVE    ;Um presente enviamos: {0} créditos. Amizade, buscamos
+GIFT_THANKS_ANGRY    ;Registrado, seu pequeno presente foi
+GIFT_THANKS_NEUTRAL    ;Seu presente generoso, recebemos
+GIFT_THANKS_FRIENDLY    ;Encantados em receber seu presente generoso, estávamos!
+GIFT_PROPOSE    ;Que tipo de presente você tem em mente?
+
+WAR_DECLARE_RESPONSE_ANGRY  ;Guerra, nós lhe daremos!\n\nSeu fim, você encontrará. Sábio, você não é
+WAR_DECLARE_RESPONSE_NEUTRAL  ;Sua agressão, acabará com você.\n\nErro grave, você cometeu. Lutar, nós iremos
+WAR_DECLARE_RESPONSE_FRIENDLY  ;Guerra, você gosta?\n\nNada de alegria na guerra há. Nada de bom na traição, há
