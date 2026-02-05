@@ -1,0 +1,17 @@
+Esta tela lista potenciais novos locais para resorts que você pode selecionar. Esses locais são onde você deve construir novas bases de resort. Resorts são destinos para turismo. Naves de passageiros transportarão turistas para os resorts, gerando renda para seu império.
+
+Resorts são construídos em locais pitorescos da galáxia. Esses locais geralmente possuem alguma característica natural cênica. Ruínas antigas também podem oferecer bônus de paisagem que podem ser explorados ao construir uma Base de Resort ali.
+
+Quando ampliado para o nível da galáxia ou sistema, os novos locais para resorts são destacados no mapa. Passar o cursor sobre um item da lista destacará o local no mapa. Clicar no item o selecionará. Clicar duas vezes no item moverá a visão para aquele local.
+
+Cada item da lista mostra os bônus de paisagem conhecidos no local. Passe o cursor sobre a descrição do bônus de paisagem para ver um resumo completo, incluindo a característica natural que fornece o bônus.
+
+[H3]Enfileirando Novas Bases de Resort[/H3]
+O botão à direita permite enfileirar a construção de uma nova base de resort no local. Quando a próxima nave de construção estiver disponível, ela construirá uma base de resort aqui. Você pode clicar no botão novamente para cancelar a construção.
+
+Se você não puder construir no local, o botão Enfileirar ficará desativado. Uma dica de ferramenta no botão explicará por que você não pode construir ali.
+
+[H3]Locais Perigosos[/H3]
+Um símbolo de raio vermelho será exibido ao lado do nome do local se ele for considerado perigoso. Um local é perigoso quando há ameaças não eliminadas presentes, como piratas ou criaturas espaciais mortais.
+
+Naves não militares não viajarão para um local perigoso. As ameaças devem ser eliminadas primeiro por naves militares ou uma frota. Isso significa que, embora você possa enfileirar a construção de uma nova base de resort em um local perigoso, as naves de construção não irão até lá para construir a nova base até que as ameaças sejam eliminadas.

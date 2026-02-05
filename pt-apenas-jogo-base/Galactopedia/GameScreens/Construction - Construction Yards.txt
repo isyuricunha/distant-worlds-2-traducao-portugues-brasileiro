@@ -1,0 +1,13 @@
+Estaleiros de Construção são onde você constrói novas naves para seu império. Isso inclui portos espaciais, que geralmente são a maneira mais rápida de construir novas naves. Suas colônias também podem construir naves e bases.
+
+[H3]Lista de Estaleiros de Construção[/H3]
+Esta tela lista todos os estaleiros de construção atuais do seu império. Verifique as opções de ordenação e filtro no topo do painel. Você pode ordenar por velocidade de construção ou tempo de espera atual para construção.
+
+Quando afastado para a visão da galáxia ou do sistema, os estaleiros de construção são destacados no mapa. Insígnias de Sistema e Localização também indicam portos espaciais usando o ícone amarelo de construção. Passar o cursor sobre um item na lista destacará o local no mapa. Clicar no item selecionará sua localização. Clicar duas vezes no item moverá a visão para essa localização.
+
+[H3]Fila de Construção e Tempo de Espera[/H3]
+Cada item da lista mostra o tempo de espera atual para construção. Esse é o tempo antes que qualquer nova construção seja iniciada.
+
+Também são exibidas as naves ou bases na fila de construção, incluindo quaisquer naves que estejam a caminho para reparo ou retrofit (ainda não chegaram). Passe o cursor sobre cada nave ou base para mais detalhes, incluindo a porcentagem de progresso da construção.
+
+Passar o cursor sobre um item da lista também exibirá um painel de resumo à direita. Esse resumo mostra quantos estaleiros de construção individuais o local possui. Também exibe o tempo de espera atual e as velocidades de construção e reparo.

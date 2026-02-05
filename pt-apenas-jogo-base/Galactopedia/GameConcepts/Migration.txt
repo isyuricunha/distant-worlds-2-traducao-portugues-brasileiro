@@ -1,0 +1,30 @@
+A migração geralmente envolve pessoas se deslocando de colônias grandes para novas colônias menores. A migração ajuda a aumentar rapidamente a população de novas colônias, permitindo que se tornem produtivas mais rápido.
+
+Os migrantes são transportados para seu destino por naves de passageiros de propriedade privada. A migração ocorre inteiramente no setor privado do seu império – você não tem controle direto sobre o movimento de cidadãos entre suas colônias.
+
+[H3]Fatores de Migração[/H3]
+Fatores que atraem novos migrantes para uma colônia incluem:
+[ULI]baixas taxas de impostos[/ULI]
+[ULI]atratividade geral: alta qualidade do planeta, altos níveis de desenvolvimento[/ULI]
+[ULI]quão próxima a nova colônia está da colônia atual de origem do migrante[/ULI]
+
+Fatores que promovem a emigração de uma colônia incluem:
+[ULI]nível de felicidade na colônia: infelicidade promove emigração[/ULI]
+[ULI]alta população: colônias superpovoadas promovem emigração[/ULI]
+[ULI]colônias próximas desejáveis para emigração[/ULI]
+
+[H3]Migração Interestelar[/H3]
+As pessoas tendem a migrar dentro do próprio império, simplesmente porque é mais fácil – há menos burocracia a superar.
+
+No entanto, se você tiver um Tratado de Migração com outro império, a migração interestelar também pode ocorrer.
+
+Quando seu império contiver um bilhão de cidadãos de uma raça alienígena específica, ele também receberá os bônus raciais deles. Isso pode incluir cientistas e engenheiros mais inteligentes, espiões melhores, mineradores mais rápidos, etc.
+
+[H3]Políticas de População das Colônias[/H3]
+As Políticas de População permitem controlar quais raças alienígenas você permite em suas colônias.
+
+Elas podem ser definidas na tela de Política de População, que é exibida a partir do Painel de Seleção quando uma de suas colônias é selecionada. Passe o cursor sobre o ícone de política de população no canto direito da linha de população da colônia selecionada. Clique no ícone ou na tela para mantê-la aberta.
+
+Cada raça que você encontrou é listada, permitindo definir políticas específicas para cada raça alienígena em cada colônia.
+
+Usar essas configurações oferece controle preciso sobre a migração para suas colônias.

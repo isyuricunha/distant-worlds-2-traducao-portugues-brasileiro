@@ -1,0 +1,10 @@
+A exploração pode ocasionalmente revelar ruínas antigas em alguns locais. Essas ruínas podem conter segredos e outros itens de valor.
+
+[H3]Lista de Ruínas Conhecidas[/H3]
+Esta tela lista todas as ruínas que você encontrou durante a exploração da galáxia.
+
+Quando afastado para a visão da galáxia ou do sistema, os locais das ruínas são destacados no mapa. Passar o cursor sobre um item da lista destacará o local no mapa. Clicar no item selecionará sua localização. Clicar duas vezes no item moverá a visão para esse local.
+
+Cada item da lista mostra os bônus relevantes fornecidos pelas ruínas. Você pode obter esses bônus para seu império colonizando o planeta onde as ruínas estão. Você pode adquirir bônus de pesquisa construindo uma estação de pesquisa no local. Você pode adquirir bônus de paisagem construindo uma base turística no local.
+
+Passar o cursor sobre uma ruína na lista também exibirá um painel de resumo detalhado à direita.

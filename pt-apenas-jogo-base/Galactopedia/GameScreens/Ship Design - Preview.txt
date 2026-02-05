@@ -1,0 +1,21 @@
+O centro da tela mostra uma pré-visualização do projeto.
+
+Você pode rotacionar a visualização mantendo pressionado o botão direito do mouse e movendo-o para a esquerda/direita e para cima/baixo.
+
+Use a roda de rolagem do mouse para ampliar ou reduzir a pré-visualização.
+
+[H3]Marcadores de Baías Externas[/H3]
+As baías externas são exibidas na pré-visualização por um marcador esférico. A cor do marcador corresponde ao tipo da baía.
+
+Você pode ativar ou desativar os marcadores de baías externas usando o botão à direita da área de configurações táticas.
+
+Você pode posicionar componentes selecionados diretamente nas baías externas da pré-visualização:
+[OLI]selecione um componente na lista de Componentes Disponíveis[/OLI]
+[OLI]as baías válidas serão então destacadas na pré-visualização[/OLI]
+[OLI]clique com o botão esquerdo em uma baía válida onde deseja adicionar o componente[/OLI]
+
+Você também pode fazer o seguinte:
+[ULI]clique com o botão direito em uma posição de baía na pré-visualização para remover um componente existente da baía externa[/ULI]
+
+[H3]Posicionamento de Motores[/H3]
+Observe que, ao adicionar motores a um projeto de nave, a baía real onde o motor é posicionado pode ser diferente da baía selecionada. Isso ocorre porque os motores devem permanecer simétricos e, portanto, sempre serão adicionados em lados alternados do projeto.

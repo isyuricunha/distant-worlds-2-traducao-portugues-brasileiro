@@ -1,0 +1,11 @@
+Os Modelos de Frota permitem definir a composição das suas frotas, estabelecendo a quantidade de naves para cada função. Eles também definem um conjunto de configurações táticas padrão. Você pode então criar novas frotas baseadas em um modelo.
+
+As frotas tentarão incluir naves que correspondam às funções e quantidades descritas em seu modelo. Porém, se não houver naves suficientes disponíveis para uma função desejada, a frota recorrerá ao uso de naves de outras funções para completar o número total de naves.
+
+[H3]Tipos de Modelos de Frota[/H3]
+Cada função de frota possui um modelo padrão: Ataque, Incursão, Defesa, Invasão. Você também pode criar manualmente outros modelos para cada função de frota.
+
+[H3]Criando Frotas usando Modelos de Frota[/H3]
+Você pode criar novas frotas selecionando manualmente as naves e formando uma frota com elas. No entanto, a tela de Modelos de Frota oferece algumas maneiras rápidas de criar novas frotas.
+
+Na tela de Modelos de Frota, você pode selecionar o modelo desejado e clicar nos botões 'Formar nova frota' ou 'Construir nova frota' à direita.

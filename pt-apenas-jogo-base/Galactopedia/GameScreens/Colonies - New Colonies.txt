@@ -1,0 +1,18 @@
+Esta tela lista todos os potenciais novos planetas que você pode colonizar. Verifique as extensas opções de ordenação e filtragem no topo do painel. As opções de filtro permitem que você selecione níveis específicos de adequação, raças alienígenas ou tipos de planetas.
+
+Quando afastado para a visão da galáxia ou do sistema, os locais de novas colônias são destacados no mapa. Passar o cursor sobre um item da lista destacará o local no mapa. Clicar no item irá selecioná-lo. Clicar duas vezes no item moverá a visão para aquele local.
+
+Cada item da lista mostra o tamanho e a adequação para colonização do planeta ou lua. Passar o cursor sobre a classificação de adequação fornece um resumo detalhado de quão adequado o novo planeta é para cada raça em seu império.
+
+[H3]Colonizando Mundos Independentes[/H3]
+Se o potencial novo planeta já for habitado por uma raça alienígena independente (uma colônia independente), a raça e o nível populacional serão exibidos, junto com a chance atual de colonizar com sucesso a colônia independente, ou seja, quão provável eles estão de aceitar ingressar em seu império.
+
+[H3]Enfileirando Colonização[/H3]
+O botão à direita permite enfileirar a colonização do planeta ou lua. Isso construirá uma nova nave de colonização, preenchê-la com colonos de uma de suas colônias e, em seguida, enviar a nave de colonização para o mundo-alvo para colonizá-lo.
+
+Alternativamente, se uma nave de colonização adequada já existir em seu império, ela poderá ser usada para colonizar o novo mundo.
+
+[H3]Locais Perigosos[/H3]
+Um símbolo de raio vermelho será exibido ao lado do nome do local se ele for considerado perigoso. Um local é perigoso quando há ameaças não eliminadas presentes, como piratas ou criaturas espaciais mortais.
+
+Naves não militares não viajarão para um local perigoso. As ameaças devem ser eliminadas primeiro por naves militares ou uma frota. Isso significa que, embora você possa enfileirar a construção de uma nova colônia em um local perigoso, as naves de colonização não viajarão para lá até que as ameaças sejam eliminadas.

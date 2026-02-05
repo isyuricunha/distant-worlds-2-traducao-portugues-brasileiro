@@ -1,0 +1,20 @@
+Todas as colônias têm custos de manutenção. Quando as colônias são pequenas e pouco desenvolvidas, elas representam um dreno líquido para sua economia, pois seus custos de manutenção são altos e geralmente superam sua receita.
+
+[H3]Redução com o Crescimento da Colônia[/H3]
+Os custos de manutenção diminuem conforme a população de uma colônia cresce.
+
+À medida que as colônias crescem, sua receita com impostos eventualmente supera os custos de manutenção. Nesse ponto, a colônia se torna positiva em receita: sua renda supera seus custos.
+
+Essas colônias bem desenvolvidas podem então fornecer financiamento para seu império.
+
+[H3]Colônias Muito Grandes[/H3]
+À medida que as colônias crescem ainda mais (acima de 50% da população máxima), seus custos de manutenção começam a subir novamente.
+
+No entanto, nesse estágio, a receita dessas colônias grandes costuma ser muito alta, compensando essas perdas.
+
+[H3]Fatores dos Custos de Manutenção[/H3]
+Em resumo, os seguintes fatores aumentam os custos de manutenção das colônias:
+[ULI]população inferior a 100 milhões[/ULI]
+[ULI]adequação para população inferior a 20[/ULI]
+[ULI]população não assimilada[/ULI]
+[ULI]população acima de 50% do máximo[/ULI]

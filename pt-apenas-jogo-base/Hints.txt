@@ -1,0 +1,17 @@
+Atribua qualquer item selecionado às Teclas de Atalho 0-9. Use Ctrl-(Número) para atribuir o item atualmente selecionado à tecla de atalho. Pressione a tecla de atalho uma vez para selecionar o item, pressione novamente para mover a visão até o item
+Percorra todas as suas Colônias no Painel de Seleção usando a tecla C. Percorra em ordem inversa usando Shift-C
+Percorra todas as suas Frotas no Painel de Seleção usando a tecla F. Percorra em ordem inversa usando Shift-F
+Percorra todos os seus Estaleiros de Construção no Painel de Seleção usando a tecla Y. Percorra em ordem inversa usando Shift-Y
+Percorra todas as suas Naves de Construção no Painel de Seleção usando a tecla U. Percorra em ordem inversa usando Shift-U
+Percorra todas as suas Naves de Exploração no Painel de Seleção usando a tecla X. Percorra em ordem inversa usando Shift-X
+Percorra todas as suas Naves Militares no Painel de Seleção usando a tecla M. Percorra em ordem inversa usando Shift-M
+Você pode alterar o funcionamento do clique e arraste do mouse na tela de Configurações do Jogo (/ tecla). Escolha entre mover a visão (padrão) ou selecionar naves
+Você pode alterar o funcionamento da rotação da câmera com o mouse na tela de Configurações do Jogo (/ tecla). Escolha entre o botão do meio do mouse (padrão) ou o botão direito do mouse
+Você pode ativar ou desativar o deslocamento da tela pelas bordas na tela de Configurações do Jogo (/ tecla)
+Para selecionar várias naves, mantenha pressionada a tecla Ctrl enquanto clica nelas ou as seleciona arrastando. Você também pode selecionar várias naves em qualquer lista usando Ctrl e Shift (por exemplo, lista de Naves Militares)
+Aproxime rapidamente qualquer sistema estelar explorado a partir da visão da galáxia clicando duas vezes na estrela
+Com uma nave ou frota selecionada, mantenha pressionado o botão direito do mouse para ver uma lista completa das missões disponíveis na localização do cursor
+Para aproximar rapidamente o item selecionado, clique duas vezes na área do cabeçalho do Painel de Seleção ou pressione a tecla Backspace
+Você pode alternar as configurações de automação da nave selecionada usando a tecla =
+Navegue para trás e para frente no histórico do Painel de Seleção usando as teclas de seta esquerda e direita
+Se quiser que os Petroleiros de Combustível reabasteçam automaticamente sua frota, você deve automatizar os Petroleiros de Combustível, mesmo que a frota esteja sob controle manual

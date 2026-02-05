@@ -1,0 +1,15 @@
+Alguns locais são perigosos por apresentarem ameaças hostis conhecidas. Essas ameaças geralmente incluem alvos móveis, como naves piratas e criaturas espaciais mortais. Essas ameaças costumam se mover entre locais, então essas informações são temporárias e são atualizadas com frequência.
+
+Naves civis não viajarão para locais onde haja ameaças hostis presentes. Isso significa que naves de construção não construirão bases lá. Naves de exploração não explorarão mais o local. Também significa que naves de mineração não minerarão lá, nem cargueiros recolherão ou entregarão cargas de lá.
+
+[H3]Lista de Locais Perigosos[/H3]
+Esta tela lista os locais perigosos que possuem ameaças hostis conhecidas. Verifique as opções de ordenação e filtro no topo do painel. Você pode filtrar por cada tipo de ameaça, incluindo tipos específicos de criaturas espaciais.
+
+Quando afastado para a visão da galáxia ou do sistema, os locais perigosos são destacados no mapa. Insígnias de sistema e local também indicam locais perigosos usando o ícone de raio vermelho. Passar o cursor sobre um item da lista destacará o local no mapa. Clicar no item selecionará sua localização. Clicar duas vezes no item moverá a visão para esse local.
+
+Cada item da lista mostra a principal ameaça no local, junto com a força hostil total. Também indica quando essas informações foram atualizadas pela última vez e, portanto, quão precisas são.
+
+[H3]Enfileirando Investigação[/H3]
+O botão à direita permite enfileirar uma investigação e limpeza do local perigoso. Quando a próxima frota adequada estiver disponível, ela se moverá para o local e eliminará quaisquer ameaças encontradas. Você pode clicar no botão novamente para cancelar a investigação.
+
+Se você não puder investigar o local, o botão Enfileirar ficará desativado. Uma dica aparecerá no botão explicando por que você não pode investigar.

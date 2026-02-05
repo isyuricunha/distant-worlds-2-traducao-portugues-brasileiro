@@ -1,0 +1,11 @@
+Esta tela mostra um detalhamento das economias Estatal e Privada.
+
+Cada tipo de receita e despesa é listado para o ano atual e o anterior, além de uma projeção dos valores esperados para cada um deles no ano atual. Você pode passar o cursor sobre cada valor para obter mais informações.
+
+[H3]Economia Estatal[/H3]
+A seção superior da Economia Estatal mostra as receitas e despesas regulares previstas. Esses valores mudam lentamente ao longo do tempo conforme seu império cresce.
+
+A seção inferior da Economia Estatal mostra receitas bônus irregulares. Esses valores podem variar bastante, sendo frequentemente compostos pela receita de construção de naves privadas, onde o setor privado do seu império compra novas naves.
+
+[H3]Economia Privada[/H3]
+A seção Economia Privada mostra as receitas e despesas do setor privado do seu império. Você não tem controle direto sobre como o setor privado ganha ou gasta dinheiro.

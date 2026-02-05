@@ -1,0 +1,31 @@
+Naves Militares
+
+Naves Militares defendem seu império contra ataques inimigos. Elas também podem ser usadas para expandir seu império por meio de conquistas, atacando frotas inimigas e invadindo colônias adversárias. Além disso, protegem contra piratas saqueadores e criaturas espaciais perigosas.
+
+Naves Militares vêm em vários tamanhos e funções. Conforme sua tecnologia avança, você pode pesquisar novos Cascos de Naves Militares que permitem projetar e construir naves militares maiores.
+
+[H3]Atribuindo Missões[/H3]
+Para atribuir missões a uma nave militar, primeiro selecione-a clicando com o botão esquerdo na lista ou diretamente na visão principal. Em seguida, clique com o botão direito no alvo para atribuir a missão padrão.
+
+Mantendo pressionado o botão direito, será exibida uma lista de todas as missões válidas para o alvo. Selecione o tipo de missão desejado na lista.
+
+[H3]Lista de Naves Militares[/H3]
+Esta tela lista todas as Naves Militares do seu império. Verifique as extensas opções de ordenação e filtro no topo do painel. Você pode ordenar por força, tamanho, frota, função e força de ataque das tropas. Pode filtrar por função, status da frota, status de automação e nível de dano.
+
+Quando afastado para a visão da galáxia ou do sistema, as naves militares são destacadas no mapa. Passar o cursor sobre um item na lista indicará a localização no mapa. Clicar no item o selecionará. Clicar duas vezes no item moverá a visão para essa localização.
+
+Cada item da lista mostra a missão atual da nave. Se a nave fizer parte de uma frota, o nome da frota será exibido entre colchetes após o nome da nave. Também são mostradas a força de combate da nave e a força de ataque de quaisquer tropas a bordo. Quaisquer personagens a bordo da nave são exibidos à direita, ao lado da descrição da missão.
+
+Naves danificadas ou em construção têm um fundo vermelho ou laranja atrás de sua imagem. Passe o cursor sobre a imagem da nave para mostrar o nível de integridade.
+
+Passar o cursor sobre um item da lista exibe um resumo detalhado em um painel à direita.
+
+[H3]Status de Automação[/H3]
+O pequeno botão à direita permite alterar o status de automação da nave. Assim, você pode controlar a nave manualmente ou automatizá-la completamente, permitindo que ela escolha suas próprias missões.
+
+Ou você pode definir uma automação mais específica, onde a nave só atribuirá missões de escolta, guarda, patrulha ou ataque.
+
+[H3]Configurações Táticas[/H3]
+Cada nave possui uma série completa de configurações táticas que ajustam seu funcionamento. Abra a tela de configurações táticas selecionando a nave e clicando no botão 'Definir Táticas', localizado no canto direito abaixo do Painel de Seleção.
+
+Você pode controlar como as naves responderão a ameaças definindo o Alcance de Engajamento. Para mais detalhes, passe o cursor sobre cada configuração na tela de Configurações Táticas.

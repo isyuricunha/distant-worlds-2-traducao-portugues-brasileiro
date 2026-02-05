@@ -1,0 +1,56 @@
+Colônias são os mundos povoados do seu império. Elas são o elemento crítico do jogo – produzem a riqueza que impulsiona seu império.
+
+As colônias fornecem renda tributária para financiar seu governo. No entanto, elas levam tempo para crescer, então concentre suas defesas (tropas e naves) em suas colônias bem estabelecidas. Essas colônias centrais são a chave para seu crescimento inicial.
+
+[H3]Colonizando novos mundos[/H3]
+Para criar novas colônias, você deve construir naves colonizadoras e enviá-las para reivindicar planetas para seu império. Quando uma nova colônia é estabelecida, a nave colonizadora é consumida e desaparece.
+
+Colônias geralmente só podem ser estabelecidas em sistemas que não fazem parte do território de outro império.
+
+Mas colônias independentes são uma exceção – elas podem ser colonizadas mesmo estando no território de outro império. No entanto, fazer isso ofenderá o império ao qual o sistema pertence, impactando negativamente suas relações com eles.
+
+[H3]Adequação Planetária[/H3]
+Para ser uma colônia viável, um planeta ou lua deve ser suficientemente adequado para a raça alienígena que o coloniza. Cada raça alienígena tem alguns tipos de planetas para os quais é mais adaptada. Esses são seus tipos de planetas 'nativos'. Isso significa que é provável que encontrem alvos de colonização adequados entre esses tipos de planetas.
+
+A adequação planetária é determinada pelas características da raça e pela qualidade do próprio planeta.
+
+Cada tipo de planeta tem uma faixa típica de valores de qualidade. Por exemplo, planetas Deserto Arenoso têm uma faixa de qualidade de 25% a 50%.
+
+A fórmula para calcular a adequação para um tipo específico de planeta e raça pode ser expressa da seguinte forma:
+
+(Qualidade do Planeta - Nível Mínimo de Adequação da Raça para o Planeta) + Adequação da Raça para o Planeta
+
+Um exemplo: os Teekans têm um bônus de adequação de +30 para planetas Deserto Arenoso. Além disso, eles têm um nível mínimo de adequação de 40 para planetas Deserto Arenoso (o valor padrão é 50). Isso significa que, para os Teekans, um planeta Deserto Arenoso com qualidade de 30% teria uma adequação para colonização de +20. Usando a fórmula acima, isso seria: ((30 - 40) + 30) = 20
+
+[H3]Selecionando Alvos de Colonização e Melhorias Adicionais[/H3]
+Normalmente, você só deve colonizar planetas com uma adequação de 20 ou mais.
+
+No entanto, às vezes você pode optar por colonizar um planeta mesmo quando a adequação está abaixo de 20. Por exemplo, o planeta pode estar em uma localização muito estratégica ou pode ter bônus especiais.
+
+Mas lembre-se de que planetas com baixa adequação são um dreno líquido nos recursos do seu império: eles custam mais dinheiro para manter do que geram.
+
+A importância da adequação vai além de apenas avaliar se um planeta pode ser colonizado. Colônias mais adequadas geram mais renda, têm populações mais felizes e crescem mais rápido.
+
+A adequação pode ser melhorada de várias maneiras:
+[ULI]pesquisa em colonização pode liberar melhor adequação para vários tipos de planetas[/ULI]
+[ULI]pesquisa em terraformação pode permitir a melhoria da qualidade do planeta[/ULI]
+[ULI]incorporar raças alienígenas mais adequadas ao seu império, que podem então colonizar planetas adequados a elas[/ULI]
+
+[H3]Colônias Independentes e seus Benefícios[/H3]
+Você sempre pode colonizar qualquer planeta com uma população alienígena independente preexistente, pois a população existente já está adaptada ao planeta.
+
+Colônias independentes são alvos valiosos de colonização porque a grande população já estabelecida dá à sua colônia uma vantagem inicial, permitindo que ela comece rapidamente a gerar renda para o seu império.
+
+Há outro bônus importante em direcionar colônias independentes para colonização: alienígenas independentes muitas vezes podem colonizar outros tipos de planetas e luas que sua própria raça não consegue. Assim, você pode usar essas outras raças para estabelecer colônias em planetas adicionais que, de outra forma, não poderiam ser colonizados.
+
+[H3]Colonizando Mundos Independentes[/H3]
+A maioria das colônias independentes não aceitará a colonização a menos que você tenha construído uma amizade com elas primeiro.
+
+Você pode melhorar as relações com colônias independentes formando tratados comerciais e oferecendo presentes. Eventualmente, elas podem se aproximar de você o suficiente para estender um convite para colonizar. Nesse ponto, você pode enviar uma Nave de Colônia para o planeta e colonizá-lo, integrando o mundo ao seu império.
+
+[H3]Invadindo Mundos Independentes[/H3]
+Infelizmente, algumas espécies podem ser tão hostis que nunca aceitarão bem sua diplomacia.
+
+Portanto, você também pode optar por invadir colônias independentes, desembarcando tropas para conquistá-las e tomar o planeta à força.
+
+Mas observe que invadir colônias independentes prejudicará sua reputação diplomática com outras facções. Também resultará em uma colônia recém-conquistada altamente insatisfeita, que exigirá uma forte guarnição de tropas para conter quaisquer elementos rebeldes.

@@ -1,0 +1,6 @@
+Bases Defensivas são plataformas pesadas de armamentos usadas para defender colônias importantes. Elas são construídas no espaço ao redor da colônia e fornecem poder de fogo substancial para combater forças inimigas atacantes.
+
+[H3]Lista de Bases Defensivas[/H3]
+Esta tela lista todas as Bases Defensivas atuais em seu império. Verifique as opções de ordenação e filtro no topo do painel.
+
+Quando afastado para a visão da galáxia ou do sistema, as bases defensivas são destacadas no mapa. Passar o cursor sobre um item na lista sinalizará sua localização no mapa. Clicar no item selecionará sua localização. Clicar duas vezes no item moverá a visão para essa localização.

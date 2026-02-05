@@ -1,0 +1,61 @@
+Frotas permitem agrupar várias naves militares e atribuir missões ao grupo todo. Isso é útil para coordenar grandes ataques a alvos inimigos.
+
+Elas possuem uma base de origem que define seu centro de operações. Também têm um alcance de engajamento que determina a área em que atacarão alvos inimigos, em um raio a partir de sua base de origem.
+
+Suas frotas automatizadas responderão para interceptar ataques inimigos quando não houver forças suficientes para defender o alvo. A frota automatizada disponível mais próxima viajará até o local do ataque e defenderá o alvo.
+
+Existem cinco tipos de frotas:
+[ULI]Ataque: frotas grandes para grandes assaltos contra alvos inimigos, como colônias ou portos espaciais[/ULI]
+[ULI]Defesa: usadas para proteger locais importantes e responder a ataques inimigos dentro do alcance[/ULI]
+[ULI]Incursão: frotas menores usadas para atacar alvos pequenos, como bases e outras frotas pequenas[/ULI]
+[ULI]Invasão: usadas para desembarcar muitas tropas ao invadir colônias inimigas[/ULI]
+[ULI]Manual: frota controlada manualmente[/ULI]
+
+[H3]Criando Novas Frotas[/H3]
+Você pode criar uma nova frota de várias maneiras:
+[ULI]selecione várias naves militares na visão principal arrastando com o botão esquerdo do mouse pressionado ou clicando em cada nave com Ctrl. Depois, clique no botão 'Criar Nova Frota' no Painel de Seleção[/ULI]
+[ULI]selecione várias naves na lista de Naves Militares clicando com Ctrl e Shift. Depois, clique no botão 'Criar Nova Frota' no Painel de Seleção[/ULI]
+[ULI]na tela de Modelos de Frota, selecione o modelo desejado e clique nos botões 'Formar nova frota' ou 'Construir nova frota' à direita[/ULI]
+
+Você também pode adicionar naves individuais a uma frota existente selecionando a nave e clicando no botão 'Adicionar nave à frota' no Painel de Seleção. Isso abrirá uma lista de todas as frotas que podem ser unidas. Selecione a frota à qual deseja adicionar a nave clicando nela na lista.
+
+[H3]Configurações Táticas[/H3]
+As frotas possuem uma ampla variedade de configurações táticas que ajustam seu funcionamento. Abra a tela de configurações táticas selecionando a frota e clicando no botão 'Definir Táticas', localizado no canto direito abaixo do Painel de Seleção.
+
+Observe que as naves individuais dentro de uma frota também possuem suas próprias configurações táticas. Você pode ajustar como as táticas da frota e das naves interagem na seção 'Naves da Frota - Substituições Táticas'.
+
+[H3]Alcance de Engajamento da Frota[/H3]
+O Alcance de Engajamento é uma configuração tática de frota muito importante. Com ela, você pode controlar a distância em que as frotas responderão a ameaças.
+
+Frotas de defesa protegerão sua base principal e também responderão a ataques inimigos contra qualquer uma de nossas colônias ou bases dentro de seu Alcance de Engajamento.
+
+Frotas de ataque, incursão e invasão atacarão seu ponto de ataque e, em seguida, qualquer outro alvo inimigo dentro de seu Alcance de Engajamento. Elas também responderão a quaisquer ameaças ou locais perigosos dentro do Alcance de Engajamento a partir de sua base principal.
+
+[H3]Selecionando frotas[/H3]
+Existem quatro maneiras de selecionar uma frota:
+[ULI]quando afastado para o nível de sistema ou além, suas frotas aparecem como um grande ícone triangular com bordas listradas. Clique no ícone da frota para selecioná-la[/ULI]
+[ULI]quando aproximado para o nível de localização, você pode clicar duas vezes em qualquer nave da frota para selecionar a frota inteira[/ULI]
+[ULI]usando o Centro de Controle, abra a lista de Frotas (Shift+F11) e clique na frota desejada[/ULI]
+[ULI]alterne entre todas as suas frotas pressionando repetidamente a tecla F[/ULI]
+
+Quando uma frota é selecionada, você pode atribuir missões a ela da mesma forma que atribuiria missões a uma única nave.
+
+[H3]Definindo uma Base Principal[/H3]
+A base de operações de uma frota é o seu centro de comando. Ela retornará para lá quando não estiver cumprindo uma missão.
+
+A base de operações deve ter combustível suficiente para toda a frota. Bons candidatos são portos espaciais, colônias grandes ou uma estação de mineração de combustível. Ao selecionar uma nova base de operações para a frota, os níveis de estoque automaticamente encomendarão mais combustível para o local.
+
+Para definir a base de operações de uma frota:
+[OLI]selecione a frota[/OLI]
+[OLI]clique com o botão direito e segure no local da nova base de operações, o que abrirá um menu[/OLI]
+[OLI]clique na opção do menu 'Definir base de operações de (Nome da Frota) para (Local)'[/OLI]
+
+[H3]Definindo um Ponto de Ataque[/H3]
+Pontos de ataque de frotas são os alvos iniciais de ataque quando uma guerra começa com outro império.
+
+Isso permite que você predefina seu plano de ataque de guerra, posicionando suas frotas com antecedência antes do início das hostilidades. Quando a guerra começar, suas frotas automaticamente se dirigirão aos seus pontos de ataque.
+
+Para definir um ponto de ataque de uma frota:
+[OLI]selecione a frota[/OLI]
+[OLI]clique com o botão direito e segure no local do ponto de ataque (deve ser uma base ou colônia estrangeira), o que abrirá um menu[/OLI]
+[OLI]clique na opção do menu 'Definir ponto de ataque de (Nome da Frota) para (Local)'[/OLI]

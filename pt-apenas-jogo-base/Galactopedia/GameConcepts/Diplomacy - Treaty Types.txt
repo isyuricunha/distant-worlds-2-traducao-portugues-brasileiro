@@ -1,0 +1,89 @@
+Seu relacionamento com outros impérios pode assumir diversas formas, começando sem nenhum contato e progredindo até tratados de defesa e compartilhamento de mapas operacionais.
+
+Você pode ter qualquer número de tratados ao mesmo tempo. Por exemplo, pode ter um tratado de Não Agressão, um acordo de Livre Comércio e um tratado de Migração simultaneamente.
+
+No entanto, quando a guerra é declarada, todos os tratados atuais são cancelados.
+
+Os diferentes tipos de tratados estão listados abaixo:
+
+[H3]Nenhum relacionamento[/H3]
+Isso significa que não há nenhum relacionamento especial entre os dois impérios.
+ 
+[H3]Não Agressão[/H3]
+Os impérios concordam em não atacar as naves ou bases uns dos outros.
+
+[H3]Proteção contra Piratas[/H3]
+Facções piratas podem oferecer tratados de Proteção contra Piratas aos impérios. Isso significa que o império paga uma taxa mensal aos piratas para evitar ser atacado por eles.
+
+[H3]Acordos Comerciais[/H3]
+Os impérios concordam em comercializar recursos entre si. Sem um acordo comercial, não há nenhuma troca de recursos entre os dois impérios.
+
+Existem 3 níveis de acordo comercial:
+[ULI][B]Comércio Restrito:[/B] taxas de comércio de 50%. Bônus de renda gradual em todo o comércio, até o máximo de 10%[/ULI]
+[ULI][B]Comércio Limitado:[/B] taxas de comércio de 20%. Bônus de renda gradual em todo o comércio, até o máximo de 20%[/ULI]
+[ULI][B]Livre Comércio:[/B] sem taxas comerciais. Bônus de renda progressivo em todo o comércio, podendo chegar a até 30%[/ULI]
+
+[H3]Compartilhamento de Mapa Territorial[/H3]
+Os dois impérios trocam regularmente mapas territoriais, revelando a localização de seus sistemas colonizados.
+
+[H3]Migração[/H3]
+Os dois impérios concordam em aceitar migrantes entre suas colônias.
+
+Iniciar um tratado de migração requer que o proponente tenha um [WARN]embaixador designado[/WARN] para a capital do receptor.
+
+[H3]Exploração[/H3]
+Os dois impérios concordam em permitir que naves de exploração operem livremente dentro do território um do outro.
+
+[H3]Direitos de Mineração[/H3]
+Os dois impérios concordam em permitir a construção de estações de mineração em qualquer lugar dentro do território um do outro.
+
+Iniciar direitos de mineração requer que o proponente tenha um [WARN]embaixador designado[/WARN] para a capital do receptor.
+
+[H3]Compartilhamento de Mapa Galáctico[/H3]
+Os dois impérios trocam regularmente mapas galácticos, revelando todos os seus dados de exploração.
+
+[H3]Reabastecimento Militar[/H3]
+Os dois impérios concordam em permitir que suas frotas e naves militares reabasteçam em bases e colônias um do outro.
+
+Iniciar reabastecimento militar requer que o proponente tenha um [WARN]embaixador designado[/WARN] para a capital do receptor.
+
+[H3]Pesquisa[/H3]
+Os dois impérios concordam em compartilhar uma parte de sua produção de pesquisa.
+
+Isso significa que cada império recebe 10% da produção de pesquisa do outro império adicionada à sua própria produção ao pesquisar projetos, permitindo que acessem novas tecnologias mais rapidamente.
+
+Iniciar um tratado de pesquisa requer que o proponente tenha um [WARN]embaixador designado[/WARN] para a capital do receptor.
+
+[H3]Compartilhamento de Inteligência[/H3]
+Os dois impérios concordam em compartilhar dados de inteligência entre si. Isso significa que os resultados das seguintes missões de espionagem são compartilhados com o outro império:
+[ULI]Roubo de Mapa Territorial[/ULI]
+[ULI]Roubo de Mapa Galáctico[/ULI]
+[ULI]Roubo de Mapa de Operações[/ULI]
+
+Iniciar o compartilhamento de inteligência requer que o proponente tenha um [WARN]embaixador designado[/WARN] para a capital do receptor.
+
+[H3]Defesa[/H3]
+Os dois impérios concordam em se defender mutuamente caso outro império declare guerra a qualquer uma das partes.
+
+Iniciar um tratado de defesa requer que o proponente tenha um [WARN]embaixador designado[/WARN] para a capital do receptor.
+
+[H3]Compartilhamento de Mapa de Operações[/H3]
+Os dois impérios concordam em compartilhar a localização de todas as suas unidades por toda a galáxia. Isso proporciona melhor visibilidade compartilhada das unidades inimigas e permite uma melhor coordenação.
+
+Iniciar o compartilhamento do mapa de operações requer que o proponente tenha um [WARN]embaixador designado[/WARN] para a capital do receptor.
+
+[H3]Guerra[/H3]
+Guerra aberta entre dois impérios. Espere ataques oportunistas a estações de mineração isoladas, bem como ataques coordenados às suas colônias, junto com invasões terrestres.
+
+A guerra continua até que ambos os lados concordem em encerrá-la. Os impérios geralmente concordam em terminar uma guerra quando sofrem pesadas perdas. Alternativamente, a população de um império pode ficar cansada de uma guerra longa e forçar o fim dos combates.
+
+[H3]Vassalo Subjugado[/H3]
+Quando uma guerra termina com uma vitória decisiva, o vencedor pode exigir que o perdedor se torne seu vassalo subjugado. Alternativamente, o perdedor pode oferecer-se para se tornar vassalo do vencedor.
+
+Vassalos subjugados pagam tributo mensal ao seu império-mãe. Eles também são proibidos de realizar diplomacia independente. Portanto, não podem formar tratados com nenhuma outra facção.
+
+Quando um império se torna vassalo, ele também inclui automaticamente os seguintes tipos de tratado: Não Agressão, Livre Comércio, Compartilhamento do Mapa Galáctico, Reabastecimento Militar e Defesa.
+
+Quando um vassalo realiza ações arriscadas que podem levar à guerra (atacar outro império, missões de inteligência contra outro império), ele enfurece seu império-mãe e seus pagamentos de tributo podem aumentar.
+
+A única maneira de um vassalo se libertar de seu império-mãe é declarando guerra contra ele.

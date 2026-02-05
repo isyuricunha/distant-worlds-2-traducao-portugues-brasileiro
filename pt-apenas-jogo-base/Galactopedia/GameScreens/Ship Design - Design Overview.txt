@@ -1,0 +1,79 @@
+A Visão Geral do Projeto exibe todas as estatísticas atuais do seu projeto. Os valores neste painel mudam conforme você adiciona e remove componentes do casco.
+
+Há várias seções na Visão Geral do Projeto que mostram dados sobre diversos aspectos do projeto. Muitas das informações possuem mais detalhes ao passar o cursor.
+
+No topo está o nome do projeto. Clique aqui para digitar um novo nome.
+
+[H3]Recomendações[/H3]
+Em seguida está o botão Recomendações. Ele exibe um resumo de quaisquer avisos ou erros no projeto atual.
+
+Passe o cursor sobre o botão Recomendações para abrir um painel de resumo maior. Clique no botão para manter o painel de recomendações aberto.
+
+O projeto não é válido (e não pode ser salvo) até que todos os erros sejam resolvidos.
+
+[H3]Informações Principais do Projeto[/H3]
+Em seguida, há um resumo dos principais dados do projeto. Isso inclui informações sobre os custos de compra e manutenção.
+
+Também são destacados alguns requisitos importantes:
+[ULI]o projeto não pode ser maior que o tamanho máximo permitido pelo casco[/ULI]
+[ULI]deve haver tripulação suficiente para o projeto[/ULI]
+
+[H3]Avaliação[/H3]
+A seção Avaliação resume os dados do projeto em 4 áreas principais: Força de Ataque, Força de Defesa, Velocidade e Manobrabilidade, e Scanners.
+
+Passe o cursor sobre cada valor para ver uma análise dos fatores que contribuem para a avaliação em cada área.
+
+[H3]Energia[/H3]
+A seção Energia resume a geração, armazenamento e distribuição de energia no projeto.
+
+Ela também exibe gráficos que detalham como a energia é consumida tanto em velocidades subluz durante combate quanto durante viagens em hiperespaço. Para bases, apenas um gráfico é exibido.
+
+Um valor importante é a taxa de geração de energia do reator por unidade de combustível. Isso mostra a eficiência do uso de combustível do reator, o que impacta diretamente na rapidez com que uma nave precisa reabastecer.
+
+[H3]Movimento[/H3]
+Esta seção é relevante apenas para naves. Ela exibe a velocidade de movimento e o consumo de energia em vários níveis.
+
+Também são exibidos aqui o alcance do salto do hiperpropulsor e o alcance total de combustível.
+
+A precisão do salto do hiperpropulsor indica a distância mínima de saída do salto ao viajar para um local sem uma colônia ou base própria, por exemplo, ao atacar um local inimigo.
+
+Isso significa que a nave sairá do salto aproximadamente nessa distância e, em seguida, deverá viajar em velocidade subluz até o destino.
+
+[H3]Armas[/H3]
+A seção Armas detalha o alcance das armas e as taxas de dano por segundo em várias categorias de armas.
+
+Passar o cursor sobre os gráficos de dano das armas revela mais informações.
+
+Também são exibidos aqui a capacidade de caças e a taxa de construção.
+
+[H3]Defesa[/H3]
+A seção Defesa exibe os valores de escudo, blindagem e reparo de danos do projeto.
+
+Passar o cursor sobre os gráficos de escudo e blindagem revela mais informações.
+
+Também é exibida a força de defesa contra abordagem.
+
+[H3]Sistemas de Mira e Contramedidas[/H3]
+Esta seção mostra os bônus de sistemas de mira e contramedidas.
+
+Sistemas de mira aprimorados tornam as armas mais precisas e com maior probabilidade de atingir o alvo.
+
+Contramedidas aprimoradas tornam o projeto mais capaz de desviar armas inimigas e, assim, evitar danos.
+
+[H3]Sensores[/H3]
+A seção Sensores descreve a força e o alcance de vários tipos diferentes de scanners:
+[ULI]scanners de curto e longo alcance para detectar naves distantes[/ULI]
+[ULI]rastreamento de hiper salto de naves inimigas quando elas saltam para longe de sua localização[/ULI]
+[ULI]escaneamento de rastreio de informações internas sobre naves inimigas próximas[/ULI]
+[ULI]interferência de scanners que protege contra escaneamento por inimigos[/ULI]
+
+[H3]Indústria[/H3]
+A seção Indústria possui valores para várias categorias industriais, como armazenamento de carga, capacidade de docas, mineração, pesquisa e outras.
+
+[H3]Bônus[/H3]
+A seção Bônus resume quaisquer bônus fornecidos pelo casco ou por qualquer componente no projeto.
+
+[H3]Recursos Necessários para Construir[/H3]
+Esta seção mostra o total de recursos necessários para construir uma nova cópia deste projeto.
+
+Isso inclui recursos do casco e de todos os componentes no projeto.

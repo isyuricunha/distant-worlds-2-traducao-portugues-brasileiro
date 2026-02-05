@@ -1,0 +1,23 @@
+Caças e bombardeiros são pequenas espaçonaves tripuladas por uma única pessoa, transportadas a bordo de uma nave militar maior. São rápidas e ágeis, podendo atacar um alvo enquanto a nave-mãe mantém uma distância segura.
+
+Caças não custam dinheiro ou recursos para construir ou manter. Também não possuem hiperpropulsores – só podem viajar em velocidades subluz. Por isso, precisam ser transportados a bordo de outra nave ou base.
+
+Existem dois tipos de caças:
+[ULI]interceptadores, que atacam principalmente outros caças estelares[/ULI]
+[ULI]bombardeiros, que são mais eficazes contra alvos maiores, como naves e bases[/ULI]
+
+Você pesquisa novos cascos e componentes para caças na tela de Pesquisa. Depois, pode projetar seus próprios interceptadores e bombardeiros na tela de Design de Naves.
+
+[H3]Hangares de Caças[/H3]
+Para construir caças, é necessário ter uma nave ou base com componentes de Hangar de Caças. Selecione essa nave ou base no Painel de Seleção. Clique no botão roxo 'Gerenciar Caças'. Isso abrirá um conjunto de botões para construir e lançar interceptadores e bombardeiros.
+
+Hangares de Caças são onde os caças são fabricados, transportados e reparados. Hangares de Caças são componentes pesquisáveis que podem ser instalados em qualquer nave militar ou base. Cada Hangar de Caças transporta um número específico de caças, geralmente entre 4 e 24.
+
+Caças não podem ser transferidos entre transportadoras – são permanentemente designados à transportadora onde foram construídos. Se a transportadora for destruída, seus caças também serão destruídos.
+
+[H3]Bases de Caças Planetárias[/H3]
+Você também pode construir instalações de bases de caças em suas colônias. Isso permite abrigar um grande número de caças diretamente na colônia, sem precisar de uma base ou transportadora.
+
+Primeiro, você deve pesquisar o projeto apropriado na tela de Pesquisa. Depois, pode construir a instalação de base de caças em uma colônia.
+
+Quando uma colônia possui uma instalação de base de caças, você pode construir e lançar caças de maneira semelhante às transportadoras. Selecione a colônia e use o botão 'Gerenciar Caças' no Painel de Seleção.

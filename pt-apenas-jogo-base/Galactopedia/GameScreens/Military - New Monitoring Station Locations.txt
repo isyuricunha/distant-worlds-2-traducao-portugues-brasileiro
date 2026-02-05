@@ -1,0 +1,8 @@
+Esta tela lista os locais ideais onde você deve construir novas estações de monitoramento.
+
+Quando afastado para a visão da galáxia ou do sistema, os locais para novas estações de monitoramento são destacados no mapa. Passar o cursor sobre um item da lista destacará o local no mapa. Clicar no item irá selecioná-lo. Clicar duas vezes no item moverá a visão para aquele local.
+
+[H3]Enfileirando Novas Estações de Monitoramento[/H3]
+O botão à direita permite enfileirar a construção de uma nova estação de monitoramento no local. Você pode clicar no botão novamente para cancelar a construção.
+
+Se você não puder construir no local, o botão Enfileirar ficará desativado. Uma dica aparecerá no botão explicando por que você não pode construir ali.

@@ -1,0 +1,197 @@
+[H2]Naves Militares[/H2]
+Existem vários tipos de naves militares, conforme descrito abaixo. Naves militares geralmente funcionam melhor quando agrupadas em frotas.
+
+[H3]Escolta[/H3]
+Escoltas são o primeiro tipo de nave militar que você pode construir. Elas são o menor tipo de nave militar e são levemente armadas.
+
+Escoltas podem ser usadas em frotas iniciais, quando nenhum outro tipo de nave militar está disponível. Porém, são mais adequadas para escoltar naves civis.
+
+[H3]Fragata[/H3]
+Fragatas são naves militares rápidas e manobráveis. Elas costumam ser o tipo mais numeroso de nave militar de um império.
+
+São as menores naves adequadas para operações em frotas. Como parte de uma frota, geralmente servem como piquetes, fornecendo a primeira linha de defesa contra atacantes inimigos.
+
+[H3]Destroyer[/H3]
+Destroyers são naves militares versáteis que podem desempenhar várias funções.
+
+Destroyers frequentemente servem como atacantes de mísseis ou torpedos de longo alcance, mantendo distância dos alvos e disparando salvas mortais.
+
+Alguns cascos de Destroyer possuem hangares, permitindo que sirvam como pequenos porta-caças.
+
+Em frotas grandes, Destroyers geralmente servem como escoltas próximas, protegendo as grandes naves capitais de atacantes inimigos.
+
+[H3]Cruzador[/H3]
+Cruzadores são grandes e bem armadas naves de guerra.
+
+Com muitas baias de armas, eles têm espaço suficiente para adicionar tipos extras de armamentos, como armas de Íons e armas de Bombardeio.
+
+Cruzadores geralmente possuem múltiplas baias de sensores, permitindo scanners de longo alcance e outros sensores.
+
+Assim, são capazes de servir como efetivos navios-almirantes de frota quando não há Couraçados ou Porta-Navios disponíveis.
+
+Cruzadores também podem usar baias de hangar, permitindo que sirvam como pequenos porta-caças.
+
+[H3]Couraçado[/H3]
+Couraçados são o maior tipo de navio militar. São fortemente armados e defendidos.
+
+Com muitas baias de armas, eles têm espaço suficiente para adicionar qualquer tipo de armamento, incluindo armas de Íons, armas de Bombardeio, armas de Área e Feixes Tratores.
+
+Eles também podem utilizar componentes de HiperNegação para impedir a fuga de naves inimigas.
+
+Suas múltiplas baias de sensores são normalmente preenchidas com scanners de longo alcance, mira de frota, contramedidas de frota e sensores de rastreamento de salto.
+
+Assim, são a escolha principal para servir como navios-almirantes de frota.
+
+Couraçados também podem optar por ter baias de caças, servindo assim como porta-aviões.
+
+[H3]Porta-Navios[/H3]
+Porta-Navios são grandes navios de guerra projetados para lançar um grande número de caças. Podem ter armamentos fracos, mas compensam isso com suas muitas baias de caças.
+
+Funcionam melhor em uma frota, sendo escoltados por outras naves militares que podem fornecer defesa extra.
+
+Porta-Navios também podem utilizar componentes de HiperNegação para impedir a fuga de naves inimigas.
+
+Seus múltiplos compartimentos de sensores são normalmente equipados com scanners de longo alcance, sistemas de mira de frota, contramedidas de frota e sensores de rastreamento de salto.
+
+Porta-naves são, portanto, uma boa escolha para servirem como navios-almirantes de frota.
+
+[H3]Transporte de Tropas[/H3]
+Transportes de Tropas são naves especializadas que movem tropas entre suas colônias. Elas também desembarcam tropas para a invasão de colônias inimigas.
+
+São fortemente blindadas e protegidas por escudos, mas geralmente carregam apenas armas leves.
+
+Transportes de Tropas possuem 2 componentes principais:
+[ULI]Compartimentos de Tropas que abrigam as tropas enquanto estão a bordo da nave[/ULI]
+[ULI]Cápsulas de Assalto que desembarcam as tropas na colônia inimiga[/ULI]
+
+Transportes de Tropas geralmente fazem parte de uma frota de invasão completa, que inclui outras naves para atacar instalações defensivas inimigas nas colônias-alvo.
+
+[H3]Navio-Tanque de Combustível[/H3]
+Navios-Tanque de Combustível reabastecem os suprimentos de combustível de outras naves.
+
+Eles podem minerar combustível de uma fonte natural ou carregar combustível de um espaçoporto ou colônia. Em seguida, procuram naves que precisam de reabastecimento e transferem combustível para elas.
+
+Navios-Tanque de Combustível não precisam atracar com outras naves para reabastecê-las. Em vez disso, seu componente de Transferência Remota de Combustível permite que reabasteçam qualquer nave assim que se aproximam dela.
+
+Quando Navios-Tanque de Combustível são designados para uma frota, eles concentram seus esforços em reabastecer as naves dessa frota.
+
+Isso permite que a frota tenha maior autonomia, operando de forma mais eficaz mesmo quando está longe de um ponto de reabastecimento amigo.
+
+[H2]Naves Estatais Não-Militares[/H2]
+Existem 3 tipos de naves estatais não-militares, conforme descrito abaixo.
+
+[H3]Nave de Exploração[/H3]
+Naves de exploração mapeiam áreas desconhecidas da galáxia. À medida que exploram, revelam planetas colonizáveis, descobrem recursos valiosos e fazem contato com outros impérios.
+
+Naves de Exploração iniciais podem utilizar Módulos de Pesquisa que permitem enviar uma equipe de reconhecimento para locais inexplorados. A pesquisa pode ser lenta, mas bastante detalhada.
+
+Tecnologias mais avançadas permitem equipar Naves de Exploração com sensores poderosos de detecção de recursos para descobrir minerais valiosos.
+
+Esses scanners de recursos são mais rápidos que a pesquisa. No entanto, a pesquisa ainda pode ser útil para explorar mais a fundo quando você detecta locais com itens ocultos.
+
+Alterne entre todas as suas Naves de Exploração usando a tecla X, ou Shift-X para alternar no sentido inverso.
+
+[H3]Nave de Construção[/H3]
+Naves de Construção são estaleiros móveis.
+
+Essas grandes naves passam a maior parte do tempo construindo bases em planetas e luas desabitados. Essas bases podem incluir estações de mineração, estações de pesquisa, bases de lazer e estações de monitoramento.
+
+Elas também podem ser usadas para reparar qualquer nave ou base abandonada que você encontrar.
+
+Antes de construir uma nova base, as Naves de Construção devem primeiro carregar os recursos necessários para a construção. Portanto, elas viajarão primeiro até um porto espacial para carregar os recursos antes de seguir para o local de construção.
+
+[H3]Nave Colonial[/H3]
+Naves Coloniais permitem que você colonize outros planetas, fundando novos mundos para o seu império.
+
+A nave é consumida quando uma nova colônia é estabelecida. Os recursos da nave são usados para dar um impulso inicial à colônia.
+
+Uma vez construída, a Nave de Colonização carregará população de uma colônia próxima. Esses serão os colonos do novo mundo fundado pela Nave de Colonização.
+
+No início do jogo, você só pode colonizar planetas muito adequados, geralmente do tipo nativo da sua raça.
+
+Mas, à medida que sua pesquisa descobre novas tecnologias, você pode progressivamente colonizar mais planetas que antes eram inadequados.
+
+Você sempre pode colonizar planetas onde já existe uma população alienígena independente, independentemente do tipo ou adequação do planeta.
+
+No entanto, nessas situações, a população preexistente provavelmente resistirá à sua tentativa de colonização, resultando na perda da sua nave de colonização e uma mancha na sua reputação diplomática.
+
+Portanto, antes de tentar colonizar um mundo independente, você deve primeiro estabelecer boas relações com eles por meio de presentes diplomáticos e tratados comerciais. Quando eles gostarem de você, sua chance de sucesso na colonização aumentará, e eles podem até convidá-lo para colonizar.
+
+[H2]Naves Civis[/H2]
+Naves civis pertencem aos cidadãos privados do seu império. Elas realizam suas tarefas automaticamente, sem qualquer intervenção sua.
+
+[H3]Nave Mineradora[/H3]
+Naves Mineradoras são naves móveis de extração de recursos. Elas mineram recursos que estão em alta demanda, levando-os de volta ao seu porto espacial mais próximo.
+
+As naves mineradoras trabalham para o seu império, mas não são suas. Elas pertencem aos cidadãos privados do seu império.
+
+Portanto, você não pode atribuir missões às naves mineradoras.
+
+[H3]Cargueiro[/H3]
+Cargueiros transportam carga entre colônias, estações de mineração e portos espaciais. Eles vêm em tamanhos pequeno, médio e grande.
+
+Cargueiros trabalham para o seu império, mas não são seus. Eles pertencem aos cidadãos privados do seu império. Todo o transporte de mercadorias no seu império é realizado por cidadãos privados.
+
+Portanto, você não pode atribuir missões a cargueiros.
+
+[H3]Nave de Passageiros[/H3]
+Naves de passageiros transportam migrantes ou turistas pela galáxia. Elas recolhem passageiros de colônias e os transportam para uma nova colônia (para migração) ou para uma base de resort (para turismo).
+
+Naves de passageiros são de propriedade privada e realizam suas atividades automaticamente.
+
+[H2]Bases Estatais[/H2]
+[H3]Espaçoporto[/H3]
+Espaçoportos são bases que fornecem muitos serviços importantes para o seu império. Espaçoportos devem ser construídos em uma colônia.
+
+Eles servem como um ponto central de comércio para o seu império. Recursos minerados são trazidos para cá por cargueiros e naves de mineração.
+
+Espaçoportos também fornecem instalações de construção para o seu império. Tanto naves estatais quanto privadas são construídas aqui. Quando cidadãos privados compram cargueiros ou outras naves, o seu império obtém renda.
+
+Espaçoportos também oferecem outras funções vitais:
+[ULI]Armas pesadas fornecem forte defesa para a colônia[/ULI]
+[ULI]Instalações de pesquisa para seus cientistas e engenheiros[/ULI]
+[ULI]Bônus que ajudam a manter a população da colônia feliz: instalações médicas e centros de recreação[/ULI]
+
+Normalmente, você deve ter um espaçoporto na maioria dos sistemas onde possui colônias. Recursos coletados por naves de mineração, bem como recursos excedentes em estações de mineração, são levados ao espaçoporto mais próximo. Assim, ter espaçoportos estrategicamente distribuídos pelo seu império diminui o tempo de viagem dos seus cargueiros e melhora a eficiência.
+
+Para alternar entre todos os seus Espaçoportos, use a tecla Y.
+
+[H3]Estação de Pesquisa[/H3]
+Estações de pesquisa oferecem instalações dedicadas de pesquisa que desbloqueiam novas tecnologias para uso pelo seu império.
+
+Elas geralmente são construídas em locais especiais que oferecem bônus de pesquisa em uma área específica. Esses locais com bônus de pesquisa são descobertos por meio da exploração.
+
+[H3]Base Turística[/H3]
+Bases Turísticas são bases especializadas de propriedade estatal, construídas em locais pitorescos por toda a galáxia. Elas são destinos de férias favoritos para turistas.
+
+Naves de Construção constroem Bases Turísticas em qualquer local considerado suficientemente pitoresco. Esses locais podem ser planetas com anéis, buracos negros, estrelas de nêutrons ou planetas com ruínas incomuns ou monumentos antigos.
+
+Naves de Passageiros transportam turistas de colônias ricas para Bases Turísticas. Conforme os turistas chegam à base, o império que a possui ganha renda. Os turistas só escolhem visitar bases onde a paisagem é suficientemente atraente. Eles também não gostam de viajar muito longe. Portanto, construa suas bases turísticas nos locais mais pitorescos que estejam razoavelmente próximos de colônias grandes e ricas.
+
+Bases Turísticas geralmente são levemente armadas e defendidas, com poder de fogo suficiente para afastar piratas saqueadores ou criaturas espaciais errantes.
+
+[H3]Base Defensiva[/H3]
+Bases Defensivas são estacionadas em órbita ao redor de colônias importantes, fornecendo defesa poderosa contra qualquer atacante.
+
+Elas possuem uma ampla variedade de armas e são fortemente blindadas e protegidas por escudos. Também podem suportar caças estelares para aumentar ainda mais seu poder defensivo.
+
+Você pode construir várias bases defensivas em uma única colônia, transformando-a em uma verdadeira fortaleza.
+
+[H3]Estação de Monitoramento[/H3]
+Estações de Monitoramento são bases que incluem componentes de scanner de longo alcance para monitorar uma vasta área.
+
+Elas podem ser usadas para espionar os sistemas de outros impérios ou para lhe dar melhor visibilidade dos movimentos inimigos em direção ao seu território.
+
+Essas bases são normalmente construídas em sistemas tranquilos que oferecem visibilidade de uma localização inimiga.
+
+[H2]Bases Civis[/H2]
+[H3]Estação de Mineração[/H3]
+Estações de Mineração são plataformas fixas de mineração construídas em planetas e luas ricos em recursos. Essas estações extraem recursos em sua localização.
+
+Cargueiros recolhem os recursos extraídos das estações de mineração, transportando sua carga para o destino apropriado.
+
+Estações de Mineração são construídas por Naves de Construção em planetas ricos em recursos. Por serem projetadas especificamente para sua localização, as estações de mineração extraem recursos muito mais rápido do que naves de mineração móveis.
+
+Estações de Mineração geralmente devem ser patrulhadas por naves militares para se defenderem de ataques piratas ou criaturas espaciais agressivas.
+
+Uma vez que a primeira estação de mineração tenha sido construída em um planeta ou lua, nenhuma outra poderá ser construída ali. No entanto, se o planeta ou lua for posteriormente colonizado, a estação de mineração será removida. Colônias extraem recursos por conta própria, sem necessidade de estações de mineração ou naves de mineração.
