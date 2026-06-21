@@ -4,6 +4,8 @@ Este repositório contém arquivos traduzidos para **Português do Brasil (PT-BR
 
 A instalação é feita como **mod**, sem substituir os arquivos originais do jogo.
 
+> **Participe da comunidade no Discord:** <https://discord.gg/uFEwSMwUYb>
+
 O mod deve ficar nesta pasta:
 
 `Distant Worlds 2\mods\pt` (ou `pt-apenas-jogo-base` dependendo da versão escolhida)
